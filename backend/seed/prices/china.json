@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "vit-quay-bac-kinh",
+    "prices": {
+      "JP": {
+        "min": 2000,
+        "max": 4500
+      },
+      "KR": {
+        "min": 25000,
+        "max": 50000
+      },
+      "CN": {
+        "min": 70,
+        "max": 150
+      },
+      "GB": {
+        "min": 14,
+        "max": 30
+      }
+    }
+  },
+  {
+    "slug": "dau-hu-tu-xuyen-mapo",
+    "prices": {
+      "JP": {
+        "min": 900,
+        "max": 1600
+      },
+      "KR": {
+        "min": 12000,
+        "max": 20000
+      },
+      "CN": {
+        "min": 18,
+        "max": 40
+      },
+      "GB": {
+        "min": 9,
+        "max": 14
+      }
+    }
+  },
+  {
+    "slug": "ha-cao-tom",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 1100
+      },
+      "KR": {
+        "min": 8000,
+        "max": 13000
+      },
+      "CN": {
+        "min": 25,
+        "max": 50
+      },
+      "GB": {
+        "min": 6,
+        "max": 9
+      }
+    }
+  },
+  {
+    "slug": "mi-hoanh-thanh",
+    "prices": {
+      "JP": {
+        "min": 900,
+        "max": 1400
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 18,
+        "max": 40
+      },
+      "GB": {
+        "min": 9,
+        "max": 13
+      }
+    }
+  },
+  {
+    "slug": "mi-bo-lan-chau",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1500
+      },
+      "KR": {
+        "min": 10000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 12,
+        "max": 30
+      },
+      "GB": {
+        "min": 11,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "lau-tu-xuyen",
+    "prices": {
+      "JP": {
+        "min": 3000,
+        "max": 5000
+      },
+      "KR": {
+        "min": 25000,
+        "max": 40000
+      },
+      "CN": {
+        "min": 80,
+        "max": 150
+      },
+      "GB": {
+        "min": 25,
+        "max": 40
+      }
+    }
+  },
+  {
+    "slug": "canh-chua-cay",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 1100
+      },
+      "KR": {
+        "min": 7000,
+        "max": 12000
+      },
+      "CN": {
+        "min": 15,
+        "max": 35
+      },
+      "GB": {
+        "min": 5,
+        "max": 8
+      }
+    }
+  },
+  {
+    "slug": "ga-kung-pao",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1600
+      },
+      "KR": {
+        "min": 14000,
+        "max": 22000
+      },
+      "CN": {
+        "min": 25,
+        "max": 50
+      },
+      "GB": {
+        "min": 9.5,
+        "max": 14
+      }
+    }
+  },
+  {
+    "slug": "com-chien-duong-chau",
+    "prices": {
+      "JP": {
+        "min": 800,
+        "max": 1300
+      },
+      "KR": {
+        "min": 8000,
+        "max": 12000
+      },
+      "CN": {
+        "min": 18,
+        "max": 40
+      },
+      "GB": {
+        "min": 8,
+        "max": 12
+      }
+    }
+  },
+  {
+    "slug": "tieu-long-bao",
+    "prices": {
+      "JP": {
+        "min": 800,
+        "max": 1500
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 15,
+        "max": 40
+      },
+      "GB": {
+        "min": 8,
+        "max": 12
+      }
+    }
+  },
+  {
+    "slug": "quay",
+    "prices": {
+      "JP": {
+        "min": 300,
+        "max": 600
+      },
+      "KR": {
+        "min": 3000,
+        "max": 5000
+      },
+      "CN": {
+        "min": 2,
+        "max": 6
+      },
+      "GB": {
+        "min": 2.5,
+        "max": 4.5
+      }
+    }
+  },
+  {
+    "slug": "chao-trung-bac-thao-thit-nac",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 1100
+      },
+      "KR": {
+        "min": 7000,
+        "max": 11000
+      },
+      "CN": {
+        "min": 8,
+        "max": 20
+      },
+      "GB": {
+        "min": 6.5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "slug": "com-xa-xiu",
+    "prices": {
+      "JP": {
+        "min": 900,
+        "max": 1400
+      },
+      "KR": {
+        "min": 10000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 18,
+        "max": 38
+      },
+      "GB": {
+        "min": 10,
+        "max": 14
+      }
+    }
+  },
+  {
+    "slug": "sui-cao",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1300
+      },
+      "KR": {
+        "min": 8000,
+        "max": 12000
+      },
+      "CN": {
+        "min": 15,
+        "max": 35
+      },
+      "GB": {
+        "min": 8,
+        "max": 12
+      }
+    }
+  },
+  {
+    "slug": "tra-sua-tran-chau",
+    "prices": {
+      "JP": {
+        "min": 550,
+        "max": 800
+      },
+      "KR": {
+        "min": 4500,
+        "max": 7000
+      },
+      "CN": {
+        "min": 10,
+        "max": 22
+      },
+      "GB": {
+        "min": 5,
+        "max": 7
+      }
+    }
+  },
+  {
+    "slug": "mala-xiang-guo",
+    "prices": {
+      "JP": {
+        "min": 1500,
+        "max": 2800
+      },
+      "KR": {
+        "min": 15000,
+        "max": 28000
+      },
+      "CN": {
+        "min": 35,
+        "max": 80
+      },
+      "GB": {
+        "min": 14,
+        "max": 25
+      }
+    }
+  },
+  {
+    "slug": "banh-tart-trung-hong-kong",
+    "prices": {
+      "JP": {
+        "min": 250,
+        "max": 450
+      },
+      "KR": {
+        "min": 2500,
+        "max": 4500
+      },
+      "CN": {
+        "min": 5,
+        "max": 12
+      },
+      "GB": {
+        "min": 2,
+        "max": 3.5
+      }
+    }
+  },
+  {
+    "slug": "che-xoai-buoi",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1100
+      },
+      "KR": {
+        "min": 7000,
+        "max": 11000
+      },
+      "CN": {
+        "min": 18,
+        "max": 35
+      },
+      "GB": {
+        "min": 6,
+        "max": 8.5
+      }
+    }
+  },
+  {
+    "slug": "malatang",
+    "prices": {
+      "JP": {
+        "min": 1200,
+        "max": 2000
+      },
+      "KR": {
+        "min": 10000,
+        "max": 17000
+      },
+      "CN": {
+        "min": 25,
+        "max": 50
+      },
+      "GB": {
+        "min": 12,
+        "max": 18
+      }
+    }
+  },
+  {
+    "slug": "dua-chuot-dap-tron-toi",
+    "prices": {
+      "JP": {
+        "min": 450,
+        "max": 800
+      },
+      "KR": {
+        "min": 6000,
+        "max": 10000
+      },
+      "CN": {
+        "min": 8,
+        "max": 20
+      },
+      "GB": {
+        "min": 5,
+        "max": 8
+      }
+    }
+  }
+]

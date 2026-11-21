@@ -1,0 +1,45 @@
+# Hạ tầng cho môi trường phát triển: chỉ PostgreSQL, Redis và Mailpit.
+# Backend chạy bằng `cargo run`, frontend chạy bằng `npm run dev`.
+#
+#   docker compose -f docker-compose.dev.yml up -d
+#
+# Cổng được chọn để không đụng các dịch vụ khác trên máy (3000, 8080, 5432, 6379).
+name: foodrandom-dev
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: foodrandom
+      POSTGRES_PASSWORD: foodrandom
+      POSTGRES_DB: foodrandom
+    ports:
+      - "54331:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U foodrandom -d foodrandom"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "128mb", "--maxmemory-policy", "allkeys-lru"]
+    ports:
+      - "63791:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  # Hộp thư giả cho development: mọi email (OTP, mật khẩu) hiện ở http://localhost:8125
+  mailpit:
+    image: axllent/mailpit:latest
+    ports:
+      - "1125:1025"
+      - "8125:8025"
+
+volumes:
+  pgdata:

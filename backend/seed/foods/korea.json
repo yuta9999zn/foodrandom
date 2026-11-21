@@ -1,0 +1,1928 @@
+[
+  {
+    "slug": "com-tron-bibimbap",
+    "name": "Cơm trộn Bibimbap",
+    "original_name": "비빔밥",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 70000,
+    "price_max": 120000,
+    "calories_kcal": 560,
+    "serving_note": "1 tô khoảng 450 g",
+    "nutrition": {
+      "protein_g": 22,
+      "carbs_g": 80,
+      "fat_g": 16
+    },
+    "description": "Tô cơm nóng phủ đủ loại rau củ xào riêng từng món, thịt bò và quả trứng ốp la, trộn đều cùng tương ớt gochujang và dầu mè thơm lừng. Mỗi muỗng cơm vừa dẻo, vừa giòn, cay nhẹ và bùi béo, lại rất cân bằng dinh dưỡng.",
+    "origin": "Bibimbap nghĩa là \"cơm trộn\", nổi tiếng nhất ở thành phố Jeonju (tỉnh Jeolla Bắc). Món ăn gắn với tục trộn hết thức ăn còn lại trước thềm năm mới và các mâm cúng tổ tiên của người Hàn.",
+    "cooking_style": "Trộn, xào",
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Cơm trắng nóng (gạo hạt ngắn)",
+        "amount": "2 chén đầy (khoảng 400 g)"
+      },
+      {
+        "name": "Thịt bò thăn thái sợi",
+        "amount": "150 g"
+      },
+      {
+        "name": "Rau bina (cải bó xôi)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Giá đỗ",
+        "amount": "100 g"
+      },
+      {
+        "name": "Cà rốt thái sợi",
+        "amount": "1 củ nhỏ"
+      },
+      {
+        "name": "Bí ngòi thái sợi",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Nấm hương tươi thái lát",
+        "amount": "4 cái"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Tương ớt gochujang",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "2 tép"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Mè rang",
+        "amount": "1 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Ướp thịt bò với 1 muỗng canh nước tương, 1/2 muỗng cà phê đường, một nửa tỏi băm và 1 muỗng cà phê dầu mè trong 15 phút.",
+      "Chần rau bina và giá đỗ riêng từng loại khoảng 1 phút, xả nước lạnh, vắt ráo rồi trộn mỗi loại với chút muối, tỏi băm và vài giọt dầu mè.",
+      "Xào lần lượt cà rốt, bí ngòi và nấm hương trên chảo với ít dầu, nêm nhẹ muối; mỗi loại chỉ xào 1–2 phút để giữ màu và độ giòn.",
+      "Xào thịt bò trên lửa lớn 2–3 phút đến khi chín tới. Ốp la 2 quả trứng, giữ lòng đỏ còn lòng đào.",
+      "Pha sốt: trộn gochujang với 1 muỗng canh nước tương còn lại, phần đường còn lại, 1 muỗng canh dầu mè và 1 muỗng canh nước lọc cho sánh mịn.",
+      "Xới cơm ra tô, xếp rau củ và thịt bò thành từng phần quanh tô, đặt trứng ốp la lên giữa, thêm sốt và rắc mè rang.",
+      "Khi ăn trộn thật đều tất cả nguyên liệu; nếu dùng tô đá nóng (dolsot), quét dầu mè vào lòng tô và đun 3–4 phút để có lớp cơm cháy giòn."
+    ],
+    "tags": [
+      "cơm",
+      "rau củ",
+      "thịt bò",
+      "gochujang"
+    ],
+    "image": {
+      "file": "com-tron-bibimbap.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dolsot-bibimbap.jpg",
+      "author": "Sous Chef",
+      "license": "CC BY 2.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "banh-gao-cay-tteokbokki",
+    "name": "Bánh gạo cay Tteokbokki",
+    "original_name": "떡볶이",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "snack",
+    "meals": [
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 35000,
+    "price_max": 70000,
+    "calories_kcal": 500,
+    "serving_note": "1 đĩa khoảng 300 g",
+    "nutrition": {
+      "protein_g": 16,
+      "carbs_g": 90,
+      "fat_g": 8
+    },
+    "description": "Những thỏi bánh gạo dẻo dai ngập trong nước sốt đỏ au, cay ngọt đậm đà, ăn kèm chả cá và trứng luộc. Đây là món ăn đường phố \"quốc dân\" mà hầu như ai mê phim Hàn cũng muốn thử.",
+    "origin": "Bản cung đình xưa được xào với nước tương, không cay. Phiên bản sốt gochujang đỏ rực ra đời tại khu Sindang-dong (Seoul) vào thập niên 1950 và nhanh chóng trở thành món ăn vặt số một của Hàn Quốc.",
+    "cooking_style": "Rim sốt cay",
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Bánh gạo dạng thỏi (garae-tteok)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Chả cá Hàn Quốc (eomuk)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Nước dùng cá cơm khô và tảo bẹ",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Tương ớt gochujang",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Ớt bột Hàn Quốc (gochugaru)",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Hành lá cắt khúc",
+        "amount": "2 cây"
+      },
+      {
+        "name": "Trứng gà luộc",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Mè rang",
+        "amount": "1 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Nếu dùng bánh gạo đông lạnh hoặc bị cứng, ngâm trong nước ấm 10–15 phút cho mềm rồi để ráo. Cắt chả cá thành miếng tam giác vừa ăn.",
+      "Đun sôi nước dùng cá cơm trong chảo sâu lòng, cho gochujang, ớt bột, đường, nước tương và tỏi băm vào khuấy tan.",
+      "Cho bánh gạo vào, đun lửa vừa 6–8 phút, thỉnh thoảng đảo để bánh không dính đáy chảo.",
+      "Thêm chả cá và trứng luộc, nấu tiếp 4–5 phút đến khi nước sốt sánh lại, bám bóng quanh bánh gạo.",
+      "Cho hành lá vào đảo thêm 30 giây rồi tắt bếp, rắc mè rang và dùng nóng."
+    ],
+    "tags": [
+      "bánh gạo",
+      "cay",
+      "ăn vặt",
+      "đường phố"
+    ],
+    "image": {
+      "file": "banh-gao-cay-tteokbokki.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tteokbokki.JPG",
+      "author": "Popo le Chien",
+      "license": "CC0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "canh-kim-chi",
+    "name": "Canh kim chi",
+    "original_name": "김치찌개",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "khac",
+    "price_min": 70000,
+    "price_max": 120000,
+    "calories_kcal": 320,
+    "serving_note": "1 tô khoảng 400 ml (chưa gồm cơm)",
+    "nutrition": {
+      "protein_g": 20,
+      "carbs_g": 14,
+      "fat_g": 20
+    },
+    "description": "Nồi canh sôi sùng sục với kim chi chín chua, thịt ba chỉ béo ngậy và đậu hũ mềm, vị chua cay đậm đà rất đưa cơm. Càng dùng kim chi muối lâu, nước canh càng tròn vị.",
+    "origin": "Kimchi-jjigae là món canh hầm thường ngày phổ biến bậc nhất trong bữa cơm gia đình Hàn Quốc, ra đời từ thói quen tận dụng kim chi đã lên men quá chua.",
+    "cooking_style": "Hầm",
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Kim chi cải thảo chín chua",
+        "amount": "300 g"
+      },
+      {
+        "name": "Nước kim chi",
+        "amount": "60 ml"
+      },
+      {
+        "name": "Thịt ba chỉ heo thái miếng",
+        "amount": "200 g"
+      },
+      {
+        "name": "Đậu hũ trắng",
+        "amount": "200 g"
+      },
+      {
+        "name": "Hành tây thái múi",
+        "amount": "1/2 củ"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "2 cây"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Ớt bột Hàn Quốc (gochugaru)",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Nước dùng cá cơm hoặc nước vo gạo",
+        "amount": "500 ml"
+      }
+    ],
+    "steps": [
+      "Cắt kim chi thành miếng vừa ăn. Đậu hũ cắt lát dày khoảng 1 cm, hành lá cắt xéo.",
+      "Làm nóng nồi với dầu mè, cho thịt ba chỉ vào xào đến khi săn lại và ra bớt mỡ.",
+      "Thêm kim chi và ớt bột, xào chung 4–5 phút cho kim chi mềm và dậy mùi.",
+      "Đổ nước dùng và nước kim chi vào, cho hành tây và tỏi băm, đun sôi rồi hạ lửa vừa, hầm 15–20 phút.",
+      "Nêm nước tương cho vừa miệng, xếp đậu hũ lên trên và nấu thêm 5 phút.",
+      "Rắc hành lá, bắc nồi ra khi còn đang sôi và dùng nóng với cơm trắng."
+    ],
+    "tags": [
+      "kim chi",
+      "canh hầm",
+      "cay",
+      "thịt heo"
+    ],
+    "image": {
+      "file": "canh-kim-chi.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korean_stew_dish_-_Kimchi-jjigae_Kimchi_Stew_2019_(01).jpg",
+      "author": "한국농수산식품유통공사",
+      "license": "KOGL Type 1"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ga-ran-han-quoc",
+    "name": "Gà rán Hàn Quốc",
+    "original_name": "양념치킨",
+    "cuisine": "korea",
+    "style": "modern",
+    "dish_type": "fast_food",
+    "meals": [
+      "dinner",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 90000,
+    "price_max": 180000,
+    "calories_kcal": 620,
+    "serving_note": "1 phần khoảng 250 g (4–5 miếng)",
+    "nutrition": {
+      "protein_g": 36,
+      "carbs_g": 42,
+      "fat_g": 34
+    },
+    "description": "Gà được chiên hai lần nên lớp vỏ mỏng giòn rụm, sau đó áo đều sốt cay ngọt bóng bẩy làm từ gochujang, tỏi và mật ong. Ăn kèm củ cải muối chua và một ly bia lạnh là đúng kiểu \"chimaek\" của người Hàn.",
+    "origin": "Gà rán kiểu Hàn hình thành từ thập niên 1970; gà sốt cay ngọt yangnyeom được cho là ra đời đầu những năm 1980 ở Daegu, rồi lan khắp thế giới theo làn sóng Hallyu.",
+    "cooking_style": "Chiên giòn hai lần, áo sốt",
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Cánh và đùi gà chặt miếng",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Muối, tiêu xay",
+        "amount": "1 muỗng cà phê mỗi loại"
+      },
+      {
+        "name": "Gừng băm",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Bột khoai tây",
+        "amount": "100 g"
+      },
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "50 g"
+      },
+      {
+        "name": "Bột nở",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn để chiên",
+        "amount": "1 lít"
+      },
+      {
+        "name": "Tương ớt gochujang",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Tương cà",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Mật ong hoặc xi-rô bắp",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Mè rang, đậu phộng giã dập",
+        "amount": "2 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Rửa gà, thấm thật khô, ướp với muối, tiêu và gừng băm trong 20 phút.",
+      "Trộn bột khoai tây, bột mì và bột nở; lăn từng miếng gà qua hỗn hợp bột, ép nhẹ cho bột bám đều rồi để nghỉ 5 phút.",
+      "Đun dầu đến khoảng 165°C, chiên gà lần đầu 8–10 phút đến khi chín và vàng nhạt, vớt ra để ráo 5 phút.",
+      "Tăng nhiệt dầu lên 180–185°C, chiên lần hai 2–3 phút cho lớp vỏ vàng nâu và thật giòn.",
+      "Phi thơm tỏi băm trong chảo với ít dầu, cho gochujang, tương cà, mật ong, nước tương và 2 muỗng canh nước vào, đun lửa nhỏ 2–3 phút đến khi sốt sánh.",
+      "Cho gà vừa chiên vào chảo sốt, đảo nhanh tay để sốt phủ đều, rắc mè rang và đậu phộng rồi dùng ngay khi còn giòn."
+    ],
+    "tags": [
+      "gà rán",
+      "cay ngọt",
+      "chimaek",
+      "ăn nhanh"
+    ],
+    "image": {
+      "file": "ga-ran-han-quoc.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yangnyeom-chicken.jpg",
+      "author": "Brandon Oh",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "kim-chi-cai-thao",
+    "name": "Kim chi cải thảo",
+    "original_name": "배추김치",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 10000,
+    "price_max": 25000,
+    "calories_kcal": 30,
+    "serving_note": "1 đĩa nhỏ khoảng 100 g",
+    "nutrition": {
+      "protein_g": 2,
+      "carbs_g": 4,
+      "fat_g": 1
+    },
+    "description": "Cải thảo muối lên men với ớt bột, tỏi, gừng và nước mắm, giòn sần sật, chua cay và dậy mùi rất riêng. Kim chi có mặt trong mọi bữa ăn của người Hàn, vừa ít calo vừa giàu lợi khuẩn.",
+    "origin": "Kim chi đã có lịch sử hàng nghìn năm; ớt đỏ chỉ được thêm vào từ khoảng thế kỷ 17–18. Văn hóa muối kim chi tập thể (kimjang) được UNESCO ghi danh là di sản văn hóa phi vật thể năm 2013.",
+    "cooking_style": "Muối, lên men",
+    "prep_minutes": 150,
+    "cook_minutes": 10,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "Cải thảo",
+        "amount": "1 cây lớn (khoảng 2 kg)"
+      },
+      {
+        "name": "Muối hột",
+        "amount": "150 g"
+      },
+      {
+        "name": "Củ cải trắng thái sợi",
+        "amount": "300 g"
+      },
+      {
+        "name": "Hành lá và hẹ cắt khúc",
+        "amount": "100 g"
+      },
+      {
+        "name": "Ớt bột Hàn Quốc (gochugaru)",
+        "amount": "80 g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "60 ml"
+      },
+      {
+        "name": "Mắm tép muối (saeujeot)",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Tỏi",
+        "amount": "8 tép"
+      },
+      {
+        "name": "Gừng",
+        "amount": "1 nhánh nhỏ (15 g)"
+      },
+      {
+        "name": "Lê Hàn Quốc",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Bột nếp",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Bổ cải thảo làm tư theo chiều dọc, nhúng qua nước rồi xát muối hột vào từng bẹ lá, nhất là phần cuống dày. Ngâm khoảng 2 giờ, cứ 30 phút lật một lần đến khi bẹ cải mềm dẻo, bẻ cong không gãy.",
+      "Rửa cải 3 lần dưới vòi nước cho sạch muối, úp xuống rổ để thật ráo ít nhất 30 phút.",
+      "Hòa bột nếp với 250 ml nước, khuấy trên lửa nhỏ đến khi thành hồ sánh trong, để nguội hoàn toàn.",
+      "Xay nhuyễn tỏi, gừng và lê, trộn cùng hồ bột nếp, ớt bột, nước mắm, mắm tép và đường thành hỗn hợp sốt đỏ sệt.",
+      "Cho củ cải sợi, hành lá và hẹ vào sốt, trộn đều.",
+      "Đeo găng tay, phết sốt vào từng bẹ lá cải từ trong ra ngoài, cuộn gọn mỗi phần và xếp chặt vào hộp kín, chừa khoảng trống phía trên.",
+      "Để ở nhiệt độ phòng 1–2 ngày cho lên men (thấy có bọt khí và mùi chua nhẹ) rồi chuyển vào ngăn mát tủ lạnh; kim chi ngon nhất sau 1–2 tuần."
+    ],
+    "tags": [
+      "kim chi",
+      "lên men",
+      "món kèm",
+      "ít calo"
+    ],
+    "image": {
+      "file": "kim-chi-cai-thao.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Baechu-gimchi.jpg",
+      "author": "gwangju kimchi",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "com-cuon-gimbap",
+    "name": "Cơm cuộn Gimbap",
+    "original_name": "김밥",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 30000,
+    "price_max": 50000,
+    "calories_kcal": 420,
+    "serving_note": "1 cuộn khoảng 250 g (10–12 khoanh)",
+    "nutrition": {
+      "protein_g": 14,
+      "carbs_g": 66,
+      "fat_g": 11
+    },
+    "description": "Cơm trộn dầu mè cuộn trong lá rong biển cùng trứng, cà rốt, rau bina, củ cải vàng và xúc xích, cắt khoanh nhiều màu đẹp mắt. Gọn nhẹ, no lâu, rất hợp mang đi học, đi làm hay dã ngoại.",
+    "origin": "Gimbap trở nên phổ biến ở Hàn Quốc từ đầu thế kỷ 20 và là món không thể thiếu trong hộp cơm dã ngoại. Khác với sushi cuộn, cơm gimbap được nêm dầu mè và muối chứ không dùng giấm.",
+    "cooking_style": "Cuộn",
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Gạo dẻo hạt ngắn",
+        "amount": "400 g (2 cốc)"
+      },
+      {
+        "name": "Rong biển lá để cuộn",
+        "amount": "4 lá"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "3 quả"
+      },
+      {
+        "name": "Cà rốt thái sợi",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Rau bina (cải bó xôi)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Củ cải vàng muối (danmuji)",
+        "amount": "4 thanh dài"
+      },
+      {
+        "name": "Xúc xích hoặc giăm bông",
+        "amount": "4 thanh dài"
+      },
+      {
+        "name": "Thanh cua",
+        "amount": "4 thanh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Mè rang",
+        "amount": "1 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Nấu cơm hơi khô hơn bình thường. Khi cơm còn ấm, trộn nhẹ tay với 1 muỗng canh dầu mè, 1/2 muỗng cà phê muối và mè rang.",
+      "Đánh tan trứng với chút muối, tráng dày rồi cắt thành thanh dài. Xào cà rốt 2 phút với ít dầu và muối. Áp chảo sơ xúc xích và thanh cua.",
+      "Chần rau bina 30 giây, xả nước lạnh, vắt thật ráo rồi trộn với chút muối và dầu mè.",
+      "Đặt lá rong biển lên mành tre, mặt nhám hướng lên. Dàn một lớp cơm mỏng phủ khoảng 2/3 lá, chừa mép trên.",
+      "Xếp các loại nhân thành hàng ngang ở giữa phần cơm, dùng mành cuộn chặt tay từ dưới lên, miết mép rong biển cho dính.",
+      "Phết dầu mè lên mặt ngoài cuộn cơm, dùng dao sắc thấm chút nước cắt thành khoanh dày khoảng 1,5 cm rồi xếp ra đĩa."
+    ],
+    "tags": [
+      "cơm cuộn",
+      "rong biển",
+      "mang đi",
+      "dã ngoại"
+    ],
+    "image": {
+      "file": "com-cuon-gimbap.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gimbap_(pixabay).jpg",
+      "author": "changupn",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "thit-ba-chi-nuong-samgyeopsal",
+    "name": "Thịt ba chỉ nướng Samgyeopsal",
+    "original_name": "삼겹살",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 220000,
+    "price_max": 380000,
+    "calories_kcal": 780,
+    "serving_note": "1 phần khoảng 200 g thịt nướng kèm rau cuốn",
+    "nutrition": {
+      "protein_g": 32,
+      "carbs_g": 14,
+      "fat_g": 66
+    },
+    "description": "Ba chỉ heo thái dày nướng xèo xèo ngay tại bàn đến khi vàng giòn, cuốn trong lá xà lách và lá mè cùng tỏi nướng, kim chi và tương ssamjang. Món nướng không ướp này tôn trọn vị ngọt béo của thịt.",
+    "origin": "Samgyeopsal nghĩa là \"thịt ba lớp\". Thói quen nướng ba chỉ tại bàn bùng nổ ở Hàn Quốc từ thập niên 1970–1980 và nay là lựa chọn hàng đầu cho các buổi tụ tập, liên hoan.",
+    "cooking_style": "Nướng tại bàn",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Thịt ba chỉ heo thái lát dày 0,5–1 cm",
+        "amount": "500 g"
+      },
+      {
+        "name": "Xà lách",
+        "amount": "1 cây"
+      },
+      {
+        "name": "Lá mè (lá tía tô Hàn Quốc)",
+        "amount": "20 lá"
+      },
+      {
+        "name": "Tỏi thái lát",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Ớt xanh thái khoanh",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Kim chi cải thảo",
+        "amount": "150 g"
+      },
+      {
+        "name": "Nấm đùi gà thái lát",
+        "amount": "2 cái"
+      },
+      {
+        "name": "Tương đậu doenjang",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Tương ớt gochujang",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Muối, tiêu xay",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Hành lá chẻ sợi",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Làm tương ssamjang: trộn doenjang, gochujang, 1 muỗng cà phê dầu mè, chút tỏi băm và mè rang. Pha chén chấm thứ hai gồm dầu mè với muối và tiêu.",
+      "Rửa sạch xà lách, lá mè và để ráo. Ngâm hành lá chẻ sợi trong nước lạnh 5 phút cho cong giòn, vớt ra trộn với chút ớt bột, giấm và dầu mè.",
+      "Làm nóng vỉ hoặc chảo nướng, xếp thịt ba chỉ lên nướng ở lửa vừa lớn 3–4 phút mỗi mặt đến khi vàng giòn hai mặt.",
+      "Nướng kèm tỏi, nấm và kim chi ngay trên phần mỡ heo chảy ra.",
+      "Dùng kéo cắt thịt thành miếng vừa ăn.",
+      "Khi ăn, đặt một miếng thịt lên lá xà lách và lá mè, thêm tỏi nướng, ớt, hành trộn, kim chi và chút ssamjang rồi cuốn lại ăn trọn trong một miếng."
+    ],
+    "tags": [
+      "nướng",
+      "thịt heo",
+      "rau cuốn",
+      "tụ tập"
+    ],
+    "image": {
+      "file": "thit-ba-chi-nuong-samgyeopsal.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samgyeopsal-gui_1.jpg",
+      "author": "chomjong",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "thit-bo-xao-bulgogi",
+    "name": "Thịt bò xào Bulgogi",
+    "original_name": "불고기",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 130000,
+    "price_max": 220000,
+    "calories_kcal": 380,
+    "serving_note": "1 phần khoảng 200 g (chưa gồm cơm)",
+    "nutrition": {
+      "protein_g": 30,
+      "carbs_g": 18,
+      "fat_g": 21
+    },
+    "description": "Thịt bò thái mỏng ướp nước tương, lê xay, tỏi và dầu mè rồi xào hoặc nướng nhanh trên lửa lớn, mềm ngọt và thơm nức. Vị mặn ngọt dịu, không cay nên cả trẻ nhỏ cũng dễ ăn.",
+    "origin": "Bulgogi nghĩa là \"thịt lửa\", bắt nguồn từ món thịt nướng xiên maekjeok thời Goguryeo và từng là món ăn của giới quý tộc triều Joseon.",
+    "cooking_style": "Ướp, xào lửa lớn",
+    "prep_minutes": 40,
+    "cook_minutes": 10,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Thịt bò thăn hoặc nạc vai thái thật mỏng",
+        "amount": "500 g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Đường nâu",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Lê Hàn Quốc xay nhuyễn",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Rượu mirin",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Tiêu xay",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Hành tây thái múi mỏng",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Cà rốt thái lát mỏng",
+        "amount": "1/2 củ"
+      },
+      {
+        "name": "Nấm kim châm hoặc nấm hương",
+        "amount": "100 g"
+      },
+      {
+        "name": "Hành lá cắt khúc",
+        "amount": "2 cây"
+      },
+      {
+        "name": "Mè rang",
+        "amount": "1 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Trộn nước tương, đường nâu, lê xay, tỏi băm, dầu mè, mirin và tiêu thành nước ướp.",
+      "Cho thịt bò vào bóp nhẹ cho thấm, ướp ít nhất 30 phút (để ngăn mát qua đêm càng ngon).",
+      "Làm thật nóng chảo gang hoặc chảo đáy dày với ít dầu, cho hành tây và cà rốt vào xào 1 phút.",
+      "Cho thịt bò vào, dàn mỏng và xào lửa lớn 3–4 phút đến khi thịt vừa chín và nước ướp sánh lại; chia làm hai mẻ nếu chảo nhỏ để thịt không bị ra nước.",
+      "Thêm nấm và hành lá, đảo thêm 1 phút rồi tắt bếp.",
+      "Rắc mè rang, dùng nóng với cơm trắng hoặc cuốn cùng xà lách và tương ssamjang."
+    ],
+    "tags": [
+      "thịt bò",
+      "mặn ngọt",
+      "không cay",
+      "đưa cơm"
+    ],
+    "image": {
+      "file": "thit-bo-xao-bulgogi.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bulgogi_8.jpg",
+      "author": "stu_spivack",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "mien-tron-japchae",
+    "name": "Miến trộn Japchae",
+    "original_name": "잡채",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 70000,
+    "price_max": 130000,
+    "calories_kcal": 350,
+    "serving_note": "1 đĩa khoảng 250 g",
+    "nutrition": {
+      "protein_g": 10,
+      "carbs_g": 54,
+      "fat_g": 11
+    },
+    "description": "Sợi miến khoai lang trong veo, dai mềm, trộn cùng thịt bò và rau củ nhiều màu sắc trong nước tương và dầu mè. Món ăn mặn ngọt hài hòa, thường xuất hiện trong mâm cỗ lễ Tết và tiệc sinh nhật.",
+    "origin": "Japchae xuất hiện từ thế kỷ 17 trong yến tiệc của vua Gwanghaegun triều Joseon, ban đầu chỉ gồm rau củ; miến khoai lang được thêm vào từ đầu thế kỷ 20.",
+    "cooking_style": "Xào, trộn",
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Miến khoai lang Hàn Quốc (dangmyeon)",
+        "amount": "250 g"
+      },
+      {
+        "name": "Thịt bò thái sợi",
+        "amount": "150 g"
+      },
+      {
+        "name": "Rau bina (cải bó xôi)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Cà rốt thái sợi",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Hành tây thái sợi",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Ớt chuông đỏ thái sợi",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Nấm hương thái lát",
+        "amount": "5 cái"
+      },
+      {
+        "name": "Trứng gà (tráng mỏng, thái sợi)",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "5 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Mè rang",
+        "amount": "1 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Ướp thịt bò và nấm hương với 1 muỗng canh nước tương, 1 muỗng cà phê đường, một nửa tỏi băm và chút tiêu trong 15 phút.",
+      "Luộc miến trong nước sôi 6–7 phút đến khi mềm dai, xả nước lạnh, để ráo, cắt ngắn bớt rồi trộn ngay với 1 muỗng canh dầu mè cho khỏi dính.",
+      "Chần rau bina 30 giây, xả lạnh, vắt ráo và nêm chút muối cùng dầu mè.",
+      "Xào riêng từng loại hành tây, cà rốt, ớt chuông với ít dầu và muối, mỗi loại 1–2 phút để giữ màu tươi; sau đó xào thịt bò với nấm đến khi chín.",
+      "Cho miến vào chảo cùng phần nước tương, đường và tỏi còn lại, đảo trên lửa vừa 2–3 phút cho miến thấm đều và bóng đẹp.",
+      "Trộn miến với tất cả rau củ, thịt và trứng tráng thái sợi trong tô lớn, thêm dầu mè còn lại, nêm lại cho vừa và rắc mè rang."
+    ],
+    "tags": [
+      "miến",
+      "rau củ",
+      "món tiệc",
+      "không cay"
+    ],
+    "image": {
+      "file": "mien-tron-japchae.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Japchae_3.jpg",
+      "author": "gamene",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ga-ham-sam-samgyetang",
+    "name": "Gà hầm sâm Samgyetang",
+    "original_name": "삼계탕",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "khac",
+    "price_min": 230000,
+    "price_max": 350000,
+    "calories_kcal": 780,
+    "serving_note": "1 thố gồm 1 con gà nhỏ và nước dùng (khoảng 800 g)",
+    "nutrition": {
+      "protein_g": 62,
+      "carbs_g": 48,
+      "fat_g": 36
+    },
+    "description": "Nguyên con gà non nhồi gạo nếp, nhân sâm, táo đỏ và tỏi, hầm đến khi thịt mềm rục trong nước dùng trắng đục thanh ngọt. Món ăn bồi bổ nổi tiếng, ăn nóng hổi chấm cùng muối tiêu.",
+    "origin": "Người Hàn ăn samgyetang vào ba ngày nóng nhất mùa hè (sambok) theo quan niệm \"lấy nhiệt trị nhiệt\". Món ăn phổ biến rộng rãi từ giữa thế kỷ 20, khi nhân sâm tươi dễ mua hơn.",
+    "cooking_style": "Hầm",
+    "prep_minutes": 30,
+    "cook_minutes": 70,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Gà non nguyên con",
+        "amount": "2 con (mỗi con 500–600 g)"
+      },
+      {
+        "name": "Gạo nếp",
+        "amount": "100 g"
+      },
+      {
+        "name": "Nhân sâm tươi",
+        "amount": "2 củ nhỏ"
+      },
+      {
+        "name": "Táo đỏ khô",
+        "amount": "6 quả"
+      },
+      {
+        "name": "Tỏi bóc vỏ",
+        "amount": "10 tép"
+      },
+      {
+        "name": "Hạt dẻ bóc vỏ",
+        "amount": "4 hạt"
+      },
+      {
+        "name": "Gừng thái lát",
+        "amount": "2 lát"
+      },
+      {
+        "name": "Hành lá thái nhỏ",
+        "amount": "3 cây"
+      },
+      {
+        "name": "Nước",
+        "amount": "2 lít"
+      },
+      {
+        "name": "Muối, tiêu xay",
+        "amount": "vừa ăn"
+      }
+    ],
+    "steps": [
+      "Vo sạch gạo nếp, ngâm nước ít nhất 1 giờ rồi để ráo.",
+      "Làm sạch gà, cắt bỏ phần mỡ thừa ở phao câu, rửa kỹ bên trong bụng.",
+      "Nhồi vào bụng mỗi con gà một nửa lượng gạo nếp, 3 tép tỏi, 1 quả táo đỏ và 2 hạt dẻ; không nhồi quá đầy vì nếp sẽ nở.",
+      "Rạch một đường nhỏ ở da đùi và luồn chân kia qua (hoặc dùng tăm ghim) để bắt chéo chân gà, giữ nhân không rơi ra.",
+      "Xếp gà vào nồi, thêm nhân sâm, số tỏi và táo đỏ còn lại, gừng và 2 lít nước. Đun sôi, hớt bọt thật kỹ.",
+      "Hạ lửa nhỏ, đậy nắp hầm 50–60 phút đến khi thịt gà mềm rục và nước dùng ngả màu trắng đục.",
+      "Múc mỗi con gà vào một thố nóng cùng nước dùng, rắc hành lá. Người ăn tự nêm muối tiêu và dùng kèm kim chi."
+    ],
+    "tags": [
+      "gà",
+      "nhân sâm",
+      "bồi bổ",
+      "canh hầm"
+    ],
+    "image": {
+      "file": "ga-ham-sam-samgyetang.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samgye-tang_2.jpg",
+      "author": "wizdata",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "lau-quan-doi-budae-jjigae",
+    "name": "Lẩu quân đội Budae Jjigae",
+    "original_name": "부대찌개",
+    "cuisine": "korea",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "lau",
+    "price_min": 140000,
+    "price_max": 220000,
+    "calories_kcal": 650,
+    "serving_note": "1 phần khoảng 500 g (nồi chia 3 người)",
+    "nutrition": {
+      "protein_g": 28,
+      "carbs_g": 58,
+      "fat_g": 34
+    },
+    "description": "Nồi lẩu cay đỏ rực đầy ắp thịt hộp, xúc xích, kim chi, đậu hũ, mì gói và lát phô mai tan chảy. Vị cay nồng hòa với béo mặn kiểu Âu – Á tạo nên món ăn sum vầy cực kỳ \"bắt\" miệng.",
+    "origin": "Budae jjigae ra đời ở Uijeongbu sau Chiến tranh Triều Tiên, khi người dân nấu thịt hộp và xúc xích từ căn cứ quân đội Mỹ cùng kim chi và tương ớt. Từ món ăn thời thiếu thốn, nó trở thành biểu tượng ẩm thực giao thoa của Hàn Quốc.",
+    "cooking_style": "Nấu lẩu tại bàn",
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Thịt hộp (spam) thái lát",
+        "amount": "200 g"
+      },
+      {
+        "name": "Xúc xích thái xéo",
+        "amount": "4 cây"
+      },
+      {
+        "name": "Kim chi cải thảo chín",
+        "amount": "200 g"
+      },
+      {
+        "name": "Đậu hũ trắng thái lát",
+        "amount": "150 g"
+      },
+      {
+        "name": "Mì gói Hàn Quốc (chỉ lấy vắt mì)",
+        "amount": "1 vắt"
+      },
+      {
+        "name": "Bánh gạo thái lát",
+        "amount": "100 g"
+      },
+      {
+        "name": "Nấm kim châm",
+        "amount": "100 g"
+      },
+      {
+        "name": "Đậu sốt cà chua đóng hộp",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Phô mai lát",
+        "amount": "2 lát"
+      },
+      {
+        "name": "Hành tây và hành lá",
+        "amount": "1/2 củ và 2 cây"
+      },
+      {
+        "name": "Ớt bột gochugaru",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Tương ớt gochujang",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Nước tương và tỏi băm",
+        "amount": "1 muỗng canh mỗi loại"
+      },
+      {
+        "name": "Nước dùng cá cơm hoặc nước hầm xương",
+        "amount": "1 lít"
+      }
+    ],
+    "steps": [
+      "Trộn ớt bột, gochujang, nước tương, tỏi băm và 1 muỗng cà phê đường thành sốt cay.",
+      "Xếp thịt hộp, xúc xích, kim chi, đậu hũ, bánh gạo, nấm kim châm, hành tây và đậu sốt cà thành từng phần quanh một nồi lẩu nông lòng.",
+      "Đặt phần sốt cay vào giữa nồi rồi rót nước dùng vào ngập khoảng 3/4 nguyên liệu.",
+      "Đun sôi trên lửa lớn, sau đó hạ lửa vừa nấu 8–10 phút, khuấy nhẹ cho sốt tan đều.",
+      "Cho vắt mì và hành lá vào, nấu thêm 2–3 phút đến khi mì vừa chín tới.",
+      "Đặt lát phô mai lên trên, để nồi sôi liu riu trên bếp tại bàn và vừa ăn vừa châm thêm nước dùng."
+    ],
+    "tags": [
+      "lẩu",
+      "cay",
+      "phô mai",
+      "tụ tập"
+    ],
+    "image": {
+      "file": "lau-quan-doi-budae-jjigae.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Budae_Jjigae.jpg",
+      "author": "Suohros",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "mi-lanh-naengmyeon",
+    "name": "Mì lạnh Naengmyeon",
+    "original_name": "물냉면",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "mi",
+    "price_min": 90000,
+    "price_max": 150000,
+    "calories_kcal": 480,
+    "serving_note": "1 tô khoảng 600 g",
+    "nutrition": {
+      "protein_g": 20,
+      "carbs_g": 86,
+      "fat_g": 6
+    },
+    "description": "Sợi mì kiều mạch mảnh, dai sần sật nằm trong nước dùng bò lạnh buốt lẫn đá bào, điểm thêm thịt bò luộc, lê, dưa leo và nửa quả trứng. Vị chua ngọt thanh mát, giải nhiệt cực tốt trong ngày hè.",
+    "origin": "Naengmyeon có nguồn gốc từ Bình Nhưỡng và Hamhung ở miền Bắc bán đảo Triều Tiên, vốn là món ăn mùa đông. Sau Chiến tranh Triều Tiên, người di cư đã đưa món mì này phổ biến khắp Hàn Quốc.",
+    "cooking_style": "Luộc mì, chan nước dùng lạnh",
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Mì kiều mạch naengmyeon khô",
+        "amount": "280 g"
+      },
+      {
+        "name": "Thịt bắp bò",
+        "amount": "200 g"
+      },
+      {
+        "name": "Nước củ cải muối dongchimi",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Hành tây, tỏi, gừng (nấu nước dùng)",
+        "amount": "1/2 củ, 3 tép, 2 lát"
+      },
+      {
+        "name": "Dưa leo thái sợi",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Lê Hàn Quốc thái lát mỏng",
+        "amount": "1/4 quả"
+      },
+      {
+        "name": "Củ cải ngâm chua ngọt thái lát",
+        "amount": "80 g"
+      },
+      {
+        "name": "Trứng gà luộc",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Mù tạt vàng",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Mè rang",
+        "amount": "1 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Luộc thịt bắp bò với 1,2 lít nước, hành tây, tỏi và gừng trong 50 phút, hớt bọt thường xuyên. Vớt thịt ra để nguội rồi thái lát mỏng.",
+      "Lọc lấy khoảng 600 ml nước dùng, hớt sạch mỡ, pha với nước dongchimi, giấm, đường và muối cho vừa vị chua ngọt thanh.",
+      "Cho nước dùng vào ngăn đá 1–2 giờ đến khi se lại như đá bào.",
+      "Luộc mì trong nước sôi 3–4 phút theo hướng dẫn trên bao bì, vớt ra xả và vò kỹ dưới nước lạnh nhiều lần cho sạch nhớt và săn sợi.",
+      "Cuộn mì thành nắm đặt vào tô lớn, xếp thịt bò, dưa leo, lê, củ cải ngâm và nửa quả trứng luộc lên trên.",
+      "Chan nước dùng lạnh quanh mì, rắc mè rang; khi ăn thêm mù tạt và giấm tùy khẩu vị, dùng kéo cắt mì cho dễ ăn."
+    ],
+    "tags": [
+      "mì lạnh",
+      "giải nhiệt",
+      "kiều mạch",
+      "mùa hè"
+    ],
+    "image": {
+      "file": "mi-lanh-naengmyeon.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pyongyang_Naengmyeon_20190608_001.jpg",
+      "author": "Mobius6",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "mi-tuong-den-jajangmyeon",
+    "name": "Mì tương đen Jajangmyeon",
+    "original_name": "짜장면",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 60000,
+    "price_max": 100000,
+    "calories_kcal": 690,
+    "serving_note": "1 tô khoảng 500 g",
+    "nutrition": {
+      "protein_g": 22,
+      "carbs_g": 100,
+      "fat_g": 22
+    },
+    "description": "Sợi mì tươi to, dai được phủ lớp sốt tương đen bóng sánh nấu cùng thịt heo, hành tây và rau củ thái hạt lựu. Vị mặn ngọt bùi béo, không cay, trộn đều lên là ăn mãi không ngừng.",
+    "origin": "Jajangmyeon do người Hoa ở cảng Incheon sáng tạo vào khoảng năm 1905, dựa trên món mì trộn tương của Sơn Đông. Ngày nay đây là món giao tận nhà quen thuộc và là \"món của người độc thân\" trong Ngày Đen 14/4.",
+    "cooking_style": "Xào sốt, trộn",
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Mì tươi sợi to (mì jajang hoặc udon)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Tương đen chunjang",
+        "amount": "4 muỗng canh (khoảng 80 g)"
+      },
+      {
+        "name": "Thịt ba chỉ hoặc nạc vai thái hạt lựu",
+        "amount": "200 g"
+      },
+      {
+        "name": "Hành tây thái hạt lựu",
+        "amount": "2 củ"
+      },
+      {
+        "name": "Bí ngòi thái hạt lựu",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Khoai tây thái hạt lựu",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Bắp cải thái vuông",
+        "amount": "100 g"
+      },
+      {
+        "name": "Tỏi và gừng băm",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu hào",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Nước dùng hoặc nước lọc",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Bột bắp pha với 3 muỗng canh nước",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Dưa leo thái sợi và trứng luộc (ăn kèm)",
+        "amount": "1/2 quả dưa leo, 1 quả trứng"
+      }
+    ],
+    "steps": [
+      "Đun nóng 3 muỗng canh dầu, cho tương đen vào xào trên lửa nhỏ 2–3 phút để khử vị đắng chát, sau đó múc tương ra và chắt bớt dầu.",
+      "Phi thơm tỏi, gừng với phần dầu còn lại, cho thịt heo vào xào đến khi săn và hơi xém cạnh.",
+      "Thêm khoai tây xào 2 phút, tiếp đến hành tây, bí ngòi và bắp cải, xào thêm 3–4 phút đến khi hành tây trong lại.",
+      "Cho tương đen đã xào vào đảo đều, thêm nước dùng, đường và dầu hào, đun sôi rồi hạ lửa nấu 8–10 phút đến khi khoai chín mềm.",
+      "Khuấy bột bắp rồi rót từ từ vào chảo, khuấy đều đến khi sốt sánh bóng thì tắt bếp.",
+      "Luộc mì 3–5 phút đến khi chín dai, xả nhanh qua nước lạnh rồi trụng lại nước nóng cho ấm, để ráo.",
+      "Chia mì ra tô, chan sốt tương đen lên trên, thêm dưa leo thái sợi, nửa quả trứng luộc, rắc chút mè rang và trộn đều trước khi ăn; dùng kèm củ cải vàng muối."
+    ],
+    "tags": [
+      "mì trộn",
+      "tương đen",
+      "không cay",
+      "thịt heo"
+    ],
+    "image": {
+      "file": "mi-tuong-den-jajangmyeon.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jajangmyeon_by_KFoodaddict.jpg",
+      "author": "KFoodaddict",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "mi-cay-ramyeon",
+    "name": "Mì cay Hàn Quốc Ramyeon",
+    "original_name": "라면",
+    "cuisine": "korea",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "mi",
+    "price_min": 35000,
+    "price_max": 60000,
+    "calories_kcal": 600,
+    "serving_note": "1 tô khoảng 550 g (1 gói mì kèm trứng và phô mai)",
+    "nutrition": {
+      "protein_g": 20,
+      "carbs_g": 80,
+      "fat_g": 22
+    },
+    "description": "Tô mì sợi xoăn dai giòn trong nước dùng đỏ cay nồng, điểm rau củ sấy, nấm và hành lá; thích thì thêm quả trứng hay lát phô mai cho béo. Nhanh, rẻ mà cực kỳ đã miệng, người Hàn còn hay ăn nóng ngay trong nồi nhôm vàng như trên phim.",
+    "origin": "Mì ăn liền xuất hiện ở Hàn Quốc năm 1963 và nhanh chóng thành món ăn quốc dân; người Hàn hiện thuộc nhóm tiêu thụ mì gói bình quân đầu người cao nhất thế giới.",
+    "cooking_style": "Nấu nhanh",
+    "prep_minutes": 3,
+    "cook_minutes": 7,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "Mì gói Hàn Quốc vị cay (kèm gói súp và rau khô)",
+        "amount": "1 gói (120 g)"
+      },
+      {
+        "name": "Nước",
+        "amount": "550 ml"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Phô mai lát",
+        "amount": "1 lát"
+      },
+      {
+        "name": "Hành lá thái xéo",
+        "amount": "1 cây"
+      },
+      {
+        "name": "Kim chi cải thảo",
+        "amount": "50 g"
+      },
+      {
+        "name": "Ớt xanh thái khoanh",
+        "amount": "1/2 quả"
+      }
+    ],
+    "steps": [
+      "Đun sôi 550 ml nước trong nồi nhỏ, cho gói súp và gói rau khô vào khuấy tan.",
+      "Thả vắt mì vào nấu ở lửa lớn khoảng 3 phút; trong lúc nấu dùng đũa nhấc sợi mì lên khỏi nước vài lần để mì săn và dai hơn.",
+      "Đập trứng vào giữa nồi, để nguyên lòng đỏ hoặc khuấy nhẹ tùy thích, nấu thêm 1 phút.",
+      "Cho hành lá và ớt xanh vào, tắt bếp khi sợi mì vừa chín tới.",
+      "Đặt lát phô mai lên trên cho tan chảy, ăn nóng ngay cùng kim chi."
+    ],
+    "tags": [
+      "mì gói",
+      "cay",
+      "nấu nhanh",
+      "phô mai"
+    ],
+    "image": {
+      "file": "mi-cay-ramyeon.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nongshim_Shin_Ramyun_20210529_002.jpg",
+      "author": "Mobius6",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "canh-dau-hu-non-sundubu-jjigae",
+    "name": "Canh đậu hũ non Sundubu Jjigae",
+    "original_name": "순두부찌개",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "khac",
+    "price_min": 70000,
+    "price_max": 120000,
+    "calories_kcal": 300,
+    "serving_note": "1 niêu khoảng 450 ml (chưa gồm cơm)",
+    "nutrition": {
+      "protein_g": 22,
+      "carbs_g": 12,
+      "fat_g": 18
+    },
+    "description": "Đậu hũ non mềm mịn như pudding trong nước canh cay đỏ, ngọt vị nghêu và tôm, đập thêm quả trứng sống khi niêu đất còn sôi lục bục. Ấm bụng, nhẹ nhàng mà đậm đà.",
+    "origin": "Sundubu-jjigae là món canh hầm lâu đời của Hàn Quốc; phiên bản cay với hải sản như ngày nay phổ biến từ thập niên 1960 và thường được nấu trong niêu đất ttukbaegi.",
+    "cooking_style": "Hầm trong niêu đất",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Đậu hũ non",
+        "amount": "350 g (1 túi)"
+      },
+      {
+        "name": "Nghêu đã ngâm nhả cát",
+        "amount": "200 g"
+      },
+      {
+        "name": "Tôm tươi",
+        "amount": "4 con"
+      },
+      {
+        "name": "Thịt heo băm",
+        "amount": "80 g"
+      },
+      {
+        "name": "Hành tây thái hạt lựu",
+        "amount": "1/4 củ"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Ớt bột Hàn Quốc (gochugaru)",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Nước mắm hoặc nước tương",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Nước dùng cá cơm khô",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Hành lá thái nhỏ",
+        "amount": "1 cây"
+      }
+    ],
+    "steps": [
+      "Làm nóng niêu đất (hoặc nồi nhỏ đáy dày) trên lửa nhỏ với dầu mè, cho thịt băm, hành tây và tỏi vào xào thơm.",
+      "Thêm ớt bột, đảo nhanh khoảng 30 giây trên lửa nhỏ để ra dầu ớt đỏ mà không bị cháy khét.",
+      "Rót nước dùng cá cơm vào, đun sôi rồi nêm nước mắm.",
+      "Cho nghêu và tôm vào nấu 2–3 phút đến khi nghêu vừa mở miệng.",
+      "Dùng muỗng múc đậu hũ non thành từng tảng lớn thả vào niêu, đun sôi lại 3–4 phút, tránh khuấy mạnh làm nát đậu.",
+      "Đập trứng vào giữa niêu, rắc hành lá rồi bắc ra ngay khi canh còn sôi; ăn nóng với cơm trắng."
+    ],
+    "tags": [
+      "đậu hũ",
+      "hải sản",
+      "canh cay",
+      "niêu đất"
+    ],
+    "image": {
+      "file": "canh-dau-hu-non-sundubu-jjigae.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korean_stew-Sundubu_jjigae-05.jpg",
+      "author": "titanium22",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-xeo-hai-san-haemul-pajeon",
+    "name": "Bánh xèo hải sản Haemul Pajeon",
+    "original_name": "해물파전",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "dinner",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 100000,
+    "price_max": 180000,
+    "calories_kcal": 400,
+    "serving_note": "1/2 chiếc bánh khoảng 200 g",
+    "nutrition": {
+      "protein_g": 16,
+      "carbs_g": 46,
+      "fat_g": 16
+    },
+    "description": "Chiếc bánh áp chảo vàng ruộm, viền giòn tan, bên trong mềm dẻo với thật nhiều hành lá, tôm và mực hay bạch tuộc, chấm nước tương pha giấm. Người Hàn hay bảo ngày mưa là phải có pajeon với rượu gạo makgeolli.",
+    "origin": "Pajeon nổi tiếng nhất là kiểu Dongnae ở Busan, tương truyền từng được dâng lên vua thời Joseon. \"Pa\" là hành lá, \"jeon\" là món áp chảo với bột.",
+    "cooking_style": "Áp chảo",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "120 g"
+      },
+      {
+        "name": "Bột bắp hoặc bột chiên giòn",
+        "amount": "30 g"
+      },
+      {
+        "name": "Nước đá lạnh",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "150 g"
+      },
+      {
+        "name": "Cà rốt thái sợi",
+        "amount": "1/2 củ"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": "100 g"
+      },
+      {
+        "name": "Mực hoặc bạch tuộc thái miếng nhỏ",
+        "amount": "100 g"
+      },
+      {
+        "name": "Ớt đỏ thái xéo",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": "1 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Khuấy bột mì, bột bắp, muối với nước đá lạnh đến khi vừa hết vón; không khuấy quá kỹ để bánh được giòn.",
+      "Cắt hành lá thành khúc dài bằng đường kính chảo, cà rốt thái sợi. Thấm khô tôm và mực (hoặc bạch tuộc).",
+      "Đun nóng 2 muỗng canh dầu trong chảo chống dính trên lửa vừa lớn, xếp hành lá song song thành một lớp cùng cà rốt sợi rồi rưới khoảng 2/3 lượng bột phủ lên.",
+      "Rải tôm, mực và ớt đỏ lên mặt bánh, rưới phần bột còn lại và trứng đã đánh tan lên trên cùng.",
+      "Chiên 4–5 phút đến khi mặt dưới vàng giòn, lật bánh, thêm dầu quanh mép chảo và dùng xẻng ép nhẹ, chiên tiếp 3–4 phút.",
+      "Pha nước chấm gồm nước tương, giấm, chút ớt bột và mè rang. Cắt bánh thành miếng vuông và dùng nóng."
+    ],
+    "tags": [
+      "bánh xèo",
+      "hải sản",
+      "hành lá",
+      "ngày mưa"
+    ],
+    "image": {
+      "file": "banh-xeo-hai-san-haemul-pajeon.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Haemul-pajeon_3.jpg",
+      "author": "bryan...",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "bingsu-dau-do-patbingsu",
+    "name": "Bingsu đậu đỏ Patbingsu",
+    "original_name": "팥빙수",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "dessert",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 55000,
+    "price_max": 120000,
+    "calories_kcal": 380,
+    "serving_note": "1 tô khoảng 350 g",
+    "nutrition": {
+      "protein_g": 9,
+      "carbs_g": 76,
+      "fat_g": 5
+    },
+    "description": "Núi đá sữa bào mịn như tuyết phủ đậu đỏ ngào đường bùi ngọt, bánh gạo dẻo và bột đậu rang thơm. Món tráng miệng mát lạnh được giới trẻ mê mẩn mỗi độ hè về.",
+    "origin": "Đá bào đã được ghi nhận từ thời Joseon, khi quan lại chia nhau đá từ kho băng hoàng gia. Patbingsu với đậu đỏ định hình vào đầu thế kỷ 20 và ngày nay có vô số biến tấu trái cây, trà xanh, phô mai.",
+    "cooking_style": "Đá bào, không nấu",
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Sữa đặc có đường",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Đậu đỏ ngào đường",
+        "amount": "200 g"
+      },
+      {
+        "name": "Bánh gạo dẻo (injeolmi) cắt nhỏ",
+        "amount": "60 g"
+      },
+      {
+        "name": "Bột đậu nành rang",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Hạnh nhân lát rang",
+        "amount": "1 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Khuấy đều sữa tươi với 2 muỗng canh sữa đặc, đổ vào túi zip hoặc khay đá và để ngăn đông ít nhất 5 giờ cho đông cứng. Đặt sẵn tô vào ngăn đá cho lạnh.",
+      "Bào đá sữa bằng máy bào, hoặc đập vụn túi sữa đông rồi xay nhanh bằng máy xay đến khi tơi xốp như tuyết.",
+      "Cho một nửa đá bào vào tô lạnh, rắc 1 muỗng canh bột đậu nành rang, rồi phủ tiếp phần đá còn lại thành chóp cao.",
+      "Múc đậu đỏ ngào đường đặt lên đỉnh, xếp bánh gạo dẻo xung quanh.",
+      "Rưới phần sữa đặc còn lại, rắc bột đậu nành và hạnh nhân lát, dùng ngay trước khi đá tan."
+    ],
+    "tags": [
+      "đá bào",
+      "đậu đỏ",
+      "tráng miệng",
+      "mùa hè"
+    ],
+    "image": {
+      "file": "bingsu-dau-do-patbingsu.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Patbingsu_3.jpg",
+      "author": "tookapic",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-ran-duong-hotteok",
+    "name": "Bánh rán nhân đường Hotteok",
+    "original_name": "호떡",
+    "cuisine": "korea",
+    "style": "traditional",
+    "dish_type": "dessert",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 15000,
+    "price_max": 25000,
+    "calories_kcal": 230,
+    "serving_note": "1 chiếc khoảng 90 g",
+    "nutrition": {
+      "protein_g": 4,
+      "carbs_g": 38,
+      "fat_g": 7
+    },
+    "description": "Chiếc bánh dẹt áp chảo vàng giòn bên ngoài, dẻo dai bên trong, cắn vào là nhân đường nâu quế chảy ra như mật cùng hạt bùi béo. Món quà vặt mùa đông ấm tay ấm bụng trên mọi con phố Hàn Quốc.",
+    "origin": "Hotteok do thương nhân người Hoa mang đến Hàn Quốc vào cuối thế kỷ 19, sau đó được người Hàn biến tấu với nhân ngọt. Nổi tiếng nhất là hotteok nhân hạt (ssiat hotteok) ở Busan.",
+    "cooking_style": "Ủ bột, áp chảo",
+    "prep_minutes": 80,
+    "cook_minutes": 20,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "250 g"
+      },
+      {
+        "name": "Bột nếp",
+        "amount": "50 g"
+      },
+      {
+        "name": "Men nở khô (instant)",
+        "amount": "1 muỗng cà phê (4 g)"
+      },
+      {
+        "name": "Sữa tươi ấm",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Đường trắng",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn (trộn bột và để rán)",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Đường nâu",
+        "amount": "80 g"
+      },
+      {
+        "name": "Bột quế",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Đậu phộng hoặc hạt óc chó băm nhỏ",
+        "amount": "30 g"
+      }
+    ],
+    "steps": [
+      "Hòa men và đường trắng vào sữa ấm (khoảng 40°C). Trộn bột mì, bột nếp, muối rồi rót hỗn hợp sữa và 1 muỗng canh dầu vào, nhào 5 phút thành khối bột mềm, hơi dính tay.",
+      "Đậy kín, ủ ở nơi ấm khoảng 1 giờ đến khi bột nở gấp đôi.",
+      "Trộn đều đường nâu, bột quế và hạt băm nhỏ làm nhân.",
+      "Thoa dầu vào tay, chia bột thành 8 phần. Ấn dẹt từng phần, cho 1 muỗng canh nhân vào giữa rồi túm mép bột lại, vê kín.",
+      "Làm nóng chảo với ít dầu trên lửa vừa nhỏ, đặt bánh vào với mối túm úp xuống, rán khoảng 1 phút cho mặt dưới se vàng.",
+      "Lật bánh, dùng xẻng hoặc dụng cụ ép phẳng thành hình tròn dày khoảng 1 cm, rán thêm 2 phút; lật lần nữa, đậy nắp 1 phút cho đường tan chảy.",
+      "Lấy bánh ra, để nguội bớt 1–2 phút vì nhân đường rất nóng, rồi thưởng thức."
+    ],
+    "tags": [
+      "bánh ngọt",
+      "đường phố",
+      "mùa đông",
+      "ăn vặt"
+    ],
+    "image": {
+      "file": "banh-ran-duong-hotteok.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%ED%95%9C%EA%B5%AD%EC%8B%9D_%ED%98%B8%EB%96%A1_20150313%EA%B3%84%EC%A0%88%EB%B0%A5%EC%83%81_%EC%9D%B8%EC%82%AC%EB%8F%99%EC%A0%9039.jpg",
+      "author": "최광모",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ca-phe-dalgona",
+    "name": "Cà phê bọt Dalgona",
+    "original_name": "달고나 커피",
+    "cuisine": "korea",
+    "style": "modern",
+    "dish_type": "drink",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 35000,
+    "price_max": 55000,
+    "calories_kcal": 220,
+    "serving_note": "1 ly khoảng 300 ml",
+    "nutrition": {
+      "protein_g": 7,
+      "carbs_g": 33,
+      "fat_g": 7
+    },
+    "description": "Lớp bọt cà phê vàng nâu bông mịn như kem phủ trên ly sữa tươi lạnh, đắng nhẹ ở trên, ngọt béo ở dưới. Chỉ cần ba nguyên liệu và một chiếc phới đánh là có ngay ly cà phê đẹp như ngoài tiệm.",
+    "origin": "Thức uống này gây sốt toàn cầu đầu năm 2020 sau một chương trình truyền hình Hàn Quốc, rồi lan khắp mạng xã hội trong thời gian giãn cách. Tên gọi lấy từ kẹo đường dalgona vì màu sắc và hương vị tương tự.",
+    "cooking_style": "Đánh bông",
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "Cà phê hòa tan nguyên chất (không đường, không sữa)",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Đường trắng",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Nước nóng",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Đá viên",
+        "amount": "5–6 viên"
+      },
+      {
+        "name": "Bột cacao hoặc bột cà phê để rắc",
+        "amount": "1 nhúm"
+      }
+    ],
+    "steps": [
+      "Cho cà phê hòa tan, đường và nước nóng vào một tô sâu lòng theo tỉ lệ 1:1:1.",
+      "Dùng máy đánh trứng đánh 2–3 phút (hoặc đánh tay bằng phới 8–10 phút) đến khi hỗn hợp chuyển màu vàng nâu nhạt, bông cứng và tạo chóp.",
+      "Cho đá viên vào ly, rót sữa tươi lạnh đến khoảng 3/4 ly.",
+      "Múc bọt cà phê phủ lên trên mặt sữa, dùng muỗng vuốt nhẹ cho đẹp và rắc chút bột cacao.",
+      "Khuấy đều bọt cà phê với sữa trước khi uống."
+    ],
+    "tags": [
+      "cà phê",
+      "đồ uống lạnh",
+      "trào lưu",
+      "dễ làm"
+    ],
+    "image": {
+      "file": "ca-phe-dalgona.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dalgona_coffee.jpg",
+      "author": "Kguirnela",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "corn-dog-pho-mai",
+    "name": "Corn dog phô mai Hàn Quốc",
+    "original_name": "핫도그",
+    "cuisine": "korea",
+    "style": "modern",
+    "dish_type": "snack",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 20000,
+    "price_max": 40000,
+    "calories_kcal": 330,
+    "serving_note": "1 que khoảng 130 g",
+    "nutrition": {
+      "protein_g": 11,
+      "carbs_g": 36,
+      "fat_g": 16
+    },
+    "description": "Que xúc xích và phô mai mozzarella bọc bột nở, lăn vụn bánh mì rồi chiên vàng giòn, cắn vào là phô mai kéo sợi dài. Rắc thêm chút đường, rưới tương cà và mù tạt là đúng vị đường phố Seoul.",
+    "origin": "Hot dog que kiểu Hàn bắt nguồn từ corn dog của Mỹ, phổ biến ở các chợ từ thập niên 1980. Phiên bản nhân phô mai kéo sợi bùng nổ từ khoảng năm 2016 nhờ các chuỗi cửa hàng và mạng xã hội.",
+    "cooking_style": "Chiên ngập dầu",
+    "prep_minutes": 60,
+    "cook_minutes": 15,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Xúc xích",
+        "amount": "3 cây (cắt đôi)"
+      },
+      {
+        "name": "Phô mai mozzarella dạng khối",
+        "amount": "200 g (cắt 6 thanh)"
+      },
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "200 g"
+      },
+      {
+        "name": "Bột nếp",
+        "amount": "30 g"
+      },
+      {
+        "name": "Men nở khô (instant)",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Đường",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Sữa tươi ấm",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Vụn bánh mì panko",
+        "amount": "100 g"
+      },
+      {
+        "name": "Dầu ăn để chiên",
+        "amount": "1 lít"
+      },
+      {
+        "name": "Đường, tương cà, mù tạt vàng",
+        "amount": "tùy thích"
+      }
+    ],
+    "steps": [
+      "Trộn bột mì, bột nếp, men, đường và muối; thêm sữa ấm và trứng, khuấy thành khối bột sệt dính. Đậy kín, ủ khoảng 40 phút ở nơi ấm đến khi bột nở gấp đôi.",
+      "Xiên mỗi que một nửa cây xúc xích ở dưới và một thanh mozzarella ở trên, thấm khô bề mặt rồi để ngăn mát cho phô mai cứng lại.",
+      "Chuyển bột vào một chiếc ly cao hoặc khay dài. Nhúng từng que vào, xoay tròn để bột quấn đều và kín toàn bộ phần nhân.",
+      "Lăn ngay que bột qua vụn bánh mì panko, ấn nhẹ cho bám chắc.",
+      "Đun dầu đến 170–175°C, chiên mỗi mẻ 2–3 que trong 3–4 phút, xoay đều tay đến khi vàng nâu.",
+      "Vớt ra để ráo dầu trên giấy thấm, lăn qua một lớp đường mỏng, rưới tương cà và mù tạt rồi ăn ngay khi phô mai còn kéo sợi."
+    ],
+    "tags": [
+      "phô mai",
+      "chiên giòn",
+      "đường phố",
+      "ăn vặt"
+    ],
+    "image": {
+      "file": "corn-dog-pho-mai.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korean_corn_dog_on_stick.jpg",
+      "author": "Aerous",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  }
+]

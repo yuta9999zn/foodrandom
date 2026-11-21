@@ -1,0 +1,1862 @@
+[
+  {
+    "slug": "fish-and-chips",
+    "name": "Cá tẩm bột chiên & khoai tây (Fish and Chips)",
+    "original_name": "Fish and chips",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 150000,
+    "price_max": 280000,
+    "calories_kcal": 900,
+    "serving_note": "1 phần gồm 1 miếng cá tẩm bột khoảng 180 g và 250 g khoai tây chiên",
+    "nutrition": {
+      "protein_g": 40,
+      "carbs_g": 90,
+      "fat_g": 42
+    },
+    "description": "Miếng cá tuyết trắng ngần nằm trong lớp bột bia vàng ruộm, giòn tan, ăn cùng khoai tây chiên cắt thanh dày, ngoài giòn trong bùi. Rắc chút muối, rưới giấm mạch nha hoặc vắt lát chanh là đủ vị đúng kiểu quán “chippy” ở Anh.",
+    "origin": "Món ăn mang đi nổi tiếng nhất nước Anh, xuất hiện từ thập niên 1860 khi cá chiên của cộng đồng Do Thái nhập cư kết hợp với khoai tây chiên của các thành phố công nghiệp miền Bắc.",
+    "cooking_style": "Chiên ngập dầu",
+    "prep_minutes": 25,
+    "cook_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Phi lê cá tuyết hoặc cá haddock (bỏ da)",
+        "amount": "4 miếng (khoảng 720 g)"
+      },
+      {
+        "name": "Khoai tây nhiều bột",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "200 g, thêm 3 thìa canh để áo cá"
+      },
+      {
+        "name": "Bột nở (baking powder)",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Bia lager ướp thật lạnh (hoặc nước có ga)",
+        "amount": "280 ml"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 thìa cà phê, thêm để rắc khi ăn"
+      },
+      {
+        "name": "Dầu thực vật để chiên",
+        "amount": "1,5 lít"
+      },
+      {
+        "name": "Chanh vàng",
+        "amount": "1 quả, cắt múi cau"
+      },
+      {
+        "name": "Giấm mạch nha (malt vinegar)",
+        "amount": "2 thìa canh, tùy thích"
+      },
+      {
+        "name": "Sốt tartar hoặc đậu Hà Lan nghiền",
+        "amount": "ăn kèm, tùy thích"
+      }
+    ],
+    "steps": [
+      "Gọt vỏ khoai, cắt thanh dày khoảng 1,5 cm, rửa qua nước lạnh cho bớt tinh bột rồi luộc trong nước sôi có muối 4–5 phút. Vớt ra, để thật ráo và thấm khô.",
+      "Đun dầu đến 130°C, chiên khoai lần đầu khoảng 8 phút cho chín mềm nhưng chưa vàng, vớt ra để ráo trên giấy thấm.",
+      "Trộn bột mì, bột nở và muối, rót bia lạnh vào từ từ, khuấy vừa đủ để bột mịn và sánh như kem tươi. Để bột trong tủ lạnh 15 phút.",
+      "Thấm khô cá, nêm chút muối, lăn qua một lớp bột mì khô mỏng rồi nhúng ngập vào bột bia, nhấc lên cho bột thừa chảy bớt.",
+      "Tăng nhiệt dầu lên 180°C, thả từng miếng cá vào chiên 6–8 phút, trở một lần, đến khi vỏ phồng giòn và vàng nâu. Vớt ra để ráo trên vỉ.",
+      "Đun dầu lên 190°C, chiên khoai lần hai 3–4 phút cho vàng giòn, vớt ra rắc muối ngay khi còn nóng.",
+      "Bày cá và khoai ra đĩa, ăn nóng cùng chanh, giấm mạch nha, sốt tartar hoặc đậu Hà Lan nghiền."
+    ],
+    "tags": [
+      "cá",
+      "chiên giòn",
+      "khoai tây",
+      "món quốc dân"
+    ],
+    "image": {
+      "file": "fish-and-chips.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_blackpool.jpg",
+      "author": "Matthias Meckel",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "full-english-breakfast",
+    "name": "Bữa sáng kiểu Anh (Full English Breakfast)",
+    "original_name": "Full English breakfast",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast"
+    ],
+    "soup_type": "kho",
+    "price_min": 120000,
+    "price_max": 220000,
+    "calories_kcal": 850,
+    "serving_note": "1 đĩa gồm 1 xúc xích, 2 lát thịt xông khói, 1 trứng ốp la, đậu sốt cà, cà chua, nấm, 1 miếng hash brown và 1 lát bánh mì nướng",
+    "nutrition": {
+      "protein_g": 40,
+      "carbs_g": 55,
+      "fat_g": 52
+    },
+    "description": "Một đĩa đầy ắp xúc xích, thịt xông khói, trứng ốp la, đậu sốt cà chua, nấm và cà chua áp chảo, thêm bánh khoai tây giòn và bánh mì nướng phết bơ. Bữa sáng “fry-up” no nê này đủ năng lượng cho cả buổi làm việc và là món khách du lịch nào đến Anh cũng muốn thử.",
+    "origin": "Bắt nguồn từ bữa sáng thịnh soạn của giới điền chủ Anh, đến thời Victoria và đầu thế kỷ 20 thì lan rộng thành bữa sáng quen thuộc của người lao động khắp nước Anh.",
+    "cooking_style": "Áp chảo, chiên",
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Xúc xích heo tươi kiểu Anh",
+        "amount": "2 cây (khoảng 130 g)"
+      },
+      {
+        "name": "Thịt xông khói (back bacon)",
+        "amount": "4 lát (khoảng 120 g)"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Đậu sốt cà chua đóng hộp (baked beans)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Cà chua chín",
+        "amount": "2 quả, cắt đôi"
+      },
+      {
+        "name": "Nấm mỡ",
+        "amount": "150 g, cắt đôi"
+      },
+      {
+        "name": "Bánh khoai tây hash brown đông lạnh",
+        "amount": "2 miếng"
+      },
+      {
+        "name": "Bánh mì sandwich",
+        "amount": "2 lát"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "25 g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Muối, tiêu đen xay",
+        "amount": "vừa ăn"
+      }
+    ],
+    "steps": [
+      "Làm nóng lò ở 100°C để giữ ấm các thành phần đã chín. Cho xúc xích vào chảo với chút dầu, chiên lửa vừa nhỏ 12–15 phút, trở đều tay cho chín vàng các mặt.",
+      "Cho hash brown vào chiên cùng (hoặc nướng theo hướng dẫn trên bao bì) đến khi vàng giòn hai mặt.",
+      "Đẩy xúc xích sang một bên, cho thịt xông khói vào áp chảo 2–3 phút mỗi mặt đến khi mỡ trong và mép hơi giòn. Chuyển tất cả sang đĩa, cho vào lò giữ ấm.",
+      "Dùng mỡ còn lại trong chảo, thêm nửa phần bơ, đặt cà chua (mặt cắt úp xuống) và nấm vào áp chảo 4–5 phút, nêm muối tiêu.",
+      "Hâm nóng đậu sốt cà chua trong nồi nhỏ ở lửa nhỏ, không để sôi mạnh. Nướng bánh mì và phết phần bơ còn lại.",
+      "Lau sạch chảo, thêm chút dầu, đập trứng vào chiên ốp la lửa vừa 2–3 phút đến khi lòng trắng đông, lòng đỏ còn mềm.",
+      "Bày tất cả lên đĩa đã hâm ấm và dùng ngay, thường kèm một tách trà pha sữa."
+    ],
+    "tags": [
+      "bữa sáng",
+      "xúc xích",
+      "trứng",
+      "no lâu"
+    ],
+    "image": {
+      "file": "full-english-breakfast.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Full_English_breakfast_(cropped).jpg",
+      "author": "Joadl",
+      "license": "CC BY-SA 3.0 AT"
+    },
+    "featured": true
+  },
+  {
+    "slug": "sunday-roast",
+    "name": "Bữa thịt nướng Chủ nhật kiểu Anh (Sunday Roast)",
+    "original_name": "Sunday roast",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 280000,
+    "price_max": 480000,
+    "calories_kcal": 940,
+    "serving_note": "1 đĩa gồm khoảng 150 g thịt cừu nướng, 200 g khoai tây nướng, củ cải vàng, 2 bánh phồng Yorkshire và nước sốt",
+    "nutrition": {
+      "protein_g": 50,
+      "carbs_g": 82,
+      "fat_g": 45
+    },
+    "description": "Đùi cừu nướng nguyên khối thái lát hồng mềm, bày cùng khoai tây nướng mỡ giòn rụm, củ cải vàng nướng ngọt bùi, bánh phồng Yorkshire và nước sốt gravy nâu sánh chan đẫm. Đây là bữa ăn sum họp cuối tuần của mọi gia đình và quán pub ở Anh.",
+    "origin": "Truyền thống được cho là có từ thế kỷ 15 và phổ biến rộng rãi vào thế kỷ 18–19, khi các gia đình Anh cho thịt vào lò trước khi đi lễ nhà thờ sáng Chủ nhật để về là có bữa trưa; thịt bò, cừu, heo hay gà đều được dùng tùy vùng và mùa.",
+    "cooking_style": "Nướng lò nguyên khối",
+    "prep_minutes": 30,
+    "cook_minutes": 110,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Đùi cừu còn xương (có thể thay bằng thăn lưng bò nguyên khối)",
+        "amount": "2 kg"
+      },
+      {
+        "name": "Tỏi",
+        "amount": "4 tép, thái lát dọc"
+      },
+      {
+        "name": "Hương thảo tươi",
+        "amount": "4 nhánh"
+      },
+      {
+        "name": "Dầu ô liu",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Khoai tây nhiều bột",
+        "amount": "1,2 kg, gọt vỏ, cắt miếng lớn"
+      },
+      {
+        "name": "Củ cải vàng (parsnip) hoặc cà rốt",
+        "amount": "4 củ, bổ dọc"
+      },
+      {
+        "name": "Mỡ bò, mỡ vịt hoặc dầu thực vật",
+        "amount": "5 thìa canh"
+      },
+      {
+        "name": "Bột mì",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Nước dùng cừu hoặc bò",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Rượu vang đỏ",
+        "amount": "100 ml, tùy thích"
+      },
+      {
+        "name": "Bánh phồng Yorkshire",
+        "amount": "12 chiếc (xem công thức riêng)"
+      },
+      {
+        "name": "Muối biển, tiêu đen xay",
+        "amount": "vừa ăn"
+      }
+    ],
+    "steps": [
+      "Để thịt ở nhiệt độ phòng 1 giờ. Làm nóng lò ở 220°C. Dùng mũi dao khía các lỗ nhỏ khắp miếng thịt, nhét lát tỏi và lá hương thảo vào, xoa dầu ô liu, muối và tiêu.",
+      "Đặt thịt lên khay, nướng 20 phút ở 220°C rồi hạ xuống 180°C nướng thêm 60–70 phút cho thịt chín hồng (tâm thịt khoảng 60°C); thích chín kỹ thì nướng thêm 15–20 phút.",
+      "Trong lúc đó, luộc khoai trong nước muối 8–10 phút, chắt ráo rồi lắc mạnh trong nồi cho mép khoai xù lên. Đun nóng mỡ trong khay riêng ở trong lò, cho khoai vào lăn đều và nướng 50–60 phút, trở 2 lần đến khi vàng giòn.",
+      "Cho củ cải vàng vào khay khoai trong 30–35 phút cuối, lăn đều với mỡ và rắc chút muối.",
+      "Lấy thịt ra, phủ giấy bạc và để nghỉ 20–30 phút. Tăng lò lên 220°C để khoai giòn hẳn và nướng bánh phồng Yorkshire.",
+      "Chắt bớt mỡ trong khay thịt, đặt khay lên bếp, rắc bột mì và đảo 1 phút. Rót rượu vang và nước dùng vào, cạo sạch phần cháy xém ở đáy khay, đun 5–8 phút cho sánh rồi lọc lấy nước sốt.",
+      "Thái thịt thành lát mỏng, bày cùng khoai nướng, củ cải vàng, bánh phồng Yorkshire và chan nước sốt nóng. Có thể ăn kèm rau luộc và sốt bạc hà."
+    ],
+    "tags": [
+      "thịt nướng",
+      "thịt cừu",
+      "bữa gia đình",
+      "món pub"
+    ],
+    "image": {
+      "file": "sunday-roast.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sunday_roast_lamb_Cock_Inn_Henham_Essex_England_01.jpg",
+      "author": "Acabashi",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "beef-wellington",
+    "name": "Bò Wellington (Beef Wellington)",
+    "original_name": "Beef Wellington",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 450000,
+    "price_max": 900000,
+    "calories_kcal": 720,
+    "serving_note": "1 lát dày khoảng 220 g",
+    "nutrition": {
+      "protein_g": 45,
+      "carbs_g": 30,
+      "fat_g": 46
+    },
+    "description": "Thăn nội bò nguyên khối chín hồng mọng nước, bọc trong lớp nấm băm xào thơm, thịt muối và vỏ bột ngàn lớp nướng vàng óng. Mỗi lát cắt lộ ra các lớp đều tăm tắp, là món chủ đạo sang trọng cho bàn tiệc.",
+    "origin": "Món tiệc kinh điển của nước Anh, thường được cho là mang tên Công tước Wellington – người thắng trận Waterloo năm 1815, dù công thức như ngày nay chỉ phổ biến rộng rãi từ thế kỷ 20.",
+    "cooking_style": "Áp chảo rồi bọc bột nướng lò",
+    "prep_minutes": 60,
+    "cook_minutes": 45,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Thăn nội bò (phần giữa, nguyên khối)",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Nấm mỡ nâu",
+        "amount": "500 g"
+      },
+      {
+        "name": "Thịt muối Parma (prosciutto)",
+        "amount": "12 lát mỏng"
+      },
+      {
+        "name": "Bột ngàn lớp làm sẵn (loại nhiều bơ)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Mù tạt Anh",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Lòng đỏ trứng gà",
+        "amount": "2 cái, đánh tan với 1 thìa cà phê nước"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "30 g"
+      },
+      {
+        "name": "Dầu ô liu",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Cỏ xạ hương tươi",
+        "amount": "4 nhánh, tuốt lấy lá"
+      },
+      {
+        "name": "Tỏi",
+        "amount": "2 tép, băm nhuyễn"
+      },
+      {
+        "name": "Muối biển, tiêu đen xay",
+        "amount": "vừa ăn"
+      },
+      {
+        "name": "Bột mì",
+        "amount": "một ít để rắc mặt bàn"
+      }
+    ],
+    "steps": [
+      "Thấm khô thịt, nêm muối tiêu đều các mặt. Đun thật nóng dầu ô liu trong chảo, áp chảo thịt khoảng 1 phút mỗi mặt cho xém vàng đều, lấy ra để nguội rồi phết mù tạt khắp miếng thịt.",
+      "Băm thật nhuyễn nấm (hoặc xay thô), xào với bơ, tỏi và lá cỏ xạ hương trên lửa vừa 10–12 phút đến khi nấm khô ráo, không còn tiết nước. Nêm muối tiêu và để nguội hoàn toàn.",
+      "Trải màng bọc thực phẩm, xếp các lát thịt muối gối nhẹ lên nhau thành hình chữ nhật, phết đều lớp nấm lên trên. Đặt thịt bò vào giữa, cuộn thật chặt thành khối trụ, xoắn hai đầu màng bọc và để tủ lạnh 30 phút.",
+      "Cán bột ngàn lớp trên mặt bàn rắc bột thành tấm dày khoảng 3 mm. Gỡ màng bọc, đặt cuộn thịt lên, phết lòng đỏ trứng quanh mép rồi gói kín, mối ghép nằm bên dưới. Phết lòng đỏ lên mặt bột và để lạnh thêm 20 phút.",
+      "Làm nóng lò ở 200°C. Phết thêm một lớp lòng đỏ, khía nhẹ hoa văn trên mặt bột, rắc muối biển rồi nướng 30–35 phút đến khi vỏ vàng nâu và tâm thịt đạt 50–52°C (chín tái hồng).",
+      "Lấy ra, để thịt nghỉ 10 phút rồi dùng dao răng cưa cắt thành lát dày. Dùng kèm sốt vang đỏ, khoai tây nghiền hoặc rau củ nướng."
+    ],
+    "tags": [
+      "thịt bò",
+      "món tiệc",
+      "nướng lò",
+      "sang trọng"
+    ],
+    "image": {
+      "file": "beef-wellington.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gordon_Ramsay_Pub_%26_Grill_-_Beef_Wellington.jpg",
+      "author": "Victor Solanoy",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "shepherds-pie",
+    "name": "Thịt cừu băm đút lò phủ khoai tây nghiền (Shepherd's Pie)",
+    "original_name": "Shepherd's pie",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 140000,
+    "price_max": 220000,
+    "calories_kcal": 690,
+    "serving_note": "1 phần khoảng 450 g",
+    "nutrition": {
+      "protein_g": 33,
+      "carbs_g": 56,
+      "fat_g": 37
+    },
+    "description": "Lớp thịt cừu băm hầm cùng cà rốt, hành tây và nước sốt đậm đà nằm dưới tầng khoai tây nghiền bơ sữa nướng vàng xém mặt. Xúc một thìa là có đủ vị béo bùi của khoai và vị ngọt thịt, rất hợp những ngày se lạnh.",
+    "origin": "Món ăn gia đình của vùng nông thôn Anh và Ireland từ cuối thế kỷ 18, ra đời để tận dụng thịt nướng còn thừa; dùng thịt cừu gọi là shepherd's pie, còn dùng thịt bò thì gọi là cottage pie.",
+    "cooking_style": "Hầm rồi đút lò",
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Thịt cừu băm (có thể thay bằng thịt bò băm)",
+        "amount": "600 g"
+      },
+      {
+        "name": "Khoai tây nhiều bột",
+        "amount": "900 g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1 củ lớn, băm nhỏ"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": "2 củ, thái hạt lựu"
+      },
+      {
+        "name": "Tỏi",
+        "amount": "2 tép, băm nhuyễn"
+      },
+      {
+        "name": "Cà chua cô đặc",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Sốt Worcestershire",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Nước dùng cừu hoặc bò",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Bột mì",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Lá cỏ xạ hương hoặc hương thảo",
+        "amount": "1 thìa cà phê, băm nhỏ"
+      },
+      {
+        "name": "Đậu Hà Lan",
+        "amount": "150 g"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "60 g"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "100 ml, hâm ấm"
+      },
+      {
+        "name": "Dầu ăn, muối, tiêu đen xay",
+        "amount": "1 thìa canh dầu, muối tiêu vừa ăn"
+      }
+    ],
+    "steps": [
+      "Đun nóng dầu trong chảo sâu lòng, cho thịt băm vào xào lửa lớn 6–8 phút đến khi săn và ngả nâu, chắt bớt mỡ thừa rồi múc thịt ra.",
+      "Dùng chảo đó xào hành tây và cà rốt 8 phút cho mềm, thêm tỏi và lá thơm đảo 1 phút. Cho thịt trở lại, rắc bột mì và đảo đều.",
+      "Thêm cà chua cô đặc, sốt Worcestershire và nước dùng, đun sôi rồi hạ lửa liu riu 20–25 phút đến khi sốt sánh lại. Cho đậu Hà Lan vào, nêm muối tiêu.",
+      "Trong lúc đó, luộc khoai đã gọt vỏ cắt khúc 15–20 phút cho mềm, chắt ráo rồi nghiền mịn với bơ và sữa ấm, nêm muối.",
+      "Làm nóng lò ở 200°C. Trải thịt vào khay nướng, phủ khoai nghiền lên trên, dùng nĩa cào thành các đường gợn để mặt khoai dễ giòn.",
+      "Nướng 25–30 phút đến khi mặt vàng nâu và sốt sôi lăn tăn quanh mép khay. Để nghỉ 5 phút rồi xúc ra đĩa, ăn kèm đậu Hà Lan hoặc rau luộc."
+    ],
+    "tags": [
+      "thịt cừu",
+      "khoai tây nghiền",
+      "đút lò",
+      "món gia đình"
+    ],
+    "image": {
+      "file": "shepherds-pie.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shepherds_pie_-_The_Kew_Greenhouse_Cafe_2025-05-14.jpg",
+      "author": "Andy Li",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "bangers-and-mash",
+    "name": "Xúc xích & khoai tây nghiền sốt hành (Bangers and Mash)",
+    "original_name": "Bangers and mash",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 130000,
+    "price_max": 210000,
+    "calories_kcal": 860,
+    "serving_note": "1 phần gồm 2 cây xúc xích, khoảng 250 g khoai tây nghiền, đậu Hà Lan và sốt hành",
+    "nutrition": {
+      "protein_g": 30,
+      "carbs_g": 68,
+      "fat_g": 52
+    },
+    "description": "Xúc xích heo nướng căng bóng đặt trên khoai tây nghiền bơ sữa mịn mượt, chan đẫm nước sốt hành tây nâu sánh. Món ăn quán rượu giản dị, ấm bụng và rất dễ chiều lòng cả người lớn lẫn trẻ nhỏ.",
+    "origin": "Món ăn bình dân của các quán pub Anh; tên “bangers” có từ thời Thế chiến thứ nhất, khi xúc xích độn nhiều nước thường nổ lép bép trên chảo.",
+    "cooking_style": "Áp chảo, nghiền và nấu sốt",
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Xúc xích heo tươi",
+        "amount": "8 cây (khoảng 600 g)"
+      },
+      {
+        "name": "Khoai tây nhiều bột",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "70 g"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "120 ml, hâm ấm"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "2 củ lớn, thái lát mỏng"
+      },
+      {
+        "name": "Bột mì",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Nước dùng bò",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Sốt Worcestershire",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Đậu Hà Lan",
+        "amount": "200 g"
+      },
+      {
+        "name": "Muối, tiêu đen xay",
+        "amount": "vừa ăn"
+      }
+    ],
+    "steps": [
+      "Gọt khoai, cắt khúc đều, luộc trong nước có muối 15–20 phút đến khi mềm nhừ, chắt thật ráo.",
+      "Trong lúc luộc khoai, áp chảo xúc xích với dầu trên lửa vừa nhỏ 15–18 phút, trở thường xuyên cho chín đều và vàng nâu. Lấy ra giữ ấm.",
+      "Cho 20 g bơ và hành tây vào chính chảo đó, xào lửa nhỏ 12–15 phút đến khi hành mềm và ngả màu caramel.",
+      "Rắc bột mì vào hành, đảo 1 phút rồi rót nước dùng từ từ, khuấy đều tay. Thêm sốt Worcestershire, đun liu riu 5–8 phút cho sốt sánh, nêm muối tiêu.",
+      "Nghiền khoai còn nóng với phần bơ còn lại và sữa ấm đến khi mịn mượt, nêm muối. Luộc đậu Hà Lan 2–3 phút rồi để ráo.",
+      "Múc khoai nghiền ra đĩa, đặt xúc xích lên trên, chan sốt hành và ăn kèm đậu Hà Lan."
+    ],
+    "tags": [
+      "xúc xích",
+      "khoai tây nghiền",
+      "món pub",
+      "dễ ăn"
+    ],
+    "image": {
+      "file": "bangers-and-mash.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sausage_and_mash_with_peas.jpg",
+      "author": "anokarina",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "chicken-tikka-masala",
+    "name": "Cà ri gà Tikka Masala kiểu Anh (Chicken Tikka Masala)",
+    "original_name": "Chicken tikka masala",
+    "cuisine": "uk",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 150000,
+    "price_max": 240000,
+    "calories_kcal": 780,
+    "serving_note": "1 phần cà ri (khoảng 300 g) ăn cùng 150 g cơm basmati",
+    "nutrition": {
+      "protein_g": 43,
+      "carbs_g": 60,
+      "fat_g": 41
+    },
+    "description": "Gà ướp sữa chua và gia vị nướng xém cạnh, ninh trong nước sốt cà chua kem béo ngậy màu cam rực, thơm mùi garam masala. Vị cay dịu, hơi ngọt, cực kỳ đưa cơm và hợp chấm cùng bánh naan.",
+    "origin": "Món Anh – Ấn cách tân ra đời trong các nhà hàng cà ri ở Anh khoảng thập niên 1960–1970 (Glasgow thường được nhắc đến), khi gà nướng tikka được thêm sốt cà chua kem cho hợp khẩu vị người bản xứ; từng được gọi là “món quốc dân thực thụ” của nước Anh.",
+    "cooking_style": "Ướp nướng rồi hầm sốt",
+    "prep_minutes": 25,
+    "cook_minutes": 35,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Thịt đùi gà rút xương, bỏ da",
+        "amount": "700 g, cắt miếng vừa ăn"
+      },
+      {
+        "name": "Sữa chua không đường",
+        "amount": "150 g"
+      },
+      {
+        "name": "Gừng và tỏi băm nhuyễn",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Bột garam masala",
+        "amount": "2 thìa cà phê"
+      },
+      {
+        "name": "Bột ớt paprika (hoặc ớt Kashmir)",
+        "amount": "2 thìa cà phê"
+      },
+      {
+        "name": "Bột thì là Ai Cập (cumin) và bột nghệ",
+        "amount": "1 thìa cà phê cumin, 1/2 thìa cà phê nghệ"
+      },
+      {
+        "name": "Nước cốt chanh",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1 củ lớn, băm nhỏ"
+      },
+      {
+        "name": "Cà chua xay (passata)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Cà chua cô đặc",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Kem béo (double cream)",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Bơ lạt và dầu ăn",
+        "amount": "30 g bơ, 2 thìa canh dầu"
+      },
+      {
+        "name": "Muối, đường",
+        "amount": "1,5 thìa cà phê muối, 1 thìa cà phê đường"
+      },
+      {
+        "name": "Rau mùi và cơm basmati hoặc bánh naan",
+        "amount": "để ăn kèm"
+      }
+    ],
+    "steps": [
+      "Trộn gà với sữa chua, nước cốt chanh, một nửa gừng tỏi, một nửa garam masala, một nửa paprika, bột nghệ và 1 thìa cà phê muối. Ướp ít nhất 1 giờ, tốt nhất để qua đêm trong tủ lạnh.",
+      "Xiên gà hoặc trải lên khay, nướng ở chế độ nướng mặt trên thật nóng (hoặc áp chảo gang) 8–10 phút, trở một lần, đến khi xém cạnh nhưng chưa cần chín hẳn.",
+      "Đun chảy bơ với dầu, phi hành tây 8 phút cho vàng nhẹ, thêm phần gừng tỏi còn lại xào 1 phút cho dậy mùi.",
+      "Cho phần garam masala, paprika còn lại và cumin vào đảo 30 giây, tiếp đến cà chua cô đặc và cà chua xay. Đun liu riu 10 phút cho sốt sánh lại, nêm đường và muối.",
+      "Cho gà nướng cùng nước tiết ra vào nồi, rót kem béo, khuấy đều và ninh nhỏ lửa thêm 8–10 phút đến khi gà chín mềm, sốt sánh mượt màu cam.",
+      "Rắc rau mùi thái nhỏ, dùng nóng với cơm basmati hoặc bánh naan."
+    ],
+    "tags": [
+      "cà ri",
+      "gà",
+      "Anh - Ấn",
+      "sốt kem"
+    ],
+    "image": {
+      "file": "chicken-tikka-masala.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chicken_tikka_masala_(cropped).jpg",
+      "author": "Michael Hays",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "coronation-chicken-sandwich",
+    "name": "Bánh mì kẹp gà sốt cà ri kem (Coronation Chicken Sandwich)",
+    "original_name": "Coronation chicken sandwich",
+    "cuisine": "uk",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 85000,
+    "price_max": 140000,
+    "calories_kcal": 580,
+    "serving_note": "1 phần gồm 2 lát bánh mì kẹp khoảng 150 g gà trộn sốt, kèm ít salad",
+    "nutrition": {
+      "protein_g": 37,
+      "carbs_g": 52,
+      "fat_g": 23
+    },
+    "description": "Thịt gà luộc xé miếng trộn sốt mayonnaise cà ri vàng óng, điểm nho khô ngọt dịu và hạnh nhân bùi, kẹp giữa hai lát bánh mì trắng mềm. Vị béo, thơm cà ri nhẹ và hơi chua ngọt rất hợp cho bữa trưa nhanh hoặc tiệc trà.",
+    "origin": "Món gà nguội sốt cà ri kem do Rosemary Hume và Constance Spry của trường Le Cordon Bleu London sáng tạo cho đại tiệc đăng quang của Nữ hoàng Elizabeth II năm 1953; về sau trở thành nhân bánh mì kẹp quen thuộc khắp nước Anh.",
+    "cooking_style": "Luộc, trộn sốt lạnh",
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "servings": 5,
+    "ingredients": [
+      {
+        "name": "Ức gà phi lê",
+        "amount": "600 g"
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": "100 g"
+      },
+      {
+        "name": "Sữa chua Hy Lạp không đường",
+        "amount": "100 g"
+      },
+      {
+        "name": "Bột cà ri vị dịu",
+        "amount": "1,5 thìa canh"
+      },
+      {
+        "name": "Mứt xoài chua ngọt (mango chutney)",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Nho khô vàng",
+        "amount": "40 g"
+      },
+      {
+        "name": "Hạnh nhân lát rang vàng",
+        "amount": "20 g"
+      },
+      {
+        "name": "Nước cốt chanh",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Rau mùi",
+        "amount": "1 thìa canh, thái nhỏ"
+      },
+      {
+        "name": "Lá nguyệt quế",
+        "amount": "1 lá"
+      },
+      {
+        "name": "Bánh mì sandwich trắng",
+        "amount": "10 lát"
+      },
+      {
+        "name": "Xà lách, dưa leo, cà chua",
+        "amount": "ăn kèm"
+      },
+      {
+        "name": "Muối, tiêu đen xay",
+        "amount": "vừa ăn"
+      }
+    ],
+    "steps": [
+      "Cho ức gà vào nồi nước sôi lăn tăn cùng lá nguyệt quế và chút muối, luộc 12–15 phút rồi tắt bếp, ngâm thêm 10 phút cho gà chín mềm mà không khô. Vớt ra để nguội hẳn, xé hoặc cắt miếng vừa ăn.",
+      "Rang bột cà ri trên chảo khô ở lửa nhỏ khoảng 30 giây cho dậy mùi rồi để nguội.",
+      "Trộn đều mayonnaise, sữa chua, bột cà ri, mứt xoài và nước cốt chanh thành sốt mịn màu vàng, nêm muối tiêu.",
+      "Cho thịt gà, nho khô, hạnh nhân và rau mùi vào trộn đều với sốt. Để tủ lạnh ít nhất 30 phút cho ngấm.",
+      "Chia nhân lên 5 lát bánh mì, úp 5 lát còn lại lên trên, cắt chéo thành hình tam giác và bày cùng salad."
+    ],
+    "tags": [
+      "bánh mì kẹp",
+      "gà",
+      "sốt cà ri",
+      "trà chiều"
+    ],
+    "image": {
+      "file": "coronation-chicken-sandwich.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Coronation_Chicken_Sandwich_-_That_Little_Tea_Shop_2024-01-11.jpg",
+      "author": "Andy Li",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "cullen-skink",
+    "name": "Súp cá hun khói Scotland (Cullen Skink)",
+    "original_name": "Cullen skink",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "khac",
+    "price_min": 110000,
+    "price_max": 180000,
+    "calories_kcal": 440,
+    "serving_note": "1 bát khoảng 400 ml, chưa tính bánh mì ăn kèm",
+    "nutrition": {
+      "protein_g": 36,
+      "carbs_g": 31,
+      "fat_g": 19
+    },
+    "description": "Bát súp sữa sánh mịn với cá tuyết hun khói gỡ miếng lớn, khoai tây mềm bở và tỏi tây ngọt dịu, thoảng mùi khói đặc trưng. Ăn nóng cùng bánh mì giòn là đủ ấm bụng trong ngày mưa lạnh.",
+    "origin": "Đặc sản của thị trấn chài Cullen thuộc vùng Moray, bờ biển đông bắc Scotland, nấu từ cá haddock hun khói của địa phương và nay là món khai vị phổ biến khắp Scotland.",
+    "cooking_style": "Nấu súp sữa",
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Cá haddock hun khói (có thể thay bằng cá tuyết hun khói)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Sữa tươi nguyên kem",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Nước lọc",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Khoai tây",
+        "amount": "500 g, thái hạt lựu 1,5 cm"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1 củ, băm nhỏ"
+      },
+      {
+        "name": "Tỏi tây (boa rô)",
+        "amount": "1 cây, thái khoanh mỏng phần trắng"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "30 g"
+      },
+      {
+        "name": "Lá nguyệt quế",
+        "amount": "1 lá"
+      },
+      {
+        "name": "Kem béo (double cream)",
+        "amount": "4 thìa canh, tùy thích"
+      },
+      {
+        "name": "Hẹ tây hoặc mùi tây",
+        "amount": "1 thìa canh, thái nhỏ"
+      },
+      {
+        "name": "Muối, tiêu trắng xay",
+        "amount": "vừa ăn"
+      }
+    ],
+    "steps": [
+      "Cho cá, sữa và lá nguyệt quế vào nồi, đun lửa nhỏ đến khi sữa vừa chớm sôi thì tắt bếp, đậy vung ngâm 5 phút cho cá chín. Vớt cá ra, giữ lại phần sữa đã lọc.",
+      "Đun chảy bơ trong nồi khác, cho hành tây và tỏi tây vào xào lửa nhỏ 6–8 phút đến khi mềm trong nhưng không vàng.",
+      "Thêm khoai tây và nước lọc, đun sôi rồi hạ lửa liu riu 12–15 phút đến khi khoai chín mềm.",
+      "Dùng thìa dằm nát khoảng một phần ba số khoai ngay trong nồi để súp sánh tự nhiên, rồi rót phần sữa ngâm cá vào.",
+      "Gỡ cá thành miếng lớn, bỏ da và xương, cho vào nồi cùng kem béo. Hâm nóng nhẹ 3–4 phút, không để sôi bùng; nêm tiêu và nếm lại muối vì cá hun khói đã mặn sẵn.",
+      "Múc ra bát, rắc hẹ tây và ăn nóng với bánh mì nướng giòn phết bơ."
+    ],
+    "tags": [
+      "súp",
+      "cá hun khói",
+      "Scotland",
+      "ấm bụng"
+    ],
+    "image": {
+      "file": "cullen-skink.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cullen_Skink.JPG",
+      "author": "Metukkalihis",
+      "license": "CC BY-SA 3.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "welsh-cawl",
+    "name": "Súp thịt cừu hầm rau củ xứ Wales (Cawl)",
+    "original_name": "Cawl",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "khac",
+    "price_min": 90000,
+    "price_max": 150000,
+    "calories_kcal": 400,
+    "serving_note": "1 bát lớn khoảng 450 ml, chưa tính bánh mì và phô mai ăn kèm",
+    "nutrition": {
+      "protein_g": 31,
+      "carbs_g": 34,
+      "fat_g": 15
+    },
+    "description": "Nồi súp trong, ngọt thanh với thịt cừu hầm mềm rục, khoai tây, cà rốt, củ cải và thật nhiều tỏi tây – loại rau biểu tượng của xứ Wales. Món ăn mộc mạc, nhiều nước, thường dùng nóng cùng bánh mì và một miếng phô mai Caerphilly.",
+    "origin": "Được xem là quốc thực của xứ Wales, có từ thế kỷ 14; xưa kia nồi cawl được ninh liu riu cả ngày trên bếp lửa của các gia đình nông dân và thường ăn trong dịp lễ Thánh David (1/3).",
+    "cooking_style": "Hầm, ninh nhỏ lửa",
+    "prep_minutes": 25,
+    "cook_minutes": 140,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Thịt cổ hoặc vai cừu còn xương (có thể thay bằng nạm bò)",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Nước lọc",
+        "amount": "2 lít"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "2 củ, thái múi"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": "3 củ, cắt khúc"
+      },
+      {
+        "name": "Củ cải Thụy Điển (swede) hoặc su hào",
+        "amount": "300 g, cắt miếng vuông"
+      },
+      {
+        "name": "Khoai tây",
+        "amount": "600 g, cắt miếng lớn"
+      },
+      {
+        "name": "Tỏi tây (boa rô)",
+        "amount": "3 cây, thái khoanh dày"
+      },
+      {
+        "name": "Lá nguyệt quế",
+        "amount": "2 lá"
+      },
+      {
+        "name": "Cỏ xạ hương",
+        "amount": "3 nhánh"
+      },
+      {
+        "name": "Mùi tây",
+        "amount": "1 nắm nhỏ, thái nhỏ"
+      },
+      {
+        "name": "Muối, tiêu đen xay",
+        "amount": "vừa ăn"
+      },
+      {
+        "name": "Bánh mì và phô mai Caerphilly hoặc cheddar",
+        "amount": "để ăn kèm"
+      }
+    ],
+    "steps": [
+      "Cho thịt cừu, hành tây, lá nguyệt quế và cỏ xạ hương vào nồi lớn, đổ nước, đun sôi rồi hớt sạch bọt. Hạ lửa nhỏ, đậy hé vung và ninh khoảng 1 giờ 30 phút đến khi thịt mềm.",
+      "Vớt thịt ra, gỡ bỏ xương, xé hoặc cắt thịt thành miếng vừa ăn. Hớt bớt lớp mỡ nổi trên mặt nước dùng.",
+      "Cho cà rốt và củ cải vào nồi nước dùng, ninh 15 phút, rồi thêm khoai tây và ninh tiếp 15 phút nữa.",
+      "Cho thịt trở lại nồi cùng phần lớn tỏi tây, đun thêm 10 phút đến khi tất cả rau củ chín mềm. Nêm muối và tiêu cho vừa miệng.",
+      "Rắc phần tỏi tây còn lại và mùi tây vào ngay trước khi tắt bếp để giữ màu xanh và vị tươi.",
+      "Múc ra bát sâu lòng, ăn nóng với bánh mì và phô mai. Súp để qua đêm rồi hâm lại sẽ còn đậm đà hơn."
+    ],
+    "tags": [
+      "súp",
+      "thịt cừu",
+      "rau củ",
+      "xứ Wales"
+    ],
+    "image": {
+      "file": "welsh-cawl.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cawl_in_bowl.jpg",
+      "author": "Serenpop",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "yorkshire-pudding",
+    "name": "Bánh phồng Yorkshire (Yorkshire Pudding)",
+    "original_name": "Yorkshire pudding",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 20000,
+    "price_max": 35000,
+    "calories_kcal": 190,
+    "serving_note": "2 chiếc bánh (khoảng 80 g), chưa tính nước sốt",
+    "nutrition": {
+      "protein_g": 7,
+      "carbs_g": 19,
+      "fat_g": 9.5
+    },
+    "description": "Những chiếc bánh làm từ bột trứng sữa, gặp mỡ thật nóng liền phồng cao thành chiếc chén vàng nâu, viền giòn tan mà lòng mềm xốp. Đây là món ăn kèm không thể thiếu để hứng nước sốt thịt trong bữa thịt nướng Chủ nhật.",
+    "origin": "Xuất xứ từ vùng Yorkshire ở miền Bắc nước Anh; công thức được ghi lại từ năm 1737 và mang tên Yorkshire pudding trong sách nấu ăn của Hannah Glasse năm 1747.",
+    "cooking_style": "Nướng lò nhiệt độ cao",
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "140 g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "4 quả"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 thìa cà phê"
+      },
+      {
+        "name": "Tiêu đen xay",
+        "amount": "1 nhúm"
+      },
+      {
+        "name": "Mỡ bò hoặc dầu thực vật chịu nhiệt",
+        "amount": "12 thìa cà phê (mỗi khuôn 1 thìa)"
+      },
+      {
+        "name": "Nước sốt thịt (gravy)",
+        "amount": "200 ml, để ăn kèm"
+      }
+    ],
+    "steps": [
+      "Đánh tan trứng với bột mì đến khi mịn, rót sữa vào từ từ và khuấy thành hỗn hợp lỏng không vón cục. Nêm muối tiêu, để bột nghỉ ít nhất 30 phút ở nhiệt độ phòng.",
+      "Làm nóng lò ở 220°C. Cho 1 thìa cà phê mỡ vào mỗi lỗ của khuôn muffin 12 lỗ, đặt khuôn vào lò 10 phút đến khi mỡ thật nóng và bốc khói nhẹ.",
+      "Lấy khuôn ra thật nhanh, rót bột vào từng lỗ đến khoảng nửa khuôn; bột phải xèo lên ngay khi chạm mỡ.",
+      "Đưa khuôn trở lại lò, nướng 20–25 phút đến khi bánh phồng cao và vàng nâu. Tuyệt đối không mở cửa lò trong 15 phút đầu kẻo bánh xẹp.",
+      "Dùng ngay khi còn nóng giòn, chan nước sốt thịt và ăn kèm thịt nướng."
+    ],
+    "tags": [
+      "món ăn kèm",
+      "bánh nướng",
+      "Yorkshire",
+      "sốt thịt"
+    ],
+    "image": {
+      "file": "yorkshire-pudding.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Traditional_Yorkshire_Pudding.jpg",
+      "author": "IReallyLikeYorhshirePuddding",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "bubble-and-squeak",
+    "name": "Khoai tây & bắp cải áp chảo (Bubble and Squeak)",
+    "original_name": "Bubble and squeak",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "breakfast",
+      "lunch"
+    ],
+    "soup_type": "kho",
+    "price_min": 40000,
+    "price_max": 70000,
+    "calories_kcal": 230,
+    "serving_note": "1 bánh khoảng 200 g, chưa tính trứng chần và thịt xông khói ăn kèm",
+    "nutrition": {
+      "protein_g": 4,
+      "carbs_g": 30,
+      "fat_g": 10.5
+    },
+    "description": "Khoai tây nghiền trộn bắp cải và rau củ luộc, ép thành bánh rồi áp chảo với bơ đến khi mặt ngoài xém vàng giòn, bên trong vẫn mềm bùi. Người Anh thường ăn kèm trứng chần, thịt xông khói hoặc dùng làm món phụ cho bữa sáng.",
+    "origin": "Món tận dụng rau củ còn thừa sau bữa thịt nướng Chủ nhật, được ghi chép ở Anh từ đầu thế kỷ 19; tên gọi mô phỏng tiếng sủi lép bép và rít nhẹ của rau khi áp chảo.",
+    "cooking_style": "Áp chảo",
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Khoai tây luộc chín hoặc khoai nghiền còn thừa",
+        "amount": "500 g"
+      },
+      {
+        "name": "Bắp cải hoặc cải bắp tí hon (Brussels sprouts) luộc chín",
+        "amount": "300 g, thái nhỏ"
+      },
+      {
+        "name": "Cà rốt luộc chín",
+        "amount": "1 củ nhỏ, thái hạt lựu"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1 củ nhỏ, băm nhỏ"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "30 g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Muối, tiêu đen xay",
+        "amount": "vừa ăn"
+      },
+      {
+        "name": "Trứng gà (để chần, ăn kèm)",
+        "amount": "4 quả, tùy thích"
+      },
+      {
+        "name": "Thịt xông khói thái hạt lựu (ăn kèm)",
+        "amount": "80 g, tùy thích"
+      }
+    ],
+    "steps": [
+      "Nghiền thô khoai tây trong tô lớn, để lại một ít miếng lợn cợn cho bánh có độ bùi.",
+      "Phi hành tây với một nửa bơ trong chảo 5 phút cho mềm và thơm, trút vào tô khoai cùng bắp cải và cà rốt. Nêm muối tiêu, trộn đều rồi nặn thành 4 bánh tròn dày khoảng 2,5 cm.",
+      "Đun nóng dầu và phần bơ còn lại trong chảo trên lửa vừa, đặt bánh vào, ấn nhẹ và áp chảo 5–6 phút không xê dịch để mặt dưới xém vàng giòn.",
+      "Lật bánh cẩn thận, áp chảo thêm 5–6 phút cho mặt còn lại vàng đều.",
+      "Nếu ăn kèm: rang thịt xông khói cho giòn và chần trứng trong nước sôi lăn tăn có chút giấm khoảng 3 phút. Đặt trứng lên bánh, rắc thịt xông khói và dùng nóng."
+    ],
+    "tags": [
+      "khoai tây",
+      "bắp cải",
+      "bữa sáng",
+      "món ăn kèm"
+    ],
+    "image": {
+      "file": "bubble-and-squeak.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bubble_and_squeak_with_poached_egg.jpg",
+      "author": "WordRidden",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "cornish-pasty",
+    "name": "Bánh nướng nhân thịt bò xứ Cornwall (Cornish Pasty)",
+    "original_name": "Cornish pasty",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "fast_food",
+    "meals": [
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 70000,
+    "price_max": 120000,
+    "calories_kcal": 820,
+    "serving_note": "1 chiếc bánh khoảng 320 g",
+    "nutrition": {
+      "protein_g": 27,
+      "carbs_g": 78,
+      "fat_g": 44
+    },
+    "description": "Chiếc bánh hình bán nguyệt với đường viền bện thừng đặc trưng, vỏ bột bơ chắc tay ôm lấy nhân thịt bò, khoai tây, củ cải và hành tây chín mềm trong chính nước ngọt của mình. Gọn gàng, cầm tay ăn được ngay, no như một bữa trưa trọn vẹn.",
+    "origin": "Đặc sản vùng Cornwall ở tây nam nước Anh, từng là bữa trưa mang xuống hầm của thợ mỏ thiếc thế kỷ 18–19; từ năm 2011 tên gọi Cornish pasty được bảo hộ chỉ dẫn địa lý.",
+    "cooking_style": "Nướng lò",
+    "prep_minutes": 40,
+    "cook_minutes": 50,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Bột mì làm bánh mì (bột số 13)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Bơ lạt lạnh",
+        "amount": "110 g, cắt hạt lựu"
+      },
+      {
+        "name": "Mỡ heo hoặc shortening lạnh",
+        "amount": "110 g"
+      },
+      {
+        "name": "Nước lạnh",
+        "amount": "175 ml"
+      },
+      {
+        "name": "Thịt bò (phần nạm hoặc thăn bụng)",
+        "amount": "450 g, thái hạt lựu nhỏ"
+      },
+      {
+        "name": "Khoai tây",
+        "amount": "400 g, thái lát mỏng nhỏ"
+      },
+      {
+        "name": "Củ cải Thụy Điển (swede) hoặc su hào",
+        "amount": "200 g, thái hạt lựu"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "200 g, băm nhỏ"
+      },
+      {
+        "name": "Muối",
+        "amount": "2 thìa cà phê (1 cho bột, 1 cho nhân)"
+      },
+      {
+        "name": "Tiêu đen xay",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả, đánh tan để phết mặt"
+      }
+    ],
+    "steps": [
+      "Trộn bột với 1 thìa cà phê muối, bóp bơ và mỡ lạnh vào bột đến khi tơi như vụn bánh mì. Thêm nước lạnh, nhào 3–4 phút thành khối dẻo mịn, bọc kín và để tủ lạnh 1 giờ.",
+      "Trộn thịt bò, khoai tây, củ cải và hành tây còn sống trong tô lớn, nêm muối và thật nhiều tiêu.",
+      "Chia bột làm 6 phần, cán mỗi phần thành hình tròn đường kính khoảng 20 cm, dày chừng 3 mm.",
+      "Xếp nhân lên một nửa miếng bột, chừa mép 2 cm. Phết nước quanh mép, gập đôi lại, ấn chặt rồi bẻ gấp mép thành đường viền bện thừng dọc theo cạnh bánh.",
+      "Đặt bánh lên khay lót giấy nến, phết trứng, chọc một lỗ nhỏ trên mặt cho thoát hơi.",
+      "Nướng ở 200°C trong 20 phút, hạ xuống 160°C nướng thêm 30 phút đến khi vỏ vàng nâu và nhân chín mềm. Để nguội bớt 10 phút trước khi ăn."
+    ],
+    "tags": [
+      "bánh nướng",
+      "thịt bò",
+      "cầm tay",
+      "Cornwall"
+    ],
+    "image": {
+      "file": "cornish-pasty.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cornish_Pasty_(cropped).jpeg",
+      "author": "David Johnson",
+      "license": "CC BY-SA 3.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "scotch-egg",
+    "name": "Trứng bọc thịt chiên xù (Scotch Egg)",
+    "original_name": "Scotch egg",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "snack",
+    "meals": [
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 45000,
+    "price_max": 80000,
+    "calories_kcal": 480,
+    "serving_note": "1 quả khoảng 180 g",
+    "nutrition": {
+      "protein_g": 24,
+      "carbs_g": 20,
+      "fat_g": 34
+    },
+    "description": "Quả trứng luộc nằm gọn trong lớp thịt xúc xích nêm thảo mộc, lăn vụn bánh mì rồi chiên vàng giòn. Bổ đôi ra thấy lòng đỏ vàng tươi giữa lớp thịt thơm, ăn nóng hay nguội đều ngon, rất hợp mang đi dã ngoại.",
+    "origin": "Món ăn dã ngoại và quán pub quen thuộc của nước Anh; cửa hàng Fortnum & Mason ở London cho rằng họ đã sáng tạo ra món này năm 1738 cho khách đi đường xa.",
+    "cooking_style": "Chiên ngập dầu",
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Trứng gà",
+        "amount": "6 quả (4 quả để luộc, 2 quả để nhúng)"
+      },
+      {
+        "name": "Thịt xúc xích heo tươi (bỏ vỏ) hoặc thịt heo xay nêm sẵn",
+        "amount": "400 g"
+      },
+      {
+        "name": "Mù tạt Anh",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Lá xô thơm hoặc cỏ xạ hương băm",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Mùi tây băm",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Bột nhục đậu khấu",
+        "amount": "1 nhúm"
+      },
+      {
+        "name": "Bột mì",
+        "amount": "60 g"
+      },
+      {
+        "name": "Vụn bánh mì panko",
+        "amount": "120 g"
+      },
+      {
+        "name": "Muối, tiêu đen xay",
+        "amount": "vừa ăn"
+      },
+      {
+        "name": "Dầu thực vật để chiên",
+        "amount": "1 lít"
+      }
+    ],
+    "steps": [
+      "Thả 4 quả trứng vào nước sôi, luộc đúng 6 phút cho lòng đỏ còn hơi dẻo (8 phút nếu thích chín hẳn), ngâm ngay vào nước đá rồi bóc vỏ nhẹ tay.",
+      "Trộn thịt xúc xích với mù tạt, lá thơm, mùi tây, nhục đậu khấu, chút muối tiêu rồi chia làm 4 phần bằng nhau.",
+      "Ép dẹt từng phần thịt trên lòng bàn tay ướt, lăn trứng luộc qua bột mì rồi đặt vào giữa, bọc thịt kín đều quanh quả trứng, vê tròn cho không còn kẽ hở.",
+      "Lăn lần lượt qua bột mì, trứng đánh tan và vụn bánh mì; có thể nhúng trứng và vụn bánh mì thêm lần nữa để vỏ giòn hơn.",
+      "Đun dầu đến 170°C, chiên mỗi mẻ 2 quả trong 7–8 phút, trở đều tay đến khi vàng nâu và thịt chín hẳn.",
+      "Vớt ra để ráo trên giấy thấm, để nghỉ vài phút rồi bổ đôi. Ăn kèm mù tạt, dưa chua hoặc cà chua bi."
+    ],
+    "tags": [
+      "trứng",
+      "chiên giòn",
+      "ăn vặt",
+      "dã ngoại"
+    ],
+    "image": {
+      "file": "scotch-egg.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:One_scotch_egg_(No_jar_of_Marmite).jpg",
+      "author": "Unhindered by Talent",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "sausage-roll",
+    "name": "Bánh ngàn lớp cuộn xúc xích (Sausage Roll)",
+    "original_name": "Sausage roll",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "snack",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 35000,
+    "price_max": 65000,
+    "calories_kcal": 400,
+    "serving_note": "1 chiếc khoảng 110 g",
+    "nutrition": {
+      "protein_g": 12,
+      "carbs_g": 24,
+      "fat_g": 28
+    },
+    "description": "Nhân thịt xúc xích heo nêm hành và thảo mộc cuộn trong lớp bột ngàn lớp bơ, nướng phồng vàng, giòn rụm từng tầng. Món bánh mặn bán khắp các tiệm bánh ở Anh, ăn nóng lúc sáng sớm hay làm bữa xế đều hợp.",
+    "origin": "Phổ biến ở London từ đầu thế kỷ 19, chịu ảnh hưởng kỹ thuật bọc thịt trong bột của Pháp; ngày nay là món bán chạy bậc nhất của các chuỗi tiệm bánh Anh.",
+    "cooking_style": "Nướng lò",
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "Thịt xúc xích heo tươi (bỏ vỏ)",
+        "amount": "450 g"
+      },
+      {
+        "name": "Bột ngàn lớp làm sẵn",
+        "amount": "1 tấm (khoảng 375 g)"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1 củ nhỏ, băm thật nhuyễn"
+      },
+      {
+        "name": "Vụn bánh mì",
+        "amount": "30 g"
+      },
+      {
+        "name": "Lá xô thơm hoặc cỏ xạ hương băm",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Mù tạt Anh hoặc Dijon",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả, đánh tan"
+      },
+      {
+        "name": "Muối, tiêu đen xay",
+        "amount": "1/2 thìa cà phê mỗi loại"
+      },
+      {
+        "name": "Mè hoặc hạt thì là đen",
+        "amount": "1 thìa cà phê, tùy thích"
+      }
+    ],
+    "steps": [
+      "Làm nóng lò ở 200°C và lót giấy nến lên khay. Trộn đều thịt xúc xích với hành tây, vụn bánh mì, lá thơm, mù tạt, muối và tiêu.",
+      "Trải tấm bột ngàn lớp còn lạnh, cắt đôi theo chiều dài thành 2 dải.",
+      "Nặn nhân thành 2 thanh dài, đặt dọc giữa mỗi dải bột. Phết trứng lên một mép, cuộn bột ôm kín nhân và ấn nhẹ, để mối ghép nằm bên dưới.",
+      "Cắt mỗi cuộn thành 4 khúc, xếp lên khay cách nhau 3 cm. Phết trứng lên mặt, khía vài đường chéo và rắc mè.",
+      "Nướng 22–25 phút đến khi bột phồng, vàng nâu và nhân chín hẳn. Để nguội 5 phút trên vỉ rồi dùng, chấm kèm tương cà hoặc sốt nâu."
+    ],
+    "tags": [
+      "bánh mặn",
+      "xúc xích",
+      "ngàn lớp",
+      "ăn vặt"
+    ],
+    "image": {
+      "file": "sausage-roll.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sausage_Roll_-_Sea_Lane_Cafe_2026-10-19.jpg",
+      "author": "Andy Li",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "scones",
+    "name": "Bánh scone ăn kèm kem đông & mứt dâu (Cream Tea Scones)",
+    "original_name": "Scones with clotted cream and jam",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "dessert",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 45000,
+    "price_max": 90000,
+    "calories_kcal": 470,
+    "serving_note": "1 chiếc bánh (khoảng 80 g) kèm 25 g kem đông và 20 g mứt dâu",
+    "nutrition": {
+      "protein_g": 6,
+      "carbs_g": 53,
+      "fat_g": 26
+    },
+    "description": "Bánh scone nở cao, vỏ vàng nhạt, ruột xốp mềm thơm mùi bơ sữa, bẻ đôi rồi phết thật dày kem đông béo ngậy và mứt dâu chua ngọt. Thưởng thức cùng một ấm trà nóng chính là “cream tea” trứ danh của nước Anh.",
+    "origin": "Scone có gốc từ Scotland thế kỷ 16, còn thói quen ăn kèm kem đông và mứt gắn liền với hai hạt Devon và Cornwall ở tây nam nước Anh – nơi đến nay vẫn tranh luận nên phết kem hay mứt trước.",
+    "cooking_style": "Nướng lò",
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "450 g, thêm một ít để rắc"
+      },
+      {
+        "name": "Bột nở (baking powder)",
+        "amount": "2 thìa canh (khoảng 25 g)"
+      },
+      {
+        "name": "Bơ lạt lạnh",
+        "amount": "100 g, cắt hạt lựu"
+      },
+      {
+        "name": "Đường trắng mịn",
+        "amount": "50 g"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 thìa cà phê"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "240 ml"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả, đánh tan để phết mặt"
+      },
+      {
+        "name": "Kem đông (clotted cream) hoặc kem tươi đánh bông",
+        "amount": "250 g"
+      },
+      {
+        "name": "Mứt dâu tây",
+        "amount": "200 g"
+      }
+    ],
+    "steps": [
+      "Làm nóng lò ở 220°C, lót giấy nến lên khay. Rây bột mì, bột nở và muối vào tô lớn.",
+      "Cho bơ lạnh vào, dùng đầu ngón tay bóp nhanh đến khi hỗn hợp tơi như vụn bánh mì, rồi trộn đường vào.",
+      "Rót sữa vào từ từ, dùng dao bàn trộn nhẹ đến khi bột vừa kết thành khối mềm, hơi dính. Không nhào kỹ kẻo bánh bị dai.",
+      "Đặt bột lên mặt bàn rắc bột, vỗ nhẹ thành tấm dày 2,5 cm. Dùng khuôn tròn 6 cm ấn thẳng xuống để cắt bánh, không xoay khuôn để bánh nở đều; gom bột thừa và cắt tiếp.",
+      "Xếp bánh lên khay, phết trứng lên mặt (tránh để chảy xuống thành bánh) rồi nướng 12–15 phút đến khi nở cao và vàng đều.",
+      "Để bánh nguội bớt trên vỉ, bẻ đôi bằng tay và dùng khi còn ấm với kem đông, mứt dâu và trà nóng."
+    ],
+    "tags": [
+      "bánh ngọt",
+      "trà chiều",
+      "mứt dâu",
+      "kem đông"
+    ],
+    "image": {
+      "file": "scones.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Devonshire_tea.jpg",
+      "author": "Liyster",
+      "license": "CC BY 3.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "sticky-toffee-pudding",
+    "name": "Bánh pudding chà là sốt caramel bơ (Sticky Toffee Pudding)",
+    "original_name": "Sticky toffee pudding",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "dessert",
+    "meals": [
+      "dinner",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 80000,
+    "price_max": 140000,
+    "calories_kcal": 620,
+    "serving_note": "1 miếng bánh khoảng 130 g kèm sốt và 1 viên kem vani nhỏ",
+    "nutrition": {
+      "protein_g": 6,
+      "carbs_g": 79,
+      "fat_g": 31
+    },
+    "description": "Bánh bông lan chà là ẩm mềm, màu nâu sẫm, ngấm đẫm nước sốt caramel bơ nóng hổi và ăn cùng viên kem vani mát lạnh tan chảy. Vị ngọt đậm, thơm mùi đường nâu khiến đây là món tráng miệng được yêu thích nhất trong các quán pub Anh.",
+    "origin": "Món tráng miệng gắn với vùng Lake District miền tây bắc nước Anh, nổi tiếng từ thập niên 1970 nhờ khách sạn Sharrow Bay bên hồ Ullswater.",
+    "cooking_style": "Nướng lò, chan sốt nóng",
+    "prep_minutes": 25,
+    "cook_minutes": 40,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "Chà là khô bỏ hạt",
+        "amount": "200 g, thái nhỏ"
+      },
+      {
+        "name": "Nước sôi",
+        "amount": "250 ml"
+      },
+      {
+        "name": "Muối nở (baking soda)",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "160 g (85 g cho bánh, 75 g cho sốt)"
+      },
+      {
+        "name": "Đường nâu sẫm",
+        "amount": "275 g (150 g cho bánh, 125 g cho sốt)"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "175 g"
+      },
+      {
+        "name": "Bột nở (baking powder)",
+        "amount": "2 thìa cà phê"
+      },
+      {
+        "name": "Tinh chất vani",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Kem béo (double cream)",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 nhúm"
+      },
+      {
+        "name": "Kem vani",
+        "amount": "8 viên nhỏ, để ăn kèm"
+      }
+    ],
+    "steps": [
+      "Ngâm chà là với nước sôi và muối nở 10 phút cho mềm rồi dằm nhuyễn bằng nĩa. Làm nóng lò ở 180°C, lót giấy nến vào khuôn vuông 20 cm.",
+      "Đánh bông 85 g bơ mềm với 150 g đường nâu đến khi nhạt màu, cho từng quả trứng và vani vào đánh đều.",
+      "Rây bột mì với bột nở vào, trộn nhẹ tay rồi đổ hỗn hợp chà là (cả nước ngâm) vào, khuấy đến khi bột mịn và khá lỏng.",
+      "Đổ bột vào khuôn, nướng 30–35 phút đến khi bánh chín, que xiên rút ra sạch.",
+      "Nấu sốt: đun chảy 75 g bơ với 125 g đường nâu, kem béo và một nhúm muối, khuấy đều và để sôi liu riu 3–4 phút cho sánh.",
+      "Xiên nhiều lỗ trên mặt bánh còn nóng, rưới một phần ba sốt lên cho ngấm 10 phút. Cắt miếng, chan thêm sốt nóng và dùng với kem vani."
+    ],
+    "tags": [
+      "tráng miệng",
+      "caramel",
+      "chà là",
+      "ngọt đậm"
+    ],
+    "image": {
+      "file": "sticky-toffee-pudding.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sticky_toffee_pudding_at_the_Black_Swan_-_Stierch.jpg",
+      "author": "Sarah Stierch",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banoffee-pie",
+    "name": "Bánh chuối caramel kem tươi (Banoffee Pie)",
+    "original_name": "Banoffee pie",
+    "cuisine": "uk",
+    "style": "modern",
+    "dish_type": "dessert",
+    "meals": [
+      "dinner",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 55000,
+    "price_max": 95000,
+    "calories_kcal": 470,
+    "serving_note": "1 lát bánh khoảng 130 g (1/10 chiếc bánh 23 cm)",
+    "nutrition": {
+      "protein_g": 6,
+      "carbs_g": 50,
+      "fat_g": 28
+    },
+    "description": "Đế bánh quy bơ giòn bùi, lớp caramel sữa dẻo quánh, chuối chín thái lát và kem tươi đánh bông rắc sô cô la bào. Không cần lò nướng mà vẫn có một chiếc bánh ngọt ngào, béo thơm khó cưỡng.",
+    "origin": "Ra đời năm 1971 tại nhà hàng The Hungry Monk ở làng Jevington, hạt East Sussex, do chủ quán Nigel Mackenzie và bếp trưởng Ian Dowding sáng tạo; tên gọi ghép từ “banana” và “toffee”.",
+    "cooking_style": "Làm lạnh, không nướng",
+    "prep_minutes": 30,
+    "cook_minutes": 180,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "Bánh quy digestive",
+        "amount": "250 g"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "100 g, đun chảy"
+      },
+      {
+        "name": "Sữa đặc có đường",
+        "amount": "1 hộp (380–397 g)"
+      },
+      {
+        "name": "Chuối chín",
+        "amount": "3 quả lớn"
+      },
+      {
+        "name": "Kem whipping (35% béo)",
+        "amount": "300 ml, để thật lạnh"
+      },
+      {
+        "name": "Đường bột",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Tinh chất vani",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Sô cô la đen",
+        "amount": "20 g, bào vụn"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 nhúm"
+      }
+    ],
+    "steps": [
+      "Làm caramel: bóc nhãn, đặt hộp sữa đặc còn nguyên chưa mở vào nồi sâu, đổ nước ngập trên hộp ít nhất 5 cm và đun liu riu 2 giờ 30 phút đến 3 giờ, thường xuyên châm thêm nước để hộp luôn ngập hoàn toàn. Để hộp nguội hẳn rồi mới mở (hoặc dùng 400 g dulce de leche làm sẵn).",
+      "Xay nhuyễn bánh quy, trộn với bơ chảy và một nhúm muối. Ép chặt hỗn hợp vào đáy và thành khuôn đế rời 23 cm, để tủ lạnh 30 phút cho cứng.",
+      "Khuấy caramel cho mượt rồi phết đều lên đế bánh, làm lạnh thêm 1 giờ.",
+      "Thái chuối thành khoanh dày 0,5 cm và xếp kín mặt lớp caramel.",
+      "Đánh bông kem whipping với đường bột và vani đến khi vừa đứng chóp, phủ lên lớp chuối và rắc sô cô la bào.",
+      "Giữ bánh trong tủ lạnh đến lúc ăn, tháo khuôn và cắt lát bằng dao nhúng nước nóng. Nên dùng trong ngày để chuối không thâm."
+    ],
+    "tags": [
+      "tráng miệng",
+      "chuối",
+      "caramel",
+      "không cần nướng"
+    ],
+    "image": {
+      "file": "banoffee-pie.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Slice_of_banoffee_pie_with_vanilla_ice_cream_and_strawberries.jpg",
+      "author": "Sarah",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "eton-mess",
+    "name": "Kem tươi trộn dâu, việt quất & vụn bánh quy (Eton Mess kiểu mới)",
+    "original_name": "Eton mess",
+    "cuisine": "uk",
+    "style": "modern",
+    "dish_type": "dessert",
+    "meals": [
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 65000,
+    "price_max": 110000,
+    "calories_kcal": 480,
+    "serving_note": "1 phần khoảng 220 g",
+    "nutrition": {
+      "protein_g": 4,
+      "carbs_g": 51,
+      "fat_g": 29
+    },
+    "description": "Phiên bản cách tân của món tráng miệng mùa hè nước Anh: kem tươi đánh bông trộn bánh meringue giòn tan, dâu tây và việt quất, rưới sốt dâu đỏ mọng rồi phủ vụn bánh quy bơ quế. Mỗi thìa đều có đủ vị béo, giòn, chua và ngọt.",
+    "origin": "Eton mess gốc gắn với trường Eton College, được nhắc đến từ năm 1893 và thường phục vụ trong trận cricket thường niên với trường Harrow; các bếp hiện đại biến tấu thêm quả mọng khác và vụn bánh quy.",
+    "cooking_style": "Trộn lạnh, không cần nấu",
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Dâu tây",
+        "amount": "400 g"
+      },
+      {
+        "name": "Việt quất",
+        "amount": "100 g"
+      },
+      {
+        "name": "Kem whipping (35% béo)",
+        "amount": "300 ml, để thật lạnh"
+      },
+      {
+        "name": "Bánh meringue nướng sẵn",
+        "amount": "80 g (khoảng 4 ổ nhỏ)"
+      },
+      {
+        "name": "Bánh quy bơ quế (speculoos)",
+        "amount": "60 g"
+      },
+      {
+        "name": "Đường bột",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Tinh chất vani",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Nước cốt chanh",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Lá bạc hà",
+        "amount": "vài lá để trang trí, tùy thích"
+      }
+    ],
+    "steps": [
+      "Xay nhuyễn 150 g dâu tây với 1 thìa canh đường bột và nước cốt chanh, lọc qua rây để được sốt dâu mịn.",
+      "Để riêng 4 quả dâu đẹp để trang trí, phần còn lại bỏ cuống và thái miếng nhỏ. Bóp bánh meringue thành miếng to, giã thô bánh quy.",
+      "Đánh kem whipping với phần đường bột còn lại và vani đến khi bông mềm, vừa đứng chóp.",
+      "Cho meringue, dâu thái miếng và phần lớn việt quất vào kem, rưới 2–3 thìa sốt dâu rồi đảo nhẹ vài lần để tạo vân, không trộn quá kỹ.",
+      "Xúc ra đĩa hoặc ly thành ụ cao, rưới thêm sốt dâu, rắc vụn bánh quy và trang trí dâu tây, việt quất. Dùng ngay khi meringue còn giòn."
+    ],
+    "tags": [
+      "tráng miệng",
+      "dâu tây",
+      "kem tươi",
+      "không cần nướng"
+    ],
+    "image": {
+      "file": "eton-mess.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Eton_Mess_2025-2_(cropped).jpg",
+      "author": "Exx8",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "english-tea-with-milk",
+    "name": "Trà đen pha sữa kiểu Anh (English Tea with Milk)",
+    "original_name": "English breakfast tea with milk",
+    "cuisine": "uk",
+    "style": "traditional",
+    "dish_type": "drink",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 18000,
+    "price_max": 28000,
+    "calories_kcal": 40,
+    "serving_note": "1 tách 200 ml trà pha 30 ml sữa tươi và 1 thìa cà phê đường, chưa tính bánh quy",
+    "nutrition": {
+      "protein_g": 1,
+      "carbs_g": 6.5,
+      "fat_g": 1
+    },
+    "description": "Tách trà đen đậm vị, màu hổ phách chuyển sang nâu sữa ấm áp khi thêm chút sữa tươi, hậu vị chát dịu và thơm mùi mạch nha. Người Anh uống trà này từ bữa sáng đến giờ nghỉ chiều, thường kèm vài chiếc bánh quy bơ.",
+    "origin": "Trà du nhập vào Anh từ thế kỷ 17 và trở thành thức uống quốc dân vào thế kỷ 18–19; thói quen thêm sữa cùng tục trà chiều (afternoon tea) phổ biến từ thập niên 1840 nhờ Nữ công tước Bedford.",
+    "cooking_style": "Hãm trà trong ấm",
+    "prep_minutes": 3,
+    "cook_minutes": 5,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Trà đen English Breakfast hoặc Assam (lá rời)",
+        "amount": "3 thìa cà phê (khoảng 6 g), hoặc 2 túi lọc"
+      },
+      {
+        "name": "Nước lọc",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Nước sôi để tráng ấm",
+        "amount": "khoảng 200 ml"
+      },
+      {
+        "name": "Sữa tươi nguyên kem",
+        "amount": "60 ml"
+      },
+      {
+        "name": "Đường",
+        "amount": "2 thìa cà phê, tùy khẩu vị"
+      },
+      {
+        "name": "Bánh quy bơ (shortbread) ăn kèm",
+        "amount": "4 chiếc, tùy thích"
+      }
+    ],
+    "steps": [
+      "Đun sôi nước. Rót một ít nước sôi vào ấm sứ, lắc nhẹ để làm ấm rồi đổ đi.",
+      "Cho trà vào ấm theo tỷ lệ mỗi người 1 thìa cà phê và thêm 1 thìa “cho ấm trà”.",
+      "Rót 500 ml nước vừa sôi vào ấm, đậy nắp và hãm 3–5 phút tùy độ đậm mong muốn.",
+      "Rót trà qua lưới lọc vào tách, thêm khoảng 30 ml sữa mỗi tách và khuấy nhẹ; thêm đường nếu thích.",
+      "Thưởng thức ngay khi còn nóng, kèm bánh quy bơ hoặc bánh scone."
+    ],
+    "tags": [
+      "trà",
+      "đồ uống nóng",
+      "trà chiều",
+      "ít calo"
+    ],
+    "image": {
+      "file": "english-tea-with-milk.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nice_Cup_of_Tea.jpg",
+      "author": "Vanderdecken",
+      "license": "Public domain"
+    },
+    "featured": false
+  }
+]

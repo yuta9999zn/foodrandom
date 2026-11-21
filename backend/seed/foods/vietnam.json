@@ -1,0 +1,1962 @@
+[
+  {
+    "slug": "pho-bo",
+    "name": "Phở bò",
+    "original_name": "Phở bò",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "pho",
+    "price_min": 40000,
+    "price_max": 70000,
+    "calories_kcal": 450,
+    "serving_note": "1 tô khoảng 550 g (gồm cả nước dùng)",
+    "nutrition": {
+      "protein_g": 28,
+      "carbs_g": 55,
+      "fat_g": 12
+    },
+    "description": "Bánh phở mềm mượt chan nước dùng ninh từ xương bò trong nhiều giờ, thơm mùi quế, hồi, gừng nướng. Thịt bò tái hoặc chín thái mỏng, thêm hành lá, chút chanh ớt là đủ làm nên bữa sáng kinh điển của người Việt.",
+    "origin": "Phở ra đời ở vùng Nam Định – Hà Nội vào đầu thế kỷ 20 rồi theo chân người di cư lan khắp cả nước. Phở Bắc chuộng vị thanh, ít rau; phở Nam ngọt hơn và ăn kèm giá, húng quế, tương đen.",
+    "cooking_style": "Ninh xương, chần bánh",
+    "prep_minutes": 30,
+    "cook_minutes": 240,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Xương ống bò",
+        "amount": "2 kg"
+      },
+      {
+        "name": "Thịt nạm bò (hoặc gầu)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Thịt thăn bò thái mỏng",
+        "amount": "300 g"
+      },
+      {
+        "name": "Bánh phở tươi",
+        "amount": "1,2 kg"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "2 củ"
+      },
+      {
+        "name": "Gừng",
+        "amount": "1 củ lớn (khoảng 80 g)"
+      },
+      {
+        "name": "Hoa hồi, quế, thảo quả",
+        "amount": "3 hoa hồi, 1 thanh quế, 2 quả thảo quả"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "4 thìa canh"
+      },
+      {
+        "name": "Muối, đường phèn",
+        "amount": "1 thìa canh muối, 20 g đường phèn"
+      },
+      {
+        "name": "Hành lá, rau mùi",
+        "amount": "100 g"
+      },
+      {
+        "name": "Giá đỗ, húng quế (kiểu miền Nam)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Chanh, ớt tươi, tỏi ngâm giấm",
+        "amount": "ăn kèm"
+      }
+    ],
+    "steps": [
+      "Xương ống chặt khúc, ngâm nước muối loãng 30 phút rồi chần qua nước sôi 5 phút, rửa sạch cho hết bọt bẩn.",
+      "Nướng hành tây và gừng trên lửa đến khi xém vỏ, cạo sạch phần cháy. Rang hoa hồi, quế, thảo quả trên chảo khô cho dậy mùi rồi cho vào túi vải.",
+      "Cho xương và nạm bò vào nồi với 5 lít nước, đun sôi rồi hạ lửa nhỏ, hớt bọt liên tục để nước trong. Sau khoảng 1,5 giờ vớt nạm ra ngâm nước lạnh rồi thái mỏng; tiếp tục ninh xương thêm 2 giờ.",
+      "Thả hành, gừng nướng và túi gia vị vào nồi trong 45 phút cuối. Nêm muối, đường phèn, nước mắm cho vừa miệng rồi vớt bỏ túi gia vị.",
+      "Chần bánh phở qua nước sôi, cho vào tô. Xếp thịt nạm chín và thăn bò thái mỏng lên trên, rắc hành lá, rau mùi.",
+      "Chan nước dùng đang sôi mạnh để thịt tái chín tới. Ăn nóng kèm chanh, ớt, tỏi ngâm giấm; kiểu miền Nam thêm giá và húng quế."
+    ],
+    "tags": [
+      "nước dùng",
+      "bò",
+      "món nước",
+      "ăn sáng"
+    ],
+    "image": {
+      "file": "pho-bo.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ph%E1%BB%9F_b%C3%B2_(39425047901).jpg",
+      "author": "Vinnie Cartabiano",
+      "license": "CC BY 2.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "bun-bo-hue",
+    "name": "Bún bò Huế",
+    "original_name": "Bún bò Huế",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "bun",
+    "price_min": 35000,
+    "price_max": 60000,
+    "calories_kcal": 520,
+    "serving_note": "1 tô khoảng 600 g (gồm cả nước dùng)",
+    "nutrition": {
+      "protein_g": 32,
+      "carbs_g": 58,
+      "fat_g": 17
+    },
+    "description": "Tô bún sợi to với nước dùng đỏ au màu sa tế, thơm nồng mùi sả và mắm ruốc. Bắp bò, giò heo, chả cua và miếng huyết mềm tạo nên hương vị đậm đà, cay nồng rất riêng của xứ Huế.",
+    "origin": "Món ăn bắt nguồn từ cố đô Huế, nơi người dân gọi giản dị là “bún bò”. Vị mắm ruốc và sả là dấu ấn không thể thiếu, khiến bún bò Huế khác hẳn các món bún nước khác.",
+    "cooking_style": "Ninh, nấu sa tế",
+    "prep_minutes": 40,
+    "cook_minutes": 150,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Bắp bò",
+        "amount": "600 g"
+      },
+      {
+        "name": "Giò heo cắt khoanh",
+        "amount": "800 g"
+      },
+      {
+        "name": "Xương ống heo hoặc bò",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Chả cua (chả Huế)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Huyết heo luộc",
+        "amount": "300 g"
+      },
+      {
+        "name": "Bún sợi to",
+        "amount": "1,2 kg"
+      },
+      {
+        "name": "Sả",
+        "amount": "8 cây"
+      },
+      {
+        "name": "Mắm ruốc Huế",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Ớt bột",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Dầu màu điều",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Hành tím, tỏi băm",
+        "amount": "3 thìa canh"
+      },
+      {
+        "name": "Nước mắm, muối, đường",
+        "amount": "3 thìa canh nước mắm, 2 thìa cà phê muối, 1 thìa canh đường"
+      },
+      {
+        "name": "Rau ăn kèm (bắp chuối bào, giá, rau thơm)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Chanh, hành lá, hành tây",
+        "amount": "2 quả chanh, 50 g hành lá, 1/2 củ hành tây"
+      }
+    ],
+    "steps": [
+      "Chần xương, giò heo và bắp bò qua nước sôi có chút muối và gừng, rửa sạch.",
+      "Cho xương, giò heo, bắp bò vào nồi với 4 lít nước cùng 5 cây sả đập dập. Đun sôi, hớt bọt rồi ninh lửa nhỏ; vớt giò heo khi chín mềm (khoảng 45 phút) và bắp bò khi chín (khoảng 1,5 giờ), thái bắp bò thành lát mỏng.",
+      "Hòa mắm ruốc với 200 ml nước lạnh, để lắng 15 phút rồi gạn lấy phần nước trong cho vào nồi nước dùng.",
+      "Phi thơm hành tím, tỏi và 3 cây sả băm với dầu điều, cho ớt bột vào đảo nhanh để làm sa tế. Trút một nửa vào nồi nước dùng để tạo màu và mùi, phần còn lại để ăn kèm.",
+      "Nêm nước dùng với nước mắm, muối, đường cho đậm đà, hơi cay và dậy mùi sả, ruốc. Thả chả cua và huyết vào nấu thêm 5 phút.",
+      "Trụng bún, cho vào tô, xếp bắp bò, giò heo, chả, huyết, rắc hành lá và hành tây thái mỏng rồi chan nước dùng thật nóng. Ăn kèm rau sống, chanh và sa tế."
+    ],
+    "tags": [
+      "Huế",
+      "cay",
+      "món nước",
+      "bò"
+    ],
+    "image": {
+      "file": "bun-bo-hue.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_%E1%BB%9F_%C4%90%C3%A0_N%E1%BA%B5ng.jpg",
+      "author": "Beelerb",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "mi-quang",
+    "name": "Mì Quảng",
+    "original_name": "Mì Quảng",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch"
+    ],
+    "soup_type": "mi",
+    "price_min": 30000,
+    "price_max": 50000,
+    "calories_kcal": 540,
+    "serving_note": "1 tô khoảng 450 g",
+    "nutrition": {
+      "protein_g": 28,
+      "carbs_g": 62,
+      "fat_g": 20
+    },
+    "description": "Sợi mì bản to, mềm dai ăn cùng thịt, tôm, trứng và phần nước nhân sền sệt chỉ chan xâm xấp. Thêm đậu phộng rang, bánh tráng mè nướng giòn và rau sống là đủ vị bùi, béo, thơm đặc trưng xứ Quảng.",
+    "origin": "Đặc sản của vùng Quảng Nam – Đà Nẵng, gắn với bữa ăn hằng ngày lẫn mâm cỗ của người dân miền Trung. Khác với phở hay bún, mì Quảng ăn với rất ít nước dùng nhưng đậm vị.",
+    "cooking_style": "Om nhân, trộn ít nước",
+    "prep_minutes": 30,
+    "cook_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Sợi mì Quảng tươi",
+        "amount": "800 g"
+      },
+      {
+        "name": "Thịt ba chỉ (hoặc nạc vai)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Tôm đất",
+        "amount": "300 g"
+      },
+      {
+        "name": "Trứng gà luộc",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Củ nén hoặc hành tím",
+        "amount": "30 g"
+      },
+      {
+        "name": "Bột nghệ",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Dầu phộng",
+        "amount": "3 thìa canh"
+      },
+      {
+        "name": "Nước dùng xương heo",
+        "amount": "1 lít"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "3 thìa canh"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": "80 g"
+      },
+      {
+        "name": "Bánh tráng mè nướng",
+        "amount": "2 cái"
+      },
+      {
+        "name": "Rau sống (xà lách, cải con, bắp chuối, húng quế)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Hành lá, chanh, ớt xanh",
+        "amount": "30 g hành lá, 1 quả chanh, 4 quả ớt"
+      }
+    ],
+    "steps": [
+      "Thịt thái miếng vừa ăn, tôm cắt râu để nguyên vỏ. Ướp cả hai với củ nén giã nhuyễn, bột nghệ, 2 thìa canh nước mắm, chút tiêu và đường trong 20 phút.",
+      "Đun nóng dầu phộng, phi thơm củ nén, cho thịt vào xào săn rồi thêm tôm, đảo đến khi tôm chuyển màu đỏ.",
+      "Đổ nước dùng xương vào, đun nhỏ lửa khoảng 20 phút cho nước sánh lại và đậm vị. Thả trứng luộc đã bóc vỏ vào om cùng, nêm lại bằng phần nước mắm còn lại.",
+      "Trụng sơ sợi mì qua nước sôi, để ráo. Lót rau sống xuống đáy tô rồi cho mì lên trên.",
+      "Xếp thịt, tôm, nửa quả trứng lên mì, chan nước nhân chỉ lấp xấp chứ không ngập như phở.",
+      "Rắc đậu phộng rang giã dập, hành lá, bẻ bánh tráng mè nướng lên trên. Vắt chanh và ăn kèm ớt xanh."
+    ],
+    "tags": [
+      "Quảng Nam",
+      "miền Trung",
+      "ít nước",
+      "đậu phộng"
+    ],
+    "image": {
+      "file": "mi-quang.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng,_Da_Nang,_Vietnam.jpg",
+      "author": "Christopher Crouzet",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "hu-tieu-nam-vang",
+    "name": "Hủ tiếu Nam Vang",
+    "original_name": "Hủ tiếu Nam Vang",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "hu_tieu",
+    "price_min": 40000,
+    "price_max": 65000,
+    "calories_kcal": 480,
+    "serving_note": "1 tô khoảng 550 g (gồm cả nước dùng)",
+    "nutrition": {
+      "protein_g": 30,
+      "carbs_g": 60,
+      "fat_g": 13
+    },
+    "description": "Sợi hủ tiếu dai dai trong nước dùng trong veo, ngọt thanh từ xương heo, tôm khô và mực khô. Phần “topping” hào phóng gồm tôm, thịt bằm, gan, tim, trứng cút cùng tỏi phi thơm lừng.",
+    "origin": "Món ăn có gốc từ Phnom Penh (Nam Vang), do người Hoa ở Campuchia sáng tạo rồi theo chân họ về Sài Gòn. Qua thời gian, hủ tiếu Nam Vang được điều chỉnh theo khẩu vị Nam Bộ và có cả kiểu nước lẫn kiểu khô.",
+    "cooking_style": "Ninh xương, trụng sợi",
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Xương ống heo",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Tôm khô",
+        "amount": "30 g"
+      },
+      {
+        "name": "Mực khô",
+        "amount": "1 con nhỏ"
+      },
+      {
+        "name": "Củ cải trắng",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Hủ tiếu dai (sợi khô)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Thịt nạc xay",
+        "amount": "200 g"
+      },
+      {
+        "name": "Tôm sú",
+        "amount": "8 con"
+      },
+      {
+        "name": "Gan, tim heo",
+        "amount": "200 g"
+      },
+      {
+        "name": "Trứng cút",
+        "amount": "12 quả"
+      },
+      {
+        "name": "Tỏi phi, tóp mỡ",
+        "amount": "3 thìa canh"
+      },
+      {
+        "name": "Giá, hẹ, cần tàu, xà lách",
+        "amount": "300 g"
+      },
+      {
+        "name": "Nước mắm, muối, đường phèn",
+        "amount": "2 thìa canh nước mắm, 2 thìa cà phê muối, 15 g đường phèn"
+      },
+      {
+        "name": "Chanh, ớt, nước tương",
+        "amount": "ăn kèm"
+      }
+    ],
+    "steps": [
+      "Chần sơ xương ống, rửa sạch rồi cho vào nồi với 3 lít nước, tôm khô, mực khô nướng thơm và củ cải trắng cắt khúc. Ninh lửa nhỏ 1,5–2 giờ, hớt bọt thường xuyên.",
+      "Nêm nước dùng bằng muối, đường phèn và nước mắm để có vị ngọt thanh; giữ lửa liu riu cho nước luôn trong.",
+      "Xào thịt nạc xay với tỏi băm và chút nước mắm cho tơi, chín. Luộc tôm rồi bóc vỏ; chần gan, tim trong nước dùng rồi thái mỏng; luộc trứng cút và bóc vỏ.",
+      "Ngâm hủ tiếu khô 15 phút, trụng trong nước sôi khoảng 30 giây cho mềm dai, xóc với một ít tỏi phi để sợi không dính.",
+      "Cho giá và hẹ cắt khúc vào tô, xếp hủ tiếu, thịt bằm, tôm, gan, tim, trứng cút lên trên, rắc tỏi phi, tóp mỡ, cần tàu.",
+      "Chan nước dùng đang sôi (hoặc ăn khô, nước để riêng). Dọn kèm xà lách, chanh, ớt và chén nước tương."
+    ],
+    "tags": [
+      "Sài Gòn",
+      "món nước",
+      "tôm thịt",
+      "ăn sáng"
+    ],
+    "image": {
+      "file": "hu-tieu-nam-vang.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:H%E1%BB%A7_ti%E1%BA%BFu_Nam_Vang.jpg",
+      "author": "SauceSupreme",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-canh-cua",
+    "name": "Bánh canh cua",
+    "original_name": "Bánh canh cua",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "banh_canh",
+    "price_min": 55000,
+    "price_max": 90000,
+    "calories_kcal": 430,
+    "serving_note": "1 tô khoảng 500 g",
+    "nutrition": {
+      "protein_g": 27,
+      "carbs_g": 58,
+      "fat_g": 10
+    },
+    "description": "Nước dùng sánh mịn màu cam đỏ, ngọt đậm vị cua biển, ôm lấy từng sợi bánh canh to tròn, dai mềm. Thịt cua, gạch cua, tôm, chả cá và trứng cút khiến tô bánh canh vừa đẹp mắt vừa chắc bụng.",
+    "origin": "Bánh canh là món sợi quen thuộc ở miền Trung và miền Nam; phiên bản nấu với cua biển, nước sệt đặc biệt được ưa chuộng ở Sài Gòn và các tỉnh ven biển. Đây là món ăn sáng lẫn ăn xế rất phổ biến.",
+    "cooking_style": "Nấu sệt với bột năng",
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Cua biển",
+        "amount": "2 con (khoảng 800 g)"
+      },
+      {
+        "name": "Xương ống heo",
+        "amount": "500 g"
+      },
+      {
+        "name": "Sợi bánh canh bột gạo pha bột năng",
+        "amount": "800 g"
+      },
+      {
+        "name": "Tôm tươi",
+        "amount": "200 g"
+      },
+      {
+        "name": "Chả cá chiên",
+        "amount": "150 g"
+      },
+      {
+        "name": "Trứng cút luộc",
+        "amount": "12 quả"
+      },
+      {
+        "name": "Nấm rơm",
+        "amount": "100 g"
+      },
+      {
+        "name": "Bột năng",
+        "amount": "3 thìa canh"
+      },
+      {
+        "name": "Dầu màu điều",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Hành tím băm",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Nước mắm, muối, tiêu",
+        "amount": "3 thìa canh nước mắm, 1 thìa cà phê muối, 1/2 thìa cà phê tiêu"
+      },
+      {
+        "name": "Hành lá, ngò rí",
+        "amount": "50 g"
+      },
+      {
+        "name": "Chanh, ớt, quẩy",
+        "amount": "ăn kèm"
+      }
+    ],
+    "steps": [
+      "Cua rửa sạch, hấp chín với vài lát gừng khoảng 15 phút rồi gỡ lấy thịt và gạch, giữ riêng càng. Vỏ và mai cua giã dập, lọc với 500 ml nước để lấy nước ngọt.",
+      "Chần sơ xương heo rồi ninh với 2 lít nước trong 45 phút, hớt bọt. Đổ nước lọc từ vỏ cua vào, nêm muối và nước mắm.",
+      "Phi thơm hành tím với dầu điều, cho thịt cua, gạch cua và tôm bóc vỏ vào xào nhanh với chút nước mắm, tiêu cho thấm và lên màu đẹp.",
+      "Thả nấm rơm, chả cá, trứng cút vào nồi nước dùng. Hòa bột năng với 100 ml nước lạnh, rót từ từ vào nồi và khuấy đều tay đến khi nước sánh nhẹ.",
+      "Cho sợi bánh canh vào nấu thêm 2–3 phút đến khi sợi trong, mềm dai rồi trút phần cua tôm xào vào.",
+      "Múc ra tô, rắc hành lá, ngò rí, tiêu xay. Ăn nóng kèm chanh, ớt xắt và quẩy giòn nếu thích."
+    ],
+    "tags": [
+      "cua",
+      "hải sản",
+      "món nước",
+      "nước sệt"
+    ],
+    "image": {
+      "file": "banh-canh-cua.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:T%C3%B4_b%C3%A1nh_canh_cua_%E1%BB%9F_Q1_ng6th1n2022_(b%C3%A1nh_canh_b%E1%BB%99t_g%E1%BA%A1o_n%C4%83ng)_(1).jpg",
+      "author": "Phương Huy",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "lau-hai-san",
+    "name": "Lẩu hải sản",
+    "original_name": "Lẩu hải sản",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "dinner"
+    ],
+    "soup_type": "lau",
+    "price_min": 250000,
+    "price_max": 450000,
+    "calories_kcal": 550,
+    "serving_note": "1 phần ăn (khoảng 1/4 nồi); giá tham khảo tính cho một nồi nhỏ 2–4 người",
+    "nutrition": {
+      "protein_g": 45,
+      "carbs_g": 50,
+      "fat_g": 18
+    },
+    "description": "Nồi lẩu nghi ngút khói với nước dùng chua cay thơm mùi sả, đầy ắp tôm, mực, nghêu, cá và thịt bò thái mỏng. Vừa nhúng vừa ăn cùng rau, nấm và bún, lẩu hải sản là lựa chọn quen thuộc cho những buổi tụ họp đông vui.",
+    "origin": "Lối ăn lẩu du nhập từ ẩm thực Trung Hoa và được người Việt biến tấu với nguyên liệu bản địa. Ở các vùng biển và thành phố lớn, lẩu hải sản chua cay là một trong những kiểu lẩu được gọi nhiều nhất.",
+    "cooking_style": "Nấu nước lẩu, nhúng tại bàn",
+    "prep_minutes": 40,
+    "cook_minutes": 70,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Xương ống heo",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Tôm sú",
+        "amount": "400 g"
+      },
+      {
+        "name": "Mực ống",
+        "amount": "400 g"
+      },
+      {
+        "name": "Nghêu",
+        "amount": "500 g"
+      },
+      {
+        "name": "Phi lê cá (diêu hồng hoặc basa)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Thịt bò ba chỉ thái mỏng",
+        "amount": "300 g"
+      },
+      {
+        "name": "Sả, riềng, lá chanh",
+        "amount": "4 cây sả, 5 lát riềng, 6 lá chanh"
+      },
+      {
+        "name": "Cà chua, thơm (dứa)",
+        "amount": "3 quả cà chua, 1/4 quả thơm"
+      },
+      {
+        "name": "Me chua",
+        "amount": "40 g"
+      },
+      {
+        "name": "Sa tế tôm",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Nấm kim châm, nấm rơm",
+        "amount": "300 g"
+      },
+      {
+        "name": "Rau muống, cải thảo",
+        "amount": "600 g"
+      },
+      {
+        "name": "Bún tươi hoặc mì",
+        "amount": "600 g"
+      },
+      {
+        "name": "Nước mắm, đường, muối",
+        "amount": "3 thìa canh nước mắm, 1 thìa canh đường, 1 thìa cà phê muối"
+      }
+    ],
+    "steps": [
+      "Chần sơ xương ống rồi ninh với 3 lít nước khoảng 1 giờ để lấy nước dùng ngọt, hớt sạch bọt.",
+      "Sơ chế hải sản: tôm cắt râu, rút chỉ lưng; mực làm sạch, khía vảy rồng rồi cắt miếng; nghêu ngâm nước có vài lát ớt cho nhả cát; cá thái lát dày. Xếp tất cả cùng thịt bò ra đĩa.",
+      "Phi thơm 2 cây sả băm và riềng với ít dầu, cho cà chua và thơm vào xào mềm, thêm sa tế rồi trút cả vào nồi nước dùng cùng sả đập dập và lá chanh.",
+      "Dầm me với nước nóng, lọc lấy nước cốt cho vào nồi. Nêm nước mắm, đường, muối sao cho nước lẩu chua cay, mặn ngọt hài hòa.",
+      "Rửa sạch rau và nấm, để ráo rồi bày ra đĩa; bún để riêng.",
+      "Đặt nồi lẩu lên bếp giữa bàn, đợi nước sôi bùng thì thả nghêu, mực, tôm, cá, thịt bò và rau nấm vào nhúng chín tới. Ăn kèm bún, chấm muối ớt xanh hoặc nước mắm ớt."
+    ],
+    "tags": [
+      "lẩu",
+      "hải sản",
+      "chua cay",
+      "tụ họp"
+    ],
+    "image": {
+      "file": "lau-hai-san.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:L%E1%BA%A9u_h%E1%BA%A3i_s%E1%BA%A3n_t%E1%BA%A1i_Ael_mall_n%C4%83m_2016_(1).jpg",
+      "author": "Phương Huy",
+      "license": "Public domain"
+    },
+    "featured": false
+  },
+  {
+    "slug": "com-tam-suon-nuong",
+    "name": "Cơm tấm sườn nướng",
+    "original_name": "Cơm tấm sườn nướng",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 35000,
+    "price_max": 65000,
+    "calories_kcal": 650,
+    "serving_note": "1 dĩa khoảng 450 g",
+    "nutrition": {
+      "protein_g": 30,
+      "carbs_g": 85,
+      "fat_g": 21
+    },
+    "description": "Dĩa cơm nấu từ hạt gạo tấm tơi xốp, ăn cùng miếng sườn cốt lết ướp sả, mật ong nướng than thơm lừng. Chút mỡ hành béo ngậy, đồ chua giòn và nước mắm ngọt sánh làm nên hương vị “quốc dân” của Sài Gòn.",
+    "origin": "Cơm tấm vốn là bữa ăn bình dân của nông dân và người lao động Nam Bộ, tận dụng hạt gạo vỡ sau khi xay xát. Từ giữa thế kỷ 20, món ăn trở thành đặc sản đường phố Sài Gòn với sườn nướng, bì, chả trứng.",
+    "cooking_style": "Nướng than, nấu cơm",
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Gạo tấm",
+        "amount": "400 g"
+      },
+      {
+        "name": "Sườn cốt lết",
+        "amount": "4 miếng (khoảng 600 g)"
+      },
+      {
+        "name": "Sả băm",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Tỏi, hành tím băm",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "5 thìa canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "4 thìa canh"
+      },
+      {
+        "name": "Mật ong",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Dầu hào",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "50 g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "4 thìa canh"
+      },
+      {
+        "name": "Dưa leo, cà chua",
+        "amount": "1 quả dưa leo, 2 quả cà chua"
+      },
+      {
+        "name": "Đồ chua (cà rốt, củ cải ngâm)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Chanh, ớt, tỏi",
+        "amount": "1 quả chanh, 2 quả ớt, 2 tép tỏi"
+      }
+    ],
+    "steps": [
+      "Dần nhẹ sườn cho mềm, ướp với sả, tỏi, hành tím băm, 2 thìa canh nước mắm, 1 thìa canh đường, mật ong, dầu hào và 1 thìa canh dầu ăn ít nhất 2 giờ (để qua đêm trong tủ lạnh càng ngon).",
+      "Vo gạo tấm, ngâm 20 phút rồi để ráo. Nấu với lượng nước ít hơn gạo thường (khoảng 1 gạo : 1 nước) để cơm tơi, ráo hạt.",
+      "Nướng sườn trên than hoa hoặc trong lò 200°C khoảng 20–25 phút, trở mặt và phết nước ướp vài lần cho sườn vàng nâu, xém cạnh.",
+      "Làm mỡ hành: đun nóng 3 thìa canh dầu, tắt bếp rồi cho hành lá thái nhỏ cùng chút muối vào khuấy đều.",
+      "Pha nước mắm: hòa 3 thìa canh nước mắm, 3 thìa canh đường, 4 thìa canh nước ấm, vắt chanh, thêm tỏi ớt băm. Nước chấm cơm tấm nên hơi sánh và ngọt.",
+      "Xới cơm ra dĩa, rưới mỡ hành, đặt sườn nướng bên cạnh. Dọn cùng dưa leo, cà chua thái lát, đồ chua và chén nước mắm."
+    ],
+    "tags": [
+      "Sài Gòn",
+      "cơm",
+      "sườn nướng",
+      "bình dân"
+    ],
+    "image": {
+      "file": "com-tam-suon-nuong.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_T%E1%BA%A5m,_Da_Nang,_Vietnam.jpg",
+      "author": "Christopher Crouzet",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "bun-cha-ha-noi",
+    "name": "Bún chả Hà Nội",
+    "original_name": "Bún chả Hà Nội",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch"
+    ],
+    "soup_type": "kho",
+    "price_min": 40000,
+    "price_max": 65000,
+    "calories_kcal": 600,
+    "serving_note": "1 suất gồm bún, chả và rau, khoảng 450 g",
+    "nutrition": {
+      "protein_g": 30,
+      "carbs_g": 65,
+      "fat_g": 24
+    },
+    "description": "Chả miếng và chả viên nướng than hoa thơm nức, thả trong bát nước chấm chua ngọt ấm nóng cùng dưa góp đu đủ. Gắp một đũa bún rối, thêm ít rau thơm rồi chấm ngập vào bát chả là trọn vị trưa Hà Nội.",
+    "origin": "Bún chả là món ăn trưa đặc trưng của Hà Nội, được nhắc đến trong nhiều trang viết về ẩm thực Hà thành từ đầu thế kỷ 20. Món ăn nổi tiếng thế giới hơn nữa sau bữa tối của Tổng thống Mỹ Barack Obama tại Hà Nội năm 2016.",
+    "cooking_style": "Nướng than hoa",
+    "prep_minutes": 40,
+    "cook_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Thịt ba chỉ",
+        "amount": "400 g"
+      },
+      {
+        "name": "Thịt nạc vai xay",
+        "amount": "400 g"
+      },
+      {
+        "name": "Bún rối",
+        "amount": "800 g"
+      },
+      {
+        "name": "Hành khô băm",
+        "amount": "3 thìa canh"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Nước hàng (nước màu)",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "8 thìa canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "6 thìa canh"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": "3 thìa canh"
+      },
+      {
+        "name": "Đu đủ xanh, cà rốt",
+        "amount": "150 g"
+      },
+      {
+        "name": "Rau sống (xà lách, tía tô, kinh giới, rau mùi)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Ớt tươi, tiêu xay",
+        "amount": "2 quả ớt, 1 thìa cà phê tiêu"
+      }
+    ],
+    "steps": [
+      "Thịt ba chỉ thái lát mỏng vừa ăn. Trộn hành khô, 1 thìa canh tỏi, 3 thìa canh nước mắm, 2 thìa canh đường, nước hàng và tiêu, chia đôi để ướp riêng thịt ba chỉ và thịt xay ít nhất 1 giờ.",
+      "Vo thịt xay thành viên, ấn hơi dẹt. Đu đủ xanh và cà rốt thái lát mỏng, bóp với chút muối, rửa lại rồi ngâm với 1 thìa canh giấm, 1 thìa canh đường cho giòn.",
+      "Kẹp chả miếng và chả viên vào vỉ, nướng trên than hoa, trở liên tục khoảng 10–15 phút đến khi thịt chín, cháy cạnh và dậy mùi thơm.",
+      "Pha nước chấm: hòa 5 thìa canh nước mắm, 3 thìa canh đường, 2 thìa canh giấm với 300 ml nước ấm, thêm tỏi, ớt băm và dưa góp.",
+      "Thả chả vừa nướng còn nóng vào bát nước chấm ấm để thịt ngấm vị.",
+      "Dọn bún rối và rau sống ra đĩa. Khi ăn gắp bún, rau chấm vào bát chả; có thể gọi thêm nem rán ăn kèm."
+    ],
+    "tags": [
+      "Hà Nội",
+      "thịt nướng",
+      "bún",
+      "ăn trưa"
+    ],
+    "image": {
+      "file": "bun-cha-ha-noi.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bun-cha-hanoi.jpg",
+      "author": "Valentin Orange",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-xeo",
+    "name": "Bánh xèo",
+    "original_name": "Bánh xèo",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 50000,
+    "price_max": 90000,
+    "calories_kcal": 520,
+    "serving_note": "2 cái bánh kèm rau sống và nước chấm, khoảng 350 g",
+    "nutrition": {
+      "protein_g": 22,
+      "carbs_g": 50,
+      "fat_g": 26
+    },
+    "description": "Chiếc bánh vàng ươm màu nghệ, rìa mỏng giòn tan, bên trong là tôm, thịt ba chỉ, giá và đậu xanh. Cuốn bánh với cải xanh, rau thơm rồi chấm nước mắm chua ngọt là cách thưởng thức đúng điệu.",
+    "origin": "Bánh xèo phổ biến từ miền Trung vào miền Nam, tên gọi bắt nguồn từ tiếng “xèo” khi đổ bột vào chảo nóng. Bánh xèo miền Tây to, mỏng và nhiều nhân, còn bánh xèo miền Trung nhỏ và dày hơn.",
+    "cooking_style": "Chiên tráng mỏng",
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bột gạo",
+        "amount": "300 g"
+      },
+      {
+        "name": "Bột nghệ",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Nước lọc (hoặc bia)",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "50 g"
+      },
+      {
+        "name": "Tôm đất",
+        "amount": "300 g"
+      },
+      {
+        "name": "Thịt ba chỉ",
+        "amount": "300 g"
+      },
+      {
+        "name": "Giá đỗ",
+        "amount": "300 g"
+      },
+      {
+        "name": "Đậu xanh cà vỏ hấp chín",
+        "amount": "100 g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Rau sống (cải xanh, xà lách, húng quế, diếp cá)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Nước mắm chua ngọt",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Đồ chua (cà rốt, củ cải)",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Hòa bột gạo, bột nghệ, nước cốt dừa, nước lọc và 1/2 thìa cà phê muối cho mịn, thêm hành lá cắt nhỏ rồi để bột nghỉ 30 phút.",
+      "Tôm cắt râu, thịt ba chỉ thái mỏng. Ướp cả hai với chút muối, tiêu, hành tím băm rồi xào sơ cho săn.",
+      "Đun chảo thật nóng, tráng một lớp dầu mỏng, cho vài lát thịt và tôm vào rồi đổ một vá bột, nghiêng chảo cho bột tráng mỏng đều. Nghe tiếng “xèo” giòn là chảo đủ nóng.",
+      "Rải giá và đậu xanh lên một nửa bánh, đậy nắp 1–2 phút cho giá chín tái.",
+      "Mở nắp, rưới thêm chút dầu quanh mép, chiên lửa vừa đến khi rìa bánh vàng giòn thì gập đôi bánh và lấy ra.",
+      "Ăn nóng: cắt miếng bánh, cuốn với cải xanh và rau thơm (hoặc bánh tráng), chấm nước mắm chua ngọt có đồ chua."
+    ],
+    "tags": [
+      "miền Tây",
+      "giòn",
+      "cuốn rau",
+      "tôm thịt"
+    ],
+    "image": {
+      "file": "banh-xeo.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_x%C3%A8o_(15826153307).jpg",
+      "author": "pelican from Tokyo, Japan",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "cha-ca-la-vong",
+    "name": "Chả cá Lã Vọng",
+    "original_name": "Chả cá Lã Vọng",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 150000,
+    "price_max": 200000,
+    "calories_kcal": 620,
+    "serving_note": "1 suất gồm cá, bún và rau, khoảng 400 g",
+    "nutrition": {
+      "protein_g": 42,
+      "carbs_g": 55,
+      "fat_g": 26
+    },
+    "description": "Cá lăng ướp riềng, nghệ, mẻ nướng than rồi rán xèo xèo trong chảo mỡ ngay tại bàn với thật nhiều thì là và hành lá. Ăn cùng bún rối, lạc rang, rau thơm và mắm tôm đánh bông – một trải nghiệm rất Hà Nội.",
+    "origin": "Món ăn do gia đình họ Đoàn ở phố Hàng Sơn, Hà Nội sáng tạo từ cuối thế kỷ 19; quán nổi tiếng đến mức con phố được đổi tên thành phố Chả Cá. Tên “Lã Vọng” lấy từ bức tượng ông Lã Vọng ngồi câu cá bày trong quán.",
+    "cooking_style": "Nướng than, rán tại bàn",
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Cá lăng phi lê (hoặc cá quả)",
+        "amount": "800 g"
+      },
+      {
+        "name": "Riềng tươi",
+        "amount": "50 g"
+      },
+      {
+        "name": "Nghệ tươi",
+        "amount": "30 g"
+      },
+      {
+        "name": "Mẻ",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Mắm tôm",
+        "amount": "3 thìa canh"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Thì là",
+        "amount": "200 g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "200 g"
+      },
+      {
+        "name": "Bún rối",
+        "amount": "600 g"
+      },
+      {
+        "name": "Lạc rang",
+        "amount": "100 g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Chanh, đường, ớt, rượu trắng",
+        "amount": "1 quả chanh, 1 thìa canh đường, 2 quả ớt, 1 thìa cà phê rượu"
+      },
+      {
+        "name": "Rau thơm (húng láng, kinh giới, rau mùi)",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Cá thái miếng dày khoảng 1,5 cm. Riềng và nghệ giã nhuyễn, vắt lấy nước cốt.",
+      "Ướp cá với nước riềng nghệ, mẻ lọc, 1 thìa canh mắm tôm, nước mắm, chút tiêu và 2 thìa canh dầu ăn ít nhất 1 giờ trong tủ lạnh.",
+      "Kẹp cá vào vỉ, nướng trên than hoa (hoặc lò 220°C) khoảng 8–10 phút đến khi cá vừa chín tới, mặt vàng xém.",
+      "Pha mắm tôm: đánh bông 2 thìa canh mắm tôm với nước cốt chanh, đường và rượu trắng, thêm ớt thái lát và chút dầu nóng.",
+      "Đặt chảo nhỏ lên bếp giữa bàn, đun nóng dầu, cho cá đã nướng vào rán xèo xèo rồi thêm thì là, hành lá cắt khúc, đảo nhanh cho rau vừa tái.",
+      "Gắp bún ra bát, thêm cá, thì là, hành, lạc rang và rau thơm rồi rưới mắm tôm, ăn ngay khi còn nóng."
+    ],
+    "tags": [
+      "Hà Nội",
+      "cá",
+      "thì là",
+      "mắm tôm"
+    ],
+    "image": {
+      "file": "cha-ca-la-vong.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i_th%C3%A1ng_2_n%C4%83m_2018_(2).jpg",
+      "author": "Phương Huy",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-mi-chao",
+    "name": "Bánh mì chảo",
+    "original_name": "Bánh mì chảo",
+    "cuisine": "vietnam",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch"
+    ],
+    "soup_type": "kho",
+    "price_min": 35000,
+    "price_max": 60000,
+    "calories_kcal": 650,
+    "serving_note": "1 chảo kèm 1 ổ bánh mì, khoảng 350 g",
+    "nutrition": {
+      "protein_g": 32,
+      "carbs_g": 52,
+      "fat_g": 35
+    },
+    "description": "Chiếc chảo gang nhỏ còn sôi xèo xèo với trứng ốp la lòng đào, pa-tê béo ngậy, xúc xích, chả và sốt cà chua. Xé bánh mì nóng giòn chấm vào chảo sốt là bữa sáng “chắc dạ” được giới trẻ rất ưa chuộng.",
+    "origin": "Bánh mì chảo là biến tấu hiện đại từ bánh mì ốp la và bít tết kiểu Tây, được cho là phổ biến trước tiên ở Hải Phòng, Hà Nội rồi lan khắp cả nước từ những năm 2000. Ở miền Nam có món họ hàng gần là bò né.",
+    "cooking_style": "Áp chảo gang",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Bánh mì",
+        "amount": "2 ổ"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "4 quả"
+      },
+      {
+        "name": "Pa-tê gan",
+        "amount": "80 g"
+      },
+      {
+        "name": "Xúc xích",
+        "amount": "2 cây"
+      },
+      {
+        "name": "Chả lụa hoặc chả cá chiên",
+        "amount": "100 g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1/2 củ"
+      },
+      {
+        "name": "Cà chua",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Bơ thực vật",
+        "amount": "20 g"
+      },
+      {
+        "name": "Nước tương, tương ớt",
+        "amount": "1 thìa canh mỗi loại"
+      },
+      {
+        "name": "Đường, muối, tiêu",
+        "amount": "1/2 thìa cà phê mỗi loại"
+      },
+      {
+        "name": "Dưa leo, đồ chua",
+        "amount": "ăn kèm"
+      }
+    ],
+    "steps": [
+      "Làm sốt: phi thơm tỏi, cho cà chua băm vào xào nhuyễn với đường, muối, nước tương và 100 ml nước đến khi sánh.",
+      "Xúc xích khía xiên, chả thái miếng; áp chảo cả hai cho vàng mặt. Hành tây thái múi cau.",
+      "Đặt chảo gang nhỏ (mỗi người một chảo) lên bếp, cho bơ vào đun chảy rồi xào hành tây cho thơm.",
+      "Đập 2 quả trứng vào mỗi chảo làm ốp la, xếp pa-tê, xúc xích, chả xung quanh và rưới sốt cà chua lên. Đun lửa vừa đến khi lòng trắng chín, lòng đỏ còn mềm.",
+      "Rắc tiêu, thêm chút tương ớt; nướng lại bánh mì cho giòn.",
+      "Dọn nguyên chảo còn nóng, xé bánh mì chấm sốt và lòng đỏ trứng, ăn kèm dưa leo, đồ chua cho đỡ ngán."
+    ],
+    "tags": [
+      "ăn sáng",
+      "trứng ốp la",
+      "pa-tê",
+      "cách tân"
+    ],
+    "image": {
+      "file": "banh-mi-chao.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_ph%E1%BA%A7n_b%C3%A1nh_m%C3%AC_ch%E1%BA%A3o_v%E1%BB%9Bi_tr%E1%BB%A9ng_v%C3%A0_ch%E1%BA%A3_(38657217774).jpg",
+      "author": "Vinnie Cartabiano",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "goi-cuon",
+    "name": "Gỏi cuốn tôm thịt",
+    "original_name": "Gỏi cuốn tôm thịt",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 20000,
+    "price_max": 40000,
+    "calories_kcal": 260,
+    "serving_note": "3 cuốn kèm tương chấm, khoảng 200 g",
+    "nutrition": {
+      "protein_g": 15,
+      "carbs_g": 30,
+      "fat_g": 9
+    },
+    "description": "Lớp bánh tráng mỏng trong veo ôm lấy tôm luộc đỏ au, thịt ba chỉ, bún và rau thơm tươi mát. Chấm cùng tương đậu phộng béo bùi, gỏi cuốn là món khai vị thanh nhẹ, ít dầu mỡ được yêu thích khắp nơi.",
+    "origin": "Gỏi cuốn là món ăn dân dã của Nam Bộ, ở miền Bắc thường gọi là nem cuốn. Món ăn nhiều lần được truyền thông quốc tế bình chọn vào danh sách những món ngon nhất thế giới.",
+    "cooking_style": "Luộc, cuốn tươi",
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bánh tráng",
+        "amount": "12 cái"
+      },
+      {
+        "name": "Tôm sú",
+        "amount": "12 con (khoảng 250 g)"
+      },
+      {
+        "name": "Thịt ba chỉ",
+        "amount": "250 g"
+      },
+      {
+        "name": "Bún tươi",
+        "amount": "200 g"
+      },
+      {
+        "name": "Xà lách, húng quế, tía tô",
+        "amount": "200 g"
+      },
+      {
+        "name": "Hẹ",
+        "amount": "12 cọng"
+      },
+      {
+        "name": "Tương đen (hoisin)",
+        "amount": "4 thìa canh"
+      },
+      {
+        "name": "Bơ đậu phộng",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": "30 g"
+      },
+      {
+        "name": "Tỏi, ớt băm",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Đồ chua (cà rốt, củ cải)",
+        "amount": "50 g"
+      }
+    ],
+    "steps": [
+      "Luộc thịt ba chỉ với chút muối và hành tím khoảng 20 phút cho chín, để nguội rồi thái lát mỏng. Luộc tôm 3 phút, bóc vỏ, chẻ đôi theo chiều dọc.",
+      "Rau rửa sạch, để thật ráo; bún gỡ tơi.",
+      "Nhúng nhanh bánh tráng qua nước cho mềm rồi trải lên thớt. Xếp xà lách, rau thơm, một ít bún và vài lát thịt gần mép dưới.",
+      "Cuộn một vòng, đặt 2–3 nửa con tôm úp mặt đỏ xuống và một cọng hẹ thò ra ở một đầu, gập hai mép rồi cuốn chặt tay.",
+      "Làm tương chấm: phi thơm tỏi, cho tương đen, bơ đậu phộng và 5 thìa canh nước vào khuấy sánh. Múc ra chén, thêm ớt băm, đậu phộng giã và đồ chua.",
+      "Xếp gỏi cuốn ra đĩa, dùng ngay khi bánh tráng còn dẻo mềm."
+    ],
+    "tags": [
+      "cuốn",
+      "thanh mát",
+      "khai vị",
+      "tôm thịt"
+    ],
+    "image": {
+      "file": "goi-cuon.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Homemade_spring_rolls_(7010969349).jpg",
+      "author": "pelican from Tokyo, Japan",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "cha-gio",
+    "name": "Chả giò (nem rán)",
+    "original_name": "Chả giò (nem rán)",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 50000,
+    "price_max": 80000,
+    "calories_kcal": 380,
+    "serving_note": "5 cái kèm rau sống và nước chấm, khoảng 180 g",
+    "nutrition": {
+      "protein_g": 16,
+      "carbs_g": 28,
+      "fat_g": 23
+    },
+    "description": "Những cuốn chả vàng ruộm, vỏ bánh tráng giòn rụm bọc lấy nhân thịt, tôm, miến, mộc nhĩ thơm ngọt. Chấm nước mắm chua ngọt, ăn kèm rau sống hoặc bún – món không thể vắng trong mâm cỗ ngày Tết.",
+    "origin": "Miền Bắc gọi là nem rán, miền Nam gọi là chả giò, miền Trung gọi là chả ram. Đây là món truyền thống trong mâm cỗ lễ Tết và cũng là món Việt quen mặt nhất trên thực đơn quốc tế.",
+    "cooking_style": "Cuốn, chiên giòn hai lần",
+    "prep_minutes": 40,
+    "cook_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bánh tráng cuốn chả giò (bánh đa nem)",
+        "amount": "25 cái"
+      },
+      {
+        "name": "Thịt nạc vai xay",
+        "amount": "300 g"
+      },
+      {
+        "name": "Tôm bóc vỏ băm nhỏ",
+        "amount": "150 g"
+      },
+      {
+        "name": "Miến dong",
+        "amount": "30 g"
+      },
+      {
+        "name": "Mộc nhĩ (nấm mèo) khô",
+        "amount": "15 g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": "1 củ nhỏ"
+      },
+      {
+        "name": "Khoai môn (hoặc củ đậu)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Hành tím, hành lá",
+        "amount": "3 củ hành tím, 2 nhánh hành lá"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Nước mắm, tiêu",
+        "amount": "1 thìa canh nước mắm, 1 thìa cà phê tiêu"
+      },
+      {
+        "name": "Dầu ăn để chiên",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Nước mắm chua ngọt",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Rau sống, bún (ăn kèm)",
+        "amount": "300 g"
+      }
+    ],
+    "steps": [
+      "Ngâm miến và mộc nhĩ cho nở rồi cắt nhỏ. Cà rốt, khoai môn bào sợi, vắt bớt nước; hành băm nhỏ.",
+      "Trộn đều thịt xay, tôm, miến, mộc nhĩ, rau củ, hành và trứng với nước mắm, tiêu; để nhân nghỉ 15 phút.",
+      "Thoa nhẹ nước pha vài giọt giấm và chút đường lên bánh tráng cho mềm, đặt 1 thìa nhân, gấp hai mép rồi cuốn vừa tay, không quá căng để tránh nứt khi chiên.",
+      "Chiên lần một ở lửa vừa (khoảng 150°C) đến khi cuốn săn lại, vàng nhạt thì vớt ra để ráo.",
+      "Trước khi ăn chiên lần hai ở lửa lớn (khoảng 180°C) 2–3 phút cho vỏ vàng nâu, giòn rụm; để ráo dầu trên giấy thấm.",
+      "Dọn nóng với rau sống, bún và nước mắm chua ngọt pha tỏi ớt."
+    ],
+    "tags": [
+      "chiên giòn",
+      "ngày Tết",
+      "khai vị",
+      "nem"
+    ],
+    "image": {
+      "file": "cha-gio.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ch%E1%BA%A3_gi%C3%B2.jpg",
+      "author": "M Ameen",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-mi-thit",
+    "name": "Bánh mì thịt",
+    "original_name": "Bánh mì thịt",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "fast_food",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 20000,
+    "price_max": 35000,
+    "calories_kcal": 450,
+    "serving_note": "1 ổ khoảng 200 g",
+    "nutrition": {
+      "protein_g": 20,
+      "carbs_g": 52,
+      "fat_g": 18
+    },
+    "description": "Ổ bánh mì vỏ giòn ruột xốp, phết pa-tê và bơ trứng, kẹp chả lụa, thịt nguội, dưa leo, đồ chua, ngò rí và vài lát ớt cay. Nhanh, gọn, rẻ mà đủ vị mặn ngọt chua cay – món ăn đường phố nổi tiếng nhất của Việt Nam.",
+    "origin": "Bánh mì baguette theo chân người Pháp vào Việt Nam từ thế kỷ 19; đến khoảng thập niên 1950, người Sài Gòn bắt đầu kẹp sẵn nhân vào ổ bánh để mang đi. Năm 2011, từ “banh mi” được đưa vào từ điển Oxford.",
+    "cooking_style": "Nướng giòn, kẹp nhân",
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bánh mì",
+        "amount": "4 ổ"
+      },
+      {
+        "name": "Pa-tê gan",
+        "amount": "100 g"
+      },
+      {
+        "name": "Bơ trứng (sốt mayonnaise kiểu Việt)",
+        "amount": "60 g"
+      },
+      {
+        "name": "Chả lụa",
+        "amount": "150 g"
+      },
+      {
+        "name": "Thịt nguội (jambon, xá xíu)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Cà rốt, củ cải trắng",
+        "amount": "200 g"
+      },
+      {
+        "name": "Giấm, đường (ngâm đồ chua)",
+        "amount": "3 thìa canh mỗi loại"
+      },
+      {
+        "name": "Ngò rí, hành lá",
+        "amount": "40 g"
+      },
+      {
+        "name": "Ớt tươi",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "2 thìa canh"
+      }
+    ],
+    "steps": [
+      "Làm đồ chua: cà rốt, củ cải bào sợi, bóp với 1 thìa cà phê muối, xả lại rồi ngâm với giấm, đường và 100 ml nước ít nhất 30 phút.",
+      "Thái mỏng chả lụa và thịt nguội; dưa leo thái lát dài; ớt thái lát; ngò rí, hành lá rửa sạch để ráo.",
+      "Nướng bánh mì trong lò 180°C khoảng 3–5 phút cho vỏ giòn rụm, ruột còn mềm.",
+      "Rạch dọc ổ bánh, phết pa-tê lên một mặt và bơ trứng lên mặt còn lại.",
+      "Xếp lần lượt chả lụa, thịt nguội, dưa leo, đồ chua đã vắt ráo, ngò rí, hành lá và ớt.",
+      "Rưới chút nước tương, kẹp lại và ăn ngay khi vỏ bánh còn nóng giòn."
+    ],
+    "tags": [
+      "đường phố",
+      "ăn nhanh",
+      "pa-tê",
+      "Sài Gòn"
+    ],
+    "image": {
+      "file": "banh-mi-thit.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC.jpg",
+      "author": "Stu Spivack",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "banh-trang-tron",
+    "name": "Bánh tráng trộn",
+    "original_name": "Bánh tráng trộn",
+    "cuisine": "vietnam",
+    "style": "modern",
+    "dish_type": "snack",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 15000,
+    "price_max": 25000,
+    "calories_kcal": 330,
+    "serving_note": "1 bịch khoảng 150 g",
+    "nutrition": {
+      "protein_g": 11,
+      "carbs_g": 42,
+      "fat_g": 13
+    },
+    "description": "Bánh tráng cắt sợi trộn cùng muối tôm, sa tế, xoài xanh bào, khô bò, trứng cút, rau răm và đậu phộng. Dai dai, chua cay mặn ngọt đủ cả – “huyền thoại” ăn vặt cổng trường của bao thế hệ học sinh.",
+    "origin": "Món ăn vặt đường phố này xuất hiện ở Sài Gòn khoảng cuối thập niên 1990 – đầu những năm 2000, dùng bánh tráng và muối tôm đặc sản Tây Ninh. Từ xe đẩy vỉa hè, bánh tráng trộn nhanh chóng lan ra cả nước.",
+    "cooking_style": "Trộn nguội",
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Bánh tráng dẻo (loại để trộn)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Xoài xanh",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Trứng cút",
+        "amount": "6 quả"
+      },
+      {
+        "name": "Khô bò xé sợi",
+        "amount": "30 g"
+      },
+      {
+        "name": "Muối tôm Tây Ninh",
+        "amount": "2 thìa cà phê"
+      },
+      {
+        "name": "Sa tế",
+        "amount": "1 thìa canh"
+      },
+      {
+        "name": "Dầu hành phi",
+        "amount": "2 thìa canh"
+      },
+      {
+        "name": "Rau răm",
+        "amount": "20 g"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": "30 g"
+      },
+      {
+        "name": "Tắc (quất)",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Hành phi",
+        "amount": "1 thìa canh"
+      }
+    ],
+    "steps": [
+      "Luộc trứng cút khoảng 4 phút rồi bóc vỏ. Xoài xanh gọt vỏ, bào sợi; rau răm thái nhỏ.",
+      "Cắt bánh tráng thành sợi rộng khoảng 1 cm, cho vào tô lớn.",
+      "Rắc muối tôm, thêm sa tế, dầu hành phi rồi vắt tắc vào. Dùng tay bóp trộn nhẹ cho bánh tráng mềm và thấm đều gia vị.",
+      "Cho xoài, khô bò, rau răm vào trộn thêm vài lượt; nếm lại và thêm muối tôm hoặc tắc nếu cần.",
+      "Thêm trứng cút, đậu phộng và hành phi lên trên. Ăn ngay để bánh tráng còn dai, không bị nhão."
+    ],
+    "tags": [
+      "ăn vặt",
+      "đường phố",
+      "chua cay",
+      "học trò"
+    ],
+    "image": {
+      "file": "banh-trang-tron.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mixed_rice_paper.jpg",
+      "author": "Khanh Ha, Tran",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-khot",
+    "name": "Bánh khọt",
+    "original_name": "Bánh khọt",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "snack",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 40000,
+    "price_max": 70000,
+    "calories_kcal": 380,
+    "serving_note": "8 cái kèm rau sống và nước chấm, khoảng 250 g",
+    "nutrition": {
+      "protein_g": 16,
+      "carbs_g": 40,
+      "fat_g": 17
+    },
+    "description": "Những chiếc bánh tròn nhỏ xinh, đáy giòn rụm, mặt béo mềm vị nước cốt dừa, bên trên là con tôm đỏ au và chút mỡ hành. Cuốn bánh trong lá cải xanh với rau thơm, chấm nước mắm chua ngọt là ngon khó cưỡng.",
+    "origin": "Bánh khọt là đặc sản gắn liền với Vũng Tàu và phổ biến khắp Nam Bộ. Tên gọi được cho là bắt nguồn từ tiếng “khọt khọt” khi dùng thìa nạy bánh khỏi khuôn.",
+    "cooking_style": "Đổ khuôn, chiên giòn",
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bột gạo",
+        "amount": "250 g"
+      },
+      {
+        "name": "Bột chiên giòn",
+        "amount": "50 g"
+      },
+      {
+        "name": "Bột nghệ",
+        "amount": "1/2 thìa cà phê"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Nước lọc",
+        "amount": "350 ml"
+      },
+      {
+        "name": "Tôm tươi",
+        "amount": "300 g"
+      },
+      {
+        "name": "Thịt nạc xay",
+        "amount": "150 g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "50 g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Rau sống (cải xanh, xà lách, tía tô, húng quế)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Đu đủ xanh, cà rốt bào sợi",
+        "amount": "100 g"
+      },
+      {
+        "name": "Nước mắm, đường, chanh",
+        "amount": "3 thìa canh nước mắm, 3 thìa canh đường, 1 quả chanh"
+      },
+      {
+        "name": "Tỏi, ớt, hành tím",
+        "amount": "2 tép tỏi, 2 quả ớt, 2 củ hành tím"
+      }
+    ],
+    "steps": [
+      "Hòa bột gạo, bột chiên giòn, bột nghệ, nước cốt dừa, nước lọc và 1/2 thìa cà phê muối cho mịn; để bột nghỉ 30 phút.",
+      "Tôm bóc vỏ, ướp cùng thịt xay với chút muối, tiêu và hành tím băm. Xào chín thịt xay.",
+      "Làm mỡ hành từ hành lá và 2 thìa canh dầu nóng. Pha nước mắm chua ngọt với đường, chanh, tỏi ớt và 6 thìa canh nước, thêm đu đủ, cà rốt bào sợi.",
+      "Đặt khuôn bánh khọt lên bếp cho thật nóng, quét dầu vào từng lỗ rồi đổ bột gần đầy – bột phải sôi xèo ngay khi chạm khuôn.",
+      "Cho thịt xay và một con tôm lên mỗi bánh, đậy nắp 2–3 phút đến khi bánh chín, rìa vàng giòn rồi dùng thìa nạy bánh ra.",
+      "Rưới mỡ hành lên bánh. Ăn nóng bằng cách cuốn với cải xanh, xà lách, rau thơm và chấm nước mắm."
+    ],
+    "tags": [
+      "Vũng Tàu",
+      "ăn vặt",
+      "tôm",
+      "giòn"
+    ],
+    "image": {
+      "file": "banh-khot.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_kh%E1%BB%8Dt_tr%C3%AAn_khu%C3%B4n.jpg",
+      "author": "Joshua Rappeneker from Tokyo, Japan",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-bo-nuong",
+    "name": "Bánh bò thốt nốt nướng",
+    "original_name": "Bánh bò thốt nốt nướng",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "dessert",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 15000,
+    "price_max": 30000,
+    "calories_kcal": 270,
+    "serving_note": "1 miếng khoảng 90 g",
+    "nutrition": {
+      "protein_g": 5,
+      "carbs_g": 43,
+      "fat_g": 9
+    },
+    "description": "Lớp vỏ nâu sậm thơm mùi đường thốt nốt, bên trong dai mềm với những đường “rễ tre” chạy dọc đẹp mắt. Bánh béo ngậy vị nước cốt dừa, ngọt dịu, càng nhai càng thơm.",
+    "origin": "Bánh bò là món bánh dân gian Nam Bộ; phiên bản dùng đường thốt nốt gắn với vùng Bảy Núi, An Giang – xứ sở của cây thốt nốt. Bánh bò nướng là cách làm phổ biến ở các tiệm bánh miền Tây và Sài Gòn.",
+    "cooking_style": "Nướng lò",
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "servings": 10,
+    "ingredients": [
+      {
+        "name": "Bột năng",
+        "amount": "250 g"
+      },
+      {
+        "name": "Bột gạo",
+        "amount": "20 g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "6 quả"
+      },
+      {
+        "name": "Đường thốt nốt",
+        "amount": "200 g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": "250 ml"
+      },
+      {
+        "name": "Bột nở (baking powder)",
+        "amount": "12 g"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/4 thìa cà phê"
+      },
+      {
+        "name": "Tinh chất vani",
+        "amount": "1/2 thìa cà phê"
+      },
+      {
+        "name": "Dầu ăn (quét khuôn)",
+        "amount": "1 thìa canh"
+      }
+    ],
+    "steps": [
+      "Đun nước cốt dừa với đường thốt nốt và muối trên lửa nhỏ cho tan hết, lọc qua rây rồi để nguội hẳn.",
+      "Làm nóng lò ở 170°C; quét dầu vào khuôn tròn 20 cm và cho khuôn vào lò làm nóng cùng ít nhất 15 phút.",
+      "Khuấy tan trứng thật nhẹ tay (không đánh bông), cho nước dừa đường và vani vào trộn đều.",
+      "Rây bột năng và bột gạo vào, khuấy đến khi mịn rồi lọc qua rây. Để bột nghỉ 20–30 phút.",
+      "Rây bột nở vào, khuấy nhanh tay cho tan rồi lọc lại lần nữa và đổ ngay vào khuôn đang nóng.",
+      "Nướng ở 170°C khoảng 45–50 phút đến khi mặt bánh nâu đều, xiên tăm rút ra thấy khô. Tắt lò, hé cửa 10 phút rồi lấy bánh ra.",
+      "Để bánh nguội hoàn toàn mới cắt để thấy rõ thớ rễ tre."
+    ],
+    "tags": [
+      "bánh ngọt",
+      "thốt nốt",
+      "nước cốt dừa",
+      "miền Tây"
+    ],
+    "image": {
+      "file": "banh-bo-nuong.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_b%C3%A1nh_b%C3%B2_n%C6%B0%E1%BB%9Bng_c%E1%BB%A7a_m%E1%BB%99t_nh%C3%A0_h%C3%A0ng_t%E1%BA%A1i_S%C3%A0i_G%C3%B2n.jpg",
+      "author": "Hdmt2507",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "che-khuc-bach",
+    "name": "Chè khúc bạch",
+    "original_name": "Chè khúc bạch",
+    "cuisine": "vietnam",
+    "style": "modern",
+    "dish_type": "dessert",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 25000,
+    "price_max": 40000,
+    "calories_kcal": 250,
+    "serving_note": "1 chén khoảng 250 ml",
+    "nutrition": {
+      "protein_g": 5,
+      "carbs_g": 34,
+      "fat_g": 11
+    },
+    "description": "Những miếng khúc bạch trắng ngà mềm mịn, béo thơm vị sữa và kem, thả trong nước đường phèn mát lạnh cùng nhãn hoặc vải. Hạnh nhân rang giòn rắc lên trên khiến món chè thanh mát này thêm phần hấp dẫn.",
+    "origin": "Chè khúc bạch trở thành “cơn sốt” ở Sài Gòn và Hà Nội vào khoảng năm 2013 rồi nhanh chóng có mặt ở khắp các quán chè. Món ăn được cho là lấy cảm hứng từ món đậu hũ hạnh nhân của người Hoa, biến tấu với kem sữa và nhiều hương vị.",
+    "cooking_style": "Làm đông lạnh",
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Kem tươi (whipping cream)",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Gelatin bột",
+        "amount": "15 g"
+      },
+      {
+        "name": "Đường cát trắng",
+        "amount": "60 g"
+      },
+      {
+        "name": "Đường phèn",
+        "amount": "150 g"
+      },
+      {
+        "name": "Nước lọc",
+        "amount": "1,2 lít"
+      },
+      {
+        "name": "Nhãn hoặc vải (tươi hoặc đóng hộp)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Hạnh nhân lát",
+        "amount": "50 g"
+      },
+      {
+        "name": "Lá dứa",
+        "amount": "3 lá"
+      },
+      {
+        "name": "Bột trà xanh hoặc siro dâu (tạo màu, tùy chọn)",
+        "amount": "1 thìa cà phê"
+      },
+      {
+        "name": "Đá viên",
+        "amount": "200 g"
+      }
+    ],
+    "steps": [
+      "Ngâm gelatin với 60 ml nước lạnh khoảng 10 phút cho nở.",
+      "Đun kem tươi, sữa tươi và đường cát trên lửa nhỏ đến khoảng 70–80°C (vừa bốc hơi, không để sôi). Tắt bếp, cho gelatin vào khuấy tan hoàn toàn.",
+      "Chia hỗn hợp ra các khuôn; có thể pha một phần với bột trà xanh hoặc siro dâu để có nhiều màu. Để nguội rồi cho vào ngăn mát ít nhất 4 giờ cho đông.",
+      "Nấu nước đường: đun phần nước còn lại với đường phèn và lá dứa đến khi tan hết, vớt bỏ lá dứa, để nguội rồi làm lạnh.",
+      "Rang hạnh nhân lát trên chảo khô lửa nhỏ đến khi vàng thơm. Nhãn, vải bóc vỏ, bỏ hạt.",
+      "Cắt khúc bạch thành miếng vuông (dùng dao lượn sóng để có vân đẹp), cho vào chén cùng nhãn hoặc vải, chan nước đường lạnh, thêm đá và rắc hạnh nhân."
+    ],
+    "tags": [
+      "chè",
+      "mát lạnh",
+      "tráng miệng",
+      "giới trẻ"
+    ],
+    "image": {
+      "file": "che-khuc-bach.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg",
+      "author": "Phương Huy",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ca-phe-trung",
+    "name": "Cà phê trứng",
+    "original_name": "Cà phê trứng",
+    "cuisine": "vietnam",
+    "style": "traditional",
+    "dish_type": "drink",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 30000,
+    "price_max": 50000,
+    "calories_kcal": 230,
+    "serving_note": "1 tách khoảng 120 ml",
+    "nutrition": {
+      "protein_g": 7,
+      "carbs_g": 27,
+      "fat_g": 10
+    },
+    "description": "Lớp kem trứng vàng óng, bông mịn như tiramisu phủ trên cà phê phin đậm đặc, uống nóng trong tách nhỏ ngâm nước ấm. Vị đắng của cà phê hòa cùng vị béo ngọt của trứng và sữa tạo nên thức uống “độc nhất vô nhị” của Hà Nội.",
+    "origin": "Cà phê trứng do ông Nguyễn Văn Giảng sáng tạo tại Hà Nội vào năm 1946, khi sữa tươi khan hiếm nên ông dùng lòng đỏ trứng đánh bông thay thế. Quán cà phê Giảng đến nay vẫn là địa chỉ nổi tiếng của món này.",
+    "cooking_style": "Pha phin, đánh bông kem trứng",
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Cà phê bột Robusta rang xay",
+        "amount": "40 g"
+      },
+      {
+        "name": "Nước sôi",
+        "amount": "160 ml"
+      },
+      {
+        "name": "Lòng đỏ trứng gà tươi",
+        "amount": "3 quả"
+      },
+      {
+        "name": "Sữa đặc có đường",
+        "amount": "60 ml"
+      },
+      {
+        "name": "Mật ong",
+        "amount": "2 thìa cà phê"
+      },
+      {
+        "name": "Tinh chất vani",
+        "amount": "vài giọt"
+      },
+      {
+        "name": "Bột ca cao (rắc mặt)",
+        "amount": "1 nhúm"
+      }
+    ],
+    "steps": [
+      "Tráng phin và tách bằng nước sôi. Cho cà phê vào phin, rót 30 ml nước sôi ủ 30 giây cho cà phê nở rồi châm nốt phần nước còn lại, để nhỏ giọt khoảng 5 phút.",
+      "Chọn trứng thật tươi, tách lấy lòng đỏ cho vào cốc cao cùng sữa đặc, mật ong và vani. Đánh bằng máy 3–5 phút đến khi kem bông mịn, đặc, màu vàng nhạt và không còn mùi tanh.",
+      "Chia cà phê nóng vào 2 tách (mỗi tách khoảng 60 ml), nhẹ nhàng múc kem trứng phủ kín mặt.",
+      "Rắc chút bột ca cao lên trên. Đặt tách trong bát nước nóng để giữ ấm.",
+      "Khi uống, dùng thìa nhỏ xúc lớp kem trước rồi khuấy nhẹ với phần cà phê bên dưới."
+    ],
+    "tags": [
+      "cà phê",
+      "Hà Nội",
+      "đồ uống nóng",
+      "béo ngậy"
+    ],
+    "image": {
+      "file": "ca-phe-trung.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg",
+      "author": "travel oriented",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ca-phe-muoi",
+    "name": "Cà phê muối",
+    "original_name": "Cà phê muối",
+    "cuisine": "vietnam",
+    "style": "modern",
+    "dish_type": "drink",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 20000,
+    "price_max": 35000,
+    "calories_kcal": 230,
+    "serving_note": "1 ly khoảng 150 ml",
+    "nutrition": {
+      "protein_g": 4,
+      "carbs_g": 16,
+      "fat_g": 17
+    },
+    "description": "Cà phê phin đậm đà kết hợp sữa đặc và lớp kem béo đánh bông pha chút muối biển. Vị mặn nhẹ làm dịu cái đắng, đẩy vị ngọt béo lên rõ hơn, tạo cảm giác rất lạ miệng mà dễ ghiền.",
+    "origin": "Cà phê muối ra đời tại một quán cà phê nhỏ ở thành phố Huế vào khoảng năm 2010. Hơn mười năm sau, thức uống này bùng nổ thành trào lưu và xuất hiện trên các xe cà phê khắp cả nước.",
+    "cooking_style": "Pha phin, phủ kem muối",
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Cà phê bột Robusta rang xay",
+        "amount": "40 g"
+      },
+      {
+        "name": "Nước sôi",
+        "amount": "140 ml"
+      },
+      {
+        "name": "Sữa đặc có đường",
+        "amount": "40 ml"
+      },
+      {
+        "name": "Kem béo (whipping cream)",
+        "amount": "80 ml"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "40 ml"
+      },
+      {
+        "name": "Muối biển",
+        "amount": "1/2 thìa cà phê (khoảng 2 g)"
+      },
+      {
+        "name": "Đá viên (nếu uống lạnh)",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Tráng phin bằng nước sôi, cho cà phê vào, rót 30 ml nước sôi ủ 30 giây rồi châm nốt phần nước còn lại, chờ cà phê nhỏ giọt hết (khoảng 5 phút).",
+      "Cho kem béo, sữa tươi và muối vào cốc, đánh bằng máy đánh sữa cầm tay 1–2 phút đến khi kem bông sệt nhưng vẫn chảy được, không đánh cứng.",
+      "Chia sữa đặc vào 2 ly, rót cà phê lên trên; khuấy nhẹ nếu thích vị hòa quyện hoặc để nguyên tầng cho đẹp mắt.",
+      "Nhẹ nhàng rót lớp kem muối phủ lên mặt cà phê. Dùng nóng, hoặc cho đá viên vào ly trước khi phủ kem để uống lạnh.",
+      "Khi uống, nhấp qua lớp kem mặn béo trước rồi mới tới vị cà phê đắng ngọt bên dưới."
+    ],
+    "tags": [
+      "cà phê",
+      "Huế",
+      "trào lưu",
+      "kem muối"
+    ],
+    "image": {
+      "file": "ca-phe-muoi.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:C%C3%A0_Ph%C3%AA_Mu%E1%BB%91i_-_The_Big_Bowl_2024-07-08.jpg",
+      "author": "Andy Li",
+      "license": "CC0"
+    },
+    "featured": false
+  }
+]

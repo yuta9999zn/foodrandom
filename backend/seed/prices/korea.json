@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "com-tron-bibimbap",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1600
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 35,
+        "max": 65
+      },
+      "GB": {
+        "min": 12,
+        "max": 16
+      }
+    }
+  },
+  {
+    "slug": "banh-gao-cay-tteokbokki",
+    "prices": {
+      "JP": {
+        "min": 800,
+        "max": 1300
+      },
+      "KR": {
+        "min": 4000,
+        "max": 8000
+      },
+      "CN": {
+        "min": 25,
+        "max": 48
+      },
+      "GB": {
+        "min": 8,
+        "max": 12
+      }
+    }
+  },
+  {
+    "slug": "canh-kim-chi",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1500
+      },
+      "KR": {
+        "min": 8000,
+        "max": 11000
+      },
+      "CN": {
+        "min": 35,
+        "max": 60
+      },
+      "GB": {
+        "min": 11,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "ga-ran-han-quoc",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1800
+      },
+      "KR": {
+        "min": 10000,
+        "max": 16000
+      },
+      "CN": {
+        "min": 40,
+        "max": 75
+      },
+      "GB": {
+        "min": 9,
+        "max": 14
+      }
+    }
+  },
+  {
+    "slug": "kim-chi-cai-thao",
+    "prices": {
+      "JP": {
+        "min": 300,
+        "max": 550
+      },
+      "KR": {
+        "min": 1000,
+        "max": 3000
+      },
+      "CN": {
+        "min": 10,
+        "max": 20
+      },
+      "GB": {
+        "min": 3,
+        "max": 5
+      }
+    }
+  },
+  {
+    "slug": "com-cuon-gimbap",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1100
+      },
+      "KR": {
+        "min": 3000,
+        "max": 5500
+      },
+      "CN": {
+        "min": 18,
+        "max": 32
+      },
+      "GB": {
+        "min": 6,
+        "max": 9
+      }
+    }
+  },
+  {
+    "slug": "thit-ba-chi-nuong-samgyeopsal",
+    "prices": {
+      "JP": {
+        "min": 1800,
+        "max": 3000
+      },
+      "KR": {
+        "min": 16000,
+        "max": 25000
+      },
+      "CN": {
+        "min": 70,
+        "max": 130
+      },
+      "GB": {
+        "min": 18,
+        "max": 28
+      }
+    }
+  },
+  {
+    "slug": "thit-bo-xao-bulgogi",
+    "prices": {
+      "JP": {
+        "min": 1500,
+        "max": 2500
+      },
+      "KR": {
+        "min": 13000,
+        "max": 22000
+      },
+      "CN": {
+        "min": 55,
+        "max": 100
+      },
+      "GB": {
+        "min": 15,
+        "max": 22
+      }
+    }
+  },
+  {
+    "slug": "mien-tron-japchae",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1600
+      },
+      "KR": {
+        "min": 10000,
+        "max": 18000
+      },
+      "CN": {
+        "min": 38,
+        "max": 68
+      },
+      "GB": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "ga-ham-sam-samgyetang",
+    "prices": {
+      "JP": {
+        "min": 2000,
+        "max": 3200
+      },
+      "KR": {
+        "min": 17000,
+        "max": 23000
+      },
+      "CN": {
+        "min": 80,
+        "max": 150
+      },
+      "GB": {
+        "min": 18,
+        "max": 26
+      }
+    }
+  },
+  {
+    "slug": "lau-quan-doi-budae-jjigae",
+    "prices": {
+      "JP": {
+        "min": 1300,
+        "max": 2000
+      },
+      "KR": {
+        "min": 11000,
+        "max": 15000
+      },
+      "CN": {
+        "min": 45,
+        "max": 80
+      },
+      "GB": {
+        "min": 13,
+        "max": 18
+      }
+    }
+  },
+  {
+    "slug": "mi-lanh-naengmyeon",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1600
+      },
+      "KR": {
+        "min": 10000,
+        "max": 16000
+      },
+      "CN": {
+        "min": 35,
+        "max": 65
+      },
+      "GB": {
+        "min": 12,
+        "max": 16
+      }
+    }
+  },
+  {
+    "slug": "mi-tuong-den-jajangmyeon",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1500
+      },
+      "KR": {
+        "min": 7000,
+        "max": 10000
+      },
+      "CN": {
+        "min": 30,
+        "max": 55
+      },
+      "GB": {
+        "min": 11,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "mi-cay-ramyeon",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1100
+      },
+      "KR": {
+        "min": 4000,
+        "max": 6500
+      },
+      "CN": {
+        "min": 25,
+        "max": 40
+      },
+      "GB": {
+        "min": 8,
+        "max": 11
+      }
+    }
+  },
+  {
+    "slug": "canh-dau-hu-non-sundubu-jjigae",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1500
+      },
+      "KR": {
+        "min": 9000,
+        "max": 12000
+      },
+      "CN": {
+        "min": 38,
+        "max": 65
+      },
+      "GB": {
+        "min": 12,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "banh-xeo-hai-san-haemul-pajeon",
+    "prices": {
+      "JP": {
+        "min": 650,
+        "max": 1000
+      },
+      "KR": {
+        "min": 8000,
+        "max": 13000
+      },
+      "CN": {
+        "min": 30,
+        "max": 50
+      },
+      "GB": {
+        "min": 6,
+        "max": 9
+      }
+    }
+  },
+  {
+    "slug": "bingsu-dau-do-patbingsu",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1600
+      },
+      "KR": {
+        "min": 9000,
+        "max": 15000
+      },
+      "CN": {
+        "min": 35,
+        "max": 60
+      },
+      "GB": {
+        "min": 8,
+        "max": 12
+      }
+    }
+  },
+  {
+    "slug": "banh-ran-duong-hotteok",
+    "prices": {
+      "JP": {
+        "min": 300,
+        "max": 550
+      },
+      "KR": {
+        "min": 1500,
+        "max": 3000
+      },
+      "CN": {
+        "min": 10,
+        "max": 18
+      },
+      "GB": {
+        "min": 3,
+        "max": 4.5
+      }
+    }
+  },
+  {
+    "slug": "ca-phe-dalgona",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 850
+      },
+      "KR": {
+        "min": 5000,
+        "max": 7000
+      },
+      "CN": {
+        "min": 22,
+        "max": 35
+      },
+      "GB": {
+        "min": 4,
+        "max": 5.5
+      }
+    }
+  },
+  {
+    "slug": "corn-dog-pho-mai",
+    "prices": {
+      "JP": {
+        "min": 450,
+        "max": 650
+      },
+      "KR": {
+        "min": 2500,
+        "max": 4500
+      },
+      "CN": {
+        "min": 12,
+        "max": 22
+      },
+      "GB": {
+        "min": 4,
+        "max": 6
+      }
+    }
+  }
+]

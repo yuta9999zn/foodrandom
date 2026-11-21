@@ -1,0 +1,1387 @@
+[
+  {
+    "slug": "com-tron-bibimbap",
+    "name": "Bibimbap",
+    "description": "A bowl of hot rice topped with an array of individually sauteed vegetables, beef and a fried egg, all mixed together with gochujang and fragrant sesame oil. Every spoonful is soft yet crunchy, gently spicy and nutty, and beautifully balanced nutritionally.",
+    "origin": "Bibimbap means \"mixed rice\" and is most famously associated with the city of Jeonju in North Jeolla Province. The dish is linked to the Korean custom of mixing up all the leftover food before the New Year and to ancestral ritual offerings.",
+    "cooking_style": "Mixed, stir-fried",
+    "serving_note": "1 bowl, about 450 g",
+    "ingredients": [
+      {
+        "name": "Hot steamed short-grain rice",
+        "amount": "2 heaped bowls (about 400 g)"
+      },
+      {
+        "name": "Beef tenderloin, cut into thin strips",
+        "amount": "150 g"
+      },
+      {
+        "name": "Spinach",
+        "amount": "150 g"
+      },
+      {
+        "name": "Bean sprouts",
+        "amount": "100 g"
+      },
+      {
+        "name": "Carrot, julienned",
+        "amount": "1 small"
+      },
+      {
+        "name": "Zucchini, julienned",
+        "amount": "1/2"
+      },
+      {
+        "name": "Fresh shiitake mushrooms, sliced",
+        "amount": "4"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Gochujang (Korean chili paste)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "2 cloves"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Toasted sesame seeds",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Marinate the beef with 1 tbsp soy sauce, 1/2 tsp sugar, half the minced garlic and 1 tsp sesame oil for 15 minutes.",
+      "Blanch the spinach and bean sprouts separately for about 1 minute each, refresh under cold water, squeeze dry, then season each with a pinch of salt, minced garlic and a few drops of sesame oil.",
+      "Stir-fry the carrot, zucchini and shiitake one after another in a pan with a little oil, seasoning lightly with salt; cook each for only 1–2 minutes to keep its colour and crunch.",
+      "Stir-fry the beef over high heat for 2–3 minutes until just cooked. Fry the 2 eggs, keeping the yolks runny.",
+      "Make the sauce: mix the gochujang with the remaining 1 tbsp soy sauce, the rest of the sugar, 1 tbsp sesame oil and 1 tbsp water until smooth.",
+      "Spoon the rice into bowls, arrange the vegetables and beef in separate sections around the bowl, place the fried egg in the centre, add the sauce and sprinkle with sesame seeds.",
+      "Mix everything together thoroughly before eating; if using a hot stone bowl (dolsot), brush the inside with sesame oil and heat for 3–4 minutes to form a crispy rice crust."
+    ],
+    "tags": [
+      "rice",
+      "vegetables",
+      "beef",
+      "gochujang"
+    ]
+  },
+  {
+    "slug": "banh-gao-cay-tteokbokki",
+    "name": "Tteokbokki (Spicy Rice Cakes)",
+    "description": "Chewy rice cake cylinders swimming in a glossy red sauce that is spicy, sweet and rich, served with fish cakes and boiled eggs. This is Korea's best-loved street food, the one almost every K-drama fan wants to try.",
+    "origin": "The old royal court version was stir-fried with soy sauce and was not spicy. The fiery red gochujang version was born in the Sindang-dong district of Seoul in the 1950s and quickly became Korea's number one snack.",
+    "cooking_style": "Simmered in spicy sauce",
+    "serving_note": "1 plate, about 300 g",
+    "ingredients": [
+      {
+        "name": "Cylinder rice cakes (garae-tteok)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Korean fish cakes (eomuk)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Dried anchovy and kelp stock",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Gochujang (Korean chili paste)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Gochugaru (Korean chili flakes)",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1.5 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Spring onions, cut into lengths",
+        "amount": "2"
+      },
+      {
+        "name": "Hard-boiled eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Toasted sesame seeds",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "If the rice cakes are frozen or hard, soak them in warm water for 10–15 minutes to soften, then drain. Cut the fish cakes into bite-sized triangles.",
+      "Bring the anchovy stock to the boil in a deep pan, then stir in the gochujang, chili flakes, sugar, soy sauce and minced garlic until dissolved.",
+      "Add the rice cakes and cook over medium heat for 6–8 minutes, stirring occasionally so they do not stick to the bottom of the pan.",
+      "Add the fish cakes and boiled eggs and cook for another 4–5 minutes until the sauce thickens and coats the rice cakes in a glossy layer.",
+      "Add the spring onions, toss for 30 seconds more, then turn off the heat, sprinkle with sesame seeds and serve hot."
+    ],
+    "tags": [
+      "rice cakes",
+      "spicy",
+      "snack",
+      "street food"
+    ]
+  },
+  {
+    "slug": "canh-kim-chi",
+    "name": "Kimchi Jjigae (Kimchi Stew)",
+    "description": "A bubbling pot of well-fermented sour kimchi, rich pork belly and soft tofu, deeply sour and spicy and perfect with rice. The longer the kimchi has fermented, the more rounded the broth becomes.",
+    "origin": "Kimchi-jjigae is one of the most popular everyday stews on the Korean family table, born from the habit of using up kimchi that has fermented until very sour.",
+    "cooking_style": "Stewed",
+    "serving_note": "1 bowl, about 400 ml (rice not included)",
+    "ingredients": [
+      {
+        "name": "Well-fermented napa cabbage kimchi",
+        "amount": "300 g"
+      },
+      {
+        "name": "Kimchi juice",
+        "amount": "60 ml"
+      },
+      {
+        "name": "Pork belly, cut into pieces",
+        "amount": "200 g"
+      },
+      {
+        "name": "Firm tofu",
+        "amount": "200 g"
+      },
+      {
+        "name": "Onion, cut into wedges",
+        "amount": "1/2"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "2"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Gochugaru (Korean chili flakes)",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Anchovy stock or rice-rinsing water",
+        "amount": "500 ml"
+      }
+    ],
+    "steps": [
+      "Cut the kimchi into bite-sized pieces. Slice the tofu about 1 cm thick and cut the spring onions on the diagonal.",
+      "Heat the pot with the sesame oil, add the pork belly and stir-fry until it firms up and renders some of its fat.",
+      "Add the kimchi and chili flakes and stir-fry together for 4–5 minutes until the kimchi softens and becomes fragrant.",
+      "Pour in the stock and kimchi juice, add the onion and minced garlic, bring to the boil, then lower to medium heat and simmer for 15–20 minutes.",
+      "Season to taste with soy sauce, lay the tofu on top and cook for 5 minutes more.",
+      "Scatter over the spring onions, take the pot off the heat while still bubbling and serve hot with steamed rice."
+    ],
+    "tags": [
+      "kimchi",
+      "stew",
+      "spicy",
+      "pork"
+    ]
+  },
+  {
+    "slug": "ga-ran-han-quoc",
+    "name": "Korean Fried Chicken (Yangnyeom)",
+    "description": "Chicken fried twice for a thin, shatteringly crisp crust, then tossed in a glossy sweet-and-spicy sauce of gochujang, garlic and honey. Served with pickled radish and an ice-cold beer, it is the true Korean \"chimaek\" experience.",
+    "origin": "Korean-style fried chicken took shape in the 1970s; sweet-and-spicy yangnyeom chicken is thought to have been created in Daegu in the early 1980s, before spreading around the world with the Hallyu wave.",
+    "cooking_style": "Double-fried, sauce-glazed",
+    "serving_note": "1 serving, about 250 g (4–5 pieces)",
+    "ingredients": [
+      {
+        "name": "Chicken wings and thighs, cut into pieces",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "1 tsp each"
+      },
+      {
+        "name": "Ginger, minced",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Potato starch",
+        "amount": "100 g"
+      },
+      {
+        "name": "All-purpose flour",
+        "amount": "50 g"
+      },
+      {
+        "name": "Baking powder",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Cooking oil for frying",
+        "amount": "1 litre"
+      },
+      {
+        "name": "Gochujang (Korean chili paste)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Ketchup",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Honey or corn syrup",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Toasted sesame seeds and crushed peanuts",
+        "amount": "2 tbsp"
+      }
+    ],
+    "steps": [
+      "Rinse the chicken, pat it thoroughly dry and marinate with the salt, pepper and minced ginger for 20 minutes.",
+      "Mix the potato starch, flour and baking powder; dredge each piece of chicken in the mixture, pressing lightly so it coats evenly, then rest for 5 minutes.",
+      "Heat the oil to about 165°C and fry the chicken a first time for 8–10 minutes until cooked through and pale golden, then lift out and drain for 5 minutes.",
+      "Raise the oil temperature to 180–185°C and fry a second time for 2–3 minutes until the crust is golden brown and very crisp.",
+      "Saute the minced garlic in a pan with a little oil until fragrant, add the gochujang, ketchup, honey, soy sauce and 2 tbsp water, and simmer over low heat for 2–3 minutes until the sauce thickens.",
+      "Add the freshly fried chicken to the sauce and toss quickly to coat evenly, sprinkle with sesame seeds and peanuts and serve immediately while still crisp."
+    ],
+    "tags": [
+      "fried chicken",
+      "sweet and spicy",
+      "chimaek",
+      "fast food"
+    ]
+  },
+  {
+    "slug": "kim-chi-cai-thao",
+    "name": "Napa Cabbage Kimchi (Baechu Kimchi)",
+    "description": "Salted napa cabbage fermented with chili flakes, garlic, ginger and fish sauce: crunchy, sour, spicy and wonderfully pungent. Kimchi appears at every Korean meal and is both low in calories and rich in probiotics.",
+    "origin": "Kimchi has a history of thousands of years; red chili was only added around the 17th–18th centuries. The communal kimchi-making tradition (kimjang) was inscribed by UNESCO as Intangible Cultural Heritage in 2013.",
+    "cooking_style": "Salted, fermented",
+    "serving_note": "1 small plate, about 100 g",
+    "ingredients": [
+      {
+        "name": "Napa cabbage",
+        "amount": "1 large head (about 2 kg)"
+      },
+      {
+        "name": "Coarse sea salt",
+        "amount": "150 g"
+      },
+      {
+        "name": "Korean radish (mu), julienned",
+        "amount": "300 g"
+      },
+      {
+        "name": "Spring onions and garlic chives, cut into lengths",
+        "amount": "100 g"
+      },
+      {
+        "name": "Gochugaru (Korean chili flakes)",
+        "amount": "80 g"
+      },
+      {
+        "name": "Fish sauce",
+        "amount": "60 ml"
+      },
+      {
+        "name": "Salted fermented shrimp (saeujeot)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic",
+        "amount": "8 cloves"
+      },
+      {
+        "name": "Ginger",
+        "amount": "1 small knob (15 g)"
+      },
+      {
+        "name": "Korean pear",
+        "amount": "1/2"
+      },
+      {
+        "name": "Glutinous rice flour",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp"
+      }
+    ],
+    "steps": [
+      "Quarter the cabbage lengthwise, dip it in water, then rub coarse salt between every leaf, especially on the thick stems. Leave for about 2 hours, turning every 30 minutes, until the leaves are soft and pliable and bend without snapping.",
+      "Rinse the cabbage 3 times under running water to remove the salt, then place cut-side down in a colander to drain thoroughly for at least 30 minutes.",
+      "Mix the glutinous rice flour with 250 ml water and stir over low heat until it becomes a thick, translucent paste; let it cool completely.",
+      "Blend the garlic, ginger and pear to a puree, then mix with the rice paste, chili flakes, fish sauce, fermented shrimp and sugar into a thick red seasoning paste.",
+      "Add the julienned radish, spring onions and chives to the paste and mix well.",
+      "Wearing gloves, spread the paste between every leaf of the cabbage from the inside out, fold each quarter neatly and pack tightly into an airtight container, leaving some space at the top.",
+      "Leave at room temperature for 1–2 days to ferment (until you see bubbles and smell a mild sourness), then move to the refrigerator; the kimchi is at its best after 1–2 weeks."
+    ],
+    "tags": [
+      "kimchi",
+      "fermented",
+      "side dish",
+      "low calorie"
+    ]
+  },
+  {
+    "slug": "com-cuon-gimbap",
+    "name": "Gimbap (Korean Seaweed Rice Rolls)",
+    "description": "Sesame-oil-seasoned rice rolled in seaweed with egg, carrot, spinach, yellow pickled radish and sausage, then sliced into colourful rounds. Compact and filling, it is perfect for school, work or a picnic.",
+    "origin": "Gimbap became popular in Korea in the early 20th century and is a must-have in any picnic lunchbox. Unlike sushi rolls, the rice in gimbap is seasoned with sesame oil and salt rather than vinegar.",
+    "cooking_style": "Rolled",
+    "serving_note": "1 roll, about 250 g (10–12 slices)",
+    "ingredients": [
+      {
+        "name": "Short-grain sticky rice",
+        "amount": "400 g (2 cups)"
+      },
+      {
+        "name": "Seaweed sheets (gim) for rolling",
+        "amount": "4 sheets"
+      },
+      {
+        "name": "Eggs",
+        "amount": "3"
+      },
+      {
+        "name": "Carrot, julienned",
+        "amount": "1"
+      },
+      {
+        "name": "Spinach",
+        "amount": "200 g"
+      },
+      {
+        "name": "Yellow pickled radish (danmuji)",
+        "amount": "4 long strips"
+      },
+      {
+        "name": "Sausage or ham",
+        "amount": "4 long strips"
+      },
+      {
+        "name": "Crab sticks",
+        "amount": "4"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Toasted sesame seeds",
+        "amount": "1 tbsp"
+      }
+    ],
+    "steps": [
+      "Cook the rice slightly drier than usual. While it is still warm, gently mix in 1 tbsp sesame oil, 1/2 tsp salt and the sesame seeds.",
+      "Beat the eggs with a pinch of salt, cook into a thick omelette and cut into long strips. Stir-fry the carrot for 2 minutes with a little oil and salt. Briefly pan-fry the sausage and crab sticks.",
+      "Blanch the spinach for 30 seconds, refresh under cold water, squeeze very dry, then season with a little salt and sesame oil.",
+      "Place a seaweed sheet on a bamboo mat, rough side up. Spread a thin layer of rice over about 2/3 of the sheet, leaving the top edge bare.",
+      "Lay the fillings in horizontal rows across the middle of the rice, then use the mat to roll up tightly from the bottom, pressing the seaweed edge to seal.",
+      "Brush the outside of the roll with sesame oil, then with a sharp knife dipped in a little water, cut into slices about 1.5 cm thick and arrange on a plate."
+    ],
+    "tags": [
+      "rice rolls",
+      "seaweed",
+      "takeaway",
+      "picnic"
+    ]
+  },
+  {
+    "slug": "thit-ba-chi-nuong-samgyeopsal",
+    "name": "Samgyeopsal (Grilled Pork Belly)",
+    "description": "Thick slices of pork belly sizzled at the table until golden and crisp, then wrapped in lettuce and perilla leaves with grilled garlic, kimchi and ssamjang. Left unmarinated, this barbecue showcases the pure sweet richness of the pork.",
+    "origin": "Samgyeopsal means \"three-layer meat\". Grilling pork belly at the table boomed in Korea in the 1970s–1980s and is now the top choice for get-togethers and parties.",
+    "cooking_style": "Tabletop grilled",
+    "serving_note": "1 serving, about 200 g grilled pork with wrapping greens",
+    "ingredients": [
+      {
+        "name": "Pork belly, sliced 0.5–1 cm thick",
+        "amount": "500 g"
+      },
+      {
+        "name": "Lettuce",
+        "amount": "1 head"
+      },
+      {
+        "name": "Perilla leaves",
+        "amount": "20 leaves"
+      },
+      {
+        "name": "Garlic, sliced",
+        "amount": "1 bulb"
+      },
+      {
+        "name": "Green chilies, sliced into rings",
+        "amount": "2"
+      },
+      {
+        "name": "Napa cabbage kimchi",
+        "amount": "150 g"
+      },
+      {
+        "name": "King oyster mushrooms, sliced",
+        "amount": "2"
+      },
+      {
+        "name": "Doenjang (Korean soybean paste)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Gochujang (Korean chili paste)",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Spring onions, finely shredded",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Make the ssamjang: mix the doenjang, gochujang, 1 tsp sesame oil, a little minced garlic and toasted sesame seeds. Prepare a second dipping dish of sesame oil with salt and pepper.",
+      "Wash the lettuce and perilla leaves and let them drain. Soak the shredded spring onions in cold water for 5 minutes until they curl and crisp up, then drain and toss with a little chili flakes, vinegar and sesame oil.",
+      "Heat a grill plate or griddle pan, lay the pork belly on it and grill over medium-high heat for 3–4 minutes per side until golden and crisp on both sides.",
+      "Grill the garlic, mushrooms and kimchi alongside in the rendered pork fat.",
+      "Use scissors to cut the pork into bite-sized pieces.",
+      "To eat, place a piece of pork on a lettuce leaf and a perilla leaf, add grilled garlic, chili, the dressed spring onions, kimchi and a little ssamjang, then wrap it up and eat it in one bite."
+    ],
+    "tags": [
+      "grilled",
+      "pork",
+      "lettuce wraps",
+      "get-together"
+    ]
+  },
+  {
+    "slug": "thit-bo-xao-bulgogi",
+    "name": "Beef Bulgogi",
+    "description": "Thinly sliced beef marinated in soy sauce, grated pear, garlic and sesame oil, then quickly stir-fried or grilled over high heat until tender, sweet and wonderfully fragrant. Gently sweet-savoury and not spicy, it is easy even for young children to enjoy.",
+    "origin": "Bulgogi means \"fire meat\". It traces back to maekjeok, a skewered grilled meat of the Goguryeo era, and was once a dish of the aristocracy during the Joseon dynasty.",
+    "cooking_style": "Marinated, high-heat stir-fried",
+    "serving_note": "1 serving, about 200 g (rice not included)",
+    "ingredients": [
+      {
+        "name": "Beef sirloin or chuck, very thinly sliced",
+        "amount": "500 g"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Brown sugar",
+        "amount": "1.5 tbsp"
+      },
+      {
+        "name": "Korean pear, grated",
+        "amount": "1/2"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Mirin",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Ground black pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Onion, cut into thin wedges",
+        "amount": "1"
+      },
+      {
+        "name": "Carrot, thinly sliced",
+        "amount": "1/2"
+      },
+      {
+        "name": "Enoki or shiitake mushrooms",
+        "amount": "100 g"
+      },
+      {
+        "name": "Spring onions, cut into lengths",
+        "amount": "2"
+      },
+      {
+        "name": "Toasted sesame seeds",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Mix the soy sauce, brown sugar, grated pear, minced garlic, sesame oil, mirin and pepper to make the marinade.",
+      "Add the beef and massage gently so it absorbs the marinade; marinate for at least 30 minutes (overnight in the fridge is even better).",
+      "Heat a cast-iron or heavy-based pan until very hot with a little oil, add the onion and carrot and stir-fry for 1 minute.",
+      "Add the beef, spread it out thinly and stir-fry over high heat for 3–4 minutes until just cooked and the marinade has reduced; cook in two batches if your pan is small so the meat does not stew in its juices.",
+      "Add the mushrooms and spring onions, toss for 1 minute more, then turn off the heat.",
+      "Sprinkle with sesame seeds and serve hot with steamed rice, or wrap in lettuce with ssamjang."
+    ],
+    "tags": [
+      "beef",
+      "sweet and savoury",
+      "not spicy",
+      "goes with rice"
+    ]
+  },
+  {
+    "slug": "mien-tron-japchae",
+    "name": "Japchae (Stir-Fried Glass Noodles)",
+    "description": "Clear, chewy sweet potato glass noodles tossed with beef and colourful vegetables in soy sauce and sesame oil. Harmoniously sweet and savoury, it is a fixture of holiday feasts and birthday parties.",
+    "origin": "Japchae dates back to the 17th century at the banquets of King Gwanghaegun of the Joseon dynasty, originally made only with vegetables; sweet potato noodles were added in the early 20th century.",
+    "cooking_style": "Stir-fried, tossed",
+    "serving_note": "1 plate, about 250 g",
+    "ingredients": [
+      {
+        "name": "Korean sweet potato glass noodles (dangmyeon)",
+        "amount": "250 g"
+      },
+      {
+        "name": "Beef, cut into thin strips",
+        "amount": "150 g"
+      },
+      {
+        "name": "Spinach",
+        "amount": "200 g"
+      },
+      {
+        "name": "Carrot, julienned",
+        "amount": "1"
+      },
+      {
+        "name": "Onion, thinly sliced",
+        "amount": "1"
+      },
+      {
+        "name": "Red bell pepper, thinly sliced",
+        "amount": "1/2"
+      },
+      {
+        "name": "Shiitake mushrooms, sliced",
+        "amount": "5"
+      },
+      {
+        "name": "Egg (cooked as a thin omelette, cut into strips)",
+        "amount": "1"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "5 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Toasted sesame seeds",
+        "amount": "1 tbsp"
+      }
+    ],
+    "steps": [
+      "Marinate the beef and shiitake with 1 tbsp soy sauce, 1 tsp sugar, half the minced garlic and a pinch of pepper for 15 minutes.",
+      "Boil the noodles for 6–7 minutes until soft but chewy, rinse under cold water, drain, cut them shorter, then immediately toss with 1 tbsp sesame oil to stop them sticking.",
+      "Blanch the spinach for 30 seconds, refresh in cold water, squeeze dry and season with a little salt and sesame oil.",
+      "Stir-fry the onion, carrot and bell pepper separately with a little oil and salt, 1–2 minutes each to keep their colours bright; then stir-fry the beef with the mushrooms until cooked.",
+      "Add the noodles to the pan with the remaining soy sauce, sugar and garlic and toss over medium heat for 2–3 minutes until the noodles are evenly coated and glossy.",
+      "In a large bowl, toss the noodles with all the vegetables, beef and egg strips, add the remaining sesame oil, adjust the seasoning and sprinkle with sesame seeds."
+    ],
+    "tags": [
+      "glass noodles",
+      "vegetables",
+      "party food",
+      "not spicy"
+    ]
+  },
+  {
+    "slug": "ga-ham-sam-samgyetang",
+    "name": "Samgyetang (Ginseng Chicken Soup)",
+    "description": "A whole young chicken stuffed with glutinous rice, ginseng, jujubes and garlic, simmered until falling-off-the-bone tender in a milky, delicately sweet broth. A famously restorative dish, eaten piping hot and dipped in salt and pepper.",
+    "origin": "Koreans eat samgyetang on the three hottest days of summer (sambok), following the idea of \"fighting heat with heat\". The dish became widespread in the mid-20th century, when fresh ginseng became easier to buy.",
+    "cooking_style": "Simmered",
+    "serving_note": "1 pot with 1 small chicken and broth (about 800 g)",
+    "ingredients": [
+      {
+        "name": "Whole young chickens (poussins)",
+        "amount": "2 (500–600 g each)"
+      },
+      {
+        "name": "Glutinous rice",
+        "amount": "100 g"
+      },
+      {
+        "name": "Fresh ginseng roots",
+        "amount": "2 small"
+      },
+      {
+        "name": "Dried jujubes (red dates)",
+        "amount": "6"
+      },
+      {
+        "name": "Garlic, peeled",
+        "amount": "10 cloves"
+      },
+      {
+        "name": "Chestnuts, peeled",
+        "amount": "4"
+      },
+      {
+        "name": "Ginger, sliced",
+        "amount": "2 slices"
+      },
+      {
+        "name": "Spring onions, finely chopped",
+        "amount": "3"
+      },
+      {
+        "name": "Water",
+        "amount": "2 litres"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Rinse the glutinous rice well, soak it in water for at least 1 hour, then drain.",
+      "Clean the chickens, trim off the excess fat around the tail and rinse the cavities thoroughly.",
+      "Stuff each chicken with half the glutinous rice, 3 cloves of garlic, 1 jujube and 2 chestnuts; do not overfill, as the rice will swell.",
+      "Make a small slit in the skin of one thigh and tuck the other leg through it (or use a toothpick) to cross the legs and keep the stuffing in.",
+      "Place the chickens in a pot with the ginseng, the remaining garlic and jujubes, the ginger and 2 litres of water. Bring to the boil and skim off the scum thoroughly.",
+      "Lower the heat, cover and simmer for 50–60 minutes until the chicken is very tender and the broth turns milky white.",
+      "Ladle each chicken into a hot earthenware bowl with the broth and sprinkle with spring onions. Diners season with salt and pepper themselves and eat it with kimchi."
+    ],
+    "tags": [
+      "chicken",
+      "ginseng",
+      "restorative",
+      "stew"
+    ]
+  },
+  {
+    "slug": "lau-quan-doi-budae-jjigae",
+    "name": "Budae Jjigae (Army Stew)",
+    "description": "A fiery red hotpot packed with Spam, sausages, kimchi, tofu, instant noodles and slices of melting cheese. The punchy heat meets rich, salty East-meets-West flavours in an incredibly moreish dish made for sharing.",
+    "origin": "Budae jjigae was born in Uijeongbu after the Korean War, when locals cooked Spam and sausages from US military bases with kimchi and chili paste. From a dish of hard times, it has become a symbol of Korea's fusion cuisine.",
+    "cooking_style": "Tabletop hotpot",
+    "serving_note": "1 serving, about 500 g (pot serves 3)",
+    "ingredients": [
+      {
+        "name": "Spam (canned ham), sliced",
+        "amount": "200 g"
+      },
+      {
+        "name": "Sausages, sliced on the diagonal",
+        "amount": "4"
+      },
+      {
+        "name": "Well-fermented napa cabbage kimchi",
+        "amount": "200 g"
+      },
+      {
+        "name": "Firm tofu, sliced",
+        "amount": "150 g"
+      },
+      {
+        "name": "Korean instant noodles (noodle block only)",
+        "amount": "1 block"
+      },
+      {
+        "name": "Sliced rice cakes",
+        "amount": "100 g"
+      },
+      {
+        "name": "Enoki mushrooms",
+        "amount": "100 g"
+      },
+      {
+        "name": "Canned baked beans in tomato sauce",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Cheese slices",
+        "amount": "2 slices"
+      },
+      {
+        "name": "Onion and spring onions",
+        "amount": "1/2 onion and 2 spring onions"
+      },
+      {
+        "name": "Gochugaru (Korean chili flakes)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Gochujang (Korean chili paste)",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Soy sauce and minced garlic",
+        "amount": "1 tbsp each"
+      },
+      {
+        "name": "Anchovy stock or bone broth",
+        "amount": "1 litre"
+      }
+    ],
+    "steps": [
+      "Mix the chili flakes, gochujang, soy sauce, minced garlic and 1 tsp sugar into a spicy sauce.",
+      "Arrange the Spam, sausages, kimchi, tofu, rice cakes, enoki, onion and baked beans in sections around a shallow hotpot.",
+      "Place the spicy sauce in the centre of the pot, then pour in enough stock to come about 3/4 of the way up the ingredients.",
+      "Bring to the boil over high heat, then reduce to medium and cook for 8–10 minutes, stirring gently so the sauce dissolves evenly.",
+      "Add the noodle block and spring onions and cook for 2–3 minutes more until the noodles are just tender.",
+      "Lay the cheese slices on top, keep the pot gently simmering on a tabletop burner and top up with stock as you eat."
+    ],
+    "tags": [
+      "hotpot",
+      "spicy",
+      "cheese",
+      "get-together"
+    ]
+  },
+  {
+    "slug": "mi-lanh-naengmyeon",
+    "name": "Naengmyeon (Korean Cold Noodles)",
+    "description": "Thin, springy buckwheat noodles in an ice-cold beef broth with shaved ice, topped with boiled beef, pear, cucumber and half an egg. Refreshingly sweet and tangy, it is a superb way to cool down on a summer day.",
+    "origin": "Naengmyeon originated in Pyongyang and Hamhung in the north of the Korean Peninsula, where it was originally a winter dish. After the Korean War, migrants from the north made these noodles popular throughout South Korea.",
+    "cooking_style": "Boiled noodles in cold broth",
+    "serving_note": "1 bowl, about 600 g",
+    "ingredients": [
+      {
+        "name": "Dried naengmyeon buckwheat noodles",
+        "amount": "280 g"
+      },
+      {
+        "name": "Beef shank",
+        "amount": "200 g"
+      },
+      {
+        "name": "Dongchimi (radish water kimchi) brine",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Onion, garlic, ginger (for the broth)",
+        "amount": "1/2 onion, 3 cloves, 2 slices"
+      },
+      {
+        "name": "Cucumber, julienned",
+        "amount": "1/2"
+      },
+      {
+        "name": "Korean pear, thinly sliced",
+        "amount": "1/4"
+      },
+      {
+        "name": "Sweet-and-sour pickled radish, sliced",
+        "amount": "80 g"
+      },
+      {
+        "name": "Hard-boiled egg",
+        "amount": "1"
+      },
+      {
+        "name": "Rice vinegar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Korean mustard",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Toasted sesame seeds",
+        "amount": "1 tsp"
+      }
+    ],
+    "steps": [
+      "Simmer the beef shank in 1.2 litres of water with the onion, garlic and ginger for 50 minutes, skimming frequently. Lift out the beef, let it cool, then slice thinly.",
+      "Strain off about 600 ml of the broth, skim off all the fat, then mix with the dongchimi brine, vinegar, sugar and salt to a light sweet-and-sour balance.",
+      "Put the broth in the freezer for 1–2 hours until it turns slushy like shaved ice.",
+      "Boil the noodles for 3–4 minutes according to the packet instructions, then drain and rub them vigorously under cold running water several times to remove the starch and firm them up.",
+      "Twist the noodles into a nest in a large bowl and top with the beef, cucumber, pear, pickled radish and half a boiled egg.",
+      "Pour the cold broth around the noodles and sprinkle with sesame seeds; add mustard and vinegar to taste when eating, and use scissors to cut the noodles for easier eating."
+    ],
+    "tags": [
+      "cold noodles",
+      "cooling",
+      "buckwheat",
+      "summer"
+    ]
+  },
+  {
+    "slug": "mi-tuong-den-jajangmyeon",
+    "name": "Jajangmyeon (Black Bean Noodles)",
+    "description": "Thick, chewy fresh noodles smothered in a glossy black bean sauce cooked with pork, onion and diced vegetables. Savoury-sweet, nutty and rich with no heat at all, once mixed it is impossible to stop eating.",
+    "origin": "Jajangmyeon was created by Chinese immigrants at the port of Incheon around 1905, based on a Shandong noodle dish tossed in bean paste. Today it is a favourite delivery food and the \"singles' dish\" of Black Day on 14 April.",
+    "cooking_style": "Sauce stir-fried, tossed",
+    "serving_note": "1 bowl, about 500 g",
+    "ingredients": [
+      {
+        "name": "Thick fresh noodles (jajang noodles or udon)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Chunjang (Korean black bean paste)",
+        "amount": "4 tbsp (about 80 g)"
+      },
+      {
+        "name": "Pork belly or shoulder, diced",
+        "amount": "200 g"
+      },
+      {
+        "name": "Onions, diced",
+        "amount": "2"
+      },
+      {
+        "name": "Zucchini, diced",
+        "amount": "1/2"
+      },
+      {
+        "name": "Potato, diced",
+        "amount": "1"
+      },
+      {
+        "name": "Cabbage, cut into squares",
+        "amount": "100 g"
+      },
+      {
+        "name": "Garlic and ginger, minced",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Oyster sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Stock or water",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Cornstarch mixed with 3 tbsp water",
+        "amount": "1.5 tbsp"
+      },
+      {
+        "name": "Julienned cucumber and boiled egg (to serve)",
+        "amount": "1/2 cucumber, 1 egg"
+      }
+    ],
+    "steps": [
+      "Heat 3 tbsp oil, add the black bean paste and fry over low heat for 2–3 minutes to remove its bitterness, then scoop out the paste and drain off some of the oil.",
+      "Saute the garlic and ginger in the remaining oil until fragrant, then add the pork and stir-fry until firm and lightly browned at the edges.",
+      "Add the potato and stir-fry for 2 minutes, followed by the onion, zucchini and cabbage, and stir-fry for 3–4 minutes more until the onion turns translucent.",
+      "Add the fried black bean paste and toss well, then add the stock, sugar and oyster sauce, bring to the boil and simmer for 8–10 minutes until the potato is tender.",
+      "Stir the cornstarch slurry and pour it slowly into the pan, stirring constantly until the sauce is thick and glossy, then turn off the heat.",
+      "Boil the noodles for 3–5 minutes until cooked but chewy, rinse briefly under cold water, then dip back into hot water to warm through and drain.",
+      "Divide the noodles between bowls, ladle the black bean sauce over the top, add the julienned cucumber and half a boiled egg, sprinkle with a few sesame seeds and mix well before eating; serve with yellow pickled radish."
+    ],
+    "tags": [
+      "mixed noodles",
+      "black bean sauce",
+      "not spicy",
+      "pork"
+    ]
+  },
+  {
+    "slug": "mi-cay-ramyeon",
+    "name": "Korean Spicy Ramyeon",
+    "description": "A bowl of springy, wavy noodles in a fiery red broth, studded with dried vegetables, mushrooms and spring onions; add an egg or a slice of cheese for extra richness if you like. Quick, cheap and hugely satisfying, Koreans often eat it piping hot straight from a yellow aluminium pot, just like in the dramas.",
+    "origin": "Instant noodles appeared in Korea in 1963 and quickly became a national favourite; Koreans are now among the world's highest consumers of instant noodles per capita.",
+    "cooking_style": "Quick-cooked",
+    "serving_note": "1 bowl, about 550 g (1 pack of noodles with egg and cheese)",
+    "ingredients": [
+      {
+        "name": "Spicy Korean instant noodles (with soup and dried vegetable sachets)",
+        "amount": "1 pack (120 g)"
+      },
+      {
+        "name": "Water",
+        "amount": "550 ml"
+      },
+      {
+        "name": "Egg",
+        "amount": "1"
+      },
+      {
+        "name": "Cheese slice",
+        "amount": "1 slice"
+      },
+      {
+        "name": "Spring onion, sliced on the diagonal",
+        "amount": "1"
+      },
+      {
+        "name": "Napa cabbage kimchi",
+        "amount": "50 g"
+      },
+      {
+        "name": "Green chili, sliced into rings",
+        "amount": "1/2"
+      }
+    ],
+    "steps": [
+      "Bring 550 ml water to the boil in a small pot, then add the soup and dried vegetable sachets and stir to dissolve.",
+      "Add the noodle block and cook over high heat for about 3 minutes; while cooking, lift the noodles out of the water with chopsticks a few times to make them firmer and springier.",
+      "Crack the egg into the centre of the pot, leaving the yolk whole or stirring gently as you prefer, and cook for 1 minute more.",
+      "Add the spring onion and green chili and turn off the heat when the noodles are just tender.",
+      "Lay the cheese slice on top to melt and eat immediately while hot, with kimchi."
+    ],
+    "tags": [
+      "instant noodles",
+      "spicy",
+      "quick",
+      "cheese"
+    ]
+  },
+  {
+    "slug": "canh-dau-hu-non-sundubu-jjigae",
+    "name": "Sundubu Jjigae (Soft Tofu Stew)",
+    "description": "Silky, pudding-soft tofu in a spicy red broth sweetened by clams and prawns, with a raw egg cracked in while the earthenware pot is still bubbling away. Warming, light yet deeply flavourful.",
+    "origin": "Sundubu-jjigae is a long-established Korean stew; today's spicy seafood version became popular in the 1960s and is usually cooked in a ttukbaegi earthenware pot.",
+    "cooking_style": "Stewed in an earthenware pot",
+    "serving_note": "1 pot, about 450 ml (rice not included)",
+    "ingredients": [
+      {
+        "name": "Extra-soft tofu (sundubu)",
+        "amount": "350 g (1 tube)"
+      },
+      {
+        "name": "Clams, purged of sand",
+        "amount": "200 g"
+      },
+      {
+        "name": "Fresh prawns",
+        "amount": "4"
+      },
+      {
+        "name": "Minced pork",
+        "amount": "80 g"
+      },
+      {
+        "name": "Onion, diced",
+        "amount": "1/4"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Gochugaru (Korean chili flakes)",
+        "amount": "1.5 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Fish sauce or soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Dried anchovy stock",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Spring onion, finely chopped",
+        "amount": "1"
+      }
+    ],
+    "steps": [
+      "Heat an earthenware pot (or a small heavy-based pot) over low heat with the sesame oil, add the minced pork, onion and garlic and stir-fry until fragrant.",
+      "Add the chili flakes and stir quickly for about 30 seconds over low heat to release a red chili oil without burning.",
+      "Pour in the anchovy stock, bring to the boil, then season with fish sauce.",
+      "Add the clams and prawns and cook for 2–3 minutes until the clams just open.",
+      "Scoop the soft tofu into the pot in large spoonfuls and return to the boil for 3–4 minutes, avoiding vigorous stirring so the tofu does not break up.",
+      "Crack the eggs into the centre of the pot, sprinkle with spring onion and take it off the heat while still bubbling; eat hot with steamed rice."
+    ],
+    "tags": [
+      "tofu",
+      "seafood",
+      "spicy stew",
+      "earthenware pot"
+    ]
+  },
+  {
+    "slug": "banh-xeo-hai-san-haemul-pajeon",
+    "name": "Haemul Pajeon (Seafood Pancake)",
+    "description": "A golden pan-fried pancake with shatteringly crisp edges and a soft, chewy centre loaded with spring onions, prawns and squid or octopus, dipped in vinegared soy sauce. Koreans say a rainy day calls for pajeon with makgeolli rice wine.",
+    "origin": "The most famous pajeon is the Dongnae style from Busan, which legend says was once presented to the king during the Joseon dynasty. \"Pa\" means spring onion and \"jeon\" means a batter-coated pan-fried dish.",
+    "cooking_style": "Pan-fried",
+    "serving_note": "1/2 pancake, about 200 g",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "amount": "120 g"
+      },
+      {
+        "name": "Cornstarch or tempura flour",
+        "amount": "30 g"
+      },
+      {
+        "name": "Ice-cold water",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Egg",
+        "amount": "1"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "150 g"
+      },
+      {
+        "name": "Carrot, julienned",
+        "amount": "1/2"
+      },
+      {
+        "name": "Prawns, peeled",
+        "amount": "100 g"
+      },
+      {
+        "name": "Squid or octopus, cut into small pieces",
+        "amount": "100 g"
+      },
+      {
+        "name": "Red chili, sliced on the diagonal",
+        "amount": "1"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Rice vinegar",
+        "amount": "1 tbsp"
+      }
+    ],
+    "steps": [
+      "Whisk the flour, cornstarch and salt with the ice-cold water until just free of lumps; do not overmix so the pancake stays crisp.",
+      "Cut the spring onions into lengths matching the diameter of the pan and julienne the carrot. Pat the prawns and squid (or octopus) dry.",
+      "Heat 2 tbsp oil in a non-stick pan over medium-high heat, lay the spring onions side by side in a single layer with the carrot, then pour about 2/3 of the batter over them.",
+      "Scatter the prawns, squid and red chili over the pancake, then drizzle the remaining batter and the beaten egg over the top.",
+      "Fry for 4–5 minutes until the underside is golden and crisp, flip the pancake, add more oil around the edge of the pan and press down gently with a spatula, then fry for 3–4 minutes more.",
+      "Make a dipping sauce of soy sauce, vinegar, a little chili flakes and toasted sesame seeds. Cut the pancake into squares and serve hot."
+    ],
+    "tags": [
+      "savoury pancake",
+      "seafood",
+      "spring onions",
+      "rainy day"
+    ]
+  },
+  {
+    "slug": "bingsu-dau-do-patbingsu",
+    "name": "Patbingsu (Red Bean Shaved Ice)",
+    "description": "A snowy mountain of finely shaved milk ice topped with sweet, nutty red beans, chewy rice cakes and roasted soybean powder. This icy dessert is a summer obsession among young Koreans.",
+    "origin": "Shaved ice is recorded as far back as the Joseon era, when officials shared ice from the royal ice stores. Patbingsu with red beans took shape in the early 20th century and today comes in countless variations with fruit, green tea and cheese.",
+    "cooking_style": "Shaved ice, no cooking",
+    "serving_note": "1 bowl, about 350 g",
+    "ingredients": [
+      {
+        "name": "Unsweetened milk",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Sweetened condensed milk",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Sweetened red beans",
+        "amount": "200 g"
+      },
+      {
+        "name": "Chewy rice cakes (injeolmi), cut small",
+        "amount": "60 g"
+      },
+      {
+        "name": "Roasted soybean powder",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Toasted sliced almonds",
+        "amount": "1 tbsp"
+      }
+    ],
+    "steps": [
+      "Stir the milk with 2 tbsp condensed milk, pour into a zip-lock bag or ice tray and freeze for at least 5 hours until solid. Put the serving bowl in the freezer to chill.",
+      "Shave the milk ice with an ice shaver, or break up the frozen bag and pulse quickly in a blender until fluffy and snow-like.",
+      "Put half the shaved ice in the chilled bowl, sprinkle with 1 tbsp roasted soybean powder, then pile the rest of the ice on top into a tall peak.",
+      "Spoon the sweetened red beans on top and arrange the rice cakes around them.",
+      "Drizzle with the remaining condensed milk, sprinkle with soybean powder and almonds and serve immediately before the ice melts."
+    ],
+    "tags": [
+      "shaved ice",
+      "red beans",
+      "dessert",
+      "summer"
+    ]
+  },
+  {
+    "slug": "banh-ran-duong-hotteok",
+    "name": "Hotteok (Sweet Filled Pancakes)",
+    "description": "Flat pan-fried pancakes, golden and crisp outside and chewy within, that ooze a molten brown sugar and cinnamon filling with rich, nutty seeds at the first bite. A hand-warming, belly-warming winter snack found on every Korean street.",
+    "origin": "Hotteok was brought to Korea by Chinese merchants in the late 19th century and later adapted by Koreans with a sweet filling. The most famous version is the seed-filled hotteok (ssiat hotteok) of Busan.",
+    "cooking_style": "Yeast-risen, pan-fried",
+    "serving_note": "1 pancake, about 90 g",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "amount": "250 g"
+      },
+      {
+        "name": "Glutinous rice flour",
+        "amount": "50 g"
+      },
+      {
+        "name": "Instant dry yeast",
+        "amount": "1 tsp (4 g)"
+      },
+      {
+        "name": "Warm milk",
+        "amount": "200 ml"
+      },
+      {
+        "name": "White sugar",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Cooking oil (for the dough and frying)",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Brown sugar",
+        "amount": "80 g"
+      },
+      {
+        "name": "Ground cinnamon",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Peanuts or walnuts, finely chopped",
+        "amount": "30 g"
+      }
+    ],
+    "steps": [
+      "Dissolve the yeast and white sugar in the warm milk (about 40°C). Mix the flour, glutinous rice flour and salt, then pour in the milk mixture and 1 tbsp oil and knead for 5 minutes into a soft, slightly sticky dough.",
+      "Cover tightly and leave in a warm place for about 1 hour until doubled in size.",
+      "Mix the brown sugar, cinnamon and chopped nuts together for the filling.",
+      "Oil your hands and divide the dough into 8 portions. Flatten each one, place 1 tbsp filling in the centre, then gather up the edges and pinch to seal.",
+      "Heat a pan with a little oil over medium-low heat, place the pancakes in seam-side down and fry for about 1 minute until the underside sets and turns golden.",
+      "Flip, press flat with a spatula or hotteok press into a round about 1 cm thick and fry for 2 minutes more; flip once more and cover for 1 minute to melt the sugar.",
+      "Remove from the pan and let cool for 1–2 minutes, as the sugar filling is very hot, then enjoy."
+    ],
+    "tags": [
+      "sweet pastry",
+      "street food",
+      "winter",
+      "snack"
+    ]
+  },
+  {
+    "slug": "ca-phe-dalgona",
+    "name": "Dalgona Coffee (Whipped Coffee)",
+    "description": "A fluffy, cream-like layer of golden-brown whipped coffee floating on a glass of cold milk, lightly bitter on top and sweet and creamy below. With just three ingredients and a whisk, you get a cafe-worthy drink at home.",
+    "origin": "This drink became a global sensation in early 2020 after a Korean TV show, then spread across social media during lockdowns. Its name comes from dalgona sugar candy, which it resembles in colour and flavour.",
+    "cooking_style": "Whipped",
+    "serving_note": "1 glass, about 300 ml",
+    "ingredients": [
+      {
+        "name": "Pure instant coffee (no sugar or milk)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "White sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Hot water",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Unsweetened milk",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Ice cubes",
+        "amount": "5–6 cubes"
+      },
+      {
+        "name": "Cocoa powder or ground coffee for dusting",
+        "amount": "1 pinch"
+      }
+    ],
+    "steps": [
+      "Put the instant coffee, sugar and hot water in a deep bowl in a 1:1:1 ratio.",
+      "Beat with an electric mixer for 2–3 minutes (or whisk by hand for 8–10 minutes) until the mixture turns pale golden brown, thick and holds stiff peaks.",
+      "Put the ice cubes in a glass and pour in cold milk until about 3/4 full.",
+      "Spoon the whipped coffee over the milk, swirl it gently with a spoon for a pretty finish and dust with a little cocoa powder.",
+      "Stir the whipped coffee into the milk before drinking."
+    ],
+    "tags": [
+      "coffee",
+      "iced drink",
+      "viral trend",
+      "easy"
+    ]
+  },
+  {
+    "slug": "corn-dog-pho-mai",
+    "name": "Korean Cheese Corn Dog",
+    "description": "Skewers of sausage and mozzarella wrapped in a fluffy yeasted batter, rolled in breadcrumbs and fried golden and crisp, with long strands of stretchy cheese in every bite. A sprinkle of sugar plus a drizzle of ketchup and mustard gives the true taste of Seoul street food.",
+    "origin": "Korean-style hot dogs on a stick derive from the American corn dog and became popular in markets from the 1980s. The stretchy cheese-filled version took off around 2016 thanks to franchise chains and social media.",
+    "cooking_style": "Deep-fried",
+    "serving_note": "1 skewer, about 130 g",
+    "ingredients": [
+      {
+        "name": "Sausages",
+        "amount": "3 (cut in half)"
+      },
+      {
+        "name": "Block mozzarella",
+        "amount": "200 g (cut into 6 sticks)"
+      },
+      {
+        "name": "All-purpose flour",
+        "amount": "200 g"
+      },
+      {
+        "name": "Glutinous rice flour",
+        "amount": "30 g"
+      },
+      {
+        "name": "Instant dry yeast",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Warm milk",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Egg",
+        "amount": "1"
+      },
+      {
+        "name": "Panko breadcrumbs",
+        "amount": "100 g"
+      },
+      {
+        "name": "Cooking oil for frying",
+        "amount": "1 litre"
+      },
+      {
+        "name": "Sugar, ketchup, yellow mustard",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Mix the flour, glutinous rice flour, yeast, sugar and salt; add the warm milk and egg and stir into a thick, sticky batter. Cover and leave in a warm place for about 40 minutes until doubled in size.",
+      "Thread half a sausage onto the bottom of each skewer and a mozzarella stick above it, pat the surface dry, then refrigerate so the cheese firms up.",
+      "Transfer the batter to a tall glass or a long tray. Dip each skewer in, twisting so the batter wraps evenly and completely covers the filling.",
+      "Immediately roll the battered skewer in the panko, pressing lightly so it sticks well.",
+      "Heat the oil to 170–175°C and fry 2–3 skewers per batch for 3–4 minutes, turning constantly until golden brown.",
+      "Drain on paper towels, roll in a thin coating of sugar, drizzle with ketchup and mustard and eat immediately while the cheese is still stretchy."
+    ],
+    "tags": [
+      "cheese",
+      "deep-fried",
+      "street food",
+      "snack"
+    ]
+  }
+]

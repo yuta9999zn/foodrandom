@@ -1,0 +1,1959 @@
+[
+  {
+    "slug": "vit-quay-bac-kinh",
+    "name": "Vịt quay Bắc Kinh",
+    "original_name": "北京烤鸭",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 280000,
+    "price_max": 500000,
+    "calories_kcal": 650,
+    "serving_note": "1 phần khoảng 150 g thịt vịt cả da, kèm 4 lá bánh cuốn và tương ngọt",
+    "nutrition": {
+      "protein_g": 32,
+      "carbs_g": 34,
+      "fat_g": 43
+    },
+    "description": "Vịt quay Bắc Kinh nổi tiếng với lớp da mỏng giòn tan, bóng màu cánh gián, bên dưới là thịt mềm mọng. Thịt được lạng lát mỏng, cuốn cùng bánh tráng bột mì, hành boa rô, dưa chuột và tương ngọt đậm đà.",
+    "origin": "Món ăn có gốc gác từ ẩm thực cung đình thời Nguyên – Minh và trở thành biểu tượng của Bắc Kinh từ thế kỷ 19 với những tiệm lâu đời như Tiện Nghi Phường, Toàn Tụ Đức.",
+    "cooking_style": "Quay lò",
+    "prep_minutes": 60,
+    "cook_minutes": 80,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Vịt nguyên con đã làm sạch",
+        "amount": "2,2 kg"
+      },
+      {
+        "name": "Mạch nha (hoặc mật ong)",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Ngũ vị hương",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Nước sôi để dội da",
+        "amount": "2 lít"
+      },
+      {
+        "name": "Bánh tráng bột mì mỏng (bánh cuốn vịt quay)",
+        "amount": "24 lá"
+      },
+      {
+        "name": "Hành boa rô thái sợi",
+        "amount": "3 cây"
+      },
+      {
+        "name": "Dưa chuột thái que",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Tương ngọt (điềm miến tương) hoặc tương hoisin",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Rửa sạch vịt, thấm thật khô rồi xát muối và ngũ vị hương vào trong bụng. Nhẹ nhàng luồn tay tách lớp da khỏi phần thịt ức và đùi để khi quay da phồng giòn.",
+      "Treo hoặc đặt vịt lên vỉ, dội nước sôi đều khắp mình vịt cho da săn lại, sau đó thấm khô.",
+      "Hòa mạch nha với giấm, xì dầu và 3 muỗng canh nước nóng, phết đều lên da. Treo vịt nơi thoáng gió hoặc để trần trong ngăn mát tủ lạnh 12–24 giờ đến khi da khô hẳn.",
+      "Làm nóng lò ở 200°C. Đặt vịt lên vỉ, ức hướng lên trên, bên dưới để khay nước hứng mỡ. Quay 20 phút rồi hạ xuống 170°C, quay thêm 50–60 phút, trở mặt một lần, đến khi da nâu bóng và giòn.",
+      "Để vịt nghỉ 10 phút, sau đó lạng thành những lát mỏng sao cho miếng nào cũng có cả da lẫn thịt.",
+      "Hấp nóng bánh tráng. Khi ăn, phết tương ngọt lên bánh, xếp thịt vịt, hành boa rô và dưa chuột rồi cuộn lại."
+    ],
+    "tags": [
+      "vịt",
+      "quay",
+      "Bắc Kinh",
+      "cuốn"
+    ],
+    "image": {
+      "file": "vit-quay-bac-kinh.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Peking_Duck,_2014_(02).jpg",
+      "author": "City Foodsters",
+      "license": "CC BY 2.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "dau-hu-tu-xuyen-mapo",
+    "name": "Đậu hũ Tứ Xuyên (Mapo)",
+    "original_name": "麻婆豆腐",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 80000,
+    "price_max": 140000,
+    "calories_kcal": 350,
+    "serving_note": "1 phần khoảng 250 g, chưa gồm cơm",
+    "nutrition": {
+      "protein_g": 20,
+      "carbs_g": 10,
+      "fat_g": 26
+    },
+    "description": "Đậu hũ non mềm mịn ngập trong lớp sốt đỏ au từ tương đậu cay, thịt băm và hoa tiêu. Vị cay nồng, tê đầu lưỡi đặc trưng của Tứ Xuyên khiến món này cực kỳ đưa cơm.",
+    "origin": "Ra đời ở Thành Đô (Tứ Xuyên) vào thế kỷ 19, tương truyền do một bà chủ quán mặt rỗ họ Trần sáng tạo nên mới có tên là “ma bà đậu hũ”.",
+    "cooking_style": "Om sốt cay tê",
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Đậu hũ non",
+        "amount": "500 g"
+      },
+      {
+        "name": "Thịt bò băm (hoặc thịt heo băm)",
+        "amount": "120 g"
+      },
+      {
+        "name": "Tương đậu cay Bì Huyện (doubanjiang)",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Đậu đen muối (tàu xì)",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Ớt bột",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "3 tép"
+      },
+      {
+        "name": "Gừng băm",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Nước dùng",
+        "amount": "250 ml"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Bột bắp",
+        "amount": "1 muỗng canh, pha với 3 muỗng canh nước"
+      },
+      {
+        "name": "Hoa tiêu Tứ Xuyên",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "2 cây"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "3 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Cắt đậu hũ thành khối vuông 2 cm, chần 2 phút trong nước sôi pha chút muối cho đậu săn và bớt mùi ngái, vớt ra để ráo.",
+      "Rang hoa tiêu trên chảo khô đến khi thơm rồi giã mịn. Băm nhỏ tương đậu cay và đậu đen muối.",
+      "Đun nóng dầu, xào thịt băm đến khi tơi, săn và hơi xém cạnh. Cho tương đậu cay vào xào lửa vừa đến khi dầu chuyển màu đỏ, thêm tỏi, gừng, đậu đen muối và ớt bột, đảo cho dậy mùi.",
+      "Đổ nước dùng và xì dầu vào, đun sôi rồi nhẹ nhàng thả đậu hũ. Đun liu riu 4–5 phút cho thấm, chỉ đẩy nhẹ bằng lưng muôi để đậu không nát.",
+      "Rưới bột bắp pha nước làm 2–3 lần, lắc nhẹ chảo đến khi sốt sánh lại và bám vào đậu.",
+      "Múc ra bát, rắc bột hoa tiêu và hành lá thái nhỏ, dùng nóng với cơm trắng."
+    ],
+    "tags": [
+      "đậu hũ",
+      "cay tê",
+      "Tứ Xuyên",
+      "đưa cơm"
+    ],
+    "image": {
+      "file": "dau-hu-tu-xuyen-mapo.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chen_Mapo_Tofu.jpg",
+      "author": "ZhengZhou",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ha-cao-tom",
+    "name": "Há cảo tôm",
+    "original_name": "虾饺",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "snack",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 50000,
+    "price_max": 85000,
+    "calories_kcal": 290,
+    "serving_note": "1 xửng 5 chiếc (khoảng 130 g)",
+    "nutrition": {
+      "protein_g": 15,
+      "carbs_g": 33,
+      "fat_g": 11
+    },
+    "description": "Vỏ bánh trong veo, dai nhẹ ôm lấy nhân tôm tươi giòn ngọt. Đây là món không thể thiếu trên bàn điểm tâm (dim sum) kiểu Quảng Đông.",
+    "origin": "Xuất hiện ở các trà lâu vùng ngoại ô Quảng Châu đầu thế kỷ 20; há cảo cùng xíu mại, bánh bao xá xíu và bánh tart trứng được xem là “tứ đại thiên vương” của dim sum.",
+    "cooking_style": "Hấp xửng tre",
+    "prep_minutes": 45,
+    "cook_minutes": 8,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Tôm tươi bóc vỏ",
+        "amount": "300 g"
+      },
+      {
+        "name": "Mỡ heo băm nhỏ",
+        "amount": "40 g"
+      },
+      {
+        "name": "Măng (hoặc củ năng) băm nhỏ",
+        "amount": "50 g"
+      },
+      {
+        "name": "Bột tàn mì (tinh bột lúa mì)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Bột năng",
+        "amount": "50 g"
+      },
+      {
+        "name": "Nước sôi",
+        "amount": "190 ml"
+      },
+      {
+        "name": "Mỡ nước hoặc dầu ăn",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Bột bắp",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Tiêu trắng xay",
+        "amount": "1/4 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Tôm rút chỉ lưng, bóp với chút muối và 1 muỗng cà phê bột bắp rồi rửa sạch, thấm thật khô. Cắt đôi một nửa số tôm, nửa còn lại dùng sống dao dần nhuyễn.",
+      "Trộn tôm với mỡ heo, măng, muối, đường, tiêu trắng, dầu mè và 1 muỗng cà phê bột bắp. Quết theo một chiều đến khi nhân dẻo dính, để ngăn mát 30 phút.",
+      "Trộn bột tàn mì với một nửa bột năng, đổ nước sôi vào khuấy nhanh tay rồi đậy kín 5 phút. Thêm phần bột năng còn lại cùng mỡ nước, nhồi đến khi khối bột mịn dẻo.",
+      "Chia bột thành viên khoảng 12 g, dùng dao bản to thoa chút dầu ép thành miếng tròn mỏng đường kính 8 cm. Luôn đậy phần bột chưa dùng để không bị khô.",
+      "Cho 1 thìa nhân vào giữa, gấp đôi vỏ và xếp 7–10 nếp ở một bên mép để tạo hình vỏ sò.",
+      "Xếp há cảo vào xửng lót giấy nến, hấp lửa lớn 6–7 phút đến khi vỏ trong. Dùng nóng với xì dầu hoặc tương ớt."
+    ],
+    "tags": [
+      "dim sum",
+      "tôm",
+      "hấp",
+      "điểm tâm"
+    ],
+    "image": {
+      "file": "ha-cao-tom.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Steamed_prawn_dumplings.jpg",
+      "author": "Maksym Kozlenko",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "mi-hoanh-thanh",
+    "name": "Mì hoành thánh",
+    "original_name": "云吞面",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "mi",
+    "price_min": 45000,
+    "price_max": 80000,
+    "calories_kcal": 500,
+    "serving_note": "1 tô gồm khoảng 80 g mì tươi và 6 viên hoành thánh",
+    "nutrition": {
+      "protein_g": 29,
+      "carbs_g": 66,
+      "fat_g": 13
+    },
+    "description": "Sợi mì trứng nhỏ dai giòn, hoành thánh nhân tôm thịt căng mọng nằm trong nước dùng thanh ngọt nấu từ xương và hải sản khô. Món nước quen thuộc của người Hoa, ăn sáng hay ăn tối đều hợp.",
+    "origin": "Bắt nguồn từ Quảng Châu rồi nổi tiếng ở Hồng Kông sau Thế chiến II; món theo chân cộng đồng người Hoa vào Chợ Lớn và trở nên quen thuộc ở Việt Nam.",
+    "cooking_style": "Ninh nước dùng, trụng mì",
+    "prep_minutes": 40,
+    "cook_minutes": 90,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Mì trứng tươi sợi nhỏ",
+        "amount": "320 g"
+      },
+      {
+        "name": "Vỏ hoành thánh",
+        "amount": "24 lá"
+      },
+      {
+        "name": "Tôm tươi bóc vỏ (giữ lại đầu và vỏ)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Thịt nạc vai heo băm",
+        "amount": "150 g"
+      },
+      {
+        "name": "Xương ống heo",
+        "amount": "800 g"
+      },
+      {
+        "name": "Cá bơn khô nướng (hoặc tôm khô)",
+        "amount": "20 g"
+      },
+      {
+        "name": "Cải ngọt",
+        "amount": "200 g"
+      },
+      {
+        "name": "Hẹ vàng hoặc hành lá",
+        "amount": "50 g"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Tiêu trắng xay",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Đường phèn",
+        "amount": "10 g"
+      },
+      {
+        "name": "Nước",
+        "amount": "2,5 lít"
+      }
+    ],
+    "steps": [
+      "Chần xương heo qua nước sôi rồi rửa sạch. Ninh xương cùng cá bơn khô, đầu và vỏ tôm trong 2,5 lít nước khoảng 90 phút, hớt bọt thường xuyên. Lọc lấy nước trong, nêm muối và đường phèn.",
+      "Cắt tôm thành hạt lựu, trộn với thịt băm, xì dầu, 1 muỗng cà phê dầu mè, tiêu trắng và 1/2 muỗng cà phê muối. Quết đến khi nhân dẻo.",
+      "Đặt 1 thìa cà phê nhân vào giữa lá hoành thánh, thấm nước quanh mép rồi túm lại thành hình túi.",
+      "Luộc hoành thánh trong nước sôi 3–4 phút đến khi nổi lên thì vớt ra. Chần cải ngọt cho chín tới.",
+      "Trụng mì trong nước sôi già 30–40 giây, xả nhanh qua nước lạnh rồi nhúng lại nước sôi để sợi mì dai giòn, để ráo.",
+      "Cho hoành thánh xuống đáy tô, xếp mì và cải lên trên, chan nước dùng thật nóng. Rắc hẹ vàng cắt khúc và vài giọt dầu mè."
+    ],
+    "tags": [
+      "mì",
+      "hoành thánh",
+      "món nước",
+      "người Hoa"
+    ],
+    "image": {
+      "file": "mi-hoanh-thanh.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD_303_Queen%27s_Road_Central_%E6%AC%8A%E8%A8%98%E9%9B%B2%E5%90%9E%E9%BA%B5_Wonton_noodle_soup_shop_June_2020_SS2_10.jpg",
+      "author": "Gadium irggvbobjv",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "mi-bo-lan-chau",
+    "name": "Mì bò Lan Châu",
+    "original_name": "兰州牛肉面",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "mi",
+    "price_min": 65000,
+    "price_max": 120000,
+    "calories_kcal": 630,
+    "serving_note": "1 tô gồm khoảng 125 g mì tươi và 85 g thịt bò chín",
+    "nutrition": {
+      "protein_g": 37,
+      "carbs_g": 72,
+      "fat_g": 21
+    },
+    "description": "Tô mì kéo tay sợi dai mềm trong nước dùng bò trong vắt, thơm mùi thảo mộc, điểm thêm củ cải trắng, dầu ớt đỏ và rau mùi xanh. Một tô chuẩn vị phải đủ “nước trong, củ cải trắng, dầu ớt đỏ, rau xanh, mì vàng”.",
+    "origin": "Đặc sản của thành phố Lan Châu, tỉnh Cam Túc, gắn liền với cộng đồng người Hồi; công thức hiện nay được cho là định hình từ đầu thế kỷ 20.",
+    "cooking_style": "Ninh nước dùng trong",
+    "prep_minutes": 30,
+    "cook_minutes": 150,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bắp bò hoặc nạm bò",
+        "amount": "500 g"
+      },
+      {
+        "name": "Xương ống bò",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Mì sợi tươi (mì kéo)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Củ cải trắng",
+        "amount": "300 g"
+      },
+      {
+        "name": "Gừng",
+        "amount": "30 g"
+      },
+      {
+        "name": "Hoa hồi",
+        "amount": "2 cái"
+      },
+      {
+        "name": "Quế",
+        "amount": "1 thanh nhỏ"
+      },
+      {
+        "name": "Thảo quả",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Hoa tiêu và hạt tiểu hồi",
+        "amount": "mỗi loại 1 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ớt",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Rau mùi và tỏi tây (hoặc hành lá)",
+        "amount": "50 g"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Nước",
+        "amount": "3 lít"
+      }
+    ],
+    "steps": [
+      "Ngâm thịt và xương bò trong nước lạnh 1 giờ cho ra hết máu, chần sơ qua nước sôi rồi rửa sạch.",
+      "Cho xương, thịt, gừng đập dập và túi gia vị (hoa hồi, quế, thảo quả, hoa tiêu, tiểu hồi) vào nồi cùng 3 lít nước. Đun sôi, hạ lửa nhỏ ninh khoảng 2 giờ, hớt bọt đều để nước thật trong.",
+      "Vớt thịt ra để nguội rồi thái lát mỏng. Lọc nước dùng, nêm muối, thả củ cải trắng thái lát mỏng vào nấu 10 phút cho chín mềm.",
+      "Luộc mì trong một nồi nước sôi riêng 1–2 phút tùy độ dày sợi, vớt ra tô.",
+      "Chan nước dùng nóng cùng củ cải, xếp thịt bò lên trên, rưới dầu ớt, rắc rau mùi và tỏi tây thái nhỏ rồi dùng ngay."
+    ],
+    "tags": [
+      "mì kéo",
+      "bò",
+      "món nước",
+      "Lan Châu"
+    ],
+    "image": {
+      "file": "mi-bo-lan-chau.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E5%85%B0%E5%B7%9E%E7%89%9B%E8%82%89%E9%9D%A2.jpg",
+      "author": "三猎",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "lau-tu-xuyen",
+    "name": "Lẩu Tứ Xuyên",
+    "original_name": "四川麻辣火锅",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "lau",
+    "price_min": 250000,
+    "price_max": 450000,
+    "calories_kcal": 1000,
+    "serving_note": "1 suất cho 1 người, khoảng 600 g đồ nhúng kèm nước chấm dầu mè",
+    "nutrition": {
+      "protein_g": 56,
+      "carbs_g": 55,
+      "fat_g": 62
+    },
+    "description": "Nồi lẩu đỏ rực với mỡ bò, ớt khô và hoa tiêu, cay tê nồng nàn đúng chất “ma lạt”. Thịt thái mỏng, sách bò, đậu hũ, rau và nấm được nhúng chín tại bàn rồi chấm cùng dầu mè tỏi băm.",
+    "origin": "Lẩu cay ma lạt khởi nguồn từ các bến sông ở Trùng Khánh – Tứ Xuyên vào cuối thời Thanh, ban đầu là món ăn của phu thuyền rồi lan ra khắp Trung Quốc.",
+    "cooking_style": "Lẩu nhúng tại bàn",
+    "prep_minutes": 40,
+    "cook_minutes": 30,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Mỡ bò (hoặc dầu ăn)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Tương đậu cay Bì Huyện (doubanjiang)",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Ớt khô và hoa tiêu Tứ Xuyên",
+        "amount": "40 g ớt, 2 muỗng canh hoa tiêu"
+      },
+      {
+        "name": "Gừng, tỏi, hành boa rô",
+        "amount": "30 g gừng, 6 tép tỏi, 2 cây hành"
+      },
+      {
+        "name": "Hoa hồi, quế, thảo quả, lá nguyệt quế",
+        "amount": "mỗi loại 2 cái"
+      },
+      {
+        "name": "Nước dùng xương",
+        "amount": "2 lít"
+      },
+      {
+        "name": "Thịt bò thái mỏng",
+        "amount": "400 g"
+      },
+      {
+        "name": "Ba chỉ heo hoặc thịt cừu thái mỏng",
+        "amount": "300 g"
+      },
+      {
+        "name": "Sách bò và viên thả lẩu",
+        "amount": "300 g"
+      },
+      {
+        "name": "Đậu hũ và váng đậu",
+        "amount": "300 g"
+      },
+      {
+        "name": "Nấm kim châm, nấm hương",
+        "amount": "300 g"
+      },
+      {
+        "name": "Cải thảo, cải cúc, rau muống",
+        "amount": "500 g"
+      },
+      {
+        "name": "Miến khoai lang",
+        "amount": "200 g"
+      },
+      {
+        "name": "Nước chấm: dầu mè, tỏi băm, rau mùi, dầu hào",
+        "amount": "4 muỗng canh dầu mè, 2 muỗng canh tỏi, 1 muỗng canh dầu hào"
+      }
+    ],
+    "steps": [
+      "Ngâm ớt khô trong nước ấm 15 phút cho mềm, vớt ra băm thô. Băm nhỏ tương đậu cay.",
+      "Đun chảy mỡ bò trên lửa nhỏ, phi thơm gừng, tỏi và hành boa rô rồi cho ớt cùng tương đậu cay vào xào 8–10 phút đến khi dầu đỏ sẫm. Thêm hoa tiêu và các gia vị khô, xào thêm 2 phút.",
+      "Đổ nước dùng xương vào, đun sôi rồi hạ lửa nấu 15 phút cho dậy vị. Nêm muối và chút đường cho vừa ăn.",
+      "Ngâm mềm miến khoai lang. Bày thịt, sách bò, viên thả lẩu, đậu hũ, nấm, rau và miến ra đĩa.",
+      "Pha nước chấm cho từng người gồm dầu mè, tỏi băm, rau mùi và chút dầu hào.",
+      "Đặt nồi lẩu lên bếp giữa bàn, giữ sôi lăn tăn. Nhúng thịt thái mỏng 10–15 giây, sách bò khoảng 15 giây, còn viên thả lẩu, đậu hũ và rau củ thì nấu lâu hơn. Chấm dầu mè tỏi để dịu bớt vị cay."
+    ],
+    "tags": [
+      "lẩu",
+      "cay tê",
+      "Tứ Xuyên",
+      "ăn nhóm"
+    ],
+    "image": {
+      "file": "lau-tu-xuyen.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chengdu_travel_082_(35800166730).jpg",
+      "author": "JianEn Yu",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "canh-chua-cay",
+    "name": "Canh chua cay",
+    "original_name": "酸辣汤",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "khac",
+    "price_min": 50000,
+    "price_max": 90000,
+    "calories_kcal": 160,
+    "serving_note": "1 bát khoảng 350 ml",
+    "nutrition": {
+      "protein_g": 11,
+      "carbs_g": 12,
+      "fat_g": 8
+    },
+    "description": "Bát canh sánh nhẹ, chua dịu của giấm đen và cay ấm của tiêu trắng, với đậu hũ, nấm hương, mộc nhĩ, măng và vân trứng mềm. Món khai vị làm ấm bụng trong các bữa cơm Hoa.",
+    "origin": "Món canh dân dã của vùng Tứ Xuyên và Hà Nam, ngày nay có mặt trong hầu hết các nhà hàng Trung Hoa trên thế giới.",
+    "cooking_style": "Nấu canh sánh",
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Nước dùng gà",
+        "amount": "1,2 lít"
+      },
+      {
+        "name": "Thịt nạc heo thái sợi",
+        "amount": "100 g"
+      },
+      {
+        "name": "Đậu hũ non thái sợi",
+        "amount": "200 g"
+      },
+      {
+        "name": "Nấm hương khô",
+        "amount": "5 cái"
+      },
+      {
+        "name": "Mộc nhĩ khô",
+        "amount": "10 g"
+      },
+      {
+        "name": "Măng thái sợi",
+        "amount": "80 g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Giấm đen Trấn Giang",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Tiêu trắng xay",
+        "amount": "1,5 muỗng cà phê"
+      },
+      {
+        "name": "Bột bắp",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ớt",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Hành lá, rau mùi",
+        "amount": "2 cây"
+      }
+    ],
+    "steps": [
+      "Ngâm nấm hương và mộc nhĩ trong nước ấm 20 phút cho nở rồi thái sợi. Ướp thịt nạc thái sợi với 1 muỗng cà phê xì dầu và 1 muỗng cà phê bột bắp.",
+      "Đun sôi nước dùng, cho nấm hương, mộc nhĩ và măng vào nấu 5 phút.",
+      "Thả thịt vào khuấy tơi, thêm đậu hũ thái sợi, nêm phần xì dầu còn lại cùng chút muối rồi đun sôi lại.",
+      "Hòa phần bột bắp còn lại với 5 muỗng canh nước, rót từ từ vào nồi và khuấy đều đến khi canh sánh nhẹ.",
+      "Hạ lửa nhỏ, rót trứng đã đánh tan thành dòng mảnh theo vòng tròn, đợi vài giây rồi mới khuấy nhẹ để tạo vân trứng.",
+      "Tắt bếp, cho giấm đen, tiêu trắng và dầu mè vào sau cùng để giữ mùi thơm. Múc ra bát, thêm dầu ớt, hành lá và rau mùi."
+    ],
+    "tags": [
+      "canh",
+      "chua cay",
+      "khai vị"
+    ],
+    "image": {
+      "file": "canh-chua-cay.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hot_and_sour_soup_(41368996530).jpg",
+      "author": "Joey Doll",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ga-kung-pao",
+    "name": "Gà Kung Pao",
+    "original_name": "宫保鸡丁",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 110000,
+    "price_max": 180000,
+    "calories_kcal": 460,
+    "serving_note": "1 phần khoảng 220 g, chưa gồm cơm",
+    "nutrition": {
+      "protein_g": 31,
+      "carbs_g": 14,
+      "fat_g": 31
+    },
+    "description": "Thịt gà thái hạt lựu xào lửa lớn cùng ớt khô, hoa tiêu và đậu phộng giòn bùi, áo lớp sốt chua ngọt mằn mặn. Vị cay tê nhẹ, thơm nức, rất hợp ăn với cơm trắng.",
+    "origin": "Món ăn Tứ Xuyên gắn với tên Đinh Bảo Trinh, Tổng đốc Tứ Xuyên cuối thời Thanh, người mang hàm “Cung bảo” nên món được gọi là “Cung bảo kê đinh”.",
+    "cooking_style": "Xào lửa lớn",
+    "prep_minutes": 20,
+    "cook_minutes": 8,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Thịt đùi gà lóc xương",
+        "amount": "400 g"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": "60 g"
+      },
+      {
+        "name": "Ớt khô",
+        "amount": "10–12 quả"
+      },
+      {
+        "name": "Hoa tiêu Tứ Xuyên",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Hành boa rô (phần trắng) cắt khúc",
+        "amount": "2 cây"
+      },
+      {
+        "name": "Tỏi, gừng thái lát",
+        "amount": "3 tép tỏi, 3 lát gừng"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Giấm đen",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Rượu Thiệu Hưng (hoặc rượu trắng)",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Bột bắp",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1/2 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Cắt thịt gà thành hạt lựu 1,5 cm, ướp với 1 muỗng canh xì dầu, rượu, 1 muỗng cà phê bột bắp và 1 muỗng cà phê dầu ăn trong 15 phút.",
+      "Pha sốt gồm phần xì dầu còn lại, giấm đen, đường, 1 muỗng cà phê bột bắp và 2 muỗng canh nước.",
+      "Cắt khúc ớt khô, bỏ bớt hạt. Đun nóng dầu trong chảo sâu lòng, phi ớt khô và hoa tiêu trên lửa vừa đến khi ớt sẫm màu và dậy mùi, không để cháy.",
+      "Tăng lửa lớn, cho gà vào xào nhanh tay đến khi thịt săn và chuyển màu trắng. Thêm tỏi, gừng và hành boa rô, đảo thơm.",
+      "Khuấy lại bát sốt rồi đổ vào chảo, đảo đều khoảng 30 giây cho sốt sánh bóng và áo quanh thịt.",
+      "Tắt bếp, cho đậu phộng rang và dầu mè vào trộn đều, dọn ngay với cơm nóng."
+    ],
+    "tags": [
+      "gà",
+      "xào",
+      "cay nhẹ",
+      "Tứ Xuyên",
+      "đậu phộng"
+    ],
+    "image": {
+      "file": "ga-kung-pao.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kung-pao-shanghai.jpg",
+      "author": "Steven G. Johnson",
+      "license": "CC BY-SA 3.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "com-chien-duong-chau",
+    "name": "Cơm chiên Dương Châu",
+    "original_name": "扬州炒饭",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 55000,
+    "price_max": 95000,
+    "calories_kcal": 590,
+    "serving_note": "1 đĩa khoảng 350 g",
+    "nutrition": {
+      "protein_g": 29,
+      "carbs_g": 63,
+      "fat_g": 23
+    },
+    "description": "Cơm chiên tơi từng hạt, vàng óng trứng, điểm tôm, xá xíu, đậu Hà Lan và cà rốt nhiều màu sắc. Đây là món cơm chiên nổi tiếng nhất của ẩm thực Hoa, dễ ăn với mọi lứa tuổi.",
+    "origin": "Mang tên thành phố Dương Châu (Giang Tô) và phổ biến khắp thế giới qua tay các đầu bếp Quảng Đông; ở Việt Nam món có mặt từ quán bình dân đến tiệc cưới.",
+    "cooking_style": "Chiên chảo lửa lớn",
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Cơm nguội",
+        "amount": "600 g"
+      },
+      {
+        "name": "Tôm tươi bóc vỏ",
+        "amount": "150 g"
+      },
+      {
+        "name": "Xá xíu (hoặc lạp xưởng) thái hạt lựu",
+        "amount": "100 g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "3 quả"
+      },
+      {
+        "name": "Đậu Hà Lan",
+        "amount": "60 g"
+      },
+      {
+        "name": "Cà rốt thái hạt lựu",
+        "amount": "60 g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "3 cây"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Xì dầu nhạt",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Tiêu trắng xay",
+        "amount": "1/4 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Bóp tơi cơm nguội cho các hạt rời nhau. Cắt tôm thành hạt lựu; chần đậu Hà Lan và cà rốt 1 phút rồi để ráo.",
+      "Đun nóng 1 muỗng canh dầu, xào tôm chín hồng, cho xá xíu vào đảo nóng rồi trút ra đĩa.",
+      "Thêm phần dầu còn lại, đổ trứng đánh tan vào khuấy nhanh. Khi trứng vừa se lại thì cho cơm vào, đảo lửa lớn để trứng bám quanh hạt cơm.",
+      "Chiên 3–4 phút đến khi cơm săn, nảy tanh tách trên chảo. Cho tôm, xá xíu, đậu và cà rốt vào đảo đều.",
+      "Rưới xì dầu quanh thành chảo, nêm muối và tiêu trắng, rắc hành lá, đảo thêm 30 giây rồi tắt bếp."
+    ],
+    "tags": [
+      "cơm chiên",
+      "tôm",
+      "xá xíu",
+      "trứng"
+    ],
+    "image": {
+      "file": "com-chien-duong-chau.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yeung_Chow_Fried_Rice_in_Hong_Kong_Fast_Food_Shop.JPG",
+      "author": "Ceeseven",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "tieu-long-bao",
+    "name": "Tiểu long bao",
+    "original_name": "小笼包",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "snack",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 70000,
+    "price_max": 130000,
+    "calories_kcal": 440,
+    "serving_note": "1 xửng 6 chiếc (khoảng 180 g)",
+    "nutrition": {
+      "protein_g": 24,
+      "carbs_g": 48,
+      "fat_g": 17
+    },
+    "description": "Chiếc bánh bao nhỏ vỏ mỏng, bên trong là nhân thịt và nước dùng nóng hổi ngọt đậm. Khi ăn cắn nhẹ một lỗ, húp nước trước rồi mới chấm giấm đen cùng gừng thái sợi.",
+    "origin": "Ra đời ở trấn Nam Tường, ngoại ô Thượng Hải vào cuối thế kỷ 19 và là niềm tự hào của ẩm thực vùng Giang Nam.",
+    "cooking_style": "Hấp xửng tre",
+    "prep_minutes": 60,
+    "cook_minutes": 100,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "250 g"
+      },
+      {
+        "name": "Nước ấm",
+        "amount": "130 ml"
+      },
+      {
+        "name": "Thịt nạc vai heo xay (có lẫn mỡ)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Bì heo",
+        "amount": "200 g"
+      },
+      {
+        "name": "Gừng",
+        "amount": "25 g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "3 cây"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Rượu Thiệu Hưng",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Muối, đường",
+        "amount": "mỗi loại 1 muỗng cà phê"
+      },
+      {
+        "name": "Tiêu trắng xay",
+        "amount": "1/4 muỗng cà phê"
+      },
+      {
+        "name": "Giấm đen Trấn Giang (để chấm)",
+        "amount": "4 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Nấu nước đông: chần bì heo, cạo sạch mỡ rồi ninh với 600 ml nước, vài lát gừng và 1 cây hành trong 1,5 giờ đến khi còn khoảng 250 ml. Lọc lấy nước, để nguội rồi cho vào tủ lạnh đến khi đông lại, sau đó băm nhỏ.",
+      "Nhồi bột mì với nước ấm và 1 nhúm muối thành khối mịn, đậy kín cho bột nghỉ 30 phút.",
+      "Trộn thịt xay với xì dầu, rượu, dầu mè, muối, đường, tiêu, gừng băm và hành lá thái nhỏ, quết một chiều đến khi dẻo. Trộn nước đông băm nhỏ vào rồi để ngăn mát.",
+      "Chia bột thành viên 10 g, cán thành miếng tròn mỏng đường kính 8–9 cm, mép mỏng hơn phần giữa.",
+      "Cho khoảng 18 g nhân vào giữa, xếp 16–18 nếp quanh mép rồi túm kín miệng bánh.",
+      "Xếp bánh vào xửng lót lá cải thảo hoặc giấy nến, cách nhau 2 cm, hấp lửa lớn 7–8 phút.",
+      "Dùng ngay khi còn nóng với giấm đen và gừng thái sợi."
+    ],
+    "tags": [
+      "dim sum",
+      "bánh bao",
+      "hấp",
+      "Thượng Hải"
+    ],
+    "image": {
+      "file": "tieu-long-bao.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Xiaolongbao_from_The_Modern_Shanghai.jpg",
+      "author": "Peachyeung316",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "quay",
+    "name": "Quẩy",
+    "original_name": "油条",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "snack",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 5000,
+    "price_max": 15000,
+    "calories_kcal": 460,
+    "serving_note": "2 chiếc quẩy dài (khoảng 110 g)",
+    "nutrition": {
+      "protein_g": 11,
+      "carbs_g": 58,
+      "fat_g": 21
+    },
+    "description": "Quẩy chiên phồng vàng ruộm, ngoài giòn trong xốp rỗng, thơm mùi bột. Thường được ăn sáng cùng sữa đậu nành, cháo nóng hoặc chấm vào nước phở.",
+    "origin": "Món ăn sáng có từ thời Nam Tống, gắn với truyền thuyết người dân nặn bột đem chiên để trút giận lên gian thần Tần Cối; quẩy theo người Hoa du nhập và rất phổ biến ở Việt Nam.",
+    "cooking_style": "Chiên ngập dầu",
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "300 g"
+      },
+      {
+        "name": "Bột nở (baking powder)",
+        "amount": "8 g"
+      },
+      {
+        "name": "Muối nở (baking soda)",
+        "amount": "2 g"
+      },
+      {
+        "name": "Muối",
+        "amount": "5 g"
+      },
+      {
+        "name": "Đường",
+        "amount": "5 g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Sữa tươi không đường (hoặc nước)",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Dầu ăn để trộn bột",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu ăn để chiên",
+        "amount": "1 lít"
+      }
+    ],
+    "steps": [
+      "Trộn đều bột mì, bột nở, muối nở, muối và đường. Thêm trứng, sữa và 1 muỗng canh dầu, trộn thành khối bột mềm hơi dính, không cần nhồi kỹ.",
+      "Đậy kín cho bột nghỉ 20 phút rồi gấp bột vài lần; lặp lại thêm 2 lần nữa. Bọc kín, ủ trong ngăn mát tủ lạnh 4–8 giờ hoặc qua đêm.",
+      "Lấy bột ra để khoảng 1 giờ cho về nhiệt độ phòng. Trên mặt bàn thoa dầu, nhẹ tay kéo bột thành dải dài rộng 8 cm, dày 0,7 cm rồi cắt thành các thanh rộng 2,5 cm.",
+      "Chồng 2 thanh bột lên nhau, dùng que xiên ấn một đường dọc ở giữa cho dính chặt.",
+      "Đun dầu đến khoảng 190°C. Cầm hai đầu thanh bột kéo nhẹ cho dài ra rồi thả vào chảo, dùng đũa lật liên tục để quẩy nở phồng đều.",
+      "Chiên 1–2 phút đến khi vàng ruộm, vớt ra để ráo dầu trên giấy thấm. Ăn nóng cùng sữa đậu nành hoặc cháo."
+    ],
+    "tags": [
+      "ăn sáng",
+      "chiên",
+      "ăn vặt",
+      "bột mì"
+    ],
+    "image": {
+      "file": "quay.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Youtiao.jpg",
+      "author": "Popo le Chien",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "chao-trung-bac-thao-thit-nac",
+    "name": "Cháo trứng bắc thảo thịt nạc",
+    "original_name": "皮蛋瘦肉粥",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "dinner"
+    ],
+    "soup_type": "khac",
+    "price_min": 30000,
+    "price_max": 55000,
+    "calories_kcal": 280,
+    "serving_note": "1 tô khoảng 400 ml, chưa gồm quẩy ăn kèm",
+    "nutrition": {
+      "protein_g": 20,
+      "carbs_g": 30,
+      "fat_g": 9
+    },
+    "description": "Cháo trắng ninh nhừ sánh mịn kiểu Quảng Đông, nấu cùng thịt nạc ướp muối và trứng bắc thảo béo bùi. Món ăn nhẹ bụng, ấm áp cho bữa sáng hoặc bữa khuya.",
+    "origin": "Là món cháo kinh điển của vùng Quảng Đông – Hồng Kông, có mặt ở mọi quán cháo và nhà hàng dim sum.",
+    "cooking_style": "Ninh nhừ",
+    "prep_minutes": 15,
+    "cook_minutes": 65,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Gạo tẻ",
+        "amount": "150 g"
+      },
+      {
+        "name": "Thịt nạc heo",
+        "amount": "250 g"
+      },
+      {
+        "name": "Trứng bắc thảo",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Nước (hoặc nước dùng)",
+        "amount": "2 lít"
+      },
+      {
+        "name": "Gừng thái sợi",
+        "amount": "15 g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "2 cây"
+      },
+      {
+        "name": "Muối",
+        "amount": "1,5 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Tiêu trắng xay",
+        "amount": "1/4 muỗng cà phê"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Quẩy ăn kèm (tùy thích)",
+        "amount": "2 chiếc"
+      }
+    ],
+    "steps": [
+      "Để nguyên miếng thịt nạc, xát đều 1 muỗng cà phê muối rồi ướp trong ngăn mát ít nhất 1 giờ (để qua đêm càng ngon), sau đó rửa sơ.",
+      "Vo gạo, để ráo rồi trộn với dầu ăn và 1/2 muỗng cà phê muối, để 20 phút giúp hạt gạo nhanh nở bung.",
+      "Đun sôi 2 lít nước, cho gạo, thịt và một nửa số trứng bắc thảo cắt nhỏ vào. Khi sôi lại thì hạ lửa nhỏ, nấu 50–60 phút, thỉnh thoảng khuấy đáy nồi đến khi cháo nhừ và sánh mịn.",
+      "Vớt thịt ra xé sợi rồi cho lại vào nồi cùng phần trứng bắc thảo còn lại, nấu thêm 5 phút và nêm lại cho vừa ăn.",
+      "Múc cháo ra tô, thêm gừng thái sợi, hành lá, tiêu trắng và vài giọt dầu mè. Ăn nóng kèm quẩy giòn."
+    ],
+    "tags": [
+      "cháo",
+      "trứng bắc thảo",
+      "ăn sáng",
+      "Quảng Đông"
+    ],
+    "image": {
+      "file": "chao-trung-bac-thao-thit-nac.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_century_eggs_and_Pork_Congee_from_Chi_Kee_Congee_Shop.jpg",
+      "author": "Peachyeung316",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "com-xa-xiu",
+    "name": "Cơm xá xíu",
+    "original_name": "叉烧饭",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 50000,
+    "price_max": 95000,
+    "calories_kcal": 600,
+    "serving_note": "1 đĩa gồm khoảng 120 g xá xíu, 200 g cơm trắng và rau cải",
+    "nutrition": {
+      "protein_g": 35,
+      "carbs_g": 72,
+      "fat_g": 19
+    },
+    "description": "Thịt heo ướp ngũ vị, tương và mật ong rồi nướng đến khi viền ngoài cháy cạnh, bóng màu đỏ nâu, thái lát xếp bên cơm trắng nóng và cải xanh chần. Thịt mềm, ngọt mặn hài hòa, thêm chút nước sốt rưới cơm là đủ một bữa trọn vị.",
+    "origin": "Xá xíu (nghĩa là “xiên nướng”) là món thịt quay trứ danh của Quảng Đông, xưa kia thịt được xiên vào que dài rồi nướng trên lửa; cơm xá xíu là món quen thuộc ở các tiệm thịt quay Hồng Kông và khu người Hoa tại Việt Nam.",
+    "cooking_style": "Ướp và nướng lò",
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Thịt nạc vai hoặc ba chỉ heo",
+        "amount": "600 g"
+      },
+      {
+        "name": "Tương hoisin",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Dầu hào",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Mật ong (hoặc mạch nha)",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Rượu Mai Quế Lộ hoặc rượu Thiệu Hưng",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Ngũ vị hương",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Chao đỏ (tạo màu)",
+        "amount": "1 miếng"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "3 tép"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Cơm trắng",
+        "amount": "800 g (4 bát đầy)"
+      },
+      {
+        "name": "Cải ngọt hoặc cải làn",
+        "amount": "300 g"
+      }
+    ],
+    "steps": [
+      "Cắt thịt thành các thỏi dài, dày khoảng 4 cm, dùng nĩa xăm đều để thịt dễ thấm gia vị.",
+      "Trộn tương hoisin, xì dầu, dầu hào, 2 muỗng canh mật ong, đường, rượu, ngũ vị hương, chao đỏ tán nhuyễn, tỏi và muối. Ướp thịt ít nhất 8 giờ hoặc qua đêm trong tủ lạnh, thỉnh thoảng trở mặt.",
+      "Làm nóng lò ở 200°C. Xếp thịt lên vỉ, bên dưới đặt khay lót giấy bạc có chút nước, nướng 20 phút. Giữ lại phần nước ướp.",
+      "Trở mặt thịt, phết thêm nước ướp rồi nướng tiếp 15 phút.",
+      "Phết 1 muỗng canh mật ong còn lại lên thịt và nướng thêm 5–8 phút ở 220°C đến khi viền thịt cháy cạnh, bóng đẹp. Để thịt nghỉ 10 phút rồi thái lát.",
+      "Đun sôi phần nước ướp còn lại với 4 muỗng canh nước trong 2–3 phút thành nước sốt. Chần cải trong nước sôi có chút muối và dầu ăn.",
+      "Xới cơm ra đĩa, xếp xá xíu và cải chần bên cạnh, rưới nước sốt lên cơm rồi dùng nóng."
+    ],
+    "tags": [
+      "cơm",
+      "thịt heo",
+      "nướng",
+      "Quảng Đông"
+    ],
+    "image": {
+      "file": "com-xa-xiu.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pork_Belly_Char_Siu_with_Rice.jpg",
+      "author": "Ceeseven",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "sui-cao",
+    "name": "Sủi cảo",
+    "original_name": "水饺",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 50000,
+    "price_max": 90000,
+    "calories_kcal": 500,
+    "serving_note": "1 đĩa 10 chiếc (khoảng 250 g) kèm nước chấm",
+    "nutrition": {
+      "protein_g": 22,
+      "carbs_g": 61,
+      "fat_g": 19
+    },
+    "description": "Vỏ bột mì mềm dai bọc nhân thịt heo và cải thảo mọng nước, luộc chín rồi chấm giấm đen pha xì dầu, dầu ớt. Đây là món ăn tượng trưng cho sự sum vầy trong văn hóa Trung Hoa.",
+    "origin": "Có lịch sử gần 2.000 năm ở miền Bắc Trung Quốc, sủi cảo là món không thể thiếu trong đêm giao thừa vì hình dáng giống thỏi vàng, mang ý nghĩa tài lộc.",
+    "cooking_style": "Gói và luộc",
+    "prep_minutes": 60,
+    "cook_minutes": 10,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "300 g"
+      },
+      {
+        "name": "Nước",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Thịt heo xay (nạc lẫn mỡ)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Cải thảo",
+        "amount": "300 g"
+      },
+      {
+        "name": "Hẹ",
+        "amount": "50 g"
+      },
+      {
+        "name": "Gừng băm",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Rượu nấu ăn",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Tiêu trắng xay",
+        "amount": "1/4 muỗng cà phê"
+      },
+      {
+        "name": "Nước chấm: giấm đen, xì dầu, tỏi băm, dầu ớt",
+        "amount": "3 muỗng canh giấm, 1 muỗng canh xì dầu, 2 tép tỏi"
+      }
+    ],
+    "steps": [
+      "Nhồi bột mì với nước và 1 nhúm muối khoảng 10 phút đến khi mịn, đậy kín cho bột nghỉ 30 phút.",
+      "Băm nhỏ cải thảo, trộn với 1/2 muỗng cà phê muối, để 10 phút rồi vắt ráo nước.",
+      "Trộn thịt xay với xì dầu, rượu, gừng, tiêu, phần muối còn lại và 3 muỗng canh nước, quết một chiều đến khi dẻo. Thêm cải thảo, hẹ thái nhỏ và dầu mè, trộn đều.",
+      "Vê bột thành thanh dài, cắt thành viên 10–12 g rồi cán thành miếng tròn đường kính 8 cm, giữa dày hơn mép.",
+      "Cho 1 thìa nhân vào giữa, gấp đôi vỏ, bóp chặt mép và xếp nếp cho bánh kín.",
+      "Đun sôi một nồi nước lớn, thả sủi cảo vào và khuấy nhẹ để không dính đáy. Khi nước sôi lại thì thêm 1 bát nước lạnh; lặp lại 3 lần đến khi bánh nổi lên và vỏ căng bóng.",
+      "Vớt ra đĩa, chấm với giấm đen pha xì dầu, tỏi băm và dầu ớt."
+    ],
+    "tags": [
+      "sủi cảo",
+      "bánh gói",
+      "luộc",
+      "ngày Tết"
+    ],
+    "image": {
+      "file": "sui-cao.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BoiledDumplings.jpg",
+      "author": "Bioniclepluslotr",
+      "license": "CC BY-SA 3.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "tra-sua-tran-chau",
+    "name": "Trà sữa trân châu",
+    "original_name": "珍珠奶茶",
+    "cuisine": "china",
+    "style": "modern",
+    "dish_type": "drink",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 30000,
+    "price_max": 60000,
+    "calories_kcal": 420,
+    "serving_note": "1 ly 500 ml, đường 100% và 1 phần trân châu",
+    "nutrition": {
+      "protein_g": 5,
+      "carbs_g": 90,
+      "fat_g": 5
+    },
+    "description": "Hồng trà đậm vị pha sữa béo nhẹ, uống cùng trân châu đen dẻo dai ngâm đường nâu. Đây là thức uống “quốc dân” của giới trẻ khắp châu Á.",
+    "origin": "Ra đời ở Đài Loan vào thập niên 1980 tại các tiệm trà ở Đài Trung và Đài Nam, sau đó lan ra toàn cầu và bùng nổ ở Việt Nam từ những năm 2000.",
+    "cooking_style": "Pha chế",
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Trà đen (hồng trà)",
+        "amount": "10 g"
+      },
+      {
+        "name": "Nước sôi để hãm trà",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Sữa đặc",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Trân châu đen khô",
+        "amount": "100 g"
+      },
+      {
+        "name": "Đường nâu",
+        "amount": "60 g"
+      },
+      {
+        "name": "Đá viên",
+        "amount": "2 cốc"
+      }
+    ],
+    "steps": [
+      "Đun sôi 1 lít nước, cho trân châu vào khuấy đều và nấu lửa vừa 20–25 phút đến khi hạt trong và dẻo. Tắt bếp, đậy vung ủ thêm 10 phút.",
+      "Vớt trân châu, xả qua nước lạnh. Đun đường nâu với 60 ml nước thành si-rô sánh rồi cho trân châu vào ngâm ít nhất 15 phút.",
+      "Hãm trà đen với 400 ml nước sôi trong 5 phút (để lâu hơn trà sẽ chát), lọc bỏ bã.",
+      "Khuấy sữa đặc vào trà khi còn nóng, thêm sữa tươi rồi để nguội bớt.",
+      "Múc trân châu cùng si-rô đường nâu vào ly, thêm đá viên rồi rót trà sữa lên. Khuấy đều và dùng với ống hút lớn."
+    ],
+    "tags": [
+      "trà sữa",
+      "trân châu",
+      "đồ uống",
+      "Đài Loan"
+    ],
+    "image": {
+      "file": "tra-sua-tran-chau.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ice_bubble_milk_tea_with_tapioca_balls_of_Mister_Donut_in_Japan.jpg",
+      "author": "毒島みるく",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "mala-xiang-guo",
+    "name": "Lẩu khô Mala (Mala xiang guo)",
+    "original_name": "麻辣香锅",
+    "cuisine": "china",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 150000,
+    "price_max": 300000,
+    "calories_kcal": 660,
+    "serving_note": "1 phần khoảng 400 g, chưa gồm cơm",
+    "nutrition": {
+      "protein_g": 46,
+      "carbs_g": 33,
+      "fat_g": 38
+    },
+    "description": "Thịt, hải sản, rau củ và nấm tự chọn được xào trong chảo lớn với sốt cay tê thơm lừng mùi hoa tiêu, ớt khô. Vị đậm đà như lẩu Tứ Xuyên nhưng không có nước dùng nên còn được gọi là “lẩu khô”.",
+    "origin": "Bắt nguồn từ cách nấu của người Thổ Gia vùng Trùng Khánh, món trở thành trào lưu ở Bắc Kinh từ những năm 2000 và hiện rất được giới trẻ ưa chuộng.",
+    "cooking_style": "Xào khô cay tê",
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Thịt bò thái mỏng",
+        "amount": "200 g"
+      },
+      {
+        "name": "Tôm tươi",
+        "amount": "200 g"
+      },
+      {
+        "name": "Viên thả lẩu (cá viên, chả cá)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Ngó sen",
+        "amount": "150 g"
+      },
+      {
+        "name": "Khoai tây",
+        "amount": "150 g"
+      },
+      {
+        "name": "Bông cải xanh",
+        "amount": "150 g"
+      },
+      {
+        "name": "Nấm kim châm, nấm đùi gà",
+        "amount": "150 g"
+      },
+      {
+        "name": "Váng đậu khô",
+        "amount": "80 g"
+      },
+      {
+        "name": "Sốt lẩu cay Tứ Xuyên (hoặc tương đậu cay)",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Ớt khô và hoa tiêu",
+        "amount": "15 g ớt, 1 muỗng canh hoa tiêu"
+      },
+      {
+        "name": "Tỏi, gừng, hành boa rô",
+        "amount": "5 tép tỏi, 20 g gừng, 1 cây hành"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Xì dầu, đường",
+        "amount": "1 muỗng canh xì dầu, 1 muỗng cà phê đường"
+      },
+      {
+        "name": "Mè rang, rau mùi",
+        "amount": "1 muỗng canh mè, 1 nắm rau mùi"
+      }
+    ],
+    "steps": [
+      "Ngâm váng đậu cho mềm rồi cắt khúc. Thái lát mỏng ngó sen và khoai tây, tách nhánh bông cải, cắt râu và rút chỉ lưng tôm.",
+      "Chần lần lượt khoai tây, ngó sen, bông cải, nấm, viên thả lẩu và váng đậu trong nước sôi đến khi vừa chín tới, vớt ra để thật ráo. Chần nhanh thịt bò khoảng 10 giây.",
+      "Đun nóng 2 muỗng canh dầu, áp chảo tôm đến khi vỏ đỏ giòn rồi gắp ra.",
+      "Thêm phần dầu còn lại, hạ lửa vừa, phi ớt khô, hoa tiêu, tỏi, gừng và hành boa rô cho thơm. Cho sốt lẩu cay vào xào đến khi dầu chuyển đỏ.",
+      "Tăng lửa lớn, trút toàn bộ nguyên liệu đã chần cùng tôm vào, đảo nhanh tay 2–3 phút cho thấm sốt, nêm xì dầu và đường.",
+      "Rắc mè rang và rau mùi, bày ra tô lớn và ăn cùng cơm trắng."
+    ],
+    "tags": [
+      "mala",
+      "cay tê",
+      "xào",
+      "giới trẻ"
+    ],
+    "image": {
+      "file": "mala-xiang-guo.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ma_La_Xiang_Guo.jpg",
+      "author": "我乃野云鹤",
+      "license": "CC BY-SA 4.0 (ảnh đã cắt khung)"
+    },
+    "featured": false
+  },
+  {
+    "slug": "banh-tart-trung-hong-kong",
+    "name": "Bánh tart trứng Hồng Kông",
+    "original_name": "蛋挞",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "dessert",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 12000,
+    "price_max": 28000,
+    "calories_kcal": 190,
+    "serving_note": "1 chiếc bánh (khoảng 60 g)",
+    "nutrition": {
+      "protein_g": 4,
+      "carbs_g": 23,
+      "fat_g": 9
+    },
+    "description": "Vỏ bánh bơ giòn xốp ôm lấy phần nhân trứng sữa vàng óng, mềm mịn như pudding. Bánh có hai kiểu vỏ là vỏ bơ giòn và vỏ ngàn lớp, ngon nhất khi ăn lúc còn ấm cùng một ly trà sữa kiểu Hồng Kông.",
+    "origin": "Xuất hiện ở Quảng Châu những năm 1920 và thịnh hành trong các “trà xan thính” Hồng Kông từ thập niên 1940, chịu ảnh hưởng từ bánh custard tart của Anh.",
+    "cooking_style": "Nướng lò",
+    "prep_minutes": 40,
+    "cook_minutes": 22,
+    "servings": 12,
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "200 g"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "110 g"
+      },
+      {
+        "name": "Đường bột",
+        "amount": "30 g"
+      },
+      {
+        "name": "Lòng đỏ trứng gà (cho vỏ bánh)",
+        "amount": "1 cái"
+      },
+      {
+        "name": "Trứng gà (cho nhân)",
+        "amount": "3 quả"
+      },
+      {
+        "name": "Đường cát",
+        "amount": "80 g"
+      },
+      {
+        "name": "Nước nóng",
+        "amount": "160 ml"
+      },
+      {
+        "name": "Sữa đặc không đường (evaporated milk)",
+        "amount": "80 ml"
+      },
+      {
+        "name": "Tinh chất vani",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 nhúm"
+      }
+    ],
+    "steps": [
+      "Đánh bơ mềm với đường bột đến khi mịn, cho lòng đỏ trứng vào trộn đều. Rây bột mì và muối vào, trộn nhẹ tay thành khối rồi bọc kín, để ngăn mát 30 phút.",
+      "Hòa tan đường cát trong nước nóng, để nguội hẳn. Đánh tan trứng (tránh tạo bọt), trộn với nước đường, sữa và vani rồi lọc qua rây 2 lần cho nhân thật mịn.",
+      "Chia bột thành 12 phần khoảng 28 g, ấn đều vào khuôn tart nhỏ sao cho thành bột cao hơn miệng khuôn một chút.",
+      "Rót nhân trứng vào khoảng 80–90% khuôn.",
+      "Nướng ở 200°C trong 10 phút cho vỏ se lại, hạ xuống 170°C nướng thêm 10–12 phút đến khi nhân vừa đông, còn hơi rung nhẹ ở giữa. Nếu nhân phồng lên thì hé cửa lò để hạ nhiệt.",
+      "Để bánh nguội bớt 5 phút rồi tháo khuôn, dùng khi còn ấm."
+    ],
+    "tags": [
+      "bánh ngọt",
+      "trứng",
+      "dim sum",
+      "Hồng Kông"
+    ],
+    "image": {
+      "file": "banh-tart-trung-hong-kong.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Egg_Tarts_with_Puff_Pastry.jpg",
+      "author": "See-ming Lee",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "che-xoai-buoi",
+    "name": "Chè xoài bưởi (Dương chi cam lộ)",
+    "original_name": "杨枝甘露",
+    "cuisine": "china",
+    "style": "modern",
+    "dish_type": "dessert",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 35000,
+    "price_max": 65000,
+    "calories_kcal": 320,
+    "serving_note": "1 bát khoảng 300 ml",
+    "nutrition": {
+      "protein_g": 5,
+      "carbs_g": 50,
+      "fat_g": 12
+    },
+    "description": "Xoài chín xay nhuyễn cùng nước cốt dừa và sữa, thêm bột báng dai dai và tép bưởi chua nhẹ. Món chè mát lạnh, béo thơm, cực hợp cho ngày hè.",
+    "origin": "Do nhà hàng Lợi Uyển (Lei Garden) ở Hồng Kông sáng tạo năm 1984; tên gọi lấy ý từ giọt nước cam lộ trên nhành dương liễu của Quán Thế Âm Bồ Tát.",
+    "cooking_style": "Xay trộn, dùng lạnh",
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Xoài chín",
+        "amount": "3 quả (khoảng 900 g)"
+      },
+      {
+        "name": "Tép bưởi",
+        "amount": "150 g"
+      },
+      {
+        "name": "Bột báng (sago)",
+        "amount": "60 g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Sữa đặc",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Đá bào (tùy thích)",
+        "amount": "1 cốc"
+      }
+    ],
+    "steps": [
+      "Đun sôi 1 lít nước, cho bột báng vào nấu 10 phút và khuấy thường xuyên. Tắt bếp, đậy vung ủ thêm 10 phút đến khi hạt trong hoàn toàn rồi xả nước lạnh, để ráo.",
+      "Gọt xoài, cắt hạt lựu khoảng 1/3 phần thịt để riêng. Phần còn lại xay nhuyễn với nước cốt dừa, sữa tươi và sữa đặc.",
+      "Tách tép bưởi thật tơi, bỏ hết màng trắng để không bị đắng.",
+      "Trộn bột báng vào hỗn hợp xoài xay, để ngăn mát ít nhất 1 giờ.",
+      "Múc chè ra bát, thêm xoài hạt lựu và tép bưởi lên trên, dùng lạnh hoặc thêm chút đá bào."
+    ],
+    "tags": [
+      "chè",
+      "xoài",
+      "tráng miệng",
+      "Hồng Kông"
+    ],
+    "image": {
+      "file": "che-xoai-buoi.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MangoPomeloSago_1.jpg",
+      "author": "Thomas.Lu",
+      "license": "CC BY 3.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "malatang",
+    "name": "Malatang",
+    "original_name": "麻辣烫",
+    "cuisine": "china",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "soup_type": "khac",
+    "price_min": 80000,
+    "price_max": 160000,
+    "calories_kcal": 750,
+    "serving_note": "1 tô lớn khoảng 700 g cả nước dùng",
+    "nutrition": {
+      "protein_g": 37,
+      "carbs_g": 80,
+      "fat_g": 32
+    },
+    "description": "Tô lẩu một người với đủ loại thịt, viên thả lẩu, rau, nấm và miến tự chọn, chần trong nước dùng xương cay tê béo ngậy vị mè. Món ăn đường phố đang “gây sốt” với giới trẻ.",
+    "origin": "Khởi nguồn từ món xiên nhúng cay ở Lạc Sơn, Tứ Xuyên; phiên bản tô lớn nước dùng béo kiểu Đông Bắc ra đời cuối thế kỷ 20 rồi lan sang Hàn Quốc và Việt Nam trong những năm gần đây.",
+    "cooking_style": "Chần trong nước lẩu cay",
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Nước dùng xương",
+        "amount": "1,2 lít"
+      },
+      {
+        "name": "Cốt lẩu cay Tứ Xuyên",
+        "amount": "60 g"
+      },
+      {
+        "name": "Tương mè (hoặc bơ đậu phộng)",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Thịt bò thái mỏng",
+        "amount": "150 g"
+      },
+      {
+        "name": "Viên thả lẩu các loại",
+        "amount": "150 g"
+      },
+      {
+        "name": "Đậu hũ và váng đậu",
+        "amount": "100 g"
+      },
+      {
+        "name": "Nấm kim châm",
+        "amount": "100 g"
+      },
+      {
+        "name": "Cải thảo, cải chíp",
+        "amount": "200 g"
+      },
+      {
+        "name": "Ngó sen hoặc khoai tây thái lát",
+        "amount": "100 g"
+      },
+      {
+        "name": "Miến khoai lang dẹt",
+        "amount": "120 g"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "4 tép"
+      },
+      {
+        "name": "Ớt khô và hoa tiêu",
+        "amount": "6 quả ớt, 1 muỗng cà phê hoa tiêu"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "2 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Ngâm miến khoai lang trong nước ấm 20 phút cho mềm. Rửa sạch và cắt các loại rau, nấm, đậu hũ thành miếng vừa ăn.",
+      "Đun nóng dầu, phi thơm tỏi băm, ớt khô và hoa tiêu trên lửa nhỏ, cho cốt lẩu cay vào xào 1 phút đến khi dầu chuyển đỏ.",
+      "Đổ nước dùng xương vào đun sôi. Hòa tan tương mè với vài muỗng nước dùng rồi cho vào nồi cùng sữa tươi, khuấy đều để nước dùng béo và trắng đục.",
+      "Thả các nguyên liệu lâu chín trước gồm ngó sen, khoai tây, viên thả lẩu và đậu hũ, nấu 4–5 phút. Tiếp đến cho miến, nấm và rau vào nấu thêm 2–3 phút.",
+      "Cuối cùng cho thịt bò vào chần vừa chín tới, nêm lại cho vừa ăn.",
+      "Múc tất cả ra tô lớn cùng nước dùng, rưới thêm dầu ớt hoặc giấm đen tùy khẩu vị."
+    ],
+    "tags": [
+      "malatang",
+      "cay tê",
+      "món nước",
+      "giới trẻ"
+    ],
+    "image": {
+      "file": "malatang.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malatang_from_Hope_Tree_(20220226172344).jpg",
+      "author": "N509FZ",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "dua-chuot-dap-tron-toi",
+    "name": "Dưa chuột đập trộn tỏi",
+    "original_name": "拍黄瓜",
+    "cuisine": "china",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 35000,
+    "price_max": 60000,
+    "calories_kcal": 95,
+    "serving_note": "1 đĩa nhỏ khoảng 170 g",
+    "nutrition": {
+      "protein_g": 2,
+      "carbs_g": 8,
+      "fat_g": 6
+    },
+    "description": "Dưa chuột đập dập giòn mát, thấm đẫm tỏi, giấm đen, xì dầu và dầu mè. Món gỏi khai vị giải ngấy quen thuộc trong các quán lẩu, quán nướng Trung Hoa.",
+    "origin": "Món nguội dân dã phổ biến khắp Trung Quốc, đặc biệt ở miền Bắc và Tứ Xuyên; đập dưa thay vì cắt giúp dưa nứt vỡ tự nhiên và thấm gia vị hơn.",
+    "cooking_style": "Trộn nguội",
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "servings": 3,
+    "ingredients": [
+      {
+        "name": "Dưa chuột",
+        "amount": "3 quả (khoảng 500 g)"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "4 tép"
+      },
+      {
+        "name": "Giấm đen",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ớt",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Mè rang",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Rau mùi",
+        "amount": "vài nhánh"
+      }
+    ],
+    "steps": [
+      "Rửa sạch dưa chuột, cắt bỏ hai đầu. Đặt dưa lên thớt, dùng dao bản to đập dập cho dưa nứt vỡ rồi cắt xéo thành miếng vừa ăn.",
+      "Trộn dưa với muối, để 10 phút cho ra bớt nước rồi chắt bỏ phần nước này.",
+      "Hòa tỏi băm, giấm đen, xì dầu, đường, dầu mè và dầu ớt thành nước trộn.",
+      "Rưới nước trộn lên dưa, đảo đều rồi để ngăn mát 10 phút cho thấm và giòn mát.",
+      "Rắc mè rang và rau mùi trước khi dọn."
+    ],
+    "tags": [
+      "khai vị",
+      "gỏi",
+      "món chay",
+      "thanh mát"
+    ],
+    "image": {
+      "file": "dua-chuot-dap-tron-toi.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pine_and_Crane_DTLA_-_smashed_cucumber_salad.jpg",
+      "author": "Benoît Prieur",
+      "license": "CC0"
+    },
+    "featured": false
+  }
+]

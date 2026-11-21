@@ -1,0 +1,1323 @@
+[
+  {
+    "slug": "fish-and-chips",
+    "name": "Fish and Chips",
+    "description": "Flaky white cod wrapped in a golden, shatteringly crisp beer batter, served with thick-cut chips that are crunchy outside and fluffy within. A sprinkle of salt, a splash of malt vinegar or a squeeze of lemon is all it needs for that true British \"chippy\" taste.",
+    "origin": "Britain's most famous takeaway dish, dating from the 1860s when the fried fish of Jewish immigrant communities met the chips of the industrial cities of the North.",
+    "cooking_style": "Deep-fried",
+    "serving_note": "1 portion is 1 battered fish fillet of about 180 g and 250 g of chips",
+    "ingredients": [
+      {
+        "name": "Cod or haddock fillets (skinless)",
+        "amount": "4 pieces (about 720 g)"
+      },
+      {
+        "name": "Floury potatoes",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Plain flour",
+        "amount": "200 g, plus 3 tbsp for dusting the fish"
+      },
+      {
+        "name": "Baking powder",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Ice-cold lager (or sparkling water)",
+        "amount": "280 ml"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp, plus extra for sprinkling"
+      },
+      {
+        "name": "Vegetable oil for frying",
+        "amount": "1.5 litres"
+      },
+      {
+        "name": "Lemon",
+        "amount": "1, cut into wedges"
+      },
+      {
+        "name": "Malt vinegar",
+        "amount": "2 tbsp, optional"
+      },
+      {
+        "name": "Tartare sauce or mushy peas",
+        "amount": "to serve, optional"
+      }
+    ],
+    "steps": [
+      "Peel the potatoes and cut into thick chips about 1.5 cm wide. Rinse in cold water to remove some of the starch, then parboil in salted boiling water for 4–5 minutes. Drain and leave to dry thoroughly, patting them dry.",
+      "Heat the oil to 130°C and give the chips a first fry for about 8 minutes until cooked through and soft but not yet coloured. Lift out and drain on kitchen paper.",
+      "Mix the flour, baking powder and salt, then gradually pour in the cold beer, whisking just enough to make a smooth batter the consistency of single cream. Chill the batter for 15 minutes.",
+      "Pat the fish dry, season lightly with salt, dust in a thin coating of flour, then dip fully into the beer batter and lift out to let the excess drip off.",
+      "Raise the oil temperature to 180°C and fry the fish one piece at a time for 6–8 minutes, turning once, until the batter is puffed, crisp and golden brown. Drain on a rack.",
+      "Heat the oil to 190°C and fry the chips a second time for 3–4 minutes until golden and crisp, then lift out and salt them straight away while hot.",
+      "Arrange the fish and chips on plates and serve hot with lemon, malt vinegar, tartare sauce or mushy peas."
+    ],
+    "tags": [
+      "fish",
+      "crispy fried",
+      "potatoes",
+      "national favourite"
+    ]
+  },
+  {
+    "slug": "full-english-breakfast",
+    "name": "Full English Breakfast",
+    "description": "A plate piled high with sausages, bacon, fried eggs, baked beans, pan-fried mushrooms and tomatoes, plus crispy hash browns and buttered toast. This hearty \"fry-up\" fuels a whole morning's work and is a must-try for every visitor to England.",
+    "origin": "Rooted in the lavish breakfasts of the English landed gentry, it spread during the Victorian era and early 20th century to become the familiar breakfast of working people across England.",
+    "cooking_style": "Pan-fried, fried",
+    "serving_note": "1 plate is 1 sausage, 2 rashers of bacon, 1 fried egg, baked beans, tomato, mushrooms, 1 hash brown and 1 slice of toast",
+    "ingredients": [
+      {
+        "name": "Fresh British pork sausages",
+        "amount": "2 (about 130 g)"
+      },
+      {
+        "name": "Back bacon",
+        "amount": "4 rashers (about 120 g)"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Tinned baked beans",
+        "amount": "200 g"
+      },
+      {
+        "name": "Ripe tomatoes",
+        "amount": "2, halved"
+      },
+      {
+        "name": "Button mushrooms",
+        "amount": "150 g, halved"
+      },
+      {
+        "name": "Frozen hash browns",
+        "amount": "2"
+      },
+      {
+        "name": "Sliced bread",
+        "amount": "2 slices"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "25 g"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 100°C to keep cooked items warm. Put the sausages in a frying pan with a little oil and fry over a medium-low heat for 12–15 minutes, turning regularly, until golden all over.",
+      "Add the hash browns to the pan (or bake according to the packet instructions) and cook until golden and crisp on both sides.",
+      "Push the sausages to one side, add the bacon and fry for 2–3 minutes per side until the fat turns translucent and the edges are slightly crisp. Transfer everything to a plate and keep warm in the oven.",
+      "Using the fat left in the pan, add half the butter, place the tomatoes (cut side down) and mushrooms in the pan and fry for 4–5 minutes, seasoning with salt and pepper.",
+      "Warm the baked beans in a small pan over a low heat without letting them boil hard. Toast the bread and spread with the remaining butter.",
+      "Wipe the pan clean, add a little oil, crack in the eggs and fry over a medium heat for 2–3 minutes until the whites are set and the yolks still runny.",
+      "Arrange everything on a warmed plate and serve immediately, traditionally with a cup of tea with milk."
+    ],
+    "tags": [
+      "breakfast",
+      "sausages",
+      "eggs",
+      "filling"
+    ]
+  },
+  {
+    "slug": "sunday-roast",
+    "name": "Sunday Roast",
+    "description": "A whole roast leg of lamb carved into tender pink slices, served with crisp fat-roasted potatoes, sweet roasted parsnips, Yorkshire puddings and plenty of rich brown gravy. It is the weekend gathering meal of every family and pub in England.",
+    "origin": "The tradition is said to date back to the 15th century and became widespread in the 18th–19th centuries, when English families put the meat in the oven before Sunday morning church so lunch was ready on their return; beef, lamb, pork or chicken are used depending on region and season.",
+    "cooking_style": "Whole oven-roasted",
+    "serving_note": "1 plate is about 150 g roast lamb, 200 g roast potatoes, parsnips, 2 Yorkshire puddings and gravy",
+    "ingredients": [
+      {
+        "name": "Bone-in leg of lamb (or a whole beef sirloin)",
+        "amount": "2 kg"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4 cloves, sliced lengthways"
+      },
+      {
+        "name": "Fresh rosemary",
+        "amount": "4 sprigs"
+      },
+      {
+        "name": "Olive oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Floury potatoes",
+        "amount": "1.2 kg, peeled and cut into large chunks"
+      },
+      {
+        "name": "Parsnips or carrots",
+        "amount": "4, halved lengthways"
+      },
+      {
+        "name": "Beef dripping, duck fat or vegetable oil",
+        "amount": "5 tbsp"
+      },
+      {
+        "name": "Plain flour",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Lamb or beef stock",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Red wine",
+        "amount": "100 ml, optional"
+      },
+      {
+        "name": "Yorkshire puddings",
+        "amount": "12 (see separate recipe)"
+      },
+      {
+        "name": "Sea salt and ground black pepper",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Leave the meat at room temperature for 1 hour. Heat the oven to 220°C. Use the tip of a knife to make small incisions all over the meat, push in the garlic slices and rosemary leaves, then rub with olive oil, salt and pepper.",
+      "Place the meat in a roasting tin and roast for 20 minutes at 220°C, then lower to 180°C and roast for a further 60–70 minutes until pink in the middle (about 60°C at the centre); roast for another 15–20 minutes if you prefer it well done.",
+      "Meanwhile, parboil the potatoes in salted water for 8–10 minutes, drain, then shake hard in the pan to rough up the edges. Heat the fat in a separate tray in the oven, add the potatoes, turn to coat and roast for 50–60 minutes, turning twice, until golden and crisp.",
+      "Add the parsnips to the potato tray for the last 30–35 minutes, turning them in the fat and sprinkling with a little salt.",
+      "Take the meat out, cover with foil and rest for 20–30 minutes. Turn the oven up to 220°C to finish crisping the potatoes and bake the Yorkshire puddings.",
+      "Pour off most of the fat from the meat tin, set the tin on the hob, sprinkle in the flour and stir for 1 minute. Pour in the wine and stock, scrape up all the caramelised bits from the bottom, simmer for 5–8 minutes until thickened, then strain the gravy.",
+      "Carve the meat into thin slices and serve with the roast potatoes, parsnips and Yorkshire puddings, with hot gravy poured over. Boiled vegetables and mint sauce make good accompaniments."
+    ],
+    "tags": [
+      "roast meat",
+      "lamb",
+      "family meal",
+      "pub classic"
+    ]
+  },
+  {
+    "slug": "beef-wellington",
+    "name": "Beef Wellington",
+    "description": "A whole fillet of beef, pink and juicy, wrapped in a fragrant layer of sauteed chopped mushrooms, cured ham and golden baked puff pastry. Every slice reveals neat, even layers, making it an elegant centrepiece for a feast.",
+    "origin": "A classic English celebration dish, usually said to be named after the Duke of Wellington, victor at Waterloo in 1815, although the recipe as we know it only became widely popular in the 20th century.",
+    "cooking_style": "Seared, then wrapped in pastry and oven-baked",
+    "serving_note": "1 thick slice of about 220 g",
+    "ingredients": [
+      {
+        "name": "Beef fillet (centre cut, in one piece)",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Chestnut mushrooms",
+        "amount": "500 g"
+      },
+      {
+        "name": "Parma ham (prosciutto)",
+        "amount": "12 thin slices"
+      },
+      {
+        "name": "Ready-made all-butter puff pastry",
+        "amount": "500 g"
+      },
+      {
+        "name": "English mustard",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Egg yolks",
+        "amount": "2, beaten with 1 tsp water"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "30 g"
+      },
+      {
+        "name": "Olive oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Fresh thyme",
+        "amount": "4 sprigs, leaves picked"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves, finely chopped"
+      },
+      {
+        "name": "Sea salt and ground black pepper",
+        "amount": "to taste"
+      },
+      {
+        "name": "Plain flour",
+        "amount": "a little, for dusting"
+      }
+    ],
+    "steps": [
+      "Pat the meat dry and season all over with salt and pepper. Heat the olive oil in a pan until very hot and sear the beef for about 1 minute per side until evenly browned, then remove, leave to cool and brush all over with mustard.",
+      "Chop the mushrooms very finely (or pulse coarsely), then cook with the butter, garlic and thyme leaves over a medium heat for 10–12 minutes until dry with no liquid left. Season with salt and pepper and leave to cool completely.",
+      "Lay out a sheet of cling film, arrange the ham slices slightly overlapping in a rectangle and spread the mushroom mixture evenly on top. Place the beef in the centre, roll up tightly into a cylinder, twist the ends of the cling film and chill for 30 minutes.",
+      "Roll out the puff pastry on a floured surface to about 3 mm thick. Remove the cling film, place the beef roll on the pastry, brush egg yolk around the edges and wrap it up completely, seam side down. Brush the top with egg yolk and chill for another 20 minutes.",
+      "Heat the oven to 200°C. Brush with another layer of egg yolk, lightly score a pattern on the pastry, sprinkle with sea salt and bake for 30–35 minutes until the pastry is golden brown and the centre of the beef reaches 50–52°C (medium-rare).",
+      "Remove from the oven, rest for 10 minutes, then cut into thick slices with a serrated knife. Serve with red wine sauce, mashed potatoes or roasted vegetables."
+    ],
+    "tags": [
+      "beef",
+      "party dish",
+      "oven-baked",
+      "elegant"
+    ]
+  },
+  {
+    "slug": "shepherds-pie",
+    "name": "Shepherd's Pie",
+    "description": "Lamb mince simmered with carrots, onion and a rich gravy, beneath a layer of buttery, milky mashed potato baked until golden on top. Every spoonful brings creamy potato and savoury meat together, perfect for chilly days.",
+    "origin": "A rural family dish from England and Ireland dating from the late 18th century, created to use up leftover roast meat; made with lamb it is called shepherd's pie, and with beef it is called cottage pie.",
+    "cooking_style": "Simmered, then oven-baked",
+    "serving_note": "1 portion of about 450 g",
+    "ingredients": [
+      {
+        "name": "Lamb mince (or beef mince)",
+        "amount": "600 g"
+      },
+      {
+        "name": "Floury potatoes",
+        "amount": "900 g"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 large, finely chopped"
+      },
+      {
+        "name": "Carrots",
+        "amount": "2, diced"
+      },
+      {
+        "name": "Garlic",
+        "amount": "2 cloves, finely chopped"
+      },
+      {
+        "name": "Tomato puree",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Lamb or beef stock",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Plain flour",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Thyme or rosemary leaves",
+        "amount": "1 tsp, chopped"
+      },
+      {
+        "name": "Peas",
+        "amount": "150 g"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "60 g"
+      },
+      {
+        "name": "Whole milk",
+        "amount": "100 ml, warmed"
+      },
+      {
+        "name": "Cooking oil, salt and ground black pepper",
+        "amount": "1 tbsp oil, salt and pepper to taste"
+      }
+    ],
+    "steps": [
+      "Heat the oil in a deep frying pan, add the mince and fry over a high heat for 6–8 minutes until browned, then drain off the excess fat and spoon the meat out.",
+      "In the same pan, cook the onion and carrots for 8 minutes until soft, then add the garlic and herbs and stir for 1 minute. Return the meat, sprinkle over the flour and stir well.",
+      "Add the tomato puree, Worcestershire sauce and stock, bring to the boil, then lower the heat and simmer for 20–25 minutes until the sauce thickens. Stir in the peas and season with salt and pepper.",
+      "Meanwhile, boil the peeled, chunked potatoes for 15–20 minutes until tender, drain and mash until smooth with the butter and warm milk, seasoning with salt.",
+      "Heat the oven to 200°C. Spread the meat in a baking dish, top with the mash and rough up the surface with a fork so it crisps easily.",
+      "Bake for 25–30 minutes until golden brown on top and bubbling around the edges. Rest for 5 minutes before serving, with peas or boiled vegetables."
+    ],
+    "tags": [
+      "lamb",
+      "mashed potato",
+      "oven-baked",
+      "family meal"
+    ]
+  },
+  {
+    "slug": "bangers-and-mash",
+    "name": "Bangers and Mash",
+    "description": "Glossy, plump pork sausages on silky buttery mash, smothered in rich brown onion gravy. A simple, warming pub dish that pleases adults and children alike.",
+    "origin": "A humble British pub dish; the name \"bangers\" dates from the First World War, when sausages padded out with water often popped and burst in the pan.",
+    "cooking_style": "Pan-fried, mashed and served with gravy",
+    "serving_note": "1 portion is 2 sausages, about 250 g mashed potato, peas and onion gravy",
+    "ingredients": [
+      {
+        "name": "Fresh pork sausages",
+        "amount": "8 (about 600 g)"
+      },
+      {
+        "name": "Floury potatoes",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "70 g"
+      },
+      {
+        "name": "Whole milk",
+        "amount": "120 ml, warmed"
+      },
+      {
+        "name": "Onions",
+        "amount": "2 large, thinly sliced"
+      },
+      {
+        "name": "Plain flour",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Beef stock",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Peas",
+        "amount": "200 g"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Peel the potatoes, cut into even chunks and boil in salted water for 15–20 minutes until very tender, then drain thoroughly.",
+      "While the potatoes cook, fry the sausages in the oil over a medium-low heat for 15–18 minutes, turning often, until cooked through and browned. Remove and keep warm.",
+      "Add 20 g of the butter and the onions to the same pan and cook over a low heat for 12–15 minutes until soft and caramelised.",
+      "Sprinkle the flour over the onions, stir for 1 minute, then gradually pour in the stock, stirring constantly. Add the Worcestershire sauce and simmer for 5–8 minutes until the gravy thickens, then season with salt and pepper.",
+      "Mash the hot potatoes with the remaining butter and the warm milk until smooth and silky, seasoning with salt. Boil the peas for 2–3 minutes and drain.",
+      "Spoon the mash onto plates, top with the sausages, pour over the onion gravy and serve with the peas."
+    ],
+    "tags": [
+      "sausages",
+      "mashed potato",
+      "pub classic",
+      "crowd-pleaser"
+    ]
+  },
+  {
+    "slug": "chicken-tikka-masala",
+    "name": "Chicken Tikka Masala",
+    "description": "Yoghurt- and spice-marinated chicken charred at the edges, then simmered in a rich, vivid orange creamy tomato sauce fragrant with garam masala. Mildly spicy and slightly sweet, it is wonderful with rice and perfect for scooping up with naan.",
+    "origin": "A British-Indian fusion dish born in British curry houses around the 1960s–1970s (Glasgow is often cited), when grilled chicken tikka was given a creamy tomato sauce to suit local tastes; it has been called Britain's \"true national dish\".",
+    "cooking_style": "Marinated and grilled, then simmered in sauce",
+    "serving_note": "1 portion of curry (about 300 g) with 150 g basmati rice",
+    "ingredients": [
+      {
+        "name": "Boneless, skinless chicken thighs",
+        "amount": "700 g, cut into bite-sized pieces"
+      },
+      {
+        "name": "Plain yoghurt",
+        "amount": "150 g"
+      },
+      {
+        "name": "Minced ginger and garlic",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Garam masala",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Paprika (or Kashmiri chilli powder)",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Ground cumin and ground turmeric",
+        "amount": "1 tsp cumin, 1/2 tsp turmeric"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 large, finely chopped"
+      },
+      {
+        "name": "Tomato passata",
+        "amount": "400 g"
+      },
+      {
+        "name": "Tomato puree",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Double cream",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Unsalted butter and cooking oil",
+        "amount": "30 g butter, 2 tbsp oil"
+      },
+      {
+        "name": "Salt and sugar",
+        "amount": "1.5 tsp salt, 1 tsp sugar"
+      },
+      {
+        "name": "Coriander and basmati rice or naan",
+        "amount": "to serve"
+      }
+    ],
+    "steps": [
+      "Mix the chicken with the yoghurt, lemon juice, half the ginger-garlic, half the garam masala, half the paprika, the turmeric and 1 tsp salt. Marinate for at least 1 hour, ideally overnight in the fridge.",
+      "Thread the chicken onto skewers or spread on a tray and cook under a very hot grill (or in a cast-iron pan) for 8–10 minutes, turning once, until charred at the edges but not necessarily cooked through.",
+      "Melt the butter with the oil and fry the onion for 8 minutes until lightly golden, then add the remaining ginger-garlic and fry for 1 minute until fragrant.",
+      "Add the remaining garam masala and paprika plus the cumin and stir for 30 seconds, followed by the tomato puree and passata. Simmer for 10 minutes until the sauce thickens, then season with the sugar and salt.",
+      "Add the grilled chicken and its juices to the pan, pour in the cream, stir well and simmer gently for a further 8–10 minutes until the chicken is tender and the sauce is smooth and orange.",
+      "Scatter with chopped coriander and serve hot with basmati rice or naan."
+    ],
+    "tags": [
+      "curry",
+      "chicken",
+      "British-Indian",
+      "creamy sauce"
+    ]
+  },
+  {
+    "slug": "coronation-chicken-sandwich",
+    "name": "Coronation Chicken Sandwich",
+    "description": "Shredded poached chicken folded through a golden curried mayonnaise, studded with sweet sultanas and nutty almonds, between two slices of soft white bread. Creamy, gently curry-scented and a little sweet and sour, it is ideal for a quick lunch or afternoon tea.",
+    "origin": "The cold chicken in creamy curry sauce was created by Rosemary Hume and Constance Spry of the Le Cordon Bleu school in London for the coronation banquet of Queen Elizabeth II in 1953; it later became a familiar sandwich filling across Britain.",
+    "cooking_style": "Poached, tossed in a cold dressing",
+    "serving_note": "1 portion is 2 slices of bread filled with about 150 g of dressed chicken, with a little salad",
+    "ingredients": [
+      {
+        "name": "Chicken breast fillets",
+        "amount": "600 g"
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": "100 g"
+      },
+      {
+        "name": "Plain Greek yoghurt",
+        "amount": "100 g"
+      },
+      {
+        "name": "Mild curry powder",
+        "amount": "1.5 tbsp"
+      },
+      {
+        "name": "Mango chutney",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Sultanas",
+        "amount": "40 g"
+      },
+      {
+        "name": "Toasted flaked almonds",
+        "amount": "20 g"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Coriander",
+        "amount": "1 tbsp, chopped"
+      },
+      {
+        "name": "Bay leaf",
+        "amount": "1"
+      },
+      {
+        "name": "White sandwich bread",
+        "amount": "10 slices"
+      },
+      {
+        "name": "Lettuce, cucumber and tomato",
+        "amount": "to serve"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Put the chicken breasts into a pan of gently simmering water with the bay leaf and a little salt, poach for 12–15 minutes, then turn off the heat and leave in the water for another 10 minutes so the chicken stays tender rather than dry. Lift out, cool completely, then shred or cut into bite-sized pieces.",
+      "Toast the curry powder in a dry pan over a low heat for about 30 seconds until fragrant, then leave to cool.",
+      "Mix the mayonnaise, yoghurt, curry powder, mango chutney and lemon juice into a smooth golden dressing and season with salt and pepper.",
+      "Add the chicken, sultanas, almonds and coriander and toss well in the dressing. Chill for at least 30 minutes to let the flavours meld.",
+      "Divide the filling between 5 slices of bread, top with the remaining 5 slices, cut diagonally into triangles and serve with salad."
+    ],
+    "tags": [
+      "sandwich",
+      "chicken",
+      "curry sauce",
+      "afternoon tea"
+    ]
+  },
+  {
+    "slug": "cullen-skink",
+    "name": "Cullen Skink",
+    "description": "A thick, silky milk soup with large flakes of smoked haddock, soft floury potatoes and sweet, mellow leeks, with a distinctive hint of smoke. Served hot with crusty bread, it is all the warmth you need on a cold, rainy day.",
+    "origin": "A speciality of the fishing town of Cullen in Moray on Scotland's north-east coast, made with locally smoked haddock and now a popular starter throughout Scotland.",
+    "cooking_style": "Milk-based soup",
+    "serving_note": "1 bowl of about 400 ml, not including bread",
+    "ingredients": [
+      {
+        "name": "Smoked haddock (or smoked cod)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Whole milk",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Water",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Potatoes",
+        "amount": "500 g, cut into 1.5 cm dice"
+      },
+      {
+        "name": "Onion",
+        "amount": "1, finely chopped"
+      },
+      {
+        "name": "Leek",
+        "amount": "1, white part thinly sliced"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "30 g"
+      },
+      {
+        "name": "Bay leaf",
+        "amount": "1"
+      },
+      {
+        "name": "Double cream",
+        "amount": "4 tbsp, optional"
+      },
+      {
+        "name": "Chives or parsley",
+        "amount": "1 tbsp, chopped"
+      },
+      {
+        "name": "Salt and ground white pepper",
+        "amount": "to taste"
+      }
+    ],
+    "steps": [
+      "Put the fish, milk and bay leaf in a pan and heat gently until the milk just comes to the boil, then turn off the heat, cover and leave for 5 minutes to cook the fish. Lift out the fish and strain and reserve the milk.",
+      "Melt the butter in another pan, add the onion and leek and cook over a low heat for 6–8 minutes until soft and translucent but not coloured.",
+      "Add the potatoes and water, bring to the boil, then lower the heat and simmer for 12–15 minutes until the potatoes are tender.",
+      "Use a spoon to crush about a third of the potatoes in the pan to thicken the soup naturally, then pour in the reserved poaching milk.",
+      "Flake the fish into large pieces, discarding the skin and bones, and add to the pan with the cream. Heat gently for 3–4 minutes without letting it boil; season with pepper and taste before adding salt, as smoked fish is already salty.",
+      "Ladle into bowls, sprinkle with chives and serve hot with crisp buttered toast."
+    ],
+    "tags": [
+      "soup",
+      "smoked fish",
+      "Scotland",
+      "warming"
+    ]
+  },
+  {
+    "slug": "welsh-cawl",
+    "name": "Cawl",
+    "description": "A clear, delicately sweet broth with meltingly tender lamb, potatoes, carrots, swede and plenty of leeks, the emblematic vegetable of Wales. A rustic, brothy dish usually served hot with bread and a wedge of Caerphilly cheese.",
+    "origin": "Regarded as the national dish of Wales and dating back to the 14th century; the pot of cawl was once simmered all day over the hearth in farming households and is traditionally eaten on St David's Day (1 March).",
+    "cooking_style": "Stewed, slow-simmered",
+    "serving_note": "1 large bowl of about 450 ml, not including bread and cheese",
+    "ingredients": [
+      {
+        "name": "Bone-in lamb neck or shoulder (or beef brisket)",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Water",
+        "amount": "2 litres"
+      },
+      {
+        "name": "Onions",
+        "amount": "2, cut into wedges"
+      },
+      {
+        "name": "Carrots",
+        "amount": "3, cut into chunks"
+      },
+      {
+        "name": "Swede or kohlrabi",
+        "amount": "300 g, cubed"
+      },
+      {
+        "name": "Potatoes",
+        "amount": "600 g, cut into large chunks"
+      },
+      {
+        "name": "Leeks",
+        "amount": "3, thickly sliced"
+      },
+      {
+        "name": "Bay leaves",
+        "amount": "2"
+      },
+      {
+        "name": "Thyme",
+        "amount": "3 sprigs"
+      },
+      {
+        "name": "Parsley",
+        "amount": "1 small handful, chopped"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "to taste"
+      },
+      {
+        "name": "Bread and Caerphilly or Cheddar cheese",
+        "amount": "to serve"
+      }
+    ],
+    "steps": [
+      "Put the lamb, onions, bay leaves and thyme in a large pot, add the water, bring to the boil and skim off all the scum. Lower the heat, partly cover and simmer for about 1 hour 30 minutes until the meat is tender.",
+      "Lift out the meat, remove the bones and shred or cut the meat into bite-sized pieces. Skim off some of the fat from the surface of the broth.",
+      "Add the carrots and swede to the broth and simmer for 15 minutes, then add the potatoes and simmer for another 15 minutes.",
+      "Return the meat to the pot with most of the leeks and cook for a further 10 minutes until all the vegetables are tender. Season with salt and pepper to taste.",
+      "Stir in the remaining leeks and the parsley just before turning off the heat to keep their green colour and fresh flavour.",
+      "Ladle into deep bowls and serve hot with bread and cheese. Left overnight and reheated, the soup tastes even richer."
+    ],
+    "tags": [
+      "soup",
+      "lamb",
+      "vegetables",
+      "Wales"
+    ]
+  },
+  {
+    "slug": "yorkshire-pudding",
+    "name": "Yorkshire Pudding",
+    "description": "Made from a simple egg and milk batter, these puddings rise high in sizzling hot fat into golden-brown cups with crisp edges and soft, airy centres. They are the essential side for soaking up gravy at a Sunday roast.",
+    "origin": "Hailing from Yorkshire in the North of England; a recipe was recorded in 1737 and given the name Yorkshire pudding in Hannah Glasse's cookbook of 1747.",
+    "cooking_style": "Baked in a very hot oven",
+    "serving_note": "2 puddings (about 80 g), not including gravy",
+    "ingredients": [
+      {
+        "name": "Plain flour",
+        "amount": "140 g"
+      },
+      {
+        "name": "Eggs",
+        "amount": "4"
+      },
+      {
+        "name": "Whole milk",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Ground black pepper",
+        "amount": "1 pinch"
+      },
+      {
+        "name": "Beef dripping or high-smoke-point vegetable oil",
+        "amount": "12 tsp (1 tsp per hole)"
+      },
+      {
+        "name": "Gravy",
+        "amount": "200 ml, to serve"
+      }
+    ],
+    "steps": [
+      "Whisk the eggs and flour together until smooth, then gradually pour in the milk, whisking to a thin, lump-free batter. Season with salt and pepper and rest the batter for at least 30 minutes at room temperature.",
+      "Heat the oven to 220°C. Put 1 tsp of fat into each hole of a 12-hole muffin tin and place the tin in the oven for 10 minutes until the fat is very hot and just smoking.",
+      "Take the tin out quickly and pour the batter into each hole until about half full; the batter should sizzle as soon as it hits the fat.",
+      "Return the tin to the oven and bake for 20–25 minutes until risen high and golden brown. Do not open the oven door during the first 15 minutes or the puddings will collapse.",
+      "Serve straight away while hot and crisp, with gravy poured over and alongside roast meat."
+    ],
+    "tags": [
+      "side dish",
+      "baked",
+      "Yorkshire",
+      "gravy"
+    ]
+  },
+  {
+    "slug": "bubble-and-squeak",
+    "name": "Bubble and Squeak",
+    "description": "Mashed potato mixed with cooked cabbage and vegetables, shaped into cakes and fried in butter until crisp and golden outside yet soft and fluffy within. The British often serve it with poached eggs or bacon, or as a side at breakfast.",
+    "origin": "A dish for using up leftover vegetables from the Sunday roast, recorded in England from the early 19th century; the name imitates the bubbling and squeaking sounds of the vegetables as they fry.",
+    "cooking_style": "Pan-fried",
+    "serving_note": "1 cake of about 200 g, not including poached egg and bacon",
+    "ingredients": [
+      {
+        "name": "Cooked potatoes or leftover mash",
+        "amount": "500 g"
+      },
+      {
+        "name": "Cooked cabbage or Brussels sprouts",
+        "amount": "300 g, finely chopped"
+      },
+      {
+        "name": "Cooked carrot",
+        "amount": "1 small, diced"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 small, finely chopped"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "30 g"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "to taste"
+      },
+      {
+        "name": "Eggs (for poaching, to serve)",
+        "amount": "4, optional"
+      },
+      {
+        "name": "Diced bacon (to serve)",
+        "amount": "80 g, optional"
+      }
+    ],
+    "steps": [
+      "Roughly mash the potatoes in a large bowl, leaving some small lumps for texture.",
+      "Fry the onion in half the butter for 5 minutes until soft and fragrant, then tip into the potato bowl with the cabbage and carrot. Season with salt and pepper, mix well and shape into 4 round cakes about 2.5 cm thick.",
+      "Heat the oil and remaining butter in a frying pan over a medium heat, add the cakes, press down gently and fry for 5–6 minutes without moving them so the underside turns crisp and golden.",
+      "Carefully flip the cakes and fry for another 5–6 minutes until the other side is evenly golden.",
+      "If serving with extras: fry the bacon until crisp and poach the eggs in gently simmering water with a dash of vinegar for about 3 minutes. Place an egg on each cake, scatter with bacon and serve hot."
+    ],
+    "tags": [
+      "potatoes",
+      "cabbage",
+      "breakfast",
+      "side dish"
+    ]
+  },
+  {
+    "slug": "cornish-pasty",
+    "name": "Cornish Pasty",
+    "description": "A half-moon pastry with its signature crimped rope edge, a sturdy buttery crust encasing beef, potato, swede and onion that cook tender in their own juices. Neat and easy to eat by hand, it is as filling as a complete lunch.",
+    "origin": "A speciality of Cornwall in south-west England, once the lunch tin miners took underground in the 18th–19th centuries; since 2011 the name Cornish pasty has had protected geographical status.",
+    "cooking_style": "Oven-baked",
+    "serving_note": "1 pasty of about 320 g",
+    "ingredients": [
+      {
+        "name": "Strong bread flour",
+        "amount": "500 g"
+      },
+      {
+        "name": "Cold unsalted butter",
+        "amount": "110 g, diced"
+      },
+      {
+        "name": "Cold lard or vegetable shortening",
+        "amount": "110 g"
+      },
+      {
+        "name": "Cold water",
+        "amount": "175 ml"
+      },
+      {
+        "name": "Beef (skirt or flank)",
+        "amount": "450 g, finely diced"
+      },
+      {
+        "name": "Potatoes",
+        "amount": "400 g, thinly sliced into small pieces"
+      },
+      {
+        "name": "Swede or kohlrabi",
+        "amount": "200 g, diced"
+      },
+      {
+        "name": "Onion",
+        "amount": "200 g, finely chopped"
+      },
+      {
+        "name": "Salt",
+        "amount": "2 tsp (1 for the pastry, 1 for the filling)"
+      },
+      {
+        "name": "Ground black pepper",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Egg",
+        "amount": "1, beaten for glazing"
+      }
+    ],
+    "steps": [
+      "Mix the flour with 1 tsp salt and rub the cold butter and lard into it until it resembles breadcrumbs. Add the cold water and knead for 3–4 minutes to a smooth, pliable dough, then wrap and chill for 1 hour.",
+      "Mix the raw beef, potato, swede and onion in a large bowl and season with salt and plenty of pepper.",
+      "Divide the pastry into 6 portions and roll each into a circle about 20 cm across and roughly 3 mm thick.",
+      "Pile the filling onto one half of each circle, leaving a 2 cm border. Brush water around the edge, fold over, press firmly to seal, then crimp the edge into a rope pattern along the side.",
+      "Place the pasties on a baking tray lined with baking paper, brush with egg and pierce a small hole in the top to let steam escape.",
+      "Bake at 200°C for 20 minutes, then lower to 160°C and bake for a further 30 minutes until the pastry is golden brown and the filling tender. Leave to cool for 10 minutes before eating."
+    ],
+    "tags": [
+      "pastry",
+      "beef",
+      "handheld",
+      "Cornwall"
+    ]
+  },
+  {
+    "slug": "scotch-egg",
+    "name": "Scotch Egg",
+    "description": "A boiled egg snugly wrapped in herby sausage meat, rolled in breadcrumbs and fried until golden and crisp. Cut in half to reveal a bright yellow yolk inside the savoury meat; delicious hot or cold and perfect for picnics.",
+    "origin": "A favourite British picnic and pub snack; London's Fortnum & Mason claims to have invented it in 1738 for travellers on long journeys.",
+    "cooking_style": "Deep-fried",
+    "serving_note": "1 egg of about 180 g",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "amount": "6 (4 for boiling, 2 for coating)"
+      },
+      {
+        "name": "Fresh pork sausage meat (skins removed) or seasoned pork mince",
+        "amount": "400 g"
+      },
+      {
+        "name": "English mustard",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Chopped sage or thyme",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Chopped parsley",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Ground nutmeg",
+        "amount": "1 pinch"
+      },
+      {
+        "name": "Plain flour",
+        "amount": "60 g"
+      },
+      {
+        "name": "Panko breadcrumbs",
+        "amount": "120 g"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "to taste"
+      },
+      {
+        "name": "Vegetable oil for frying",
+        "amount": "1 litre"
+      }
+    ],
+    "steps": [
+      "Lower 4 eggs into boiling water and boil for exactly 6 minutes for slightly jammy yolks (8 minutes if you prefer them fully set), plunge straight into iced water, then peel gently.",
+      "Mix the sausage meat with the mustard, herbs, parsley, nutmeg and a little salt and pepper, then divide into 4 equal portions.",
+      "Flatten each portion on a wet palm, roll a boiled egg in flour and place it in the centre, then wrap the meat evenly around the egg and roll it smooth so there are no gaps.",
+      "Roll in turn through flour, beaten egg and breadcrumbs; you can dip in egg and breadcrumbs a second time for an extra-crisp coating.",
+      "Heat the oil to 170°C and fry 2 at a time for 7–8 minutes, turning regularly, until golden brown and the meat is cooked through.",
+      "Drain on kitchen paper, rest for a few minutes, then cut in half. Serve with mustard, pickles or cherry tomatoes."
+    ],
+    "tags": [
+      "eggs",
+      "crispy fried",
+      "snack",
+      "picnic"
+    ]
+  },
+  {
+    "slug": "sausage-roll",
+    "name": "Sausage Roll",
+    "description": "Pork sausage meat seasoned with onion and herbs, rolled in buttery puff pastry and baked until puffed, golden and crisp in every layer. A savoury bake sold in every British bakery, just right hot in the early morning or as an afternoon snack.",
+    "origin": "Popular in London from the early 19th century, influenced by the French technique of wrapping meat in pastry; today it is one of the best-selling items in British bakery chains.",
+    "cooking_style": "Oven-baked",
+    "serving_note": "1 roll of about 110 g",
+    "ingredients": [
+      {
+        "name": "Fresh pork sausage meat (skins removed)",
+        "amount": "450 g"
+      },
+      {
+        "name": "Ready-rolled puff pastry",
+        "amount": "1 sheet (about 375 g)"
+      },
+      {
+        "name": "Onion",
+        "amount": "1 small, very finely chopped"
+      },
+      {
+        "name": "Breadcrumbs",
+        "amount": "30 g"
+      },
+      {
+        "name": "Chopped sage or thyme",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "English or Dijon mustard",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Egg",
+        "amount": "1, beaten"
+      },
+      {
+        "name": "Salt and ground black pepper",
+        "amount": "1/2 tsp each"
+      },
+      {
+        "name": "Sesame or nigella seeds",
+        "amount": "1 tsp, optional"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 200°C and line a tray with baking paper. Mix the sausage meat thoroughly with the onion, breadcrumbs, herbs, mustard, salt and pepper.",
+      "Unroll the chilled puff pastry and cut in half lengthways into 2 strips.",
+      "Shape the filling into 2 long logs and lay one down the centre of each pastry strip. Brush one edge with egg, roll the pastry around the filling and press lightly to seal, seam side down.",
+      "Cut each roll into 4 pieces and arrange on the tray 3 cm apart. Brush the tops with egg, score a few diagonal lines and sprinkle with sesame seeds.",
+      "Bake for 22–25 minutes until the pastry is puffed and golden brown and the filling cooked through. Cool for 5 minutes on a rack, then serve with ketchup or brown sauce."
+    ],
+    "tags": [
+      "savoury bake",
+      "sausages",
+      "puff pastry",
+      "snack"
+    ]
+  },
+  {
+    "slug": "scones",
+    "name": "Cream Tea Scones",
+    "description": "Tall, pale golden scones with a soft, fluffy, buttery crumb, split in half and spread thickly with rich clotted cream and sweet-tart strawberry jam. Enjoyed with a pot of hot tea, this is the famous English \"cream tea\".",
+    "origin": "Scones originated in 16th-century Scotland, while the custom of serving them with clotted cream and jam is tied to Devon and Cornwall in south-west England, where people still argue over whether the cream or the jam goes on first.",
+    "cooking_style": "Oven-baked",
+    "serving_note": "1 scone (about 80 g) with 25 g clotted cream and 20 g strawberry jam",
+    "ingredients": [
+      {
+        "name": "Plain flour",
+        "amount": "450 g, plus a little for dusting"
+      },
+      {
+        "name": "Baking powder",
+        "amount": "2 tbsp (about 25 g)"
+      },
+      {
+        "name": "Cold unsalted butter",
+        "amount": "100 g, diced"
+      },
+      {
+        "name": "Caster sugar",
+        "amount": "50 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Whole milk",
+        "amount": "240 ml"
+      },
+      {
+        "name": "Egg",
+        "amount": "1, beaten for glazing"
+      },
+      {
+        "name": "Clotted cream or whipped cream",
+        "amount": "250 g"
+      },
+      {
+        "name": "Strawberry jam",
+        "amount": "200 g"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 220°C and line a tray with baking paper. Sift the flour, baking powder and salt into a large bowl.",
+      "Add the cold butter and quickly rub it in with your fingertips until the mixture resembles breadcrumbs, then stir in the sugar.",
+      "Gradually pour in the milk and mix gently with a table knife until it just comes together into a soft, slightly sticky dough. Do not overwork it or the scones will be tough.",
+      "Turn the dough onto a floured surface and pat it out gently to 2.5 cm thick. Press a 6 cm round cutter straight down to cut the scones, without twisting, so they rise evenly; gather the trimmings and cut more.",
+      "Place the scones on the tray, brush the tops with egg (without letting it drip down the sides) and bake for 12–15 minutes until well risen and evenly golden.",
+      "Cool slightly on a rack, split in half by hand and serve warm with clotted cream, strawberry jam and hot tea."
+    ],
+    "tags": [
+      "baking",
+      "afternoon tea",
+      "strawberry jam",
+      "clotted cream"
+    ]
+  },
+  {
+    "slug": "sticky-toffee-pudding",
+    "name": "Sticky Toffee Pudding",
+    "description": "A moist, dark brown date sponge soaked in hot buttery toffee sauce and served with a scoop of cold vanilla ice cream melting over it. Richly sweet and fragrant with brown sugar, it is the best-loved dessert in British pubs.",
+    "origin": "A dessert associated with the Lake District in north-west England, made famous in the 1970s by the Sharrow Bay hotel on the shores of Ullswater.",
+    "cooking_style": "Oven-baked, served with hot sauce",
+    "serving_note": "1 slice of about 130 g with sauce and 1 small scoop of vanilla ice cream",
+    "ingredients": [
+      {
+        "name": "Pitted dried dates",
+        "amount": "200 g, chopped"
+      },
+      {
+        "name": "Boiling water",
+        "amount": "250 ml"
+      },
+      {
+        "name": "Bicarbonate of soda",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "160 g (85 g for the sponge, 75 g for the sauce)"
+      },
+      {
+        "name": "Dark brown sugar",
+        "amount": "275 g (150 g for the sponge, 125 g for the sauce)"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Plain flour",
+        "amount": "175 g"
+      },
+      {
+        "name": "Baking powder",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Vanilla extract",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Double cream",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 pinch"
+      },
+      {
+        "name": "Vanilla ice cream",
+        "amount": "8 small scoops, to serve"
+      }
+    ],
+    "steps": [
+      "Soak the dates in the boiling water with the bicarbonate of soda for 10 minutes until soft, then mash with a fork. Heat the oven to 180°C and line a 20 cm square tin with baking paper.",
+      "Cream 85 g of softened butter with 150 g of the brown sugar until pale, then beat in the eggs one at a time along with the vanilla.",
+      "Sift in the flour and baking powder, fold in gently, then add the date mixture (including the soaking liquid) and stir until the batter is smooth and fairly runny.",
+      "Pour the batter into the tin and bake for 30–35 minutes until cooked and a skewer comes out clean.",
+      "Make the sauce: melt 75 g butter with 125 g brown sugar, the cream and a pinch of salt, stirring well, and simmer gently for 3–4 minutes until thickened.",
+      "Prick holes all over the hot sponge and pour over a third of the sauce, leaving it to soak in for 10 minutes. Cut into pieces, pour over more hot sauce and serve with vanilla ice cream."
+    ],
+    "tags": [
+      "dessert",
+      "toffee",
+      "dates",
+      "indulgent"
+    ]
+  },
+  {
+    "slug": "banoffee-pie",
+    "name": "Banoffee Pie",
+    "description": "A crunchy buttery biscuit base, a layer of thick, chewy milk toffee, sliced ripe bananas and whipped cream topped with grated chocolate. No oven needed, yet the result is an irresistibly sweet, rich and creamy pie.",
+    "origin": "Created in 1971 at The Hungry Monk restaurant in the village of Jevington, East Sussex, by owner Nigel Mackenzie and chef Ian Dowding; the name is a blend of \"banana\" and \"toffee\".",
+    "cooking_style": "Chilled, no-bake",
+    "serving_note": "1 slice of about 130 g (1/10 of a 23 cm pie)",
+    "ingredients": [
+      {
+        "name": "Digestive biscuits",
+        "amount": "250 g"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "100 g, melted"
+      },
+      {
+        "name": "Sweetened condensed milk",
+        "amount": "1 tin (380–397 g)"
+      },
+      {
+        "name": "Ripe bananas",
+        "amount": "3 large"
+      },
+      {
+        "name": "Whipping cream (35% fat)",
+        "amount": "300 ml, well chilled"
+      },
+      {
+        "name": "Icing sugar",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Vanilla extract",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Dark chocolate",
+        "amount": "20 g, grated"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 pinch"
+      }
+    ],
+    "steps": [
+      "Make the toffee: remove the label, place the unopened tin of condensed milk in a deep pan, cover with water to at least 5 cm above the tin and simmer gently for 2 hours 30 minutes to 3 hours, topping up the water regularly so the tin is always fully submerged. Leave the tin to cool completely before opening (or use 400 g ready-made dulce de leche).",
+      "Blitz the biscuits to fine crumbs and mix with the melted butter and a pinch of salt. Press firmly into the base and sides of a 23 cm loose-bottomed tin and chill for 30 minutes to firm up.",
+      "Stir the toffee until smooth, spread evenly over the base and chill for another 1 hour.",
+      "Slice the bananas into 0.5 cm thick rounds and arrange them to cover the toffee layer.",
+      "Whip the cream with the icing sugar and vanilla to soft peaks, spread over the bananas and sprinkle with the grated chocolate.",
+      "Keep the pie in the fridge until serving, then remove from the tin and slice with a knife dipped in hot water. Best eaten the same day before the bananas brown."
+    ],
+    "tags": [
+      "dessert",
+      "banana",
+      "toffee",
+      "no-bake"
+    ]
+  },
+  {
+    "slug": "eton-mess",
+    "name": "Modern Eton Mess",
+    "description": "A modern twist on the classic English summer dessert: whipped cream folded with crisp meringue, strawberries and blueberries, drizzled with a vivid red strawberry sauce and topped with crushed spiced butter biscuits. Every spoonful is creamy, crunchy, tart and sweet.",
+    "origin": "The original Eton mess is linked to Eton College, mentioned as early as 1893 and traditionally served at the annual cricket match against Harrow School; modern kitchens add other berries and biscuit crumbs.",
+    "cooking_style": "Cold assembly, no cooking needed",
+    "serving_note": "1 portion of about 220 g",
+    "ingredients": [
+      {
+        "name": "Strawberries",
+        "amount": "400 g"
+      },
+      {
+        "name": "Blueberries",
+        "amount": "100 g"
+      },
+      {
+        "name": "Whipping cream (35% fat)",
+        "amount": "300 ml, well chilled"
+      },
+      {
+        "name": "Ready-made meringues",
+        "amount": "80 g (about 4 small nests)"
+      },
+      {
+        "name": "Spiced butter biscuits (speculoos)",
+        "amount": "60 g"
+      },
+      {
+        "name": "Icing sugar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Vanilla extract",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Mint leaves",
+        "amount": "a few, to garnish, optional"
+      }
+    ],
+    "steps": [
+      "Blend 150 g of the strawberries with 1 tbsp icing sugar and the lemon juice, then push through a sieve to make a smooth strawberry sauce.",
+      "Set aside 4 nice strawberries for decoration; hull the rest and cut into small pieces. Break the meringues into large chunks and roughly crush the biscuits.",
+      "Whip the cream with the remaining icing sugar and the vanilla until soft and just holding peaks.",
+      "Add the meringue, chopped strawberries and most of the blueberries to the cream, drizzle over 2–3 spoonfuls of strawberry sauce and fold gently a few times to create a ripple, without overmixing.",
+      "Spoon into tall mounds on plates or in glasses, drizzle with more strawberry sauce, sprinkle with biscuit crumbs and decorate with the strawberries and blueberries. Serve immediately while the meringue is still crisp."
+    ],
+    "tags": [
+      "dessert",
+      "strawberries",
+      "whipped cream",
+      "no-bake"
+    ]
+  },
+  {
+    "slug": "english-tea-with-milk",
+    "name": "English Tea with Milk",
+    "description": "A cup of robust black tea whose amber colour turns a warm milky brown with a splash of fresh milk, with a gently astringent finish and malty aroma. The British drink it from breakfast through to their afternoon break, often with a few butter biscuits.",
+    "origin": "Tea arrived in England in the 17th century and became the national drink in the 18th–19th centuries; the habit of adding milk and the ritual of afternoon tea spread from the 1840s thanks to the Duchess of Bedford.",
+    "cooking_style": "Brewed in a teapot",
+    "serving_note": "1 cup of 200 ml tea with 30 ml milk and 1 tsp sugar, not including biscuits",
+    "ingredients": [
+      {
+        "name": "English Breakfast or Assam black tea (loose leaf)",
+        "amount": "3 tsp (about 6 g), or 2 tea bags"
+      },
+      {
+        "name": "Water",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Boiling water for warming the pot",
+        "amount": "about 200 ml"
+      },
+      {
+        "name": "Whole milk",
+        "amount": "60 ml"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tsp, to taste"
+      },
+      {
+        "name": "Shortbread biscuits, to serve",
+        "amount": "4, optional"
+      }
+    ],
+    "steps": [
+      "Bring the water to the boil. Pour a little boiling water into a china teapot, swirl to warm it, then discard.",
+      "Add the tea to the pot at 1 tsp per person plus 1 extra \"for the pot\".",
+      "Pour 500 ml of freshly boiled water into the pot, put the lid on and brew for 3–5 minutes depending on how strong you like it.",
+      "Pour the tea through a strainer into cups, add about 30 ml of milk per cup and stir gently; add sugar if you like.",
+      "Enjoy straight away while hot, with shortbread or scones."
+    ],
+    "tags": [
+      "tea",
+      "hot drink",
+      "afternoon tea",
+      "low calorie"
+    ]
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "ramen-tonkotsu",
+    "prices": {
+      "JP": {
+        "min": 900,
+        "max": 1500
+      },
+      "KR": {
+        "min": 10000,
+        "max": 15000
+      },
+      "CN": {
+        "min": 40,
+        "max": 75
+      },
+      "GB": {
+        "min": 13,
+        "max": 18
+      }
+    }
+  },
+  {
+    "slug": "sushi-ca-hoi",
+    "prices": {
+      "JP": {
+        "min": 800,
+        "max": 2000
+      },
+      "KR": {
+        "min": 12000,
+        "max": 25000
+      },
+      "CN": {
+        "min": 50,
+        "max": 120
+      },
+      "GB": {
+        "min": 11,
+        "max": 20
+      }
+    }
+  },
+  {
+    "slug": "sashimi",
+    "prices": {
+      "JP": {
+        "min": 1800,
+        "max": 4500
+      },
+      "KR": {
+        "min": 25000,
+        "max": 60000
+      },
+      "CN": {
+        "min": 80,
+        "max": 250
+      },
+      "GB": {
+        "min": 18,
+        "max": 40
+      }
+    }
+  },
+  {
+    "slug": "tempura",
+    "prices": {
+      "JP": {
+        "min": 900,
+        "max": 2000
+      },
+      "KR": {
+        "min": 13000,
+        "max": 25000
+      },
+      "CN": {
+        "min": 50,
+        "max": 110
+      },
+      "GB": {
+        "min": 12,
+        "max": 20
+      }
+    }
+  },
+  {
+    "slug": "udon-kitsune",
+    "prices": {
+      "JP": {
+        "min": 450,
+        "max": 900
+      },
+      "KR": {
+        "min": 7000,
+        "max": 11000
+      },
+      "CN": {
+        "min": 28,
+        "max": 48
+      },
+      "GB": {
+        "min": 10,
+        "max": 14
+      }
+    }
+  },
+  {
+    "slug": "soba-tempura",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1400
+      },
+      "KR": {
+        "min": 10000,
+        "max": 15000
+      },
+      "CN": {
+        "min": 38,
+        "max": 68
+      },
+      "GB": {
+        "min": 13,
+        "max": 18
+      }
+    }
+  },
+  {
+    "slug": "tonkatsu",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 2000
+      },
+      "KR": {
+        "min": 10000,
+        "max": 16000
+      },
+      "CN": {
+        "min": 45,
+        "max": 85
+      },
+      "GB": {
+        "min": 14,
+        "max": 20
+      }
+    }
+  },
+  {
+    "slug": "com-ca-ri-nhat",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1300
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 35,
+        "max": 65
+      },
+      "GB": {
+        "min": 11,
+        "max": 16
+      }
+    }
+  },
+  {
+    "slug": "gyudon",
+    "prices": {
+      "JP": {
+        "min": 450,
+        "max": 900
+      },
+      "KR": {
+        "min": 8000,
+        "max": 12000
+      },
+      "CN": {
+        "min": 25,
+        "max": 45
+      },
+      "GB": {
+        "min": 11,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "omurice",
+    "prices": {
+      "JP": {
+        "min": 900,
+        "max": 1500
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 35,
+        "max": 65
+      },
+      "GB": {
+        "min": 12,
+        "max": 16
+      }
+    }
+  },
+  {
+    "slug": "sushi-cuon-california",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 1200
+      },
+      "KR": {
+        "min": 10000,
+        "max": 16000
+      },
+      "CN": {
+        "min": 35,
+        "max": 70
+      },
+      "GB": {
+        "min": 8,
+        "max": 13
+      }
+    }
+  },
+  {
+    "slug": "lau-sukiyaki",
+    "prices": {
+      "JP": {
+        "min": 2500,
+        "max": 6000
+      },
+      "KR": {
+        "min": 25000,
+        "max": 50000
+      },
+      "CN": {
+        "min": 120,
+        "max": 280
+      },
+      "GB": {
+        "min": 25,
+        "max": 45
+      }
+    }
+  },
+  {
+    "slug": "okonomiyaki",
+    "prices": {
+      "JP": {
+        "min": 900,
+        "max": 1600
+      },
+      "KR": {
+        "min": 13000,
+        "max": 20000
+      },
+      "CN": {
+        "min": 45,
+        "max": 85
+      },
+      "GB": {
+        "min": 11,
+        "max": 16
+      }
+    }
+  },
+  {
+    "slug": "takoyaki",
+    "prices": {
+      "JP": {
+        "min": 500,
+        "max": 800
+      },
+      "KR": {
+        "min": 5000,
+        "max": 8000
+      },
+      "CN": {
+        "min": 18,
+        "max": 35
+      },
+      "GB": {
+        "min": 6,
+        "max": 9
+      }
+    }
+  },
+  {
+    "slug": "ga-chien-karaage",
+    "prices": {
+      "JP": {
+        "min": 500,
+        "max": 900
+      },
+      "KR": {
+        "min": 8000,
+        "max": 13000
+      },
+      "CN": {
+        "min": 25,
+        "max": 48
+      },
+      "GB": {
+        "min": 6.5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "slug": "onigiri",
+    "prices": {
+      "JP": {
+        "min": 150,
+        "max": 350
+      },
+      "KR": {
+        "min": 1500,
+        "max": 4000
+      },
+      "CN": {
+        "min": 6,
+        "max": 18
+      },
+      "GB": {
+        "min": 2.5,
+        "max": 4.5
+      }
+    }
+  },
+  {
+    "slug": "sup-miso",
+    "prices": {
+      "JP": {
+        "min": 150,
+        "max": 400
+      },
+      "KR": {
+        "min": 2000,
+        "max": 5000
+      },
+      "CN": {
+        "min": 10,
+        "max": 25
+      },
+      "GB": {
+        "min": 3,
+        "max": 5
+      }
+    }
+  },
+  {
+    "slug": "mochi-daifuku",
+    "prices": {
+      "JP": {
+        "min": 150,
+        "max": 350
+      },
+      "KR": {
+        "min": 2500,
+        "max": 4500
+      },
+      "CN": {
+        "min": 10,
+        "max": 22
+      },
+      "GB": {
+        "min": 2.5,
+        "max": 4.5
+      }
+    }
+  },
+  {
+    "slug": "dorayaki",
+    "prices": {
+      "JP": {
+        "min": 150,
+        "max": 350
+      },
+      "KR": {
+        "min": 2500,
+        "max": 4000
+      },
+      "CN": {
+        "min": 10,
+        "max": 20
+      },
+      "GB": {
+        "min": 2.5,
+        "max": 4.5
+      }
+    }
+  },
+  {
+    "slug": "matcha-latte",
+    "prices": {
+      "JP": {
+        "min": 500,
+        "max": 800
+      },
+      "KR": {
+        "min": 5500,
+        "max": 7500
+      },
+      "CN": {
+        "min": 22,
+        "max": 38
+      },
+      "GB": {
+        "min": 4,
+        "max": 6
+      }
+    }
+  }
+]

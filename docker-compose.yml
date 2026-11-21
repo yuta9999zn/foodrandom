@@ -1,0 +1,120 @@
+# FoodRandom — triển khai production trên một máy (hoặc làm mẫu cho Kubernetes).
+#
+#   cp .env.production.example .env.production   # rồi điền bí mật thật
+#   docker compose --env-file .env.production up -d --build
+#   docker compose --env-file .env.production up -d --scale backend=4 --scale frontend=3   # tăng bản sao khi tải cao
+#
+# Thiết kế chịu tải:
+#   - Backend Rust không giữ trạng thái người dùng trong RAM (phiên = JWT, OTP/giới hạn tần suất/cache = Redis),
+#     nên chạy được nhiều bản sao sau Nginx (least_conn) và tăng/giảm tự do.
+#   - Mỗi bản sao có load-shed + timeout: quá tải thì trả 503 nhanh thay vì treo cả hệ thống.
+#   - Nginx cache 30 giây cho API danh sách/chi tiết món của khách, cache dài hạn cho ảnh và tài sản tĩnh.
+#   - Redis cache kết quả lọc món, chi tiết món, kết quả địa điểm; PostgreSQL chỉ nhận phần còn lại.
+name: foodrandom
+
+x-backend-env: &backend-env
+  APP_ENV: production
+  LOG_LEVEL: info
+  LOG_FORMAT: json
+  DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+  # Tổng kết nối = DB_MAX_CONNECTIONS × số bản sao backend; giữ dưới max_connections của PostgreSQL (200).
+  DB_MAX_CONNECTIONS: ${DB_MAX_CONNECTIONS:-25}
+  RUN_MIGRATIONS: "true"
+  SEED_ON_START: "true"
+  REDIS_URL: redis://redis:6379
+  JWT_SECRET: ${JWT_SECRET:?Đặt JWT_SECRET trong .env.production}
+  SESSION_TTL_HOURS: "168"
+  COOKIE_SECURE: ${COOKIE_SECURE:-true}
+  CORS_ORIGINS: ${PUBLIC_URL}
+  SMTP_HOST: ${SMTP_HOST:?Đặt SMTP_HOST}
+  SMTP_PORT: ${SMTP_PORT:-587}
+  SMTP_USERNAME: ${SMTP_USERNAME}
+  SMTP_PASSWORD: ${SMTP_PASSWORD}
+  SMTP_TLS: ${SMTP_TLS:-starttls}
+  MAIL_FROM: ${MAIL_FROM}
+  LOCATION_PROVIDER: ${LOCATION_PROVIDER:-auto}
+  GOOGLE_MAPS_API_KEY: ${GOOGLE_MAPS_API_KEY}
+  MAX_CONCURRENT_REQUESTS: "2048"
+  REQUEST_TIMEOUT_SECS: "20"
+  FOOD_CACHE_TTL_SECS: "60"
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Đặt POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    command: ["postgres", "-c", "max_connections=200", "-c", "shared_buffers=512MB", "-c", "effective_cache_size=1536MB"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "512mb", "--maxmemory-policy", "volatile-lru"]
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    build: ./backend
+    image: foodrandom-api:latest
+    restart: unless-stopped
+    environment: *backend-env
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    deploy:
+      replicas: 2
+      resources:
+        limits: { cpus: "1.0", memory: 512M }
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_SITE_URL: ${PUBLIC_URL}
+    image: foodrandom-web:latest
+    restart: unless-stopped
+    environment:
+      API_INTERNAL_URL: http://backend:8180
+      NEXT_PUBLIC_SITE_URL: ${PUBLIC_URL}
+    depends_on:
+      - backend
+    deploy:
+      replicas: 2
+      resources:
+        limits: { cpus: "1.0", memory: 512M }
+
+  nginx:
+    build: ./infra/nginx
+    image: foodrandom-nginx:latest
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-80}:80"
+    volumes:
+      - nginxcache:/var/cache/nginx
+    depends_on:
+      - frontend
+      - backend
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/nginx-health"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  pgdata:
+  redisdata:
+  nginxcache:

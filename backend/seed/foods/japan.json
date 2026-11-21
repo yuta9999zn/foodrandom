@@ -1,0 +1,1874 @@
+[
+  {
+    "slug": "ramen-tonkotsu",
+    "name": "Ramen Tonkotsu",
+    "original_name": "豚骨ラーメン",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "mi",
+    "price_min": 90000,
+    "price_max": 160000,
+    "calories_kcal": 790,
+    "serving_note": "1 tô khoảng 650 g (cả nước dùng)",
+    "nutrition": {
+      "protein_g": 34,
+      "carbs_g": 77,
+      "fat_g": 38
+    },
+    "description": "Sợi mì mảnh, dai nằm trong nước dùng xương heo trắng đục như sữa, béo ngậy và đậm vị umami. Ăn kèm thịt xá xíu chashu mềm tan, mộc nhĩ giòn sần sật, rong biển và thật nhiều hành lá, đây là tô mì khiến ai thử một lần cũng nhớ.",
+    "origin": "Ramen nước xương heo ra đời ở thành phố Kurume rồi nổi danh nhờ các quán mì Hakata (Fukuoka) trên đảo Kyushu từ khoảng thập niên 1930–1940. Ngày nay đây là dòng ramen được yêu thích bậc nhất ở Nhật Bản và trên khắp thế giới.",
+    "cooking_style": "Ninh xương lửa lớn, om thịt, chần mì",
+    "prep_minutes": 40,
+    "cook_minutes": 480,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Xương ống heo (chặt khúc)",
+        "amount": "1,5 kg"
+      },
+      {
+        "name": "Móng giò heo",
+        "amount": "500 g"
+      },
+      {
+        "name": "Thịt ba chỉ heo nguyên khối (làm chashu)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Mì ramen tươi sợi mảnh",
+        "amount": "4 vắt (khoảng 480 g)"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "4 quả"
+      },
+      {
+        "name": "Nước tương Nhật (shoyu)",
+        "amount": "120 ml"
+      },
+      {
+        "name": "Mirin",
+        "amount": "120 ml"
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Gừng",
+        "amount": "30 g"
+      },
+      {
+        "name": "Hành boa rô",
+        "amount": "1 cây"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "4 nhánh"
+      },
+      {
+        "name": "Mộc nhĩ (nấm mèo) khô",
+        "amount": "20 g"
+      },
+      {
+        "name": "Rong biển nori",
+        "amount": "4 miếng nhỏ"
+      },
+      {
+        "name": "Muối",
+        "amount": "2 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Chần xương ống và móng giò trong nước sôi 10 phút, đổ bỏ nước rồi rửa kỹ từng khúc xương dưới vòi nước cho sạch máu đông và bọt bẩn.",
+      "Cho xương, móng giò vào nồi lớn cùng 4 lít nước, gừng đập dập, nửa củ tỏi và phần lá xanh của hành boa rô. Đun sôi mạnh liên tục khoảng 8 tiếng (không hạ lửa liu riu), thỉnh thoảng châm thêm nước sôi, đến khi nước dùng chuyển màu trắng đục và sánh nhẹ.",
+      "Trong lúc ninh xương, cuộn tròn thịt ba chỉ, buộc chặt bằng dây rồi áp chảo cho vàng đều các mặt. Om thịt với nước tương, mirin, 300 ml nước và phần tỏi còn lại trên lửa nhỏ 90 phút, thỉnh thoảng trở mặt; để nguội rồi thái lát mỏng, giữ lại nước om làm nước cốt nêm (tare).",
+      "Luộc trứng trong nước sôi đúng 6 phút 30 giây, ngâm ngay vào nước đá, bóc vỏ rồi ngâm trong nước om thịt ít nhất 2 tiếng để có trứng lòng đào thấm vị. Ngâm nở mộc nhĩ, luộc chín và thái sợi.",
+      "Lọc nước dùng qua rây mịn. Cho vào mỗi tô 2 muỗng canh nước om thịt và 1/2 muỗng cà phê muối, chan khoảng 350 ml nước dùng đang sôi rồi khuấy đều, nếm lại cho vừa miệng.",
+      "Luộc mì trong nồi nước sôi lớn 1–2 phút tuỳ độ dai mong muốn, vẩy thật ráo rồi cho vào tô. Xếp chashu, trứng cắt đôi, mộc nhĩ, hành lá thái nhỏ và rong biển lên trên, dùng ngay khi còn nóng."
+    ],
+    "tags": [
+      "mì nước",
+      "thịt heo",
+      "nước dùng béo",
+      "Kyushu"
+    ],
+    "image": {
+      "file": "ramen-tonkotsu.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_Stockholm.jpg",
+      "author": "ArildV",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "sushi-ca-hoi",
+    "name": "Sushi cá hồi",
+    "original_name": "サーモン握り寿司",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 120000,
+    "price_max": 250000,
+    "calories_kcal": 520,
+    "serving_note": "8 miếng nigiri, khoảng 290 g",
+    "nutrition": {
+      "protein_g": 29,
+      "carbs_g": 62,
+      "fat_g": 16
+    },
+    "description": "Lát cá hồi tươi màu cam óng, béo mềm ôm lấy nắm cơm trộn giấm còn hơi ấm. Chấm nhẹ chút nước tương cùng wasabi cay nồng là đủ để cảm nhận trọn vẹn sự tinh tế của ẩm thực Nhật.",
+    "origin": "Nigiri sushi (sushi nắm tay) ra đời ở Edo, tức Tokyo ngày nay, vào đầu thế kỷ 19 như một món ăn nhanh bán ở quầy ven đường. Cá hồi sống chỉ trở thành loại sushi phổ biến từ thập niên 1980 nhờ nguồn cá hồi nuôi nhập từ Na Uy.",
+    "cooking_style": "Nấu cơm trộn giấm, thái cá sống, nắm tay",
+    "prep_minutes": 40,
+    "cook_minutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Gạo Nhật hạt ngắn",
+        "amount": "150 g"
+      },
+      {
+        "name": "Nước nấu cơm",
+        "amount": "180 ml"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Phi lê cá hồi tươi loại ăn sống (sashimi)",
+        "amount": "240 g"
+      },
+      {
+        "name": "Wasabi",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Gừng hồng ngâm chua (gari)",
+        "amount": "30 g"
+      }
+    ],
+    "steps": [
+      "Vo gạo nhẹ tay nhiều lần đến khi nước trong, để ráo và ngâm 30 phút rồi nấu với 180 ml nước. Cơm chín thì ủ thêm 10 phút.",
+      "Hoà giấm gạo, đường và muối, hâm ấm cho tan hết. Trút cơm nóng ra khay rộng, rưới đều hỗn hợp giấm, dùng muôi gỗ xới theo kiểu cắt dọc để hạt cơm không nát, vừa xới vừa quạt cho cơm nguội đến khi còn hơi ấm. Phủ khăn ẩm lên trên.",
+      "Giữ cá hồi thật lạnh. Dùng dao dài, sắc thái xéo ngược thớ thành 16 lát dày khoảng 5 mm, dài 7 cm, mỗi lát chừng 15 g, kéo dao một đường dứt khoát để mặt cắt bóng mịn.",
+      "Nhúng tay vào bát nước pha chút giấm cho cơm khỏi dính, lấy khoảng 20 g cơm nắm nhẹ thành viên bầu dục, không nén quá chặt để cơm tơi ra khi ăn.",
+      "Đặt lát cá lên lòng bàn tay, quệt một chút wasabi vào giữa, đặt viên cơm lên rồi dùng hai ngón tay ấn nhẹ. Lật lại cho cá nằm trên và nắn hai bên để cá ôm sát cơm.",
+      "Bày sushi ra đĩa và dùng ngay, chấm mặt cá vào nước tương, ăn xen kẽ với gừng hồng để làm sạch vị giác."
+    ],
+    "tags": [
+      "cá hồi",
+      "đồ sống",
+      "cơm trộn giấm",
+      "hải sản"
+    ],
+    "image": {
+      "file": "sushi-ca-hoi.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nigiri_Sushi_(25966163204).jpg",
+      "author": "Tim Reckmann",
+      "license": "CC BY 2.0"
+    },
+    "featured": true
+  },
+  {
+    "slug": "sashimi",
+    "name": "Sashimi",
+    "original_name": "刺身",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 180000,
+    "price_max": 450000,
+    "calories_kcal": 290,
+    "serving_note": "1 phần khoảng 200 g cá (15–18 lát)",
+    "nutrition": {
+      "protein_g": 44,
+      "carbs_g": 3,
+      "fat_g": 11
+    },
+    "description": "Những lát cá sống tươi rói được thái bằng đường dao điêu luyện: cá ngừ đỏ thẫm, phần bụng cá hồng nhạt béo ngậy, cá tráp trắng trong còn nguyên lớp da. Chỉ cần chấm nhẹ nước tương và wasabi là cảm nhận được vị ngọt nguyên bản của biển.",
+    "origin": "Sashimi đã có trong ẩm thực Nhật từ thời Muromachi (thế kỷ 14–16) và phổ biến rộng rãi vào thời Edo khi nước tương trở nên thông dụng. Món ăn thể hiện rõ nhất triết lý tôn trọng hương vị tự nhiên của nguyên liệu.",
+    "cooking_style": "Thái lát cá sống, ăn lạnh",
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Cá ngừ đại dương loại sashimi (phần nạc đỏ và phần bụng)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Phi lê cá tráp đỏ (tai) còn da",
+        "amount": "120 g"
+      },
+      {
+        "name": "Phi lê cá thịt trắng khác hoặc cá hồi loại sashimi",
+        "amount": "100 g"
+      },
+      {
+        "name": "Củ cải trắng",
+        "amount": "150 g"
+      },
+      {
+        "name": "Lá tía tô xanh (shiso)",
+        "amount": "4 lá"
+      },
+      {
+        "name": "Wasabi",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Nước sôi và nước đá (để xử lý da cá)",
+        "amount": "mỗi loại 500 ml"
+      }
+    ],
+    "steps": [
+      "Chỉ dùng cá được bán riêng cho mục đích ăn sống, đã cấp đông sâu đúng chuẩn. Rã đông từ từ trong ngăn mát, thấm thật khô bằng giấy bếp và giữ lạnh cho đến lúc thái.",
+      "Gọt vỏ củ cải, bào thành sợi thật mảnh rồi ngâm nước đá 10 phút cho giòn và trắng, sau đó vắt ráo.",
+      "Đặt miếng cá tráp lên thớt nghiêng, mặt da hướng lên và phủ một lớp giấy bếp. Dội nước sôi lên da cho da săn lại rồi thả ngay vào nước đá, vớt ra thấm khô; cách này giúp da mềm và dậy vị béo.",
+      "Dùng dao dài thật sắc. Với cá ngừ, thái thẳng góc với thớ thịt thành lát dày 8–10 mm, kéo dao một đường dài từ gốc đến mũi, không cưa qua lại. Với cá tráp và cá thịt trắng, nghiêng dao thái vát thành lát mỏng 4–5 mm.",
+      "Vun củ cải thành từng đụn nhỏ trên đĩa hoặc khay gỗ lạnh, tựa lá tía tô vào rồi xếp cá thành từng nhóm theo loại, các lát gối nhẹ lên nhau.",
+      "Dọn ngay khi cá còn lạnh. Khi ăn, đặt một chút wasabi lên lát cá rồi chấm một góc vào nước tương."
+    ],
+    "tags": [
+      "cá sống",
+      "hải sản",
+      "ít tinh bột",
+      "cao cấp"
+    ],
+    "image": {
+      "file": "sashimi.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sashimi_002.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "tempura",
+    "name": "Tempura",
+    "original_name": "天ぷら",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 90000,
+    "price_max": 180000,
+    "calories_kcal": 430,
+    "serving_note": "1 đĩa gồm 3 con tôm và rau củ, khoảng 200 g",
+    "nutrition": {
+      "protein_g": 17,
+      "carbs_g": 40,
+      "fat_g": 22
+    },
+    "description": "Tôm và rau củ được áo một lớp bột mỏng tang, chiên nhanh trong dầu nóng để lớp vỏ giòn xốp, nhẹ như ren mà bên trong vẫn giữ nguyên vị ngọt tươi. Chấm cùng nước tentsuyu ấm pha củ cải bào, món chiên này thanh và không hề ngấy.",
+    "origin": "Kỹ thuật chiên tẩm bột do các nhà truyền giáo và thương nhân Bồ Đào Nha mang đến Nagasaki vào thế kỷ 16. Đến thời Edo, tempura trở thành món ăn đường phố nổi tiếng của Tokyo rồi dần được nâng tầm thành ẩm thực cao cấp.",
+    "cooking_style": "Nhúng bột lạnh, chiên ngập dầu",
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Tôm sú hoặc tôm thẻ lớn",
+        "amount": "12 con (khoảng 300 g)"
+      },
+      {
+        "name": "Cà tím",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Khoai lang",
+        "amount": "150 g"
+      },
+      {
+        "name": "Bí đỏ",
+        "amount": "150 g"
+      },
+      {
+        "name": "Nấm đông cô tươi",
+        "amount": "4 cái"
+      },
+      {
+        "name": "Bột mì ít gluten (bột số 8)",
+        "amount": "120 g"
+      },
+      {
+        "name": "Bột bắp",
+        "amount": "30 g"
+      },
+      {
+        "name": "Trứng gà (để lạnh)",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Nước đá lạnh",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Dầu ăn để chiên",
+        "amount": "1 lít"
+      },
+      {
+        "name": "Nước dashi",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "50 ml"
+      },
+      {
+        "name": "Mirin",
+        "amount": "50 ml"
+      },
+      {
+        "name": "Củ cải trắng bào nhuyễn",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Làm nước chấm tentsuyu: đun sôi dashi, nước tương và mirin trong 1 phút rồi giữ ấm. Củ cải bào nhuyễn, vắt nhẹ cho bớt nước.",
+      "Bóc vỏ tôm, chừa lại phần đuôi, rút chỉ lưng. Khía 4–5 đường ngang dưới bụng và ấn nhẹ lên lưng cho tôm duỗi thẳng. Cắt khoai lang và bí đỏ thành lát dày 7 mm, cà tím bổ dọc rồi xẻ hình quạt, nấm khía chữ thập trên mũ. Thấm khô tất cả nguyên liệu.",
+      "Đánh tan trứng lạnh với nước đá. Rây bột mì và bột bắp vào, dùng đũa khuấy sơ 8–10 lần, để bột còn lợn cợn; khuấy kỹ sẽ sinh gluten làm vỏ bị dai. Đặt tô bột lên một tô đá để giữ lạnh.",
+      "Đun dầu đến 170°C. Phủ một lớp bột khô thật mỏng lên rau củ, nhúng vào bột nước rồi thả vào dầu, chiên 2–3 phút đến khi vỏ giòn và có màu vàng nhạt. Mỗi mẻ chỉ chiên lượng nguyên liệu phủ tối đa nửa mặt dầu để nhiệt không bị tụt.",
+      "Tăng nhiệt lên 180°C, cầm đuôi tôm nhúng bột rồi thả vào chiên 1,5–2 phút. Thường xuyên vớt vụn bột trong dầu để dầu không bị khét.",
+      "Để tempura ráo dầu trên vỉ rồi dọn ngay khi còn nóng giòn, chấm với tentsuyu hoà củ cải bào."
+    ],
+    "tags": [
+      "chiên giòn",
+      "tôm",
+      "rau củ",
+      "món chia sẻ"
+    ],
+    "image": {
+      "file": "tempura.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tempura,_Kappo_Uosen,_Nagaoka.jpg",
+      "author": "Norio NAKAYAMA",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "udon-kitsune",
+    "name": "Mì Udon Kitsune",
+    "original_name": "きつねうどん",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "mi",
+    "price_min": 60000,
+    "price_max": 110000,
+    "calories_kcal": 450,
+    "serving_note": "1 tô khoảng 550 g (cả nước dùng)",
+    "nutrition": {
+      "protein_g": 15,
+      "carbs_g": 70,
+      "fat_g": 11
+    },
+    "description": "Sợi udon to tròn, trắng ngần và dai mềm trong nước dùng dashi thanh ngọt, phía trên là miếng đậu hũ chiên om ngọt mọng nước. Một tô mì nhẹ bụng, ấm áp, hợp cho cả bữa sáng lẫn những ngày se lạnh.",
+    "origin": "Món mì đặc trưng của Osaka, xuất hiện từ cuối thế kỷ 19. Tên gọi kitsune (con cáo) bắt nguồn từ truyền thuyết dân gian Nhật cho rằng loài cáo rất mê đậu hũ chiên.",
+    "cooking_style": "Nấu dashi, om, chần mì",
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Mì udon tươi hoặc đông lạnh",
+        "amount": "2 vắt (khoảng 400 g)"
+      },
+      {
+        "name": "Đậu hũ chiên mỏng (aburaage)",
+        "amount": "2 miếng lớn"
+      },
+      {
+        "name": "Tảo bẹ khô kombu",
+        "amount": "10 g"
+      },
+      {
+        "name": "Cá ngừ bào katsuobushi",
+        "amount": "20 g"
+      },
+      {
+        "name": "Nước tương nhạt màu (usukuchi shoyu)",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Nước tương Nhật thường (để om đậu)",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Mirin",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "2 nhánh"
+      },
+      {
+        "name": "Ớt bột bảy vị shichimi (tuỳ thích)",
+        "amount": "1 ít"
+      }
+    ],
+    "steps": [
+      "Nấu dashi: ngâm kombu trong 1 lít nước 30 phút, đun lửa vừa đến khi sắp sôi thì vớt kombu ra. Cho cá ngừ bào vào, tắt bếp, để 2 phút cho cá chìm xuống rồi lọc lấy nước trong.",
+      "Chần đậu hũ chiên trong nước sôi 1 phút cho bớt dầu rồi ép nhẹ cho ráo. Om đậu với 200 ml dashi, đường, nước tương thường và 1 muỗng canh mirin trên lửa nhỏ 10–12 phút, đến khi nước om gần cạn và miếng đậu thấm đều vị ngọt mặn.",
+      "Đun 800 ml dashi còn lại với nước tương nhạt màu, 2 muỗng canh mirin và muối cho đến khi sôi nhẹ, nếm lại cho vừa miệng.",
+      "Luộc udon trong nồi nước sôi theo hướng dẫn trên bao bì (mì đông lạnh khoảng 1 phút, mì tươi khoảng 3 phút), vớt ra để ráo rồi chia vào hai tô.",
+      "Chan nước dùng nóng ngập mì, đặt miếng đậu hũ om lên trên, rắc hành lá thái nhỏ và một chút ớt bột shichimi rồi thưởng thức ngay."
+    ],
+    "tags": [
+      "mì nước",
+      "đậu hũ",
+      "thanh đạm",
+      "Osaka"
+    ],
+    "image": {
+      "file": "udon-kitsune.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Udon_(Kitsune_udon).jpg",
+      "author": "MemColorLab",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "soba-tempura",
+    "name": "Mì Soba Tempura",
+    "original_name": "天ぷらそば",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "mi",
+    "price_min": 80000,
+    "price_max": 140000,
+    "calories_kcal": 700,
+    "serving_note": "1 tô khoảng 600 g (cả nước dùng)",
+    "nutrition": {
+      "protein_g": 26,
+      "carbs_g": 105,
+      "fat_g": 18
+    },
+    "description": "Mì kiều mạch thơm mùi hạt rang trong nước dùng nước tương đậm đà, bên trên là miếng tempura rau củ và tôm (kakiage) vàng giòn. Lớp bột chiên ngấm dần nước dùng tạo nên vị béo bùi rất riêng.",
+    "origin": "Soba là món mì bình dân gắn liền với Tokyo từ thời Edo, khi các quầy mì đứng mọc lên khắp thành phố. Người Nhật còn có tục ăn soba vào đêm giao thừa (toshikoshi soba) để cầu trường thọ.",
+    "cooking_style": "Nấu dashi, chiên giòn, chần mì",
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Mì soba khô",
+        "amount": "200 g"
+      },
+      {
+        "name": "Nước dashi (từ kombu và cá ngừ bào)",
+        "amount": "800 ml"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Mirin",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1/2 củ (100 g)"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": "1/2 củ (60 g)"
+      },
+      {
+        "name": "Tôm nõn nhỏ",
+        "amount": "80 g"
+      },
+      {
+        "name": "Bột tempura",
+        "amount": "80 g"
+      },
+      {
+        "name": "Nước đá lạnh",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Rong biển wakame khô",
+        "amount": "4 g"
+      },
+      {
+        "name": "Hành boa rô hoặc hành lá",
+        "amount": "1 nhánh"
+      },
+      {
+        "name": "Dầu ăn để chiên",
+        "amount": "500 ml"
+      }
+    ],
+    "steps": [
+      "Đun dashi với nước tương, mirin và đường đến khi sôi nhẹ rồi giữ nóng trên lửa nhỏ. Ngâm wakame trong nước 5 phút cho nở, vắt ráo.",
+      "Thái hành tây thành lát mỏng, cà rốt thái sợi, tôm thấm khô. Trộn tất cả với 1 muỗng canh bột tempura khô cho bột bám đều.",
+      "Hoà phần bột tempura còn lại với nước đá lạnh, khuấy sơ vài lần (bột còn lợn cợn là được) rồi trộn nhẹ với hỗn hợp rau củ và tôm.",
+      "Đun dầu đến 170°C. Dùng muôi múc từng phần hỗn hợp thả nhẹ vào dầu thành miếng tròn dẹt, chiên mỗi mặt khoảng 2 phút đến khi vàng giòn, vớt ra để ráo dầu trên vỉ.",
+      "Luộc mì soba trong nồi nước sôi lớn theo thời gian ghi trên bao bì (thường 4–5 phút), xả dưới vòi nước lạnh và xoa nhẹ cho sạch bột, sau đó trụng lại qua nước sôi cho nóng.",
+      "Chia mì vào tô, chan nước dùng nóng, đặt miếng tempura lên trên cùng wakame và hành thái mỏng. Ăn ngay khi lớp bột chiên còn giòn."
+    ],
+    "tags": [
+      "mì nước",
+      "kiều mạch",
+      "chiên giòn",
+      "Tokyo"
+    ],
+    "image": {
+      "file": "soba-tempura.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tempura_soba_of_Fuji-soba.jpg",
+      "author": "毒島みるく",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "tonkatsu",
+    "name": "Tonkatsu (thịt heo chiên xù)",
+    "original_name": "とんかつ",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 100000,
+    "price_max": 180000,
+    "calories_kcal": 900,
+    "serving_note": "1 suất gồm 150 g thịt chiên, cơm và bắp cải bào",
+    "nutrition": {
+      "protein_g": 41,
+      "carbs_g": 96,
+      "fat_g": 37
+    },
+    "description": "Miếng thăn heo dày phủ lớp vụn bánh mì panko chiên vàng rộm, cắn vào giòn rụm bên ngoài mà bên trong vẫn mềm và mọng nước. Ăn cùng bắp cải bào sợi mát giòn, cơm trắng và sốt tonkatsu chua ngọt đậm đà.",
+    "origin": "Tonkatsu xuất hiện tại một nhà hàng kiểu Tây ở khu Ginza, Tokyo vào năm 1899, phỏng theo món thịt cốt lết tẩm bột của châu Âu. Trải qua hơn một thế kỷ, món ăn đã được Nhật hoá hoàn toàn và trở thành cơm phần quen thuộc.",
+    "cooking_style": "Tẩm bột, chiên ngập dầu",
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Thịt thăn heo (cốt lết không xương, dày 2 cm)",
+        "amount": "2 miếng (khoảng 300 g)"
+      },
+      {
+        "name": "Muối và tiêu xay",
+        "amount": "1/2 muỗng cà phê mỗi loại"
+      },
+      {
+        "name": "Bột mì",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Vụn bánh mì panko",
+        "amount": "80 g"
+      },
+      {
+        "name": "Dầu ăn để chiên",
+        "amount": "700 ml"
+      },
+      {
+        "name": "Bắp cải",
+        "amount": "200 g"
+      },
+      {
+        "name": "Sốt Worcestershire",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Tương cà (ketchup)",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Dầu hào",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Cơm trắng",
+        "amount": "300 g"
+      },
+      {
+        "name": "Chanh vàng",
+        "amount": "1/4 quả"
+      }
+    ],
+    "steps": [
+      "Bào bắp cải thành sợi thật mảnh, ngâm nước đá 10 phút cho giòn rồi để ráo. Khuấy đều sốt Worcestershire, tương cà, dầu hào và đường để làm sốt tonkatsu.",
+      "Dùng mũi dao khía đứt phần gân giữa nạc và mỡ ở vài chỗ để thịt không cong khi chiên, dần nhẹ cho thịt dày đều rồi rắc muối, tiêu hai mặt.",
+      "Lăn thịt qua bột mì và rũ bỏ bột thừa, nhúng vào trứng đánh tan rồi phủ kín vụn panko, ấn nhẹ tay cho vụn bánh mì bám chắc. Để thịt nghỉ 5 phút.",
+      "Đun dầu đến 170°C, thả thịt vào chiên khoảng 3 phút mỗi mặt đến khi vàng nâu đều. Vớt ra dựng nghiêng trên vỉ 3–4 phút để ráo dầu và để hơi nóng làm chín nốt phần giữa.",
+      "Cắt thịt thành các thanh rộng 2 cm, bày lên đĩa cùng bắp cải bào và miếng chanh. Rưới sốt tonkatsu lên thịt, ăn kèm cơm trắng nóng."
+    ],
+    "tags": [
+      "chiên xù",
+      "thịt heo",
+      "cơm phần",
+      "giòn rụm"
+    ],
+    "image": {
+      "file": "tonkatsu.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%22Amai-Yuwaku%22_Special_Loin_Pork_Cutlet1.jpg",
+      "author": "ＫｏＺ",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "com-ca-ri-nhat",
+    "name": "Cơm cà ri Nhật",
+    "original_name": "カレーライス",
+    "cuisine": "japan",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 70000,
+    "price_max": 130000,
+    "calories_kcal": 810,
+    "serving_note": "1 đĩa khoảng 520 g",
+    "nutrition": {
+      "protein_g": 28,
+      "carbs_g": 113,
+      "fat_g": 27
+    },
+    "description": "Sốt cà ri nâu sánh mịn, thơm nồng gia vị nhưng ngọt dịu và ít cay, hầm cùng thịt bò mềm, khoai tây và cà rốt rồi chan bên cơm trắng dẻo. Thêm chút củ cải muối fukujinzuke giòn ngọt là đúng vị cơm nhà của người Nhật.",
+    "origin": "Cà ri du nhập vào Nhật cuối thế kỷ 19 qua hải quân Anh, vốn học món này từ Ấn Độ, rồi được biến tấu thành loại sốt sánh đặc ăn với cơm. Sự ra đời của viên cà ri đóng hộp vào thập niên 1950 đã đưa kare raisu trở thành món quốc dân của Nhật Bản.",
+    "cooking_style": "Xào, hầm với viên cà ri",
+    "prep_minutes": 20,
+    "cook_minutes": 75,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Thịt bò nạm hoặc bắp bò",
+        "amount": "400 g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "2 củ (400 g)"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": "1 củ (150 g)"
+      },
+      {
+        "name": "Khoai tây",
+        "amount": "2 củ (300 g)"
+      },
+      {
+        "name": "Viên cà ri Nhật (curry roux)",
+        "amount": "100 g (nửa hộp)"
+      },
+      {
+        "name": "Nước",
+        "amount": "800 ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Tỏi",
+        "amount": "2 tép"
+      },
+      {
+        "name": "Gừng",
+        "amount": "1 lát mỏng"
+      },
+      {
+        "name": "Táo",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Gạo Nhật",
+        "amount": "400 g"
+      },
+      {
+        "name": "Củ cải muối fukujinzuke",
+        "amount": "40 g"
+      }
+    ],
+    "steps": [
+      "Nấu cơm. Cắt thịt bò thành khối 3 cm, hành tây thái múi cau, cà rốt cắt khúc vát, khoai tây gọt vỏ cắt làm tư rồi ngâm nước cho khỏi thâm. Băm nhỏ tỏi và gừng, bào nhuyễn táo.",
+      "Đun nóng dầu trong nồi dày, áp chảo thịt bò đến khi xém vàng các mặt rồi gắp ra. Cho hành tây, tỏi và gừng vào xào trên lửa vừa 8–10 phút đến khi hành mềm, ngả vàng và dậy vị ngọt.",
+      "Cho thịt bò trở lại nồi cùng cà rốt và 800 ml nước, đun sôi rồi hớt sạch bọt. Đậy vung, hầm lửa nhỏ 40 phút. Thêm khoai tây và táo bào, hầm tiếp 15 phút đến khi thịt và khoai đều mềm.",
+      "Tắt bếp, bẻ nhỏ viên cà ri thả vào nồi và khuấy đến khi tan hoàn toàn. Bật lại lửa nhỏ, đun thêm 5–10 phút, khuấy sát đáy nồi để không bị khê, đến khi sốt sánh mịn.",
+      "Xới cơm vào một bên đĩa, chan cà ri vào bên còn lại và đặt chút củ cải muối fukujinzuke lên cạnh. Cà ri để qua đêm rồi hâm lại sẽ còn đậm vị hơn."
+    ],
+    "tags": [
+      "cà ri",
+      "thịt bò",
+      "yoshoku",
+      "cơm nhà"
+    ],
+    "image": {
+      "file": "com-ca-ri-nhat.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beef_curry_rice_003.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "gyudon",
+    "name": "Cơm bò Gyudon",
+    "original_name": "牛丼",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 55000,
+    "price_max": 95000,
+    "calories_kcal": 730,
+    "serving_note": "1 tô khoảng 400 g",
+    "nutrition": {
+      "protein_g": 24,
+      "carbs_g": 100,
+      "fat_g": 26
+    },
+    "description": "Thịt bò thái mỏng và hành tây ninh mềm trong nước sốt dashi, nước tương, mirin ngọt dịu rồi phủ đầy lên tô cơm trắng nóng hổi. Nhanh, rẻ, no bụng và đậm đà, gyudon là bữa ăn quen thuộc của dân văn phòng Nhật vào bất cứ giờ nào trong ngày.",
+    "origin": "Gyudon bắt nguồn từ món lẩu bò gyunabe thời Minh Trị được chan lên cơm. Chuỗi Yoshinoya mở tại chợ cá Nihonbashi, Tokyo năm 1899 đã biến món này thành biểu tượng đồ ăn nhanh kiểu Nhật.",
+    "cooking_style": "Ninh nhanh với nước sốt, chan cơm",
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Thịt ba chỉ bò thái lát mỏng",
+        "amount": "200 g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1 củ (200 g)"
+      },
+      {
+        "name": "Nước dashi",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Mirin",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Rượu sake",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Gừng bào nhuyễn",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Cơm trắng nóng",
+        "amount": "500 g"
+      },
+      {
+        "name": "Gừng đỏ ngâm (beni shoga)",
+        "amount": "20 g"
+      },
+      {
+        "name": "Ớt bột bảy vị shichimi (tuỳ thích)",
+        "amount": "1 ít"
+      }
+    ],
+    "steps": [
+      "Thái hành tây thành múi dày khoảng 1 cm. Cắt thịt bò thành miếng dài 5 cm.",
+      "Cho dashi, nước tương, mirin, sake và đường vào chảo sâu lòng, đun sôi rồi thả hành tây vào nấu 5 phút trên lửa vừa đến khi hành mềm và trong.",
+      "Rải thịt bò vào chảo, dùng đũa gỡ cho các lát thịt tơi ra rồi thêm gừng bào. Đun liu riu 4–5 phút, hớt bọt, đến khi thịt chín mềm và thấm màu nước sốt; không nấu quá lâu kẻo thịt bị dai.",
+      "Xới cơm nóng vào tô, múc thịt bò và hành tây phủ kín mặt cơm rồi rưới thêm vài muỗng nước sốt.",
+      "Thêm gừng đỏ ngâm lên trên và rắc chút ớt bột shichimi. Có thể ăn kèm một quả trứng chần lòng đào và chén súp miso."
+    ],
+    "tags": [
+      "cơm tô",
+      "thịt bò",
+      "ăn nhanh",
+      "bình dân"
+    ],
+    "image": {
+      "file": "gyudon.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gyuu-don_001.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "omurice",
+    "name": "Cơm trứng Omurice",
+    "original_name": "オムライス",
+    "cuisine": "japan",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 60000,
+    "price_max": 110000,
+    "calories_kcal": 760,
+    "serving_note": "1 đĩa khoảng 400 g",
+    "nutrition": {
+      "protein_g": 31,
+      "carbs_g": 87,
+      "fat_g": 31
+    },
+    "description": "Cơm chiên gà sốt cà chua chua ngọt được bọc trong lớp trứng tráng vàng óng, mềm mịn như lụa, bên trên là đường sốt cà đỏ tươi. Món cơm kiểu Tây của người Nhật này dễ ăn, đẹp mắt và được cả trẻ nhỏ lẫn người lớn yêu thích.",
+    "origin": "Omurice là món yoshoku (món Tây kiểu Nhật) ra đời đầu thế kỷ 20, thường được gắn với nhà hàng Rengatei ở Ginza, Tokyo và Hokkyokusei ở Osaka. Tên gọi ghép từ omelette và rice.",
+    "cooking_style": "Chiên cơm, tráng trứng cuộn",
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Cơm nguội",
+        "amount": "400 g"
+      },
+      {
+        "name": "Thịt đùi gà rút xương",
+        "amount": "150 g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": "1/2 củ (100 g)"
+      },
+      {
+        "name": "Tương cà (ketchup)",
+        "amount": "5 muỗng canh"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "20 g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "4 quả"
+      },
+      {
+        "name": "Sữa tươi không đường",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Muối và tiêu xay",
+        "amount": "1/2 muỗng cà phê mỗi loại"
+      }
+    ],
+    "steps": [
+      "Cắt thịt gà thành hạt lựu 1 cm, băm nhỏ hành tây. Đun chảy nửa phần bơ trong chảo, xào hành tây đến khi trong rồi cho gà vào xào chín, nêm chút muối và tiêu.",
+      "Gạt gà sang một bên, cho 4 muỗng canh tương cà vào phần chảo trống và đảo khoảng 1 phút cho bớt chua và dậy mùi. Thêm cơm nguội, nước tương rồi đảo đều tay đến khi hạt cơm tơi và nhuộm màu đỏ cam. Chia cơm làm hai phần.",
+      "Đánh tan 2 quả trứng với 1 muỗng canh sữa và một nhúm muối. Làm nóng chảo chống dính đường kính 20–22 cm với chút dầu và bơ, đổ trứng vào rồi khuấy nhanh bằng đũa trong khoảng 10 giây đến khi trứng chín độ 70%, mặt trên còn hơi ướt.",
+      "Tắt bếp, đặt một phần cơm vào giữa miếng trứng theo chiều dọc và gập hai mép trứng ôm lấy cơm. Đẩy cơm ra sát mép chảo rồi úp ngược ra đĩa, dùng giấy bếp nắn lại thành hình bầu dục.",
+      "Làm tương tự với phần còn lại. Rưới phần tương cà còn lại thành đường lên mặt trứng và dùng nóng."
+    ],
+    "tags": [
+      "trứng",
+      "cơm chiên",
+      "yoshoku",
+      "sốt cà chua"
+    ],
+    "image": {
+      "file": "omurice.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Omurice_by_Taimeiken.jpg",
+      "author": "Kanesue",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "sushi-cuon-california",
+    "name": "Sushi cuộn California",
+    "original_name": "カリフォルニアロール",
+    "cuisine": "japan",
+    "style": "modern",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 80000,
+    "price_max": 160000,
+    "calories_kcal": 440,
+    "serving_note": "1 cuộn cắt 8 miếng, khoảng 260 g",
+    "nutrition": {
+      "protein_g": 11,
+      "carbs_g": 70,
+      "fat_g": 12
+    },
+    "description": "Cuộn sushi lộn ngược với lớp cơm ở ngoài phủ trứng cá hoặc mè rang, bên trong là thanh cua, bơ chín béo ngậy và dưa leo giòn mát. Vị dịu, dễ ăn nên rất hợp với người mới làm quen với sushi.",
+    "origin": "California roll được các đầu bếp Nhật ở Bắc Mỹ sáng tạo vào khoảng thập niên 1960–1970, giấu rong biển vào trong và thay cá sống bằng bơ, cua để hợp khẩu vị thực khách phương Tây. Đây là món mở đường cho trào lưu sushi cách tân trên toàn thế giới.",
+    "cooking_style": "Nấu cơm trộn giấm, cuộn mành tre",
+    "prep_minutes": 35,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Gạo Nhật hạt ngắn",
+        "amount": "300 g"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Đường",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Rong biển nori",
+        "amount": "2 lá lớn"
+      },
+      {
+        "name": "Thanh cua",
+        "amount": "8 thanh (160 g)"
+      },
+      {
+        "name": "Bơ chín (bơ sáp)",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": "1 quả"
+      },
+      {
+        "name": "Mayonnaise Nhật",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Trứng cá chuồn (tobiko) hoặc mè rang",
+        "amount": "40 g"
+      },
+      {
+        "name": "Nước tương Nhật, wasabi, gừng hồng",
+        "amount": "dùng kèm"
+      }
+    ],
+    "steps": [
+      "Vo sạch gạo, nấu với 360 ml nước. Hoà tan giấm, đường và muối rồi trộn vào cơm nóng theo kiểu xới cắt, vừa trộn vừa quạt đến khi cơm còn hơi ấm.",
+      "Bơ bỏ vỏ và hạt, cắt lát dọc dày 1 cm. Dưa leo bỏ ruột, cắt thanh dài. Thanh cua xé đôi theo chiều dọc. Cắt đôi mỗi lá rong biển để được 4 nửa lá.",
+      "Bọc mành tre bằng màng bọc thực phẩm. Đặt nửa lá rong biển lên mành, dùng tay ướt dàn khoảng 150 g cơm phủ kín mặt rong biển, rắc đều trứng cá hoặc mè rồi lật úp lại để mặt cơm nằm dưới.",
+      "Xếp thanh cua, bơ, dưa leo dọc theo mép rong biển gần mình và phết một đường mayonnaise. Nâng mành cuộn chặt tay từ trong ra ngoài, siết nhẹ cho cuộn tròn đều.",
+      "Dùng dao sắc nhúng nước cắt mỗi cuộn thành 8 khoanh, lau dao sau mỗi nhát cắt để mặt cắt gọn đẹp. Bày ra đĩa, ăn kèm nước tương, wasabi và gừng hồng."
+    ],
+    "tags": [
+      "sushi cuộn",
+      "bơ",
+      "thanh cua",
+      "cách tân"
+    ],
+    "image": {
+      "file": "sushi-cuon-california.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:California_Sushi_(26571101885).jpg",
+      "author": "Tim Reckmann",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "lau-sukiyaki",
+    "name": "Lẩu Sukiyaki",
+    "original_name": "すき焼き",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "dinner"
+    ],
+    "soup_type": "lau",
+    "price_min": 250000,
+    "price_max": 500000,
+    "calories_kcal": 710,
+    "serving_note": "1 suất khoảng 500 g (chưa kể cơm)",
+    "nutrition": {
+      "protein_g": 43,
+      "carbs_g": 36,
+      "fat_g": 43
+    },
+    "description": "Những lát thịt bò vân mỡ mềm như tan được om trong nồi gang nông cùng nước sốt nước tương ngọt đậm, bên cạnh là đậu hũ nướng, cải thảo, nấm và mì konjac thấm vị. Nhúng miếng thịt nóng hổi vào chén trứng sống đánh tan là cách thưởng thức đúng điệu nhất.",
+    "origin": "Sukiyaki thịnh hành từ thời Minh Trị (cuối thế kỷ 19), khi người Nhật bắt đầu ăn thịt bò trở lại sau nhiều thế kỷ kiêng kỵ. Kiểu Kanto om nguyên liệu trong nước sốt pha sẵn, còn kiểu Kansai áp chảo thịt với đường trước rồi mới thêm nước tương.",
+    "cooking_style": "Lẩu om tại bàn",
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Thịt bò thái lát mỏng có vân mỡ (thăn lưng hoặc ba chỉ bò)",
+        "amount": "600 g"
+      },
+      {
+        "name": "Mỡ bò (hoặc dầu ăn)",
+        "amount": "20 g"
+      },
+      {
+        "name": "Đậu hũ nướng yaki-dofu (hoặc đậu hũ cứng)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Cải thảo",
+        "amount": "400 g"
+      },
+      {
+        "name": "Hành boa rô",
+        "amount": "2 cây"
+      },
+      {
+        "name": "Nấm đông cô tươi",
+        "amount": "8 cái"
+      },
+      {
+        "name": "Nấm kim châm",
+        "amount": "200 g"
+      },
+      {
+        "name": "Mì konjac shirataki",
+        "amount": "200 g"
+      },
+      {
+        "name": "Cải cúc (tần ô)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Trứng gà tươi loại ăn sống được",
+        "amount": "4 quả"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "120 ml"
+      },
+      {
+        "name": "Mirin",
+        "amount": "120 ml"
+      },
+      {
+        "name": "Rượu sake",
+        "amount": "120 ml"
+      },
+      {
+        "name": "Đường",
+        "amount": "40 g"
+      }
+    ],
+    "steps": [
+      "Pha nước sốt warishita: đun sôi sake và mirin 1 phút cho bay bớt cồn, thêm nước tương và đường, khuấy tan rồi tắt bếp.",
+      "Cắt cải thảo thành khúc 5 cm, hành boa rô thái vát dày 1,5 cm, nấm đông cô khía hoa trên mũ, nấm kim châm cắt gốc, đậu hũ cắt miếng 3 cm, cải cúc cắt đôi. Chần mì shirataki trong nước sôi 2 phút để khử mùi rồi cắt ngắn.",
+      "Đặt nồi gang nông lên bếp giữa bàn ăn, làm nóng rồi chà miếng mỡ bò khắp đáy nồi. Áp vài lát thịt bò đầu tiên cùng hành boa rô cho xém thơm, rưới một muôi nước sốt và thưởng thức ngay những lát thịt này.",
+      "Xếp cải thảo, hành, nấm, đậu hũ và shirataki thành từng cụm riêng trong nồi, rót nước sốt ngập khoảng một phần ba nguyên liệu. Để shirataki cách xa thịt vì nó dễ làm thịt bị cứng. Đun liu riu 5–7 phút cho rau củ thấm vị.",
+      "Cho thịt bò và cải cúc vào sau cùng, chỉ nấu 30–60 giây đến khi thịt vừa đổi màu để giữ độ mềm.",
+      "Mỗi người đập một quả trứng sống vào chén riêng, đánh tan rồi nhúng thịt và rau nóng vào trứng trước khi ăn. Tiếp thêm nguyên liệu và nước sốt trong suốt bữa, nếu sốt quá đậm thì pha loãng với chút nước hoặc dashi."
+    ],
+    "tags": [
+      "lẩu",
+      "thịt bò",
+      "trứng sống",
+      "tụ họp"
+    ],
+    "image": {
+      "file": "lau-sukiyaki.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sukiyaki_(7320145438).jpg",
+      "author": "pelican",
+      "license": "CC BY-SA 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "okonomiyaki",
+    "name": "Bánh xèo Nhật Okonomiyaki",
+    "original_name": "お好み焼き",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "main",
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "kho",
+    "price_min": 90000,
+    "price_max": 170000,
+    "calories_kcal": 700,
+    "serving_note": "1 bánh đường kính 16–18 cm, khoảng 380 g",
+    "nutrition": {
+      "protein_g": 23,
+      "carbs_g": 63,
+      "fat_g": 39
+    },
+    "description": "Chiếc bánh áp chảo dày dặn làm từ bột, trứng và thật nhiều bắp cải thái nhỏ, mặt trên là lớp thịt ba chỉ xém giòn. Bánh được phết sốt nâu mặn ngọt, kẻ những đường mayonnaise rồi rắc rong biển xanh và cá bào thơm lừng.",
+    "origin": "Okonomiyaki nghĩa là nướng những gì bạn thích, phổ biến ở Osaka và Hiroshima từ sau Thế chiến thứ hai khi bột mì trở thành lương thực thay gạo. Kiểu Osaka trộn đều nguyên liệu với bột, còn kiểu Hiroshima xếp thành từng lớp cùng mì xào.",
+    "cooking_style": "Trộn bột, áp chảo trên bếp phẳng",
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "Bột mì",
+        "amount": "100 g"
+      },
+      {
+        "name": "Nước dashi nguội",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Khoai mỡ Nhật nagaimo bào nhuyễn (tuỳ chọn)",
+        "amount": "50 g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Bắp cải",
+        "amount": "300 g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "2 nhánh"
+      },
+      {
+        "name": "Vụn bột chiên tempura (tenkasu)",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Gừng đỏ ngâm (beni shoga)",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Thịt ba chỉ heo thái lát mỏng",
+        "amount": "100 g (6 lát)"
+      },
+      {
+        "name": "Sốt okonomiyaki",
+        "amount": "4 muỗng canh"
+      },
+      {
+        "name": "Mayonnaise Nhật",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Cá ngừ bào katsuobushi",
+        "amount": "5 g"
+      },
+      {
+        "name": "Bột rong biển xanh aonori",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "2 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Khuấy bột mì với dashi và khoai mỡ bào đến khi mịn rồi để bột nghỉ 15 phút trong ngăn mát. Thái bắp cải thành sợi ngắn khoảng 3 cm, thái nhỏ hành lá.",
+      "Chia bột vào hai tô. Cho vào mỗi tô một nửa bắp cải, 1 quả trứng, hành lá, tenkasu và gừng đỏ. Dùng muỗng xúc nhẹ từ dưới lên để trộn, không khuấy quá kỹ để bánh giữ được độ xốp.",
+      "Làm nóng chảo đáy dày hoặc bếp nướng phẳng ở lửa vừa (khoảng 200°C), tráng một lớp dầu mỏng. Đổ hỗn hợp thành bánh tròn dày 2 cm, xếp 3 lát thịt ba chỉ phủ lên mặt và nướng 4–5 phút đến khi đáy vàng.",
+      "Dùng hai xẻng lật bánh dứt khoát, đậy nắp và nướng tiếp 5 phút ở lửa vừa nhỏ cho thịt xém giòn và ruột bánh chín đều. Tuyệt đối không ấn dẹt bánh. Lật lại lần nữa và nướng thêm 2 phút.",
+      "Phết sốt okonomiyaki lên mặt bánh, kẻ các đường mayonnaise mảnh rồi rắc aonori và cá bào. Cắt bánh bằng xẻng thành từng miếng vuông và ăn nóng ngay trên chảo."
+    ],
+    "tags": [
+      "bắp cải",
+      "áp chảo",
+      "đường phố",
+      "Osaka"
+    ],
+    "image": {
+      "file": "okonomiyaki.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg",
+      "author": "ume-y",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "takoyaki",
+    "name": "Bánh bạch tuộc Takoyaki",
+    "original_name": "たこ焼き",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "snack",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 30000,
+    "price_max": 55000,
+    "calories_kcal": 470,
+    "serving_note": "1 phần 8 viên, khoảng 200 g",
+    "nutrition": {
+      "protein_g": 18,
+      "carbs_g": 51,
+      "fat_g": 21
+    },
+    "description": "Những viên bánh tròn xoe nóng hổi, vỏ ngoài vàng thơm, bên trong mềm sánh và có miếng bạch tuộc dai giòn. Phủ sốt takoyaki mặn ngọt, mayonnaise, rong biển xanh và cá bào nhảy múa trên mặt bánh, đúng chất ăn vặt đường phố Nhật.",
+    "origin": "Takoyaki do ông Endo Tomekichi, chủ một quầy hàng rong ở Osaka, sáng tạo vào năm 1935. Từ đó món bánh trở thành biểu tượng ẩm thực đường phố của vùng Kansai và có mặt ở mọi lễ hội Nhật Bản.",
+    "cooking_style": "Nướng khuôn tròn",
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Bột mì",
+        "amount": "200 g"
+      },
+      {
+        "name": "Nước dashi nguội",
+        "amount": "600 ml"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": "2 quả"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Muối",
+        "amount": "1/2 muỗng cà phê"
+      },
+      {
+        "name": "Bạch tuộc luộc chín",
+        "amount": "200 g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "4 nhánh"
+      },
+      {
+        "name": "Vụn bột chiên tempura (tenkasu)",
+        "amount": "30 g"
+      },
+      {
+        "name": "Gừng đỏ ngâm (beni shoga)",
+        "amount": "20 g"
+      },
+      {
+        "name": "Sốt takoyaki",
+        "amount": "6 muỗng canh"
+      },
+      {
+        "name": "Mayonnaise Nhật",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Cá ngừ bào katsuobushi",
+        "amount": "10 g"
+      },
+      {
+        "name": "Bột rong biển xanh aonori",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "3 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Đánh tan trứng với dashi, nước tương và muối rồi rây bột mì vào, khuấy đến khi thành hỗn hợp bột loãng, mịn. Cắt bạch tuộc thành miếng 1,5 cm, thái nhỏ hành lá và gừng đỏ.",
+      "Làm nóng khuôn takoyaki trên lửa vừa, quét dầu thật kỹ vào từng lỗ và cả mặt khuôn. Khuôn đủ nóng khi nhỏ giọt bột vào nghe tiếng xèo.",
+      "Đổ bột ngập tràn cả mặt khuôn, thả vào mỗi lỗ một miếng bạch tuộc rồi rắc đều tenkasu, hành lá và gừng đỏ lên trên.",
+      "Sau khoảng 2–3 phút, khi đáy bánh đã se lại, dùng que nhọn rạch phần bột tràn giữa các lỗ, xoay mỗi viên 90 độ và nhét phần bột thừa vào trong để bột sống chảy xuống tạo thành hình cầu.",
+      "Tiếp tục xoay bánh liên tục thêm 5–6 phút đến khi các viên tròn đều, vỏ vàng nâu và hơi giòn.",
+      "Xếp bánh ra đĩa, phết sốt takoyaki, xịt mayonnaise rồi rắc aonori và cá ngừ bào. Ăn nóng, cẩn thận kẻo phần nhân bên trong rất nóng."
+    ],
+    "tags": [
+      "ăn vặt",
+      "bạch tuộc",
+      "đường phố",
+      "Osaka"
+    ],
+    "image": {
+      "file": "takoyaki.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Honkeohtako%27s_takoyaki,_Osaka;_December_2013_(06).jpg",
+      "author": "City Foodsters",
+      "license": "CC BY 2.0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ga-chien-karaage",
+    "name": "Gà chiên Karaage",
+    "original_name": "唐揚げ",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "fast_food",
+    "meals": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 50000,
+    "price_max": 95000,
+    "calories_kcal": 500,
+    "serving_note": "5–6 miếng, khoảng 150 g",
+    "nutrition": {
+      "protein_g": 27,
+      "carbs_g": 21,
+      "fat_g": 34
+    },
+    "description": "Thịt đùi gà ướp nước tương, gừng, tỏi rồi áo lớp bột khoai tây mỏng và chiên hai lần, cho lớp vỏ giòn tan mà bên trong vẫn mọng nước. Vắt thêm chút chanh, chấm mayonnaise là thành món nhắm, món ăn nhanh khó cưỡng.",
+    "origin": "Kỹ thuật chiên karaage chịu ảnh hưởng từ ẩm thực Trung Hoa và phổ biến rộng rãi ở Nhật từ sau Thế chiến thứ hai; tỉnh Oita trên đảo Kyushu được xem là thủ phủ của món gà này. Ngày nay karaage có mặt ở khắp quán nhậu izakaya, cửa hàng tiện lợi và hộp cơm bento.",
+    "cooking_style": "Ướp, chiên ngập dầu hai lần",
+    "prep_minutes": 40,
+    "cook_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Thịt đùi gà rút xương, còn da",
+        "amount": "600 g"
+      },
+      {
+        "name": "Nước tương Nhật",
+        "amount": "3 muỗng canh"
+      },
+      {
+        "name": "Rượu sake",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Gừng bào nhuyễn",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": "2 tép"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": "1 muỗng cà phê"
+      },
+      {
+        "name": "Bột khoai tây (katakuriko)",
+        "amount": "60 g"
+      },
+      {
+        "name": "Bột mì",
+        "amount": "30 g"
+      },
+      {
+        "name": "Dầu ăn để chiên",
+        "amount": "1 lít"
+      },
+      {
+        "name": "Chanh vàng",
+        "amount": "1/2 quả"
+      },
+      {
+        "name": "Bắp cải bào sợi",
+        "amount": "150 g"
+      },
+      {
+        "name": "Mayonnaise Nhật",
+        "amount": "2 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Cắt thịt gà thành miếng vuông khoảng 4 cm, giữ nguyên da. Trộn gà với nước tương, sake, gừng, tỏi và dầu mè, bóp đều rồi ướp 30 phút trong ngăn mát.",
+      "Trộn bột khoai tây với bột mì. Vớt gà ra cho ráo bớt nước ướp, lăn từng miếng qua bột và nắm nhẹ để da bọc lấy thịt, bột bám đều.",
+      "Đun dầu đến 160°C, chiên gà từng mẻ nhỏ trong 3–4 phút đến khi vàng nhạt rồi vớt ra vỉ, để nghỉ 4 phút cho thịt tiếp tục chín bằng hơi nóng bên trong.",
+      "Tăng nhiệt dầu lên 190°C, chiên lại gà lần hai trong 45–60 giây đến khi vỏ vàng nâu và giòn rụm. Vớt ra để ráo dầu.",
+      "Bày gà lên lớp bắp cải bào sợi, kèm miếng chanh và mayonnaise; vắt chanh lên gà ngay trước khi ăn."
+    ],
+    "tags": [
+      "gà chiên",
+      "giòn rụm",
+      "izakaya",
+      "ăn nhanh"
+    ],
+    "image": {
+      "file": "ga-chien-karaage.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chicken_karaage_003.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "onigiri",
+    "name": "Cơm nắm Onigiri",
+    "original_name": "おにぎり",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "fast_food",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 15000,
+    "price_max": 30000,
+    "calories_kcal": 200,
+    "serving_note": "1 nắm khoảng 120 g",
+    "nutrition": {
+      "protein_g": 6,
+      "carbs_g": 39,
+      "fat_g": 2
+    },
+    "description": "Nắm cơm trắng dẻo thơm hình tam giác, bên trong giấu nhân cá hồi nướng mặn mà hoặc mơ muối chua thanh, bên ngoài quấn một dải rong biển giòn. Gọn nhẹ, chắc bụng và tiện mang theo, đây là món ăn nhanh quốc dân của người Nhật.",
+    "origin": "Cơm nắm đã xuất hiện ở Nhật hơn một nghìn năm trước, từng là lương khô của võ sĩ và người đi đường xa. Ngày nay onigiri được bán ở mọi cửa hàng tiện lợi với hàng chục loại nhân khác nhau.",
+    "cooking_style": "Nấu cơm, nắm tay",
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "servings": 6,
+    "ingredients": [
+      {
+        "name": "Gạo Nhật hạt ngắn",
+        "amount": "300 g"
+      },
+      {
+        "name": "Nước nấu cơm",
+        "amount": "360 ml"
+      },
+      {
+        "name": "Phi lê cá hồi",
+        "amount": "100 g"
+      },
+      {
+        "name": "Mơ muối umeboshi",
+        "amount": "3 quả"
+      },
+      {
+        "name": "Muối",
+        "amount": "1,5 muỗng cà phê"
+      },
+      {
+        "name": "Rong biển nori",
+        "amount": "2 lá lớn"
+      },
+      {
+        "name": "Mè rang (tuỳ thích)",
+        "amount": "1 muỗng canh"
+      }
+    ],
+    "steps": [
+      "Vo gạo đến khi nước trong, ngâm 30 phút rồi nấu với 360 ml nước. Khi cơm chín, ủ thêm 10 phút và xới tơi.",
+      "Xát 1/2 muỗng cà phê muối lên cá hồi, để 10 phút rồi thấm khô. Áp chảo hoặc nướng cá 3–4 phút mỗi mặt đến khi chín, bỏ da và xương rồi gỡ thành vụn. Bỏ hạt mơ muối.",
+      "Cắt mỗi lá rong biển thành 3 dải dọc để được 6 dải.",
+      "Nhúng ướt hai bàn tay và xoa một nhúm muối vào lòng bàn tay. Lấy khoảng 110 g cơm còn ấm nóng, ấn lõm ở giữa, đặt một muỗng nhân cá hồi hoặc nửa quả mơ muối vào rồi vun cơm phủ kín nhân.",
+      "Khum bàn tay trên thành hình chữ V, vừa ép nhẹ vừa xoay nắm cơm 3–4 lần để tạo hình tam giác. Chỉ ép vừa đủ cho cơm kết dính, không nén chặt để hạt cơm vẫn tơi khi cắn.",
+      "Quấn dải rong biển quanh đáy nắm cơm ngay trước khi ăn để rong biển còn giòn, rắc thêm chút mè rang nếu thích."
+    ],
+    "tags": [
+      "cơm nắm",
+      "tiện lợi",
+      "ăn sáng",
+      "mang đi"
+    ],
+    "image": {
+      "file": "onigiri.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Onigiri_002.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "sup-miso",
+    "name": "Súp Miso",
+    "original_name": "味噌汁",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "side",
+    "meals": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "soup_type": "khac",
+    "price_min": 20000,
+    "price_max": 40000,
+    "calories_kcal": 60,
+    "serving_note": "1 chén khoảng 200 ml",
+    "nutrition": {
+      "protein_g": 5,
+      "carbs_g": 5,
+      "fat_g": 2
+    },
+    "description": "Chén súp nóng với vị mặn dịu, thơm nồng của tương đậu nành lên men hoà trong nước dashi ngọt thanh, điểm thêm đậu hũ non mềm mịn và rong biển wakame. Nhẹ nhàng, ấm bụng và gần như không thể thiếu trong bữa cơm Nhật.",
+    "origin": "Súp miso đã có mặt trong bữa ăn của người Nhật từ thời Kamakura (thế kỷ 12–14) và là một phần của mâm cơm truyền thống ichiju-sansai (một canh, ba món). Mỗi vùng dùng một loại miso riêng, từ miso trắng ngọt của Kyoto đến miso đỏ đậm của Nagoya.",
+    "cooking_style": "Nấu dashi, hoà tan miso",
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "Nước lọc",
+        "amount": "800 ml"
+      },
+      {
+        "name": "Tảo bẹ khô kombu",
+        "amount": "10 g"
+      },
+      {
+        "name": "Cá ngừ bào katsuobushi",
+        "amount": "15 g"
+      },
+      {
+        "name": "Tương miso (loại awase hoặc miso trắng)",
+        "amount": "60 g (3–4 muỗng canh)"
+      },
+      {
+        "name": "Đậu hũ non",
+        "amount": "150 g"
+      },
+      {
+        "name": "Rong biển wakame khô",
+        "amount": "4 g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "2 nhánh"
+      }
+    ],
+    "steps": [
+      "Ngâm kombu trong 800 ml nước khoảng 20 phút rồi đun lửa vừa, vớt kombu ra ngay trước khi nước sôi. Cho cá ngừ bào vào, tắt bếp, chờ 2 phút rồi lọc lấy nước dashi trong.",
+      "Ngâm wakame trong nước lạnh 5 phút cho nở rồi vắt ráo. Cắt đậu hũ thành khối vuông 1 cm, thái nhỏ hành lá.",
+      "Đun nóng lại dashi, cho đậu hũ và wakame vào nấu 1–2 phút trên lửa nhỏ.",
+      "Hạ lửa thấp nhất. Cho miso vào một chiếc muôi hoặc rây nhỏ, nhúng vào nồi và dùng đũa khuấy cho tan dần vào nước dùng. Không để súp sôi lại sau khi đã cho miso để giữ trọn mùi thơm.",
+      "Múc súp ra chén, rắc hành lá và dùng nóng cùng cơm."
+    ],
+    "tags": [
+      "canh",
+      "đậu nành lên men",
+      "thanh đạm",
+      "ăn sáng"
+    ],
+    "image": {
+      "file": "sup-miso.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Miso_Soup_001.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "mochi-daifuku",
+    "name": "Bánh Mochi Daifuku",
+    "original_name": "大福",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "dessert",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 15000,
+    "price_max": 35000,
+    "calories_kcal": 150,
+    "serving_note": "1 chiếc khoảng 60 g",
+    "nutrition": {
+      "protein_g": 3,
+      "carbs_g": 33,
+      "fat_g": 1
+    },
+    "description": "Chiếc bánh tròn trắng muốt phủ lớp phấn bột mỏng, vỏ nếp mềm dẻo kéo sợi ôm lấy nhân đậu đỏ nghiền mịn ngọt thanh. Nhâm nhi cùng một tách trà xanh nóng là trọn vẹn thú thưởng trà kiểu Nhật.",
+    "origin": "Daifuku xuất hiện ở Edo (Tokyo) vào cuối thế kỷ 18, tên gọi mang nghĩa đại phúc nên bánh thường được dùng làm quà tặng cầu may mắn. Từ chiếc bánh gốc này đã ra đời nhiều biến tấu như daifuku dâu tây hay mochi kem lạnh.",
+    "cooking_style": "Sên nhân, hấp bột nếp, nặn tay",
+    "prep_minutes": 30,
+    "cook_minutes": 80,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "Đậu đỏ azuki",
+        "amount": "120 g"
+      },
+      {
+        "name": "Đường (cho nhân)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 nhúm"
+      },
+      {
+        "name": "Bột nếp (shiratamako hoặc bột nếp thường)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Đường (cho vỏ)",
+        "amount": "30 g"
+      },
+      {
+        "name": "Nước",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Bột bắp hoặc bột khoai tây (để áo bánh)",
+        "amount": "40 g"
+      }
+    ],
+    "steps": [
+      "Ngâm đậu đỏ ít nhất 4 tiếng hoặc qua đêm. Đun sôi đậu 5 phút rồi đổ bỏ nước đầu cho bớt chát, thêm nước mới ngập mặt đậu 3 cm và ninh lửa nhỏ 50–60 phút đến khi đậu mềm nhừ, bóp nhẹ là nát.",
+      "Xay nhuyễn đậu với một ít nước ninh rồi lọc qua rây mịn để bỏ vỏ. Cho phần đậu mịn vào chảo cùng 100 g đường và muối, sên trên lửa vừa nhỏ 10–15 phút, đảo liên tục đến khi nhân dẻo và vén gọn thành khối. Để nguội, chia thành 8 viên khoảng 30 g và để trong ngăn mát.",
+      "Khuấy đều bột nếp với 30 g đường và 150 ml nước cho mịn. Đậy hờ màng bọc thực phẩm, quay lò vi sóng 600W trong 1 phút, lấy ra trộn bằng phới ướt, quay tiếp 1 phút, trộn lại rồi quay thêm 30 giây đến khi bột trong, dẻo và kéo được sợi. Nếu không có lò vi sóng, hấp bột 15 phút và trộn một lần giữa chừng.",
+      "Rắc một lớp bột bắp dày lên khay, trút khối bột nếp nóng ra, phủ thêm bột lên mặt rồi dùng dao cắt bột chia thành 8 phần khi bột còn ấm.",
+      "Ấn dẹt từng phần thành miếng tròn đường kính 7–8 cm, ở giữa dày hơn mép. Đặt viên nhân vào giữa, kéo các mép bột lên túm kín, vê tròn và đặt úp phần mối nối xuống dưới. Phủi bớt bột thừa.",
+      "Dùng bánh trong ngày khi vỏ còn mềm dẻo; không cất trong tủ lạnh vì vỏ nếp sẽ bị cứng lại."
+    ],
+    "tags": [
+      "bánh nếp",
+      "đậu đỏ",
+      "wagashi",
+      "trà chiều"
+    ],
+    "image": {
+      "file": "mochi-daifuku.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Daifuku_001.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "dorayaki",
+    "name": "Bánh rán Dorayaki",
+    "original_name": "どら焼き",
+    "cuisine": "japan",
+    "style": "traditional",
+    "dish_type": "dessert",
+    "meals": [
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 15000,
+    "price_max": 30000,
+    "calories_kcal": 240,
+    "serving_note": "1 chiếc khoảng 90 g",
+    "nutrition": {
+      "protein_g": 6,
+      "carbs_g": 49,
+      "fat_g": 2
+    },
+    "description": "Hai lớp bánh bông xốp thơm mùi mật ong, mặt nâu óng đều màu, kẹp ở giữa là nhân đậu đỏ ngọt bùi. Đây chính là món bánh rán mà chú mèo máy Doraemon mê mẩn, gắn liền với tuổi thơ của bao thế hệ.",
+    "origin": "Dorayaki với hình dáng hai lớp như ngày nay do tiệm bánh Usagiya ở Ueno, Tokyo giới thiệu vào năm 1914. Tên bánh bắt nguồn từ chữ dora nghĩa là chiếc cồng, gợi theo hình tròn dẹt của bánh.",
+    "cooking_style": "Đánh bông trứng, rán chảo không dầu",
+    "prep_minutes": 25,
+    "cook_minutes": 25,
+    "servings": 8,
+    "ingredients": [
+      {
+        "name": "Trứng gà",
+        "amount": "3 quả"
+      },
+      {
+        "name": "Đường",
+        "amount": "100 g"
+      },
+      {
+        "name": "Mật ong",
+        "amount": "1,5 muỗng canh"
+      },
+      {
+        "name": "Bột mì đa dụng",
+        "amount": "120 g"
+      },
+      {
+        "name": "Bột nở (baking powder)",
+        "amount": "3/4 muỗng cà phê"
+      },
+      {
+        "name": "Nước",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Nhân đậu đỏ ngọt (anko, loại còn hạt)",
+        "amount": "320 g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "1 muỗng cà phê"
+      }
+    ],
+    "steps": [
+      "Đánh trứng với đường và mật ong bằng phới trong 3–4 phút đến khi hỗn hợp bông nhẹ và nhạt màu. Rây bột mì cùng bột nở vào, trộn vừa đủ đều rồi bọc kín, để bột nghỉ 15 phút trong ngăn mát.",
+      "Thêm từng muỗng nước vào bột và khuấy nhẹ, đến khi nhấc phới lên bột chảy xuống thành dải liền như ruy băng.",
+      "Làm nóng chảo chống dính trên lửa nhỏ. Thấm dầu vào giấy bếp rồi lau khắp mặt chảo, lau gần như sạch dầu để mặt bánh lên màu nâu đều và mịn.",
+      "Múc khoảng 2 muỗng canh bột, rót từ trên cao xuống một điểm để bột tự loang thành hình tròn đường kính 8 cm. Rán khoảng 2 phút đến khi mặt bánh nổi bọt khí li ti thì lật, rán thêm 30–40 giây rồi lấy ra, phủ khăn ẩm để bánh không bị khô. Làm tiếp cho đến hết bột, được 16 miếng bánh.",
+      "Phết khoảng 40 g nhân đậu đỏ lên mặt trong của một miếng bánh, dồn nhân dày ở giữa, rồi úp miếng bánh thứ hai lên và ép nhẹ quanh mép cho dính.",
+      "Bọc từng chiếc bằng màng bọc thực phẩm và để khoảng 30 phút cho bánh ẩm mềm, thấm vị trước khi thưởng thức."
+    ],
+    "tags": [
+      "bánh ngọt",
+      "đậu đỏ",
+      "Doraemon",
+      "ăn vặt"
+    ],
+    "image": {
+      "file": "dorayaki.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dorayaki_004.jpg",
+      "author": "Ocdp",
+      "license": "CC0"
+    },
+    "featured": false
+  },
+  {
+    "slug": "matcha-latte",
+    "name": "Matcha Latte",
+    "original_name": "抹茶ラテ",
+    "cuisine": "japan",
+    "style": "modern",
+    "dish_type": "drink",
+    "meals": [
+      "breakfast",
+      "snack"
+    ],
+    "soup_type": "kho",
+    "price_min": 40000,
+    "price_max": 70000,
+    "calories_kcal": 170,
+    "serving_note": "1 ly khoảng 260 ml",
+    "nutrition": {
+      "protein_g": 7,
+      "carbs_g": 19,
+      "fat_g": 7
+    },
+    "description": "Bột trà xanh matcha xanh ngọc đánh tan với nước ấm rồi hoà cùng sữa nóng mịn màng, cho vị chát dịu, béo nhẹ và hậu ngọt thanh. Một thức uống vừa giúp tỉnh táo vừa thư thái, đẹp mắt với lớp bọt sữa tạo hình trên mặt.",
+    "origin": "Matcha gắn liền với trà đạo Nhật Bản từ thế kỷ 12, nổi tiếng nhất là trà vùng Uji ở Kyoto. Matcha latte là biến tấu hiện đại kết hợp trà truyền thống với văn hoá cà phê sữa phương Tây, lan rộng toàn cầu từ đầu những năm 2000.",
+    "cooking_style": "Đánh trà, pha với sữa nóng",
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "Bột matcha nguyên chất",
+        "amount": "4 g (2 muỗng cà phê gạt)"
+      },
+      {
+        "name": "Nước nóng khoảng 80°C",
+        "amount": "50 ml"
+      },
+      {
+        "name": "Sữa tươi nguyên kem không đường",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Đường hoặc mật ong",
+        "amount": "2 muỗng cà phê"
+      },
+      {
+        "name": "Đá viên (nếu uống lạnh)",
+        "amount": "1 ly"
+      },
+      {
+        "name": "Chiết xuất vani (tuỳ thích)",
+        "amount": "vài giọt"
+      }
+    ],
+    "steps": [
+      "Rây bột matcha qua rây mịn vào bát hoặc ly miệng rộng để bột không bị vón cục.",
+      "Rót nước nóng khoảng 80°C vào (nước đang sôi sẽ làm trà bị đắng), dùng chổi tre chasen hoặc máy đánh sữa cầm tay đánh nhanh theo hình chữ M trong 20–30 giây đến khi trà tan hết và nổi lớp bọt mịn.",
+      "Cho đường hoặc mật ong vào trà và khuấy tan.",
+      "Hâm sữa đến khoảng 65°C, không để sôi, rồi đánh bọt bằng máy đánh sữa đến khi sữa mịn và nở gấp rưỡi.",
+      "Rót trà ra ly, nghiêng ly và rót sữa nóng vào từ từ, cuối cùng hạ thấp ca sữa để tạo hình lớp bọt trên mặt. Với bản lạnh, cho đá đầy ly, rót sữa lạnh rồi rót trà matcha lên trên để tạo hai tầng màu."
+    ],
+    "tags": [
+      "trà xanh",
+      "đồ uống nóng",
+      "sữa",
+      "hiện đại"
+    ],
+    "image": {
+      "file": "matcha-latte.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Matcha_tea_latte_with_rosetta_latte_art.jpg",
+      "author": "Irvan Ary Maulana",
+      "license": "CC BY-SA 4.0"
+    },
+    "featured": false
+  }
+]

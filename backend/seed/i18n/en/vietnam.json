@@ -1,0 +1,1420 @@
+[
+  {
+    "slug": "pho-bo",
+    "name": "Pho Bo (Beef Pho)",
+    "description": "Silky rice noodles in a broth simmered for hours from beef bones, fragrant with cinnamon, star anise and charred ginger. Thinly sliced rare or well-done beef, a scattering of spring onions and a squeeze of lime and chilli are all it takes to make Vietnam's classic breakfast.",
+    "origin": "Pho was born in the Nam Dinh – Hanoi area in the early 20th century and spread across the country with migrants. Northern pho favours a clean, delicate broth with few herbs; southern pho is sweeter and served with bean sprouts, Thai basil and hoisin sauce.",
+    "cooking_style": "Simmered bone broth, blanched noodles",
+    "serving_note": "1 bowl, about 550 g (including broth)",
+    "ingredients": [
+      {
+        "name": "Beef marrow bones",
+        "amount": "2 kg"
+      },
+      {
+        "name": "Beef flank (or brisket)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Thinly sliced beef sirloin",
+        "amount": "300 g"
+      },
+      {
+        "name": "Fresh pho rice noodles",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Onions",
+        "amount": "2"
+      },
+      {
+        "name": "Ginger",
+        "amount": "1 large knob (about 80 g)"
+      },
+      {
+        "name": "Star anise, cinnamon, black cardamom",
+        "amount": "3 star anise, 1 cinnamon stick, 2 black cardamom pods"
+      },
+      {
+        "name": "Fish sauce",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Salt, rock sugar",
+        "amount": "1 tbsp salt, 20 g rock sugar"
+      },
+      {
+        "name": "Spring onions, coriander",
+        "amount": "100 g"
+      },
+      {
+        "name": "Bean sprouts, Thai basil (southern style)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Lime, fresh chilli, garlic pickled in vinegar",
+        "amount": "to serve"
+      }
+    ],
+    "steps": [
+      "Cut the marrow bones into pieces, soak in lightly salted water for 30 minutes, then blanch in boiling water for 5 minutes and rinse well to remove all scum.",
+      "Char the onions and ginger over an open flame until the skins blacken, then scrape off the burnt parts. Toast the star anise, cinnamon and black cardamom in a dry pan until fragrant, then tie them in a muslin bag.",
+      "Put the bones and flank in a pot with 5 litres of water, bring to the boil, then reduce to a low simmer, skimming constantly to keep the broth clear. After about 1.5 hours, lift out the flank, plunge it into cold water and slice thinly; keep simmering the bones for another 2 hours.",
+      "Add the charred onion, ginger and spice bag for the final 45 minutes. Season to taste with salt, rock sugar and fish sauce, then remove the spice bag.",
+      "Blanch the noodles in boiling water and place in bowls. Top with the cooked flank and the thinly sliced sirloin, then sprinkle with spring onions and coriander.",
+      "Ladle over the broth at a rolling boil so it just cooks the rare beef. Eat hot with lime, chilli and pickled garlic; southern style adds bean sprouts and Thai basil."
+    ],
+    "tags": [
+      "broth",
+      "beef",
+      "noodle soup",
+      "breakfast"
+    ]
+  },
+  {
+    "slug": "bun-bo-hue",
+    "name": "Bun Bo Hue (Spicy Hue Beef Noodle Soup)",
+    "description": "Thick round rice noodles in a broth glowing red with chilli satay oil, heady with lemongrass and fermented shrimp paste. Beef shank, pork knuckle, crab cake and tender cubes of blood pudding give it the rich, fiery character that is unmistakably Hue.",
+    "origin": "The dish comes from the old imperial capital of Hue, where locals simply call it \"bun bo\". Fermented shrimp paste and lemongrass are its indispensable signature, setting bun bo Hue apart from every other noodle soup.",
+    "cooking_style": "Simmered broth, chilli satay",
+    "serving_note": "1 bowl, about 600 g (including broth)",
+    "ingredients": [
+      {
+        "name": "Beef shank",
+        "amount": "600 g"
+      },
+      {
+        "name": "Pork knuckle, cut into rounds",
+        "amount": "800 g"
+      },
+      {
+        "name": "Pork or beef marrow bones",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Crab cake (Hue-style cha)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Boiled pork blood pudding",
+        "amount": "300 g"
+      },
+      {
+        "name": "Thick round rice noodles",
+        "amount": "1.2 kg"
+      },
+      {
+        "name": "Lemongrass",
+        "amount": "8 stalks"
+      },
+      {
+        "name": "Hue fermented shrimp paste (mam ruoc)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Chilli powder",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Annatto oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Minced shallots and garlic",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Fish sauce, salt, sugar",
+        "amount": "3 tbsp fish sauce, 2 tsp salt, 1 tbsp sugar"
+      },
+      {
+        "name": "Accompanying greens (shredded banana blossom, bean sprouts, herbs)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Lime, spring onions, onion",
+        "amount": "2 limes, 50 g spring onions, 1/2 onion"
+      }
+    ],
+    "steps": [
+      "Blanch the bones, pork knuckle and beef shank in boiling water with a little salt and ginger, then rinse clean.",
+      "Put the bones, knuckle and shank in a pot with 4 litres of water and 5 bruised lemongrass stalks. Bring to the boil, skim, then simmer gently; lift out the knuckle once tender (about 45 minutes) and the shank once cooked (about 1.5 hours), and slice the shank thinly.",
+      "Dissolve the shrimp paste in 200 ml cold water, let it settle for 15 minutes, then pour the clear liquid into the broth.",
+      "Fry the shallots, garlic and 3 minced lemongrass stalks in the annatto oil until fragrant, then stir in the chilli powder briefly to make the satay. Tip half into the broth for colour and aroma and keep the rest for serving.",
+      "Season the broth with fish sauce, salt and sugar until rich, gently spicy and fragrant with lemongrass and shrimp paste. Add the crab cake and blood pudding and simmer for 5 more minutes.",
+      "Blanch the noodles and place in bowls, arrange the shank, knuckle, crab cake and blood pudding on top, scatter with spring onions and thinly sliced onion, then ladle over piping-hot broth. Serve with fresh greens, lime and chilli satay."
+    ],
+    "tags": [
+      "Hue",
+      "spicy",
+      "noodle soup",
+      "beef"
+    ]
+  },
+  {
+    "slug": "mi-quang",
+    "name": "Mi Quang (Quang-Style Turmeric Noodles)",
+    "description": "Wide, soft yet chewy noodles with pork, shrimp and egg, moistened with just a little thick, savoury sauce. Toasted peanuts, crisp grilled sesame rice crackers and fresh greens bring the nutty, rich, fragrant character typical of Quang Nam.",
+    "origin": "A speciality of the Quang Nam – Da Nang region, part of both everyday meals and feast tables in Central Vietnam. Unlike pho or bun, mi Quang is eaten with very little broth, yet packs a deep flavour.",
+    "cooking_style": "Braised topping, served with little broth",
+    "serving_note": "1 bowl, about 450 g",
+    "ingredients": [
+      {
+        "name": "Fresh mi Quang noodles",
+        "amount": "800 g"
+      },
+      {
+        "name": "Pork belly (or pork shoulder)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Freshwater shrimp",
+        "amount": "300 g"
+      },
+      {
+        "name": "Hard-boiled eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Allium chinense bulbs or shallots",
+        "amount": "30 g"
+      },
+      {
+        "name": "Ground turmeric",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Peanut oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Pork bone stock",
+        "amount": "1 litre"
+      },
+      {
+        "name": "Fish sauce",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Roasted peanuts",
+        "amount": "80 g"
+      },
+      {
+        "name": "Grilled sesame rice crackers",
+        "amount": "2"
+      },
+      {
+        "name": "Fresh greens (lettuce, baby mustard greens, banana blossom, Thai basil)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Spring onions, lime, green chillies",
+        "amount": "30 g spring onions, 1 lime, 4 chillies"
+      }
+    ],
+    "steps": [
+      "Cut the pork into bite-sized pieces and trim the shrimp's feelers, leaving the shells on. Marinate both with the pounded Allium chinense bulbs, turmeric, 2 tbsp fish sauce, a little pepper and sugar for 20 minutes.",
+      "Heat the peanut oil and fry the bulbs until fragrant, add the pork and sear until firm, then add the shrimp and toss until they turn red.",
+      "Pour in the bone stock and simmer over low heat for about 20 minutes until the sauce thickens and deepens in flavour. Add the peeled boiled eggs to braise alongside, and adjust the seasoning with the remaining fish sauce.",
+      "Briefly blanch the noodles in boiling water and drain. Line the bottom of each bowl with fresh greens and place the noodles on top.",
+      "Arrange the pork, shrimp and half an egg on the noodles, then spoon over just enough sauce to moisten them – not to submerge them as with pho.",
+      "Sprinkle with crushed roasted peanuts and spring onions, and break the grilled sesame crackers over the top. Squeeze over lime and serve with green chillies."
+    ],
+    "tags": [
+      "Quang Nam",
+      "Central Vietnam",
+      "light broth",
+      "peanuts"
+    ]
+  },
+  {
+    "slug": "hu-tieu-nam-vang",
+    "name": "Hu Tieu Nam Vang (Phnom Penh Noodle Soup)",
+    "description": "Chewy rice noodles in a crystal-clear broth, delicately sweet from pork bones, dried shrimp and dried squid. The generous toppings include shrimp, minced pork, liver, heart and quail eggs, finished with fragrant fried garlic.",
+    "origin": "The dish originated in Phnom Penh (Nam Vang), created by the Chinese community in Cambodia, who brought it with them to Saigon. Over time, hu tieu Nam Vang was adapted to southern Vietnamese tastes and is now served both as a soup and dry.",
+    "cooking_style": "Simmered bone broth, blanched noodles",
+    "serving_note": "1 bowl, about 550 g (including broth)",
+    "ingredients": [
+      {
+        "name": "Pork marrow bones",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Dried shrimp",
+        "amount": "30 g"
+      },
+      {
+        "name": "Dried squid",
+        "amount": "1 small squid"
+      },
+      {
+        "name": "Daikon radish",
+        "amount": "1"
+      },
+      {
+        "name": "Chewy rice noodles (dried)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Minced lean pork",
+        "amount": "200 g"
+      },
+      {
+        "name": "Tiger prawns",
+        "amount": "8"
+      },
+      {
+        "name": "Pork liver and heart",
+        "amount": "200 g"
+      },
+      {
+        "name": "Quail eggs",
+        "amount": "12"
+      },
+      {
+        "name": "Fried garlic, pork crackling",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Bean sprouts, garlic chives, Chinese celery, lettuce",
+        "amount": "300 g"
+      },
+      {
+        "name": "Fish sauce, salt, rock sugar",
+        "amount": "2 tbsp fish sauce, 2 tsp salt, 15 g rock sugar"
+      },
+      {
+        "name": "Lime, chilli, soy sauce",
+        "amount": "to serve"
+      }
+    ],
+    "steps": [
+      "Briefly blanch the marrow bones, rinse, then place in a pot with 3 litres of water, the dried shrimp, the dried squid (toasted until fragrant) and the daikon cut into chunks. Simmer gently for 1.5–2 hours, skimming regularly.",
+      "Season the broth with salt, rock sugar and fish sauce for a delicate sweetness; keep it at a bare simmer so it stays clear.",
+      "Stir-fry the minced pork with minced garlic and a little fish sauce until crumbly and cooked through. Boil the prawns and peel them; blanch the liver and heart in the broth and slice thinly; boil and peel the quail eggs.",
+      "Soak the dried noodles for 15 minutes, then blanch in boiling water for about 30 seconds until soft but chewy, and toss with a little fried garlic so they don't stick.",
+      "Put bean sprouts and cut garlic chives in each bowl, then arrange the noodles, minced pork, prawns, liver, heart and quail eggs on top, and sprinkle with fried garlic, pork crackling and Chinese celery.",
+      "Ladle over the boiling broth (or serve dry with the broth on the side). Serve with lettuce, lime, chilli and a small dish of soy sauce."
+    ],
+    "tags": [
+      "Saigon",
+      "noodle soup",
+      "shrimp and pork",
+      "breakfast"
+    ]
+  },
+  {
+    "slug": "banh-canh-cua",
+    "name": "Banh Canh Cua (Crab Tapioca Noodle Soup)",
+    "description": "A smooth, thick orange-red broth, rich with the sweetness of sea crab, coats every strand of thick, round, chewy noodles. Crab meat, crab roe, shrimp, fish cake and quail eggs make this bowl as beautiful as it is filling.",
+    "origin": "Banh canh is a familiar noodle dish in Central and Southern Vietnam; the version made with sea crab in a thickened broth is especially popular in Saigon and coastal provinces. It is a very common choice for breakfast and as an afternoon snack.",
+    "cooking_style": "Broth thickened with tapioca starch",
+    "serving_note": "1 bowl, about 500 g",
+    "ingredients": [
+      {
+        "name": "Sea crabs",
+        "amount": "2 (about 800 g)"
+      },
+      {
+        "name": "Pork marrow bones",
+        "amount": "500 g"
+      },
+      {
+        "name": "Banh canh noodles (rice and tapioca flour)",
+        "amount": "800 g"
+      },
+      {
+        "name": "Fresh shrimp",
+        "amount": "200 g"
+      },
+      {
+        "name": "Fried fish cake",
+        "amount": "150 g"
+      },
+      {
+        "name": "Boiled quail eggs",
+        "amount": "12"
+      },
+      {
+        "name": "Straw mushrooms",
+        "amount": "100 g"
+      },
+      {
+        "name": "Tapioca starch",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Annatto oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Minced shallots",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Fish sauce, salt, pepper",
+        "amount": "3 tbsp fish sauce, 1 tsp salt, 1/2 tsp pepper"
+      },
+      {
+        "name": "Spring onions, coriander",
+        "amount": "50 g"
+      },
+      {
+        "name": "Lime, chilli, Chinese fried dough sticks",
+        "amount": "to serve"
+      }
+    ],
+    "steps": [
+      "Scrub the crabs, steam them with a few slices of ginger for about 15 minutes, then pick out the meat and roe, setting the claws aside. Pound the shells and top shells and strain with 500 ml water to extract a sweet crab stock.",
+      "Briefly blanch the pork bones, then simmer in 2 litres of water for 45 minutes, skimming. Pour in the strained crab-shell stock and season with salt and fish sauce.",
+      "Fry the shallots in the annatto oil until fragrant, add the crab meat, crab roe and peeled shrimp and stir-fry quickly with a little fish sauce and pepper so they absorb the flavour and take on a lovely colour.",
+      "Add the straw mushrooms, fish cake and quail eggs to the broth. Mix the tapioca starch with 100 ml cold water, pour it in slowly and stir constantly until the broth thickens slightly.",
+      "Add the noodles and cook for 2–3 minutes more until translucent, soft and chewy, then tip in the stir-fried crab and shrimp.",
+      "Ladle into bowls and sprinkle with spring onions, coriander and ground pepper. Eat hot with lime, sliced chilli and crispy fried dough sticks if you like."
+    ],
+    "tags": [
+      "crab",
+      "seafood",
+      "noodle soup",
+      "thick broth"
+    ]
+  },
+  {
+    "slug": "lau-hai-san",
+    "name": "Vietnamese Seafood Hotpot",
+    "description": "A steaming hotpot of tangy, spicy broth fragrant with lemongrass, brimming with prawns, squid, clams, fish and thinly sliced beef. Dipped and eaten with greens, mushrooms and rice noodles, seafood hotpot is a go-to choice for lively get-togethers.",
+    "origin": "Hotpot dining came from Chinese cuisine and was reinvented by the Vietnamese with local ingredients. In coastal regions and big cities, sour-and-spicy seafood hotpot is one of the most frequently ordered kinds.",
+    "cooking_style": "Hotpot broth, cooked at the table",
+    "serving_note": "1 serving (about 1/4 of the pot); reference price is for a small pot for 2–4 people",
+    "ingredients": [
+      {
+        "name": "Pork marrow bones",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Tiger prawns",
+        "amount": "400 g"
+      },
+      {
+        "name": "Squid",
+        "amount": "400 g"
+      },
+      {
+        "name": "Clams",
+        "amount": "500 g"
+      },
+      {
+        "name": "Fish fillet (red tilapia or basa)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Thinly sliced beef brisket",
+        "amount": "300 g"
+      },
+      {
+        "name": "Lemongrass, galangal, kaffir lime leaves",
+        "amount": "4 lemongrass stalks, 5 slices galangal, 6 lime leaves"
+      },
+      {
+        "name": "Tomatoes, pineapple",
+        "amount": "3 tomatoes, 1/4 pineapple"
+      },
+      {
+        "name": "Tamarind",
+        "amount": "40 g"
+      },
+      {
+        "name": "Shrimp chilli satay",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Enoki and straw mushrooms",
+        "amount": "300 g"
+      },
+      {
+        "name": "Water spinach, napa cabbage",
+        "amount": "600 g"
+      },
+      {
+        "name": "Fresh rice vermicelli or noodles",
+        "amount": "600 g"
+      },
+      {
+        "name": "Fish sauce, sugar, salt",
+        "amount": "3 tbsp fish sauce, 1 tbsp sugar, 1 tsp salt"
+      }
+    ],
+    "steps": [
+      "Briefly blanch the marrow bones, then simmer with 3 litres of water for about 1 hour for a sweet stock, skimming off all the scum.",
+      "Prepare the seafood: trim the prawns' feelers and devein them; clean the squid, score it in a crosshatch pattern and cut into pieces; soak the clams in water with a few slices of chilli so they purge their sand; cut the fish into thick slices. Arrange everything on platters with the beef.",
+      "Fry 2 minced lemongrass stalks and the galangal in a little oil until fragrant, add the tomatoes and pineapple and cook until soft, stir in the satay, then tip it all into the stock along with the bruised lemongrass and lime leaves.",
+      "Mash the tamarind with hot water, strain and add the pulp liquid to the pot. Season with fish sauce, sugar and salt until the broth is a balanced blend of sour, spicy, salty and sweet.",
+      "Wash the greens and mushrooms, drain and arrange on plates; keep the noodles separate.",
+      "Set the hotpot on a burner in the middle of the table and, once the broth is at a rolling boil, add the clams, squid, prawns, fish, beef, greens and mushrooms and cook just until done. Eat with the noodles, dipping into green chilli salt or chilli fish sauce."
+    ],
+    "tags": [
+      "hotpot",
+      "seafood",
+      "sour and spicy",
+      "get-together"
+    ]
+  },
+  {
+    "slug": "com-tam-suon-nuong",
+    "name": "Com Tam (Broken Rice with Grilled Pork Chop)",
+    "description": "A plate of light, fluffy broken rice served with a pork chop marinated in lemongrass and honey and grilled over charcoal until smoky and fragrant. A drizzle of rich spring onion oil, crunchy pickles and sweet, syrupy fish sauce create the beloved \"national\" flavour of Saigon.",
+    "origin": "Broken rice was originally humble fare for farmers and labourers in southern Vietnam, making use of the grains that shattered during milling. From the mid-20th century it became a Saigon street-food speciality, served with grilled pork chop, shredded pork skin and steamed egg meatloaf.",
+    "cooking_style": "Charcoal grilling, steamed rice",
+    "serving_note": "1 plate, about 450 g",
+    "ingredients": [
+      {
+        "name": "Broken rice",
+        "amount": "400 g"
+      },
+      {
+        "name": "Bone-in pork chops",
+        "amount": "4 chops (about 600 g)"
+      },
+      {
+        "name": "Minced lemongrass",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Minced garlic and shallots",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Fish sauce",
+        "amount": "5 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Honey",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Oyster sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "50 g"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Cucumber, tomatoes",
+        "amount": "1 cucumber, 2 tomatoes"
+      },
+      {
+        "name": "Pickles (pickled carrot and daikon)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Lime, chillies, garlic",
+        "amount": "1 lime, 2 chillies, 2 cloves garlic"
+      }
+    ],
+    "steps": [
+      "Lightly pound the pork chops to tenderise them, then marinate with the lemongrass, minced garlic and shallots, 2 tbsp fish sauce, 1 tbsp sugar, the honey, oyster sauce and 1 tbsp oil for at least 2 hours (overnight in the fridge is even better).",
+      "Rinse the broken rice, soak for 20 minutes and drain. Cook with less water than regular rice (about 1 part rice to 1 part water) so the grains stay separate and fluffy.",
+      "Grill the chops over charcoal or in a 200°C oven for about 20–25 minutes, turning and brushing with the marinade a few times until golden brown and charred at the edges.",
+      "Make the spring onion oil: heat 3 tbsp oil, turn off the heat, then stir in the finely chopped spring onions with a pinch of salt.",
+      "Make the dipping sauce: mix 3 tbsp fish sauce, 3 tbsp sugar and 4 tbsp warm water, squeeze in the lime and add the minced garlic and chilli. Broken-rice fish sauce should be slightly syrupy and sweet.",
+      "Spoon the rice onto plates, drizzle with spring onion oil and lay the grilled pork alongside. Serve with sliced cucumber and tomato, pickles and a bowl of the fish sauce."
+    ],
+    "tags": [
+      "Saigon",
+      "rice",
+      "grilled pork chop",
+      "everyday food"
+    ]
+  },
+  {
+    "slug": "bun-cha-ha-noi",
+    "name": "Bun Cha (Hanoi Grilled Pork with Noodles)",
+    "description": "Charcoal-grilled pork slices and patties, smoky and fragrant, bathed in a warm bowl of sweet-and-sour dipping sauce with pickled green papaya. Pick up a tangle of rice vermicelli, add a few herbs and dunk them into the pork bowl for the full taste of a Hanoi lunch.",
+    "origin": "Bun cha is Hanoi's signature lunch, mentioned in many writings on the capital's cuisine since the early 20th century. It became even more famous worldwide after US President Barack Obama dined on it in Hanoi in 2016.",
+    "cooking_style": "Charcoal grilling",
+    "serving_note": "1 serving of noodles, pork and herbs, about 450 g",
+    "ingredients": [
+      {
+        "name": "Pork belly",
+        "amount": "400 g"
+      },
+      {
+        "name": "Minced pork shoulder",
+        "amount": "400 g"
+      },
+      {
+        "name": "Fine rice vermicelli bundles",
+        "amount": "800 g"
+      },
+      {
+        "name": "Minced shallots",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Minced garlic",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Caramel sauce (nuoc mau)",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Fish sauce",
+        "amount": "8 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "6 tbsp"
+      },
+      {
+        "name": "Rice vinegar",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Green papaya, carrot",
+        "amount": "150 g"
+      },
+      {
+        "name": "Fresh herbs (lettuce, perilla, Vietnamese balm, coriander)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Fresh chillies, ground pepper",
+        "amount": "2 chillies, 1 tsp pepper"
+      }
+    ],
+    "steps": [
+      "Thinly slice the pork belly into bite-sized pieces. Mix the shallots, 1 tbsp garlic, 3 tbsp fish sauce, 2 tbsp sugar, the caramel sauce and pepper, then divide in two to marinate the pork belly and minced pork separately for at least 1 hour.",
+      "Shape the minced pork into balls and flatten slightly. Thinly slice the green papaya and carrot, rub with a little salt, rinse, then soak in 1 tbsp vinegar and 1 tbsp sugar to keep them crunchy.",
+      "Clamp the pork slices and patties in a grilling basket and grill over charcoal, turning constantly, for about 10–15 minutes until cooked through, charred at the edges and fragrant.",
+      "Make the dipping sauce: mix 5 tbsp fish sauce, 3 tbsp sugar and 2 tbsp vinegar with 300 ml warm water, then add the garlic, minced chilli and pickled papaya.",
+      "Drop the hot grilled pork into the warm dipping sauce so it soaks up the flavour.",
+      "Serve the vermicelli and fresh herbs on plates. To eat, dip the noodles and herbs into the pork bowl; fried spring rolls make a classic addition."
+    ],
+    "tags": [
+      "Hanoi",
+      "grilled pork",
+      "rice vermicelli",
+      "lunch"
+    ]
+  },
+  {
+    "slug": "banh-xeo",
+    "name": "Banh Xeo (Vietnamese Sizzling Crepe)",
+    "description": "A golden turmeric crepe with lacy, paper-thin crispy edges, filled with shrimp, pork belly, bean sprouts and mung beans. The proper way to enjoy it is wrapped in mustard leaves and herbs and dipped in sweet-and-sour fish sauce.",
+    "origin": "Banh xeo is popular from Central to Southern Vietnam; its name comes from the \"xeo\" sizzle as the batter hits the hot pan. Mekong Delta banh xeo is large, thin and generously filled, while the central version is smaller and thicker.",
+    "cooking_style": "Thin pan-fried crepe",
+    "serving_note": "2 crepes with fresh greens and dipping sauce, about 350 g",
+    "ingredients": [
+      {
+        "name": "Rice flour",
+        "amount": "300 g"
+      },
+      {
+        "name": "Ground turmeric",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Coconut milk",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Water (or beer)",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "50 g"
+      },
+      {
+        "name": "Freshwater shrimp",
+        "amount": "300 g"
+      },
+      {
+        "name": "Pork belly",
+        "amount": "300 g"
+      },
+      {
+        "name": "Bean sprouts",
+        "amount": "300 g"
+      },
+      {
+        "name": "Steamed split mung beans",
+        "amount": "100 g"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Fresh greens (mustard greens, lettuce, Thai basil, fish mint)",
+        "amount": "500 g"
+      },
+      {
+        "name": "Sweet-and-sour fish sauce",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Pickles (carrot, daikon)",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Whisk the rice flour, turmeric, coconut milk, water and 1/2 tsp salt until smooth, add the chopped spring onions and leave the batter to rest for 30 minutes.",
+      "Trim the shrimp's feelers and thinly slice the pork belly. Marinate both with a little salt, pepper and minced shallot, then stir-fry briefly until firm.",
+      "Heat a pan until very hot, coat with a thin layer of oil, add a few slices of pork and some shrimp, then pour in a ladle of batter and swirl the pan to spread it thinly and evenly. A crisp \"xeo\" sizzle means the pan is hot enough.",
+      "Scatter bean sprouts and mung beans over one half of the crepe and cover with a lid for 1–2 minutes until the sprouts are just wilted.",
+      "Uncover, drizzle a little more oil around the edge and fry over medium heat until the edges are golden and crisp, then fold the crepe in half and lift it out.",
+      "Eat hot: cut off a piece, wrap it in mustard leaves and herbs (or rice paper), and dip in sweet-and-sour fish sauce with pickles."
+    ],
+    "tags": [
+      "Mekong Delta",
+      "crispy",
+      "lettuce wraps",
+      "shrimp and pork"
+    ]
+  },
+  {
+    "slug": "cha-ca-la-vong",
+    "name": "Cha Ca La Vong (Turmeric Fish with Dill)",
+    "description": "Hemibagrus catfish marinated in galangal, turmeric and fermented rice, grilled over charcoal, then sizzled in a pan of hot oil at the table with heaps of dill and spring onions. Eaten with rice vermicelli, roasted peanuts, herbs and whipped shrimp paste – a quintessentially Hanoi experience.",
+    "origin": "The dish was created by the Doan family on Hang Son Street, Hanoi, in the late 19th century; the restaurant became so famous that the street was renamed Cha Ca Street. The name \"La Vong\" comes from the statue of the angler La Vong displayed in the restaurant.",
+    "cooking_style": "Charcoal grilling, pan-fried at the table",
+    "serving_note": "1 serving of fish, noodles and herbs, about 400 g",
+    "ingredients": [
+      {
+        "name": "Hemibagrus catfish fillet (or snakehead fish)",
+        "amount": "800 g"
+      },
+      {
+        "name": "Fresh galangal",
+        "amount": "50 g"
+      },
+      {
+        "name": "Fresh turmeric",
+        "amount": "30 g"
+      },
+      {
+        "name": "Fermented cooked rice (me)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Fermented shrimp paste (mam tom)",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Fish sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Dill",
+        "amount": "200 g"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "200 g"
+      },
+      {
+        "name": "Fine rice vermicelli bundles",
+        "amount": "600 g"
+      },
+      {
+        "name": "Roasted peanuts",
+        "amount": "100 g"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Lime, sugar, chillies, rice spirit",
+        "amount": "1 lime, 1 tbsp sugar, 2 chillies, 1 tsp rice spirit"
+      },
+      {
+        "name": "Fresh herbs (Lang mint, Vietnamese balm, coriander)",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Cut the fish into pieces about 1.5 cm thick. Pound the galangal and turmeric to a paste and squeeze out the juice.",
+      "Marinate the fish with the galangal-turmeric juice, strained fermented rice, 1 tbsp shrimp paste, the fish sauce, a little pepper and 2 tbsp oil for at least 1 hour in the fridge.",
+      "Clamp the fish in a grilling basket and grill over charcoal (or in a 220°C oven) for about 8–10 minutes until just cooked and golden and charred on the surface.",
+      "Prepare the shrimp paste: whip 2 tbsp shrimp paste with the lime juice, sugar and rice spirit until frothy, then add sliced chilli and a little hot oil.",
+      "Set a small pan on a burner in the middle of the table, heat the oil, add the grilled fish and let it sizzle, then add the dill and cut spring onions and toss quickly until the herbs are just wilted.",
+      "Put noodles in a bowl, add the fish, dill, spring onions, roasted peanuts and herbs, drizzle with the shrimp paste and eat straight away while hot."
+    ],
+    "tags": [
+      "Hanoi",
+      "fish",
+      "dill",
+      "shrimp paste"
+    ]
+  },
+  {
+    "slug": "banh-mi-chao",
+    "name": "Banh Mi Chao (Vietnamese Skillet Breakfast)",
+    "description": "A small cast-iron skillet still sizzling with soft-yolk fried eggs, rich pate, sausage, pork roll and tomato sauce. Tearing off hot, crusty baguette to dip into the saucy pan makes a hearty breakfast that young people love.",
+    "origin": "Banh mi chao is a modern twist on the fried-egg baguette and Western-style steak, believed to have first become popular in Hai Phong and Hanoi before spreading nationwide from the 2000s. In the south, its close relative is bo ne (sizzling beef steak and eggs).",
+    "cooking_style": "Cast-iron skillet",
+    "serving_note": "1 skillet with 1 baguette, about 350 g",
+    "ingredients": [
+      {
+        "name": "Baguettes",
+        "amount": "2"
+      },
+      {
+        "name": "Eggs",
+        "amount": "4"
+      },
+      {
+        "name": "Liver pate",
+        "amount": "80 g"
+      },
+      {
+        "name": "Sausages",
+        "amount": "2"
+      },
+      {
+        "name": "Vietnamese pork roll or fried fish cake",
+        "amount": "100 g"
+      },
+      {
+        "name": "Onion",
+        "amount": "1/2"
+      },
+      {
+        "name": "Tomatoes",
+        "amount": "2"
+      },
+      {
+        "name": "Minced garlic",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Margarine",
+        "amount": "20 g"
+      },
+      {
+        "name": "Soy sauce, chilli sauce",
+        "amount": "1 tbsp each"
+      },
+      {
+        "name": "Sugar, salt, pepper",
+        "amount": "1/2 tsp each"
+      },
+      {
+        "name": "Cucumber, pickles",
+        "amount": "to serve"
+      }
+    ],
+    "steps": [
+      "Make the sauce: fry the garlic until fragrant, add the chopped tomatoes and cook down with the sugar, salt, soy sauce and 100 ml water until thick.",
+      "Score the sausages diagonally and slice the pork roll; pan-fry both until golden. Cut the onion into wedges.",
+      "Set a small cast-iron skillet (one per person) on the heat, melt the margarine and fry the onion until fragrant.",
+      "Crack 2 eggs into each skillet, arrange the pate, sausage and pork roll around them and spoon the tomato sauce over. Cook over medium heat until the whites are set but the yolks are still soft.",
+      "Sprinkle with pepper and add a little chilli sauce; toast the baguettes until crisp.",
+      "Serve in the hot skillet, tearing off bread to dip into the sauce and egg yolk, with cucumber and pickles to cut the richness."
+    ],
+    "tags": [
+      "breakfast",
+      "fried eggs",
+      "pate",
+      "modern twist"
+    ]
+  },
+  {
+    "slug": "goi-cuon",
+    "name": "Goi Cuon (Fresh Spring Rolls)",
+    "description": "Thin, translucent rice paper wrapped around bright pink poached shrimp, pork belly, rice vermicelli and cool, fresh herbs. Dipped in a rich, nutty peanut-hoisin sauce, goi cuon is a light, low-fat starter loved everywhere.",
+    "origin": "Goi cuon is a rustic dish from southern Vietnam; in the north it is often called nem cuon. It has repeatedly been named by international media among the world's most delicious foods.",
+    "cooking_style": "Poached, rolled fresh",
+    "serving_note": "3 rolls with dipping sauce, about 200 g",
+    "ingredients": [
+      {
+        "name": "Rice paper",
+        "amount": "12 sheets"
+      },
+      {
+        "name": "Tiger prawns",
+        "amount": "12 (about 250 g)"
+      },
+      {
+        "name": "Pork belly",
+        "amount": "250 g"
+      },
+      {
+        "name": "Fresh rice vermicelli",
+        "amount": "200 g"
+      },
+      {
+        "name": "Lettuce, Thai basil, perilla",
+        "amount": "200 g"
+      },
+      {
+        "name": "Garlic chives",
+        "amount": "12 stalks"
+      },
+      {
+        "name": "Hoisin sauce",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Peanut butter",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Roasted peanuts",
+        "amount": "30 g"
+      },
+      {
+        "name": "Minced garlic and chilli",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Pickles (carrot, daikon)",
+        "amount": "50 g"
+      }
+    ],
+    "steps": [
+      "Boil the pork belly with a little salt and shallot for about 20 minutes until cooked, let it cool, then slice thinly. Boil the prawns for 3 minutes, peel and halve them lengthwise.",
+      "Wash the greens and dry them thoroughly; loosen the vermicelli.",
+      "Dip a sheet of rice paper quickly in water to soften it and lay it on a board. Place lettuce, herbs, a little vermicelli and a few slices of pork near the bottom edge.",
+      "Roll once, lay 2–3 prawn halves red side down and a garlic chive sticking out at one end, fold in the sides and roll up tightly.",
+      "Make the dipping sauce: fry the garlic until fragrant, add the hoisin, peanut butter and 5 tbsp water and stir until smooth and thick. Pour into small bowls and top with minced chilli, crushed peanuts and pickles.",
+      "Arrange the rolls on a plate and serve immediately while the rice paper is still soft and supple."
+    ],
+    "tags": [
+      "rolls",
+      "light and fresh",
+      "starter",
+      "shrimp and pork"
+    ]
+  },
+  {
+    "slug": "cha-gio",
+    "name": "Cha Gio (Vietnamese Fried Spring Rolls)",
+    "description": "Golden rolls with shatteringly crisp rice-paper skins wrapped around a savoury-sweet filling of pork, shrimp, glass noodles and wood ear mushrooms. Dipped in sweet-and-sour fish sauce and eaten with fresh greens or rice vermicelli, they are a must on the Tet feast table.",
+    "origin": "The north calls them nem ran, the south cha gio and the centre cha ram. They are a traditional dish on festive and Tet feast tables and the most familiar Vietnamese dish on international menus.",
+    "cooking_style": "Rolled, double-fried until crisp",
+    "serving_note": "5 rolls with fresh greens and dipping sauce, about 180 g",
+    "ingredients": [
+      {
+        "name": "Spring roll rice paper (banh da nem)",
+        "amount": "25 sheets"
+      },
+      {
+        "name": "Minced pork shoulder",
+        "amount": "300 g"
+      },
+      {
+        "name": "Peeled shrimp, finely chopped",
+        "amount": "150 g"
+      },
+      {
+        "name": "Glass noodles (canna starch)",
+        "amount": "30 g"
+      },
+      {
+        "name": "Dried wood ear mushrooms",
+        "amount": "15 g"
+      },
+      {
+        "name": "Carrot",
+        "amount": "1 small"
+      },
+      {
+        "name": "Taro (or jicama)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Shallots, spring onions",
+        "amount": "3 shallots, 2 spring onions"
+      },
+      {
+        "name": "Egg",
+        "amount": "1"
+      },
+      {
+        "name": "Fish sauce, pepper",
+        "amount": "1 tbsp fish sauce, 1 tsp pepper"
+      },
+      {
+        "name": "Cooking oil for frying",
+        "amount": "500 ml"
+      },
+      {
+        "name": "Sweet-and-sour fish sauce",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Fresh greens, rice vermicelli (to serve)",
+        "amount": "300 g"
+      }
+    ],
+    "steps": [
+      "Soak the glass noodles and wood ears until softened, then chop finely. Shred the carrot and taro and squeeze out excess liquid; finely chop the shallots and spring onions.",
+      "Mix the minced pork, shrimp, glass noodles, wood ears, vegetables, shallots, spring onions and egg with the fish sauce and pepper; let the filling rest for 15 minutes.",
+      "Lightly brush the rice paper with water mixed with a few drops of vinegar and a little sugar to soften it, place a spoonful of filling on it, fold in the sides and roll up firmly but not too tightly, so the rolls don't split when fried.",
+      "Fry a first time over medium heat (about 150°C) until the rolls firm up and turn pale golden, then lift out and drain.",
+      "Just before serving, fry a second time over high heat (about 180°C) for 2–3 minutes until deep golden and crisp; drain on kitchen paper.",
+      "Serve hot with fresh greens, rice vermicelli and sweet-and-sour fish sauce with garlic and chilli."
+    ],
+    "tags": [
+      "deep-fried",
+      "Tet",
+      "starter",
+      "spring rolls"
+    ]
+  },
+  {
+    "slug": "banh-mi-thit",
+    "name": "Banh Mi (Vietnamese Pork Baguette)",
+    "description": "A baguette with a crackly crust and airy crumb, spread with pate and Vietnamese egg mayonnaise, then filled with pork roll, cold cuts, cucumber, pickles, coriander and a few slices of hot chilli. Quick, cheap and packed with salty, sweet, sour and spicy flavours – Vietnam's most famous street food.",
+    "origin": "The baguette arrived in Vietnam with the French in the 19th century; around the 1950s, Saigon residents began filling the loaves to take away. In 2011, the word \"banh mi\" was added to the Oxford dictionary.",
+    "cooking_style": "Toasted, filled",
+    "serving_note": "1 sandwich, about 200 g",
+    "ingredients": [
+      {
+        "name": "Baguettes",
+        "amount": "4"
+      },
+      {
+        "name": "Liver pate",
+        "amount": "100 g"
+      },
+      {
+        "name": "Egg butter (Vietnamese-style mayonnaise)",
+        "amount": "60 g"
+      },
+      {
+        "name": "Vietnamese pork roll (cha lua)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Cold cuts (ham, char siu)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Cucumber",
+        "amount": "1"
+      },
+      {
+        "name": "Carrot, daikon radish",
+        "amount": "200 g"
+      },
+      {
+        "name": "Vinegar, sugar (for pickling)",
+        "amount": "3 tbsp each"
+      },
+      {
+        "name": "Coriander, spring onions",
+        "amount": "40 g"
+      },
+      {
+        "name": "Fresh chillies",
+        "amount": "2"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "2 tbsp"
+      }
+    ],
+    "steps": [
+      "Make the pickles: shred the carrot and daikon, rub with 1 tsp salt, rinse, then soak in the vinegar, sugar and 100 ml water for at least 30 minutes.",
+      "Thinly slice the pork roll and cold cuts; cut the cucumber into long strips; slice the chillies; wash and drain the coriander and spring onions.",
+      "Toast the baguettes in a 180°C oven for about 3–5 minutes until the crust is crisp and the inside still soft.",
+      "Split each baguette lengthwise and spread pate on one side and egg mayonnaise on the other.",
+      "Layer in the pork roll, cold cuts, cucumber, well-drained pickles, coriander, spring onions and chilli.",
+      "Drizzle with a little soy sauce, close the sandwich and eat straight away while the crust is still warm and crisp."
+    ],
+    "tags": [
+      "street food",
+      "quick bite",
+      "pate",
+      "Saigon"
+    ]
+  },
+  {
+    "slug": "banh-trang-tron",
+    "name": "Banh Trang Tron (Rice Paper Salad)",
+    "description": "Strips of rice paper tossed with shrimp salt, chilli satay, shredded green mango, beef jerky, quail eggs, Vietnamese coriander and peanuts. Chewy, and sour, spicy, salty and sweet all at once – the \"legendary\" school-gate snack of generations of students.",
+    "origin": "This street snack appeared in Saigon around the late 1990s to early 2000s, using rice paper and the shrimp salt that Tay Ninh is famous for. From pavement carts, rice paper salad quickly spread across the country.",
+    "cooking_style": "Tossed cold",
+    "serving_note": "1 bag, about 150 g",
+    "ingredients": [
+      {
+        "name": "Soft rice paper (salad type)",
+        "amount": "100 g"
+      },
+      {
+        "name": "Green mango",
+        "amount": "1/2"
+      },
+      {
+        "name": "Quail eggs",
+        "amount": "6"
+      },
+      {
+        "name": "Shredded beef jerky",
+        "amount": "30 g"
+      },
+      {
+        "name": "Tay Ninh shrimp salt",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Chilli satay",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Fried shallot oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Vietnamese coriander (rau ram)",
+        "amount": "20 g"
+      },
+      {
+        "name": "Roasted peanuts",
+        "amount": "30 g"
+      },
+      {
+        "name": "Kumquats (calamansi)",
+        "amount": "2"
+      },
+      {
+        "name": "Fried shallots",
+        "amount": "1 tbsp"
+      }
+    ],
+    "steps": [
+      "Boil the quail eggs for about 4 minutes, then peel. Peel and shred the green mango; finely chop the Vietnamese coriander.",
+      "Cut the rice paper into strips about 1 cm wide and place in a large bowl.",
+      "Sprinkle over the shrimp salt, add the satay and fried shallot oil, then squeeze in the kumquats. Gently squeeze and toss by hand so the rice paper softens and absorbs the seasoning evenly.",
+      "Add the mango, beef jerky and Vietnamese coriander and toss a few more times; taste and add more shrimp salt or kumquat if needed.",
+      "Top with the quail eggs, peanuts and fried shallots. Eat immediately, while the rice paper is still chewy rather than soggy."
+    ],
+    "tags": [
+      "snack",
+      "street food",
+      "sour and spicy",
+      "student favourite"
+    ]
+  },
+  {
+    "slug": "banh-khot",
+    "name": "Banh Khot (Mini Crispy Coconut Pancakes)",
+    "description": "Dainty little round cakes with crispy bottoms and soft, rich coconut-milk tops, each crowned with a bright red shrimp and a little spring onion oil. Wrapped in mustard leaves with herbs and dipped in sweet-and-sour fish sauce, they are hard to resist.",
+    "origin": "Banh khot is a speciality closely associated with Vung Tau and popular throughout southern Vietnam. The name is said to come from the \"khot khot\" sound made when prising the cakes out of the mould with a spoon.",
+    "cooking_style": "Moulded, pan-fried until crisp",
+    "serving_note": "8 pieces with fresh greens and dipping sauce, about 250 g",
+    "ingredients": [
+      {
+        "name": "Rice flour",
+        "amount": "250 g"
+      },
+      {
+        "name": "Tempura batter mix",
+        "amount": "50 g"
+      },
+      {
+        "name": "Ground turmeric",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Coconut milk",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Water",
+        "amount": "350 ml"
+      },
+      {
+        "name": "Fresh shrimp",
+        "amount": "300 g"
+      },
+      {
+        "name": "Minced lean pork",
+        "amount": "150 g"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "50 g"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Fresh greens (mustard greens, lettuce, perilla, Thai basil)",
+        "amount": "400 g"
+      },
+      {
+        "name": "Shredded green papaya and carrot",
+        "amount": "100 g"
+      },
+      {
+        "name": "Fish sauce, sugar, lime",
+        "amount": "3 tbsp fish sauce, 3 tbsp sugar, 1 lime"
+      },
+      {
+        "name": "Garlic, chillies, shallots",
+        "amount": "2 cloves garlic, 2 chillies, 2 shallots"
+      }
+    ],
+    "steps": [
+      "Whisk the rice flour, tempura mix, turmeric, coconut milk, water and 1/2 tsp salt until smooth; let the batter rest for 30 minutes.",
+      "Peel the shrimp and marinate with the minced pork, a little salt, pepper and minced shallot. Stir-fry the minced pork until cooked.",
+      "Make spring onion oil from the spring onions and 2 tbsp hot oil. Mix the sweet-and-sour fish sauce with the sugar, lime, garlic, chilli and 6 tbsp water, then add the shredded papaya and carrot.",
+      "Heat the banh khot mould until very hot, brush each cup with oil and fill almost to the top with batter – it should sizzle as soon as it hits the mould.",
+      "Add some minced pork and a shrimp to each cake, cover for 2–3 minutes until cooked with golden, crisp edges, then prise the cakes out with a spoon.",
+      "Drizzle with spring onion oil. Eat hot, wrapped in mustard leaves, lettuce and herbs and dipped in the fish sauce."
+    ],
+    "tags": [
+      "Vung Tau",
+      "snack",
+      "shrimp",
+      "crispy"
+    ]
+  },
+  {
+    "slug": "banh-bo-nuong",
+    "name": "Banh Bo Nuong (Palm Sugar Honeycomb Cake)",
+    "description": "A dark brown crust fragrant with palm sugar gives way to a soft, chewy crumb with beautiful vertical \"bamboo root\" strands running through it. Rich with coconut milk and gently sweet, the cake grows more fragrant with every bite.",
+    "origin": "Banh bo is a folk cake of southern Vietnam; the palm sugar version is linked to the Bay Nui (Seven Mountains) area of An Giang, home of the sugar palm. Baked banh bo is a popular style in bakeries across the Mekong Delta and Saigon.",
+    "cooking_style": "Oven-baked",
+    "serving_note": "1 slice, about 90 g",
+    "ingredients": [
+      {
+        "name": "Tapioca starch",
+        "amount": "250 g"
+      },
+      {
+        "name": "Rice flour",
+        "amount": "20 g"
+      },
+      {
+        "name": "Eggs",
+        "amount": "6"
+      },
+      {
+        "name": "Palm sugar",
+        "amount": "200 g"
+      },
+      {
+        "name": "Coconut milk",
+        "amount": "250 ml"
+      },
+      {
+        "name": "Baking powder",
+        "amount": "12 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/4 tsp"
+      },
+      {
+        "name": "Vanilla extract",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Cooking oil (for greasing)",
+        "amount": "1 tbsp"
+      }
+    ],
+    "steps": [
+      "Heat the coconut milk with the palm sugar and salt over low heat until fully dissolved, strain through a sieve and let cool completely.",
+      "Preheat the oven to 170°C; grease a 20 cm round tin and put it in the oven to heat for at least 15 minutes.",
+      "Gently stir the eggs until combined (do not whisk until foamy), then mix in the sweetened coconut milk and vanilla.",
+      "Sift in the tapioca starch and rice flour, stir until smooth, then strain through a sieve. Let the batter rest for 20–30 minutes.",
+      "Sift in the baking powder, stir quickly to dissolve, strain once more and immediately pour into the hot tin.",
+      "Bake at 170°C for about 45–50 minutes, until the top is evenly browned and a skewer comes out dry. Turn off the oven, leave the door ajar for 10 minutes, then remove the cake.",
+      "Let the cake cool completely before slicing to reveal the bamboo-root strands."
+    ],
+    "tags": [
+      "cake",
+      "palm sugar",
+      "coconut milk",
+      "Mekong Delta"
+    ]
+  },
+  {
+    "slug": "che-khuc-bach",
+    "name": "Che Khuc Bach (Panna Cotta Sweet Soup)",
+    "description": "Soft, silky ivory cubes of khuc bach, rich with milk and cream, float in chilled rock-sugar syrup with longans or lychees. A sprinkling of crunchy toasted almonds makes this refreshing dessert even more irresistible.",
+    "origin": "Che khuc bach became a craze in Saigon and Hanoi around 2013 and quickly appeared in dessert shops everywhere. It is thought to be inspired by Chinese almond tofu, reinvented with cream, milk and a variety of flavours.",
+    "cooking_style": "Chilled and set",
+    "serving_note": "1 bowl, about 250 ml",
+    "ingredients": [
+      {
+        "name": "Whipping cream",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Unsweetened fresh milk",
+        "amount": "300 ml"
+      },
+      {
+        "name": "Gelatine powder",
+        "amount": "15 g"
+      },
+      {
+        "name": "White granulated sugar",
+        "amount": "60 g"
+      },
+      {
+        "name": "Rock sugar",
+        "amount": "150 g"
+      },
+      {
+        "name": "Water",
+        "amount": "1.2 litres"
+      },
+      {
+        "name": "Longans or lychees (fresh or canned)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Flaked almonds",
+        "amount": "50 g"
+      },
+      {
+        "name": "Pandan leaves",
+        "amount": "3"
+      },
+      {
+        "name": "Matcha powder or strawberry syrup (for colour, optional)",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Ice cubes",
+        "amount": "200 g"
+      }
+    ],
+    "steps": [
+      "Soak the gelatine in 60 ml cold water for about 10 minutes to bloom.",
+      "Heat the cream, milk and granulated sugar over low heat to about 70–80°C (steaming, but not boiling). Turn off the heat and stir in the gelatine until completely dissolved.",
+      "Divide the mixture among moulds; you can flavour part of it with matcha or strawberry syrup for several colours. Let cool, then refrigerate for at least 4 hours until set.",
+      "Make the syrup: heat the remaining water with the rock sugar and pandan leaves until dissolved, remove the pandan, let cool and then chill.",
+      "Toast the flaked almonds in a dry pan over low heat until golden and fragrant. Peel and stone the longans or lychees.",
+      "Cut the khuc bach into cubes (use a crinkle cutter for a pretty pattern), place in bowls with the longans or lychees, pour over the chilled syrup, add ice and sprinkle with almonds."
+    ],
+    "tags": [
+      "sweet soup",
+      "chilled",
+      "dessert",
+      "youth favourite"
+    ]
+  },
+  {
+    "slug": "ca-phe-trung",
+    "name": "Ca Phe Trung (Vietnamese Egg Coffee)",
+    "description": "A golden, velvety egg cream as airy as tiramisu tops strong phin-filtered coffee, served hot in a small cup sitting in warm water. The bitterness of the coffee mingles with the sweet richness of egg and milk to create Hanoi's one-of-a-kind drink.",
+    "origin": "Egg coffee was created in Hanoi in 1946 by Nguyen Van Giang, who, with fresh milk in short supply, used whipped egg yolks instead. Cafe Giang is still the most famous place to drink it today.",
+    "cooking_style": "Phin-filtered, whipped egg cream",
+    "serving_note": "1 cup, about 120 ml",
+    "ingredients": [
+      {
+        "name": "Ground roasted Robusta coffee",
+        "amount": "40 g"
+      },
+      {
+        "name": "Boiling water",
+        "amount": "160 ml"
+      },
+      {
+        "name": "Fresh egg yolks",
+        "amount": "3"
+      },
+      {
+        "name": "Sweetened condensed milk",
+        "amount": "60 ml"
+      },
+      {
+        "name": "Honey",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Vanilla extract",
+        "amount": "a few drops"
+      },
+      {
+        "name": "Cocoa powder (for dusting)",
+        "amount": "1 pinch"
+      }
+    ],
+    "steps": [
+      "Rinse the phin filter and cups with boiling water. Put the coffee in the filter, pour in 30 ml boiling water and let it bloom for 30 seconds, then add the rest of the water and let it drip for about 5 minutes.",
+      "Using very fresh eggs, put the yolks in a tall glass with the condensed milk, honey and vanilla. Beat with a mixer for 3–5 minutes until the cream is fluffy, smooth, thick, pale yellow and no longer smells eggy.",
+      "Divide the hot coffee between 2 cups (about 60 ml each) and gently spoon the egg cream over to cover the surface completely.",
+      "Dust with a little cocoa powder. Stand the cups in a bowl of hot water to keep them warm.",
+      "To drink, spoon up the cream first, then gently stir it into the coffee beneath."
+    ],
+    "tags": [
+      "coffee",
+      "Hanoi",
+      "hot drink",
+      "rich and creamy"
+    ]
+  },
+  {
+    "slug": "ca-phe-muoi",
+    "name": "Ca Phe Muoi (Vietnamese Salt Coffee)",
+    "description": "Bold phin-filtered coffee combined with condensed milk and a rich whipped cream seasoned with a touch of sea salt. The gentle saltiness softens the bitterness and brings out the creamy sweetness, making it unusual yet highly addictive.",
+    "origin": "Salt coffee was born in a small cafe in Hue around 2010. More than a decade later, the drink exploded into a trend and appeared on coffee carts across the country.",
+    "cooking_style": "Phin-filtered, topped with salted cream",
+    "serving_note": "1 glass, about 150 ml",
+    "ingredients": [
+      {
+        "name": "Ground roasted Robusta coffee",
+        "amount": "40 g"
+      },
+      {
+        "name": "Boiling water",
+        "amount": "140 ml"
+      },
+      {
+        "name": "Sweetened condensed milk",
+        "amount": "40 ml"
+      },
+      {
+        "name": "Whipping cream",
+        "amount": "80 ml"
+      },
+      {
+        "name": "Unsweetened fresh milk",
+        "amount": "40 ml"
+      },
+      {
+        "name": "Sea salt",
+        "amount": "1/2 tsp (about 2 g)"
+      },
+      {
+        "name": "Ice cubes (if serving cold)",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Rinse the phin filter with boiling water, add the coffee, pour in 30 ml boiling water and let it bloom for 30 seconds, then add the rest of the water and wait until the coffee has finished dripping (about 5 minutes).",
+      "Put the cream, milk and salt in a cup and beat with a handheld milk frother for 1–2 minutes until thick but still pourable – do not whip it stiff.",
+      "Divide the condensed milk between 2 glasses and pour the coffee on top; stir gently if you like it blended, or leave the layers intact for a pretty look.",
+      "Gently pour the salted cream over the coffee. Serve hot, or add ice to the glass before topping with the cream to drink it cold.",
+      "To drink, sip through the rich, salty cream first before reaching the bittersweet coffee below."
+    ],
+    "tags": [
+      "coffee",
+      "Hue",
+      "trending",
+      "salted cream"
+    ]
+  }
+]

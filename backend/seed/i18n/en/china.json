@@ -1,0 +1,1415 @@
+[
+  {
+    "slug": "vit-quay-bac-kinh",
+    "name": "Peking Duck",
+    "description": "Peking duck is famed for its paper-thin, shatteringly crisp, glossy mahogany skin over tender, juicy meat. The duck is carved into thin slices and wrapped in thin wheat pancakes with scallion, cucumber and rich sweet bean sauce.",
+    "origin": "The dish traces its roots to the imperial cuisine of the Yuan and Ming dynasties and became a symbol of Beijing in the 19th century, served at long-established restaurants such as Bianyifang and Quanjude.",
+    "cooking_style": "Oven-roasted",
+    "serving_note": "1 serving is about 150 g of duck meat with skin, with 4 pancakes and sweet bean sauce",
+    "ingredients": [
+      {
+        "name": "Whole duck, cleaned",
+        "amount": "2.2 kg"
+      },
+      {
+        "name": "Maltose (or honey)",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Rice vinegar",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Five-spice powder",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Boiling water for scalding the skin",
+        "amount": "2 litres"
+      },
+      {
+        "name": "Thin wheat pancakes (Peking duck pancakes)",
+        "amount": "24 pancakes"
+      },
+      {
+        "name": "Scallions (Chinese leeks), julienned",
+        "amount": "3 stalks"
+      },
+      {
+        "name": "Cucumber, cut into batons",
+        "amount": "2"
+      },
+      {
+        "name": "Sweet bean sauce (tianmianjiang) or hoisin sauce",
+        "amount": "100 g"
+      }
+    ],
+    "steps": [
+      "Rinse the duck, pat it completely dry, then rub the salt and five-spice inside the cavity. Gently slide your hand under the skin to loosen it from the breast and thigh meat so it puffs up and crisps during roasting.",
+      "Hang the duck or set it on a rack and pour the boiling water evenly all over it to tighten the skin, then pat dry.",
+      "Mix the maltose with the vinegar, soy sauce and 3 tbsp hot water and brush it evenly over the skin. Hang the duck in a breezy spot or leave it uncovered in the fridge for 12–24 hours until the skin is completely dry.",
+      "Preheat the oven to 200°C. Place the duck breast-side up on a rack with a tray of water underneath to catch the fat. Roast for 20 minutes, then lower to 170°C and roast for another 50–60 minutes, turning once, until the skin is glossy brown and crisp.",
+      "Rest the duck for 10 minutes, then carve into thin slices so that every piece has both skin and meat.",
+      "Steam the pancakes until warm. To eat, spread sweet bean sauce on a pancake, add duck, scallion and cucumber, then roll it up."
+    ],
+    "tags": [
+      "duck",
+      "roasted",
+      "Beijing",
+      "wraps"
+    ]
+  },
+  {
+    "slug": "dau-hu-tu-xuyen-mapo",
+    "name": "Mapo Tofu",
+    "description": "Silky soft tofu swimming in a fiery red sauce of chilli bean paste, minced meat and Sichuan peppercorns. The hot, tongue-tingling numbness that Sichuan is known for makes this dish a perfect partner for rice.",
+    "origin": "Created in Chengdu, Sichuan, in the 19th century; legend has it that it was invented by a pockmarked restaurant owner named Chen, hence the name \"pockmarked old woman's tofu\".",
+    "cooking_style": "Braised in a spicy, numbing sauce",
+    "serving_note": "1 serving is about 250 g, rice not included",
+    "ingredients": [
+      {
+        "name": "Soft (silken) tofu",
+        "amount": "500 g"
+      },
+      {
+        "name": "Minced beef (or minced pork)",
+        "amount": "120 g"
+      },
+      {
+        "name": "Pixian chilli bean paste (doubanjiang)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Fermented black beans (douchi)",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Chilli powder",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "3 cloves"
+      },
+      {
+        "name": "Ginger, minced",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Stock",
+        "amount": "250 ml"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "amount": "1 tbsp, mixed with 3 tbsp water"
+      },
+      {
+        "name": "Sichuan peppercorns",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "2 stalks"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "3 tbsp"
+      }
+    ],
+    "steps": [
+      "Cut the tofu into 2 cm cubes and blanch for 2 minutes in lightly salted boiling water to firm it up and remove its raw beany taste; lift out and drain.",
+      "Toast the Sichuan peppercorns in a dry pan until fragrant, then grind finely. Finely chop the chilli bean paste and fermented black beans.",
+      "Heat the oil and stir-fry the minced meat until it separates, firms up and is slightly browned at the edges. Add the chilli bean paste and fry over medium heat until the oil turns red, then add the garlic, ginger, black beans and chilli powder and stir until fragrant.",
+      "Pour in the stock and soy sauce, bring to the boil, then gently slide in the tofu. Simmer for 4–5 minutes to let it absorb the flavours, nudging it only gently with the back of a ladle so it doesn't break.",
+      "Drizzle in the cornstarch slurry in 2–3 additions, gently shaking the pan until the sauce thickens and clings to the tofu.",
+      "Transfer to a bowl, sprinkle with ground Sichuan pepper and finely sliced spring onion, and serve hot with steamed rice."
+    ],
+    "tags": [
+      "tofu",
+      "spicy and numbing",
+      "Sichuan",
+      "great with rice"
+    ]
+  },
+  {
+    "slug": "ha-cao-tom",
+    "name": "Har Gow (Shrimp Dumplings)",
+    "description": "Translucent, gently chewy wrappers hug a filling of fresh, crunchy, sweet shrimp. It is an essential item on any Cantonese dim sum table.",
+    "origin": "It first appeared in teahouses on the outskirts of Guangzhou in the early 20th century; together with siu mai, char siu bao and egg tarts, har gow is considered one of the \"four heavenly kings\" of dim sum.",
+    "cooking_style": "Steamed in a bamboo steamer",
+    "serving_note": "1 steamer basket of 5 dumplings (about 130 g)",
+    "ingredients": [
+      {
+        "name": "Fresh shrimp, peeled",
+        "amount": "300 g"
+      },
+      {
+        "name": "Pork fat, finely chopped",
+        "amount": "40 g"
+      },
+      {
+        "name": "Bamboo shoots (or water chestnuts), finely chopped",
+        "amount": "50 g"
+      },
+      {
+        "name": "Wheat starch",
+        "amount": "100 g"
+      },
+      {
+        "name": "Tapioca starch",
+        "amount": "50 g"
+      },
+      {
+        "name": "Boiling water",
+        "amount": "190 ml"
+      },
+      {
+        "name": "Melted lard or cooking oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Cornstarch",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Ground white pepper",
+        "amount": "1/4 tsp"
+      }
+    ],
+    "steps": [
+      "Devein the shrimp, massage with a little salt and 1 tsp cornstarch, then rinse and pat completely dry. Cut half of the shrimp in two and smash the other half to a paste with the back of a knife.",
+      "Mix the shrimp with the pork fat, bamboo shoots, salt, sugar, white pepper, sesame oil and 1 tsp cornstarch. Stir vigorously in one direction until the filling is sticky, then chill for 30 minutes.",
+      "Mix the wheat starch with half of the tapioca starch, pour in the boiling water, stir quickly and cover tightly for 5 minutes. Add the remaining tapioca starch and the melted lard and knead until the dough is smooth and pliable.",
+      "Divide the dough into balls of about 12 g and, using a lightly oiled cleaver, press each into a thin 8 cm round. Keep the unused dough covered at all times so it does not dry out.",
+      "Place 1 spoonful of filling in the centre, fold the wrapper in half and make 7–10 pleats along one edge to form a shell shape.",
+      "Arrange the dumplings in a steamer lined with baking paper and steam over high heat for 6–7 minutes until the wrappers turn translucent. Serve hot with soy sauce or chilli sauce."
+    ],
+    "tags": [
+      "dim sum",
+      "shrimp",
+      "steamed",
+      "dim sum brunch"
+    ]
+  },
+  {
+    "slug": "mi-hoanh-thanh",
+    "name": "Wonton Noodle Soup",
+    "description": "Thin, springy egg noodles and plump shrimp-and-pork wontons in a clear, sweet broth made from bones and dried seafood. A familiar Chinese noodle soup that suits breakfast and dinner alike.",
+    "origin": "It originated in Guangzhou and became famous in Hong Kong after World War II; the dish followed the Chinese community into Cho Lon and became a familiar sight in Vietnam.",
+    "cooking_style": "Simmered broth, blanched noodles",
+    "serving_note": "1 bowl contains about 80 g fresh noodles and 6 wontons",
+    "ingredients": [
+      {
+        "name": "Thin fresh egg noodles",
+        "amount": "320 g"
+      },
+      {
+        "name": "Wonton wrappers",
+        "amount": "24 wrappers"
+      },
+      {
+        "name": "Fresh shrimp, peeled (heads and shells reserved)",
+        "amount": "200 g"
+      },
+      {
+        "name": "Minced lean pork shoulder",
+        "amount": "150 g"
+      },
+      {
+        "name": "Pork leg bones",
+        "amount": "800 g"
+      },
+      {
+        "name": "Roasted dried flounder (or dried shrimp)",
+        "amount": "20 g"
+      },
+      {
+        "name": "Choy sum",
+        "amount": "200 g"
+      },
+      {
+        "name": "Yellow chives or spring onions",
+        "amount": "50 g"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Ground white pepper",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Rock sugar",
+        "amount": "10 g"
+      },
+      {
+        "name": "Water",
+        "amount": "2.5 litres"
+      }
+    ],
+    "steps": [
+      "Blanch the pork bones in boiling water, then rinse. Simmer the bones with the dried flounder and the shrimp heads and shells in 2.5 litres of water for about 90 minutes, skimming often. Strain to get a clear broth and season with salt and rock sugar.",
+      "Dice the shrimp and mix with the minced pork, soy sauce, 1 tsp sesame oil, white pepper and 1/2 tsp salt. Stir vigorously until the filling is sticky.",
+      "Place 1 tsp of filling in the centre of a wonton wrapper, moisten the edges with water and gather them up into a little pouch.",
+      "Boil the wontons for 3–4 minutes until they float, then lift them out. Blanch the choy sum until just tender.",
+      "Blanch the noodles in rapidly boiling water for 30–40 seconds, rinse quickly under cold water, then dip back into the boiling water so they stay springy; drain.",
+      "Place the wontons at the bottom of a bowl, top with the noodles and greens, and ladle over piping hot broth. Finish with cut yellow chives and a few drops of sesame oil."
+    ],
+    "tags": [
+      "noodles",
+      "wontons",
+      "noodle soup",
+      "Chinese community"
+    ]
+  },
+  {
+    "slug": "mi-bo-lan-chau",
+    "name": "Lanzhou Beef Noodle Soup",
+    "description": "Chewy, tender hand-pulled noodles in a crystal-clear, herb-scented beef broth, finished with white radish, red chilli oil and green coriander. A proper bowl must have \"clear broth, white radish, red chilli oil, green herbs and yellow noodles\".",
+    "origin": "A speciality of Lanzhou, Gansu province, closely tied to the Hui Muslim community; the current recipe is believed to have taken shape in the early 20th century.",
+    "cooking_style": "Simmered clear broth",
+    "serving_note": "1 bowl contains about 125 g fresh noodles and 85 g cooked beef",
+    "ingredients": [
+      {
+        "name": "Beef shank or brisket",
+        "amount": "500 g"
+      },
+      {
+        "name": "Beef marrow bones",
+        "amount": "1 kg"
+      },
+      {
+        "name": "Fresh hand-pulled noodles",
+        "amount": "500 g"
+      },
+      {
+        "name": "White radish (daikon)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Ginger",
+        "amount": "30 g"
+      },
+      {
+        "name": "Star anise",
+        "amount": "2"
+      },
+      {
+        "name": "Cinnamon",
+        "amount": "1 small stick"
+      },
+      {
+        "name": "Black cardamom (tsaoko)",
+        "amount": "1 pod"
+      },
+      {
+        "name": "Sichuan peppercorns and fennel seeds",
+        "amount": "1 tsp each"
+      },
+      {
+        "name": "Chilli oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Coriander and garlic chives (or spring onions)",
+        "amount": "50 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Water",
+        "amount": "3 litres"
+      }
+    ],
+    "steps": [
+      "Soak the beef and bones in cold water for 1 hour to draw out the blood, blanch briefly in boiling water, then rinse.",
+      "Put the bones, beef, crushed ginger and a spice bag (star anise, cinnamon, black cardamom, Sichuan peppercorns, fennel seeds) into a pot with 3 litres of water. Bring to the boil, then lower the heat and simmer for about 2 hours, skimming regularly to keep the broth perfectly clear.",
+      "Lift out the beef, let it cool, then slice thinly. Strain the broth, season with salt, add the thinly sliced white radish and cook for 10 minutes until tender.",
+      "Cook the noodles in a separate pot of boiling water for 1–2 minutes depending on thickness, then transfer to bowls.",
+      "Ladle over the hot broth with the radish, top with the beef, drizzle with chilli oil, sprinkle with chopped coriander and garlic chives and serve immediately."
+    ],
+    "tags": [
+      "hand-pulled noodles",
+      "beef",
+      "noodle soup",
+      "Lanzhou"
+    ]
+  },
+  {
+    "slug": "lau-tu-xuyen",
+    "name": "Sichuan Mala Hot Pot",
+    "description": "A blazing red hot pot of beef tallow, dried chillies and Sichuan peppercorns, intensely hot and numbing in true \"mala\" style. Thinly sliced meat, beef tripe, tofu, vegetables and mushrooms are cooked at the table and dipped in sesame oil with minced garlic.",
+    "origin": "Mala hot pot originated on the riverbanks of Chongqing, Sichuan, in the late Qing dynasty; it began as food for boatmen and later spread throughout China.",
+    "cooking_style": "Hot pot cooked at the table",
+    "serving_note": "1 portion per person, about 600 g of dipping ingredients with sesame oil dipping sauce",
+    "ingredients": [
+      {
+        "name": "Beef tallow (or cooking oil)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Pixian chilli bean paste (doubanjiang)",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Dried chillies and Sichuan peppercorns",
+        "amount": "40 g chillies, 2 tbsp peppercorns"
+      },
+      {
+        "name": "Ginger, garlic, scallions",
+        "amount": "30 g ginger, 6 cloves garlic, 2 scallions"
+      },
+      {
+        "name": "Star anise, cinnamon, black cardamom, bay leaves",
+        "amount": "2 of each"
+      },
+      {
+        "name": "Bone broth",
+        "amount": "2 litres"
+      },
+      {
+        "name": "Thinly sliced beef",
+        "amount": "400 g"
+      },
+      {
+        "name": "Thinly sliced pork belly or lamb",
+        "amount": "300 g"
+      },
+      {
+        "name": "Beef tripe and hot pot balls",
+        "amount": "300 g"
+      },
+      {
+        "name": "Tofu and tofu skin",
+        "amount": "300 g"
+      },
+      {
+        "name": "Enoki and shiitake mushrooms",
+        "amount": "300 g"
+      },
+      {
+        "name": "Napa cabbage, chrysanthemum greens, water spinach",
+        "amount": "500 g"
+      },
+      {
+        "name": "Sweet potato glass noodles",
+        "amount": "200 g"
+      },
+      {
+        "name": "Dipping sauce: sesame oil, minced garlic, coriander, oyster sauce",
+        "amount": "4 tbsp sesame oil, 2 tbsp garlic, 1 tbsp oyster sauce"
+      }
+    ],
+    "steps": [
+      "Soak the dried chillies in warm water for 15 minutes to soften, then drain and chop coarsely. Finely chop the chilli bean paste.",
+      "Melt the beef tallow over low heat, fry the ginger, garlic and scallions until fragrant, then add the chillies and chilli bean paste and fry for 8–10 minutes until the oil turns deep red. Add the Sichuan peppercorns and dry spices and fry for 2 more minutes.",
+      "Pour in the bone broth, bring to the boil, then lower the heat and cook for 15 minutes to develop the flavour. Season to taste with salt and a little sugar.",
+      "Soak the sweet potato noodles until soft. Arrange the meat, tripe, hot pot balls, tofu, mushrooms, vegetables and noodles on platters.",
+      "Mix an individual dipping sauce for each diner of sesame oil, minced garlic, coriander and a little oyster sauce.",
+      "Set the hot pot on a burner in the middle of the table and keep it at a gentle boil. Dip thin slices of meat for 10–15 seconds and tripe for about 15 seconds, and cook the hot pot balls, tofu and vegetables longer. Dip into the garlic sesame oil to tame the heat."
+    ],
+    "tags": [
+      "hot pot",
+      "spicy and numbing",
+      "Sichuan",
+      "group meal"
+    ]
+  },
+  {
+    "slug": "canh-chua-cay",
+    "name": "Hot and Sour Soup",
+    "description": "A lightly thickened soup, gently sour from black vinegar and warmly spiced with white pepper, with tofu, shiitake mushrooms, wood ear, bamboo shoots and soft ribbons of egg. A belly-warming starter at Chinese meals.",
+    "origin": "A humble soup from Sichuan and Henan, now found in almost every Chinese restaurant around the world.",
+    "cooking_style": "Thickened soup",
+    "serving_note": "1 bowl is about 350 ml",
+    "ingredients": [
+      {
+        "name": "Chicken stock",
+        "amount": "1.2 litres"
+      },
+      {
+        "name": "Lean pork, julienned",
+        "amount": "100 g"
+      },
+      {
+        "name": "Soft tofu, julienned",
+        "amount": "200 g"
+      },
+      {
+        "name": "Dried shiitake mushrooms",
+        "amount": "5"
+      },
+      {
+        "name": "Dried wood ear mushrooms",
+        "amount": "10 g"
+      },
+      {
+        "name": "Bamboo shoots, julienned",
+        "amount": "80 g"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Zhenjiang black vinegar",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Ground white pepper",
+        "amount": "1.5 tsp"
+      },
+      {
+        "name": "Cornstarch",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Chilli oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Spring onions, coriander",
+        "amount": "2 stalks"
+      }
+    ],
+    "steps": [
+      "Soak the shiitake and wood ear mushrooms in warm water for 20 minutes until plump, then cut into thin strips. Marinate the pork strips with 1 tsp soy sauce and 1 tsp cornstarch.",
+      "Bring the stock to the boil, add the shiitake, wood ear and bamboo shoots and cook for 5 minutes.",
+      "Add the pork and stir to separate, add the tofu strips, season with the remaining soy sauce and a pinch of salt and return to the boil.",
+      "Mix the remaining cornstarch with 5 tbsp water, pour it slowly into the pot and stir until the soup thickens slightly.",
+      "Reduce the heat to low and pour the beaten eggs in a thin stream in a circle; wait a few seconds before stirring gently to form egg ribbons.",
+      "Turn off the heat and add the black vinegar, white pepper and sesame oil last to keep their aroma. Ladle into bowls and finish with chilli oil, spring onions and coriander."
+    ],
+    "tags": [
+      "soup",
+      "hot and sour",
+      "starter"
+    ]
+  },
+  {
+    "slug": "ga-kung-pao",
+    "name": "Kung Pao Chicken",
+    "description": "Diced chicken stir-fried over high heat with dried chillies, Sichuan peppercorns and crunchy, nutty peanuts, coated in a sweet, sour and savoury sauce. Mildly hot and numbing, wonderfully fragrant and perfect with steamed rice.",
+    "origin": "A Sichuan dish linked to Ding Baozhen, a late-Qing governor of Sichuan who held the title \"Gongbao\", which is why the dish is called \"Gongbao jiding\" (Gongbao diced chicken).",
+    "cooking_style": "High-heat stir-fry",
+    "serving_note": "1 serving is about 220 g, rice not included",
+    "ingredients": [
+      {
+        "name": "Boneless chicken thigh",
+        "amount": "400 g"
+      },
+      {
+        "name": "Roasted peanuts",
+        "amount": "60 g"
+      },
+      {
+        "name": "Dried chillies",
+        "amount": "10–12"
+      },
+      {
+        "name": "Sichuan peppercorns",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Scallions (white part), cut into lengths",
+        "amount": "2 stalks"
+      },
+      {
+        "name": "Garlic and ginger, sliced",
+        "amount": "3 cloves garlic, 3 slices ginger"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Black vinegar",
+        "amount": "1.5 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Shaoxing wine (or white spirit)",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Cornstarch",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1/2 tsp"
+      }
+    ],
+    "steps": [
+      "Cut the chicken into 1.5 cm dice and marinate with 1 tbsp soy sauce, the wine, 1 tsp cornstarch and 1 tsp cooking oil for 15 minutes.",
+      "Mix the sauce from the remaining soy sauce, black vinegar, sugar, 1 tsp cornstarch and 2 tbsp water.",
+      "Cut the dried chillies into pieces and shake out some of the seeds. Heat the oil in a wok and fry the chillies and Sichuan peppercorns over medium heat until the chillies darken and smell fragrant, without letting them burn.",
+      "Turn the heat to high, add the chicken and stir-fry quickly until the meat firms up and turns white. Add the garlic, ginger and scallions and toss until fragrant.",
+      "Stir the sauce again, pour it into the wok and toss for about 30 seconds until the sauce turns thick and glossy and coats the chicken.",
+      "Turn off the heat, toss in the roasted peanuts and sesame oil and serve immediately with hot rice."
+    ],
+    "tags": [
+      "chicken",
+      "stir-fried",
+      "mildly spicy",
+      "Sichuan",
+      "peanuts"
+    ]
+  },
+  {
+    "slug": "com-chien-duong-chau",
+    "name": "Yangzhou Fried Rice",
+    "description": "Fluffy fried rice with every grain separate, golden with egg and studded with colourful shrimp, char siu, peas and carrot. It is the most famous fried rice in Chinese cuisine and appeals to all ages.",
+    "origin": "Named after the city of Yangzhou in Jiangsu and spread worldwide by Cantonese chefs; in Vietnam it is served everywhere from humble eateries to wedding banquets.",
+    "cooking_style": "Wok-fried over high heat",
+    "serving_note": "1 plate is about 350 g",
+    "ingredients": [
+      {
+        "name": "Cold cooked rice",
+        "amount": "600 g"
+      },
+      {
+        "name": "Fresh shrimp, peeled",
+        "amount": "150 g"
+      },
+      {
+        "name": "Char siu (or Chinese sausage), diced",
+        "amount": "100 g"
+      },
+      {
+        "name": "Eggs",
+        "amount": "3"
+      },
+      {
+        "name": "Green peas",
+        "amount": "60 g"
+      },
+      {
+        "name": "Carrot, diced",
+        "amount": "60 g"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "3 stalks"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Light soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Ground white pepper",
+        "amount": "1/4 tsp"
+      }
+    ],
+    "steps": [
+      "Break up the cold rice so the grains separate. Dice the shrimp; blanch the peas and carrot for 1 minute, then drain.",
+      "Heat 1 tbsp oil and stir-fry the shrimp until pink, add the char siu and toss until heated through, then tip out onto a plate.",
+      "Add the remaining oil, pour in the beaten eggs and stir quickly. When the eggs are just starting to set, add the rice and toss over high heat so the egg coats the grains.",
+      "Fry for 3–4 minutes until the rice is dry and the grains crackle and jump in the wok. Add the shrimp, char siu, peas and carrot and toss well.",
+      "Drizzle the soy sauce around the side of the wok, season with salt and white pepper, sprinkle with spring onions, toss for another 30 seconds and turn off the heat."
+    ],
+    "tags": [
+      "fried rice",
+      "shrimp",
+      "char siu",
+      "egg"
+    ]
+  },
+  {
+    "slug": "tieu-long-bao",
+    "name": "Xiaolongbao (Soup Dumplings)",
+    "description": "Small, thin-skinned dumplings filled with pork and piping hot, rich, savoury soup. To eat, bite a small hole, sip the soup first, then dip in black vinegar with julienned ginger.",
+    "origin": "Born in the town of Nanxiang on the outskirts of Shanghai in the late 19th century, it is the pride of Jiangnan cuisine.",
+    "cooking_style": "Steamed in a bamboo steamer",
+    "serving_note": "1 steamer basket of 6 dumplings (about 180 g)",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "amount": "250 g"
+      },
+      {
+        "name": "Warm water",
+        "amount": "130 ml"
+      },
+      {
+        "name": "Minced pork shoulder (with some fat)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Pork skin",
+        "amount": "200 g"
+      },
+      {
+        "name": "Ginger",
+        "amount": "25 g"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "3 stalks"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Shaoxing wine",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Salt, sugar",
+        "amount": "1 tsp each"
+      },
+      {
+        "name": "Ground white pepper",
+        "amount": "1/4 tsp"
+      },
+      {
+        "name": "Zhenjiang black vinegar (for dipping)",
+        "amount": "4 tbsp"
+      }
+    ],
+    "steps": [
+      "Make the aspic: blanch the pork skin, scrape off all the fat, then simmer with 600 ml water, a few slices of ginger and 1 spring onion for 1.5 hours until reduced to about 250 ml. Strain, let cool, then refrigerate until set and chop finely.",
+      "Knead the flour with the warm water and a pinch of salt into a smooth dough, cover and rest for 30 minutes.",
+      "Mix the minced pork with the soy sauce, wine, sesame oil, salt, sugar, pepper, minced ginger and finely sliced spring onion, stirring in one direction until sticky. Mix in the chopped aspic and keep chilled.",
+      "Divide the dough into 10 g pieces and roll each into a thin 8–9 cm round, with the edges thinner than the centre.",
+      "Place about 18 g of filling in the centre, make 16–18 pleats around the edge and pinch the top closed.",
+      "Arrange the dumplings 2 cm apart in a steamer lined with napa cabbage leaves or baking paper and steam over high heat for 7–8 minutes.",
+      "Serve immediately while hot with black vinegar and julienned ginger."
+    ],
+    "tags": [
+      "dim sum",
+      "dumplings",
+      "steamed",
+      "Shanghai"
+    ]
+  },
+  {
+    "slug": "quay",
+    "name": "Youtiao (Chinese Fried Dough Sticks)",
+    "description": "Puffy, golden fried dough sticks, crisp outside and airy and hollow inside, with a lovely toasty aroma. Usually eaten for breakfast with soy milk or hot congee, or dipped into pho broth.",
+    "origin": "A breakfast food dating back to the Southern Song dynasty, linked to the legend of people shaping dough and frying it to vent their anger at the traitorous official Qin Hui; youtiao came to Vietnam with Chinese immigrants and is very popular there.",
+    "cooking_style": "Deep-fried",
+    "serving_note": "2 long dough sticks (about 110 g)",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "amount": "300 g"
+      },
+      {
+        "name": "Baking powder",
+        "amount": "8 g"
+      },
+      {
+        "name": "Baking soda",
+        "amount": "2 g"
+      },
+      {
+        "name": "Salt",
+        "amount": "5 g"
+      },
+      {
+        "name": "Sugar",
+        "amount": "5 g"
+      },
+      {
+        "name": "Egg",
+        "amount": "1"
+      },
+      {
+        "name": "Unsweetened fresh milk (or water)",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Cooking oil for the dough",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Cooking oil for frying",
+        "amount": "1 litre"
+      }
+    ],
+    "steps": [
+      "Mix the flour, baking powder, baking soda, salt and sugar. Add the egg, milk and 1 tbsp oil and mix into a soft, slightly sticky dough; there is no need to knead thoroughly.",
+      "Cover and rest the dough for 20 minutes, then fold it over a few times; repeat twice more. Wrap tightly and leave in the fridge for 4–8 hours or overnight.",
+      "Take the dough out and leave it for about 1 hour to come to room temperature. On an oiled work surface, gently stretch the dough into a long strip 8 cm wide and 0.7 cm thick, then cut into strips 2.5 cm wide.",
+      "Stack 2 strips on top of each other and press a skewer lengthwise down the middle so they stick together firmly.",
+      "Heat the oil to about 190°C. Hold both ends of a dough strip, stretch it gently, then drop it into the oil, turning it constantly with chopsticks so it puffs up evenly.",
+      "Fry for 1–2 minutes until golden, then drain on paper towels. Eat hot with soy milk or congee."
+    ],
+    "tags": [
+      "breakfast",
+      "fried",
+      "snack",
+      "wheat flour"
+    ]
+  },
+  {
+    "slug": "chao-trung-bac-thao-thit-nac",
+    "name": "Century Egg and Pork Congee",
+    "description": "Silky, slow-simmered Cantonese-style rice congee cooked with salt-cured lean pork and rich, creamy century eggs. A light, comforting dish for breakfast or a late-night meal.",
+    "origin": "A classic congee of Guangdong and Hong Kong, served at every congee shop and dim sum restaurant.",
+    "cooking_style": "Slow-simmered",
+    "serving_note": "1 bowl is about 400 ml, not including the youtiao served with it",
+    "ingredients": [
+      {
+        "name": "Long-grain white rice",
+        "amount": "150 g"
+      },
+      {
+        "name": "Lean pork",
+        "amount": "250 g"
+      },
+      {
+        "name": "Century eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Water (or stock)",
+        "amount": "2 litres"
+      },
+      {
+        "name": "Ginger, julienned",
+        "amount": "15 g"
+      },
+      {
+        "name": "Spring onions",
+        "amount": "2 stalks"
+      },
+      {
+        "name": "Salt",
+        "amount": "1.5 tsp"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Ground white pepper",
+        "amount": "1/4 tsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Youtiao to serve (optional)",
+        "amount": "2"
+      }
+    ],
+    "steps": [
+      "Leave the pork in one piece, rub it all over with 1 tsp salt and cure in the fridge for at least 1 hour (overnight is even better), then give it a quick rinse.",
+      "Wash the rice, drain, then mix with the oil and 1/2 tsp salt and leave for 20 minutes to help the grains break down quickly.",
+      "Bring the 2 litres of water to the boil and add the rice, pork and half of the century eggs, chopped. When it returns to the boil, lower the heat and cook for 50–60 minutes, stirring the bottom of the pot now and then, until the congee is soft and silky.",
+      "Lift out the pork, shred it and return it to the pot with the remaining century egg; cook for another 5 minutes and adjust the seasoning.",
+      "Ladle the congee into bowls and top with julienned ginger, spring onions, white pepper and a few drops of sesame oil. Eat hot with crisp youtiao."
+    ],
+    "tags": [
+      "congee",
+      "century egg",
+      "breakfast",
+      "Cantonese"
+    ]
+  },
+  {
+    "slug": "com-xa-xiu",
+    "name": "Char Siu Rice (Cantonese BBQ Pork)",
+    "description": "Pork marinated in five-spice, sauces and honey, then roasted until the edges are charred and glossy reddish-brown, sliced and served beside hot steamed rice and blanched greens. Tender meat with a balanced sweet-savoury flavour; a drizzle of sauce over the rice makes a complete meal.",
+    "origin": "Char siu (meaning \"fork roasted\") is Guangdong's famous roast meat, traditionally skewered on long forks and roasted over a fire; char siu rice is a familiar dish at Hong Kong roast meat shops and in Chinese neighbourhoods in Vietnam.",
+    "cooking_style": "Marinated and oven-roasted",
+    "serving_note": "1 plate includes about 120 g char siu, 200 g steamed rice and greens",
+    "ingredients": [
+      {
+        "name": "Pork shoulder or pork belly",
+        "amount": "600 g"
+      },
+      {
+        "name": "Hoisin sauce",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Oyster sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Honey (or maltose)",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Mei kuei lu chiew (rose wine) or Shaoxing wine",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Five-spice powder",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Red fermented bean curd (for colour)",
+        "amount": "1 piece"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "3 cloves"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Steamed white rice",
+        "amount": "800 g (4 full bowls)"
+      },
+      {
+        "name": "Choy sum or gai lan",
+        "amount": "300 g"
+      }
+    ],
+    "steps": [
+      "Cut the pork into long strips about 4 cm thick and prick all over with a fork so the marinade penetrates.",
+      "Mix the hoisin sauce, soy sauce, oyster sauce, 2 tbsp honey, sugar, wine, five-spice, mashed red fermented bean curd, garlic and salt. Marinate the pork for at least 8 hours or overnight in the fridge, turning occasionally.",
+      "Preheat the oven to 200°C. Place the pork on a rack over a foil-lined tray with a little water and roast for 20 minutes. Reserve the marinade.",
+      "Turn the pork, brush with more marinade and roast for another 15 minutes.",
+      "Brush the remaining 1 tbsp honey over the pork and roast for another 5–8 minutes at 220°C until the edges are charred and glossy. Rest for 10 minutes, then slice.",
+      "Boil the remaining marinade with 4 tbsp water for 2–3 minutes to make a sauce. Blanch the greens in boiling water with a little salt and oil.",
+      "Spoon the rice onto plates, arrange the char siu and blanched greens alongside, drizzle the sauce over the rice and serve hot."
+    ],
+    "tags": [
+      "rice",
+      "pork",
+      "roasted",
+      "Cantonese"
+    ]
+  },
+  {
+    "slug": "sui-cao",
+    "name": "Shui Jiao (Boiled Pork Dumplings)",
+    "description": "Soft, chewy wheat wrappers encase a juicy filling of pork and napa cabbage; boiled, then dipped in black vinegar with soy sauce and chilli oil. This dish symbolises family reunion in Chinese culture.",
+    "origin": "With nearly 2,000 years of history in northern China, dumplings are a must on Lunar New Year's Eve because their shape resembles gold ingots, symbolising wealth and good fortune.",
+    "cooking_style": "Wrapped and boiled",
+    "serving_note": "1 plate of 10 dumplings (about 250 g) with dipping sauce",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "amount": "300 g"
+      },
+      {
+        "name": "Water",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Minced pork (lean and fat)",
+        "amount": "300 g"
+      },
+      {
+        "name": "Napa cabbage",
+        "amount": "300 g"
+      },
+      {
+        "name": "Garlic chives",
+        "amount": "50 g"
+      },
+      {
+        "name": "Ginger, minced",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Cooking wine",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Ground white pepper",
+        "amount": "1/4 tsp"
+      },
+      {
+        "name": "Dipping sauce: black vinegar, soy sauce, minced garlic, chilli oil",
+        "amount": "3 tbsp vinegar, 1 tbsp soy sauce, 2 cloves garlic"
+      }
+    ],
+    "steps": [
+      "Knead the flour with the water and a pinch of salt for about 10 minutes until smooth, then cover and rest for 30 minutes.",
+      "Finely chop the napa cabbage, mix with 1/2 tsp salt, leave for 10 minutes, then squeeze out the water.",
+      "Mix the minced pork with the soy sauce, wine, ginger, pepper, the remaining salt and 3 tbsp water, stirring in one direction until sticky. Add the cabbage, finely chopped garlic chives and sesame oil and mix well.",
+      "Roll the dough into a long log, cut into 10–12 g pieces and roll each into an 8 cm round, thicker in the centre than at the edges.",
+      "Place 1 spoonful of filling in the centre, fold the wrapper in half, pinch the edges firmly and pleat to seal.",
+      "Bring a large pot of water to the boil, drop in the dumplings and stir gently so they don't stick to the bottom. When the water returns to the boil, add 1 bowl of cold water; repeat 3 times until the dumplings float and the wrappers are taut and glossy.",
+      "Lift onto a plate and serve with black vinegar mixed with soy sauce, minced garlic and chilli oil."
+    ],
+    "tags": [
+      "dumplings",
+      "filled dumplings",
+      "boiled",
+      "Lunar New Year"
+    ]
+  },
+  {
+    "slug": "tra-sua-tran-chau",
+    "name": "Bubble Tea (Pearl Milk Tea)",
+    "description": "Strong black tea blended with lightly creamy milk and served with chewy black tapioca pearls steeped in brown sugar. It is the \"national drink\" of young people all over Asia.",
+    "origin": "Born in Taiwan in the 1980s in tea shops in Taichung and Tainan, it then spread worldwide and boomed in Vietnam from the 2000s.",
+    "cooking_style": "Mixed drink",
+    "serving_note": "1 cup of 500 ml, 100% sugar and 1 portion of pearls",
+    "ingredients": [
+      {
+        "name": "Black tea",
+        "amount": "10 g"
+      },
+      {
+        "name": "Boiling water for brewing",
+        "amount": "400 ml"
+      },
+      {
+        "name": "Unsweetened fresh milk",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Sweetened condensed milk",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Dried black tapioca pearls",
+        "amount": "100 g"
+      },
+      {
+        "name": "Brown sugar",
+        "amount": "60 g"
+      },
+      {
+        "name": "Ice cubes",
+        "amount": "2 cups"
+      }
+    ],
+    "steps": [
+      "Bring 1 litre of water to the boil, add the tapioca pearls, stir well and cook over medium heat for 20–25 minutes until translucent and chewy. Turn off the heat, cover and leave for another 10 minutes.",
+      "Drain the pearls and rinse under cold water. Simmer the brown sugar with 60 ml water into a thick syrup, then add the pearls and soak for at least 15 minutes.",
+      "Steep the black tea in 400 ml boiling water for 5 minutes (any longer and it turns bitter), then strain out the leaves.",
+      "Stir the condensed milk into the tea while still hot, add the fresh milk and let it cool a little.",
+      "Spoon the pearls and brown sugar syrup into a glass, add ice cubes and pour the milk tea over. Stir well and drink with a wide straw."
+    ],
+    "tags": [
+      "milk tea",
+      "tapioca pearls",
+      "drinks",
+      "Taiwan"
+    ]
+  },
+  {
+    "slug": "mala-xiang-guo",
+    "name": "Mala Xiang Guo (Spicy Dry Pot)",
+    "description": "Your choice of meat, seafood, vegetables and mushrooms tossed in a large wok with a fragrant, hot and numbing sauce of Sichuan peppercorns and dried chillies. As bold as Sichuan hot pot but without the broth, which is why it is also called \"dry hot pot\".",
+    "origin": "Rooted in the cooking of the Tujia people of the Chongqing region, the dish became a craze in Beijing in the 2000s and is now hugely popular with young people.",
+    "cooking_style": "Dry stir-fried, hot and numbing",
+    "serving_note": "1 serving is about 400 g, rice not included",
+    "ingredients": [
+      {
+        "name": "Thinly sliced beef",
+        "amount": "200 g"
+      },
+      {
+        "name": "Fresh shrimp",
+        "amount": "200 g"
+      },
+      {
+        "name": "Hot pot balls (fish balls, fish cake)",
+        "amount": "150 g"
+      },
+      {
+        "name": "Lotus root",
+        "amount": "150 g"
+      },
+      {
+        "name": "Potato",
+        "amount": "150 g"
+      },
+      {
+        "name": "Broccoli",
+        "amount": "150 g"
+      },
+      {
+        "name": "Enoki and king oyster mushrooms",
+        "amount": "150 g"
+      },
+      {
+        "name": "Dried tofu skin",
+        "amount": "80 g"
+      },
+      {
+        "name": "Sichuan spicy hot pot sauce (or chilli bean paste)",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Dried chillies and Sichuan peppercorns",
+        "amount": "15 g chillies, 1 tbsp peppercorns"
+      },
+      {
+        "name": "Garlic, ginger, scallion",
+        "amount": "5 cloves garlic, 20 g ginger, 1 scallion"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "4 tbsp"
+      },
+      {
+        "name": "Soy sauce, sugar",
+        "amount": "1 tbsp soy sauce, 1 tsp sugar"
+      },
+      {
+        "name": "Toasted sesame seeds, coriander",
+        "amount": "1 tbsp sesame seeds, 1 handful coriander"
+      }
+    ],
+    "steps": [
+      "Soak the tofu skin until soft, then cut into lengths. Thinly slice the lotus root and potato, cut the broccoli into florets, and trim and devein the shrimp.",
+      "Blanch the potato, lotus root, broccoli, mushrooms, hot pot balls and tofu skin one after another in boiling water until just cooked, then drain thoroughly. Blanch the beef quickly for about 10 seconds.",
+      "Heat 2 tbsp oil and sear the shrimp until the shells are red and crisp, then remove.",
+      "Add the remaining oil, lower the heat to medium and fry the dried chillies, Sichuan peppercorns, garlic, ginger and scallion until fragrant. Add the hot pot sauce and fry until the oil turns red.",
+      "Turn the heat to high, tip in all the blanched ingredients and the shrimp and toss quickly for 2–3 minutes to coat in the sauce; season with the soy sauce and sugar.",
+      "Sprinkle with toasted sesame seeds and coriander, transfer to a large bowl and serve with steamed rice."
+    ],
+    "tags": [
+      "mala",
+      "spicy and numbing",
+      "stir-fried",
+      "youth favourite"
+    ]
+  },
+  {
+    "slug": "banh-tart-trung-hong-kong",
+    "name": "Hong Kong Egg Tarts",
+    "description": "A crisp, crumbly butter pastry cradles a golden custard filling as smooth and soft as pudding. There are two kinds of crust, shortcrust and flaky puff pastry, and they are best eaten warm with a cup of Hong Kong-style milk tea.",
+    "origin": "They appeared in Guangzhou in the 1920s and became popular in Hong Kong cha chaan teng (tea restaurants) from the 1940s, influenced by the English custard tart.",
+    "cooking_style": "Oven-baked",
+    "serving_note": "1 tart (about 60 g)",
+    "ingredients": [
+      {
+        "name": "All-purpose flour",
+        "amount": "200 g"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "110 g"
+      },
+      {
+        "name": "Icing sugar",
+        "amount": "30 g"
+      },
+      {
+        "name": "Egg yolk (for the pastry)",
+        "amount": "1"
+      },
+      {
+        "name": "Eggs (for the filling)",
+        "amount": "3"
+      },
+      {
+        "name": "Granulated sugar",
+        "amount": "80 g"
+      },
+      {
+        "name": "Hot water",
+        "amount": "160 ml"
+      },
+      {
+        "name": "Evaporated milk",
+        "amount": "80 ml"
+      },
+      {
+        "name": "Vanilla extract",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1 pinch"
+      }
+    ],
+    "steps": [
+      "Beat the softened butter with the icing sugar until smooth, then mix in the egg yolk. Sift in the flour and salt, mix gently into a dough, wrap tightly and chill for 30 minutes.",
+      "Dissolve the granulated sugar in the hot water and let it cool completely. Beat the eggs (avoid creating foam), mix with the sugar water, milk and vanilla, then strain twice through a sieve for a perfectly smooth filling.",
+      "Divide the dough into 12 portions of about 28 g and press evenly into small tart tins so the pastry rises slightly above the rim.",
+      "Pour the egg filling into the tins until about 80–90% full.",
+      "Bake at 200°C for 10 minutes to set the crust, then lower to 170°C and bake for another 10–12 minutes until the filling is just set but still slightly wobbly in the centre. If the filling puffs up, open the oven door slightly to lower the temperature.",
+      "Let the tarts cool for 5 minutes, then unmould and serve warm."
+    ],
+    "tags": [
+      "pastries",
+      "egg",
+      "dim sum",
+      "Hong Kong"
+    ]
+  },
+  {
+    "slug": "che-xoai-buoi",
+    "name": "Mango Pomelo Sago (Yang Zhi Gan Lu)",
+    "description": "Ripe mango blended with coconut milk and milk, with chewy sago pearls and lightly tart pomelo pulp. A chilled, creamy, fragrant dessert that is perfect for summer days.",
+    "origin": "Created by Lei Garden restaurant in Hong Kong in 1984; the name is inspired by the drops of sweet dew on the willow branch of the bodhisattva Guanyin.",
+    "cooking_style": "Blended and served chilled",
+    "serving_note": "1 bowl is about 300 ml",
+    "ingredients": [
+      {
+        "name": "Ripe mangoes",
+        "amount": "3 (about 900 g)"
+      },
+      {
+        "name": "Pomelo pulp",
+        "amount": "150 g"
+      },
+      {
+        "name": "Sago pearls",
+        "amount": "60 g"
+      },
+      {
+        "name": "Coconut milk",
+        "amount": "200 ml"
+      },
+      {
+        "name": "Unsweetened fresh milk",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Sweetened condensed milk",
+        "amount": "3 tbsp"
+      },
+      {
+        "name": "Shaved ice (optional)",
+        "amount": "1 cup"
+      }
+    ],
+    "steps": [
+      "Bring 1 litre of water to the boil, add the sago and cook for 10 minutes, stirring often. Turn off the heat, cover and leave for another 10 minutes until the pearls are completely translucent, then rinse under cold water and drain.",
+      "Peel the mangoes and dice about 1/3 of the flesh; set aside. Blend the rest with the coconut milk, fresh milk and condensed milk until smooth.",
+      "Separate the pomelo pulp into loose sacs, removing all the white pith so it doesn't taste bitter.",
+      "Stir the sago into the mango purée and chill for at least 1 hour.",
+      "Ladle into bowls, top with the diced mango and pomelo, and serve chilled or with a little shaved ice."
+    ],
+    "tags": [
+      "sweet soup",
+      "mango",
+      "dessert",
+      "Hong Kong"
+    ]
+  },
+  {
+    "slug": "malatang",
+    "name": "Malatang (Spicy Numbing Soup)",
+    "description": "A single-serving hot pot bowl filled with your choice of meats, hot pot balls, vegetables, mushrooms and glass noodles, cooked in a spicy, numbing bone broth enriched with sesame. A street food that is all the rage with young people.",
+    "origin": "It originated from spicy skewers dipped in broth in Leshan, Sichuan; the big-bowl version with a rich northeastern-style broth emerged in the late 20th century and has spread to Korea and Vietnam in recent years.",
+    "cooking_style": "Cooked in spicy hot pot broth",
+    "serving_note": "1 large bowl of about 700 g including broth",
+    "ingredients": [
+      {
+        "name": "Bone broth",
+        "amount": "1.2 litres"
+      },
+      {
+        "name": "Sichuan spicy hot pot base",
+        "amount": "60 g"
+      },
+      {
+        "name": "Sesame paste (or peanut butter)",
+        "amount": "2 tbsp"
+      },
+      {
+        "name": "Unsweetened fresh milk",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Thinly sliced beef",
+        "amount": "150 g"
+      },
+      {
+        "name": "Assorted hot pot balls",
+        "amount": "150 g"
+      },
+      {
+        "name": "Tofu and tofu skin",
+        "amount": "100 g"
+      },
+      {
+        "name": "Enoki mushrooms",
+        "amount": "100 g"
+      },
+      {
+        "name": "Napa cabbage, bok choy",
+        "amount": "200 g"
+      },
+      {
+        "name": "Sliced lotus root or potato",
+        "amount": "100 g"
+      },
+      {
+        "name": "Flat sweet potato glass noodles",
+        "amount": "120 g"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "4 cloves"
+      },
+      {
+        "name": "Dried chillies and Sichuan peppercorns",
+        "amount": "6 chillies, 1 tsp peppercorns"
+      },
+      {
+        "name": "Cooking oil",
+        "amount": "2 tbsp"
+      }
+    ],
+    "steps": [
+      "Soak the sweet potato noodles in warm water for 20 minutes until soft. Wash the vegetables, mushrooms and tofu and cut into bite-sized pieces.",
+      "Heat the oil and fry the minced garlic, dried chillies and Sichuan peppercorns over low heat until fragrant, then add the hot pot base and fry for 1 minute until the oil turns red.",
+      "Pour in the bone broth and bring to the boil. Dissolve the sesame paste in a few spoonfuls of broth, then add to the pot with the milk and stir well so the broth becomes rich and milky.",
+      "Add the slower-cooking ingredients first, namely lotus root, potato, hot pot balls and tofu, and cook for 4–5 minutes. Then add the noodles, mushrooms and vegetables and cook for another 2–3 minutes.",
+      "Finally add the beef and cook until just done, then adjust the seasoning.",
+      "Ladle everything into a large bowl with the broth and add extra chilli oil or black vinegar to taste."
+    ],
+    "tags": [
+      "malatang",
+      "spicy and numbing",
+      "noodle soup",
+      "youth favourite"
+    ]
+  },
+  {
+    "slug": "dua-chuot-dap-tron-toi",
+    "name": "Smashed Cucumber Salad (Pai Huang Gua)",
+    "description": "Crisp, refreshing smashed cucumber soaked in garlic, black vinegar, soy sauce and sesame oil. A familiar palate-cleansing starter at Chinese hot pot and barbecue restaurants.",
+    "origin": "A humble cold dish popular throughout China, especially in the north and in Sichuan; smashing the cucumber instead of cutting it makes it crack naturally and soak up more of the dressing.",
+    "cooking_style": "Cold tossed salad",
+    "serving_note": "1 small plate is about 170 g",
+    "ingredients": [
+      {
+        "name": "Cucumbers",
+        "amount": "3 (about 500 g)"
+      },
+      {
+        "name": "Garlic, minced",
+        "amount": "4 cloves"
+      },
+      {
+        "name": "Black vinegar",
+        "amount": "1.5 tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "name": "Sesame oil",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Chilli oil",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Salt",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Toasted sesame seeds",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Coriander",
+        "amount": "a few sprigs"
+      }
+    ],
+    "steps": [
+      "Wash the cucumbers and trim off both ends. Lay them on a chopping board and smash with the flat of a cleaver until they crack, then cut diagonally into bite-sized pieces.",
+      "Toss the cucumber with the salt and leave for 10 minutes to draw out some of the water, then pour off the liquid.",
+      "Mix the minced garlic, black vinegar, soy sauce, sugar, sesame oil and chilli oil into a dressing.",
+      "Pour the dressing over the cucumber, toss well and chill for 10 minutes so it absorbs the flavours and stays crisp and cool.",
+      "Sprinkle with toasted sesame seeds and coriander before serving."
+    ],
+    "tags": [
+      "starter",
+      "salad",
+      "vegetarian",
+      "refreshing"
+    ]
+  }
+]

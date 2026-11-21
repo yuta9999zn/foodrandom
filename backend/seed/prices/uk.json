@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "fish-and-chips",
+    "prices": {
+      "JP": {
+        "min": 1400,
+        "max": 2400
+      },
+      "KR": {
+        "min": 18000,
+        "max": 28000
+      },
+      "CN": {
+        "min": 70,
+        "max": 130
+      },
+      "GB": {
+        "min": 10,
+        "max": 16
+      }
+    }
+  },
+  {
+    "slug": "full-english-breakfast",
+    "prices": {
+      "JP": {
+        "min": 1600,
+        "max": 2600
+      },
+      "KR": {
+        "min": 18000,
+        "max": 28000
+      },
+      "CN": {
+        "min": 70,
+        "max": 130
+      },
+      "GB": {
+        "min": 9,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "sunday-roast",
+    "prices": {
+      "JP": {
+        "min": 2500,
+        "max": 4000
+      },
+      "KR": {
+        "min": 28000,
+        "max": 45000
+      },
+      "CN": {
+        "min": 140,
+        "max": 250
+      },
+      "GB": {
+        "min": 18,
+        "max": 26
+      }
+    }
+  },
+  {
+    "slug": "beef-wellington",
+    "prices": {
+      "JP": {
+        "min": 4000,
+        "max": 8000
+      },
+      "KR": {
+        "min": 45000,
+        "max": 90000
+      },
+      "CN": {
+        "min": 250,
+        "max": 500
+      },
+      "GB": {
+        "min": 28,
+        "max": 55
+      }
+    }
+  },
+  {
+    "slug": "shepherds-pie",
+    "prices": {
+      "JP": {
+        "min": 1400,
+        "max": 2200
+      },
+      "KR": {
+        "min": 18000,
+        "max": 26000
+      },
+      "CN": {
+        "min": 70,
+        "max": 120
+      },
+      "GB": {
+        "min": 13,
+        "max": 17
+      }
+    }
+  },
+  {
+    "slug": "bangers-and-mash",
+    "prices": {
+      "JP": {
+        "min": 1400,
+        "max": 2200
+      },
+      "KR": {
+        "min": 17000,
+        "max": 25000
+      },
+      "CN": {
+        "min": 65,
+        "max": 110
+      },
+      "GB": {
+        "min": 13,
+        "max": 17
+      }
+    }
+  },
+  {
+    "slug": "chicken-tikka-masala",
+    "prices": {
+      "JP": {
+        "min": 1100,
+        "max": 1800
+      },
+      "KR": {
+        "min": 15000,
+        "max": 22000
+      },
+      "CN": {
+        "min": 60,
+        "max": 110
+      },
+      "GB": {
+        "min": 13,
+        "max": 18
+      }
+    }
+  },
+  {
+    "slug": "coronation-chicken-sandwich",
+    "prices": {
+      "JP": {
+        "min": 800,
+        "max": 1400
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 40,
+        "max": 70
+      },
+      "GB": {
+        "min": 4.5,
+        "max": 8
+      }
+    }
+  },
+  {
+    "slug": "cullen-skink",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1600
+      },
+      "KR": {
+        "min": 12000,
+        "max": 18000
+      },
+      "CN": {
+        "min": 50,
+        "max": 90
+      },
+      "GB": {
+        "min": 7,
+        "max": 10
+      }
+    }
+  },
+  {
+    "slug": "welsh-cawl",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1500
+      },
+      "KR": {
+        "min": 11000,
+        "max": 17000
+      },
+      "CN": {
+        "min": 45,
+        "max": 80
+      },
+      "GB": {
+        "min": 7,
+        "max": 10
+      }
+    }
+  },
+  {
+    "slug": "yorkshire-pudding",
+    "prices": {
+      "JP": {
+        "min": 400,
+        "max": 700
+      },
+      "KR": {
+        "min": 5000,
+        "max": 8000
+      },
+      "CN": {
+        "min": 20,
+        "max": 35
+      },
+      "GB": {
+        "min": 3,
+        "max": 5
+      }
+    }
+  },
+  {
+    "slug": "bubble-and-squeak",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1200
+      },
+      "KR": {
+        "min": 8000,
+        "max": 12000
+      },
+      "CN": {
+        "min": 35,
+        "max": 60
+      },
+      "GB": {
+        "min": 5,
+        "max": 8
+      }
+    }
+  },
+  {
+    "slug": "cornish-pasty",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 1000
+      },
+      "KR": {
+        "min": 6000,
+        "max": 10000
+      },
+      "CN": {
+        "min": 30,
+        "max": 50
+      },
+      "GB": {
+        "min": 4.5,
+        "max": 7
+      }
+    }
+  },
+  {
+    "slug": "scotch-egg",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 1000
+      },
+      "KR": {
+        "min": 7000,
+        "max": 11000
+      },
+      "CN": {
+        "min": 30,
+        "max": 50
+      },
+      "GB": {
+        "min": 3.5,
+        "max": 7.5
+      }
+    }
+  },
+  {
+    "slug": "sausage-roll",
+    "prices": {
+      "JP": {
+        "min": 350,
+        "max": 600
+      },
+      "KR": {
+        "min": 4000,
+        "max": 6500
+      },
+      "CN": {
+        "min": 18,
+        "max": 35
+      },
+      "GB": {
+        "min": 1.5,
+        "max": 4.5
+      }
+    }
+  },
+  {
+    "slug": "scones",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 1100
+      },
+      "KR": {
+        "min": 5000,
+        "max": 8000
+      },
+      "CN": {
+        "min": 25,
+        "max": 45
+      },
+      "GB": {
+        "min": 3.5,
+        "max": 6
+      }
+    }
+  },
+  {
+    "slug": "sticky-toffee-pudding",
+    "prices": {
+      "JP": {
+        "min": 800,
+        "max": 1300
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 40,
+        "max": 70
+      },
+      "GB": {
+        "min": 6.5,
+        "max": 9.5
+      }
+    }
+  },
+  {
+    "slug": "banoffee-pie",
+    "prices": {
+      "JP": {
+        "min": 650,
+        "max": 1000
+      },
+      "KR": {
+        "min": 7000,
+        "max": 10000
+      },
+      "CN": {
+        "min": 30,
+        "max": 50
+      },
+      "GB": {
+        "min": 5,
+        "max": 7.5
+      }
+    }
+  },
+  {
+    "slug": "eton-mess",
+    "prices": {
+      "JP": {
+        "min": 800,
+        "max": 1300
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 40,
+        "max": 70
+      },
+      "GB": {
+        "min": 6.5,
+        "max": 9.5
+      }
+    }
+  },
+  {
+    "slug": "english-tea-with-milk",
+    "prices": {
+      "JP": {
+        "min": 450,
+        "max": 700
+      },
+      "KR": {
+        "min": 4500,
+        "max": 6500
+      },
+      "CN": {
+        "min": 18,
+        "max": 35
+      },
+      "GB": {
+        "min": 2,
+        "max": 3.5
+      }
+    }
+  }
+]

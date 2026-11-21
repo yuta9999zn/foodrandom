@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "pho-bo",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1600
+      },
+      "KR": {
+        "min": 11000,
+        "max": 15000
+      },
+      "CN": {
+        "min": 35,
+        "max": 60
+      },
+      "GB": {
+        "min": 11,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "bun-bo-hue",
+    "prices": {
+      "JP": {
+        "min": 1100,
+        "max": 1700
+      },
+      "KR": {
+        "min": 12000,
+        "max": 16000
+      },
+      "CN": {
+        "min": 38,
+        "max": 65
+      },
+      "GB": {
+        "min": 11.5,
+        "max": 15.5
+      }
+    }
+  },
+  {
+    "slug": "mi-quang",
+    "prices": {
+      "JP": {
+        "min": 1100,
+        "max": 1600
+      },
+      "KR": {
+        "min": 12000,
+        "max": 16000
+      },
+      "CN": {
+        "min": 35,
+        "max": 60
+      },
+      "GB": {
+        "min": 11,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "hu-tieu-nam-vang",
+    "prices": {
+      "JP": {
+        "min": 1000,
+        "max": 1500
+      },
+      "KR": {
+        "min": 11000,
+        "max": 15000
+      },
+      "CN": {
+        "min": 35,
+        "max": 58
+      },
+      "GB": {
+        "min": 10.5,
+        "max": 14.5
+      }
+    }
+  },
+  {
+    "slug": "banh-canh-cua",
+    "prices": {
+      "JP": {
+        "min": 1300,
+        "max": 2000
+      },
+      "KR": {
+        "min": 14000,
+        "max": 19000
+      },
+      "CN": {
+        "min": 45,
+        "max": 80
+      },
+      "GB": {
+        "min": 13,
+        "max": 17
+      }
+    }
+  },
+  {
+    "slug": "lau-hai-san",
+    "prices": {
+      "JP": {
+        "min": 5000,
+        "max": 9000
+      },
+      "KR": {
+        "min": 45000,
+        "max": 80000
+      },
+      "CN": {
+        "min": 200,
+        "max": 400
+      },
+      "GB": {
+        "min": 40,
+        "max": 70
+      }
+    }
+  },
+  {
+    "slug": "com-tam-suon-nuong",
+    "prices": {
+      "JP": {
+        "min": 1100,
+        "max": 1600
+      },
+      "KR": {
+        "min": 12000,
+        "max": 16000
+      },
+      "CN": {
+        "min": 38,
+        "max": 65
+      },
+      "GB": {
+        "min": 11,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "bun-cha-ha-noi",
+    "prices": {
+      "JP": {
+        "min": 1200,
+        "max": 1800
+      },
+      "KR": {
+        "min": 12000,
+        "max": 17000
+      },
+      "CN": {
+        "min": 40,
+        "max": 68
+      },
+      "GB": {
+        "min": 12,
+        "max": 16
+      }
+    }
+  },
+  {
+    "slug": "banh-xeo",
+    "prices": {
+      "JP": {
+        "min": 1100,
+        "max": 1800
+      },
+      "KR": {
+        "min": 13000,
+        "max": 19000
+      },
+      "CN": {
+        "min": 40,
+        "max": 75
+      },
+      "GB": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  },
+  {
+    "slug": "cha-ca-la-vong",
+    "prices": {
+      "JP": {
+        "min": 1800,
+        "max": 3000
+      },
+      "KR": {
+        "min": 18000,
+        "max": 28000
+      },
+      "CN": {
+        "min": 70,
+        "max": 130
+      },
+      "GB": {
+        "min": 15,
+        "max": 22
+      }
+    }
+  },
+  {
+    "slug": "banh-mi-chao",
+    "prices": {
+      "JP": {
+        "min": 1100,
+        "max": 1700
+      },
+      "KR": {
+        "min": 11000,
+        "max": 16000
+      },
+      "CN": {
+        "min": 35,
+        "max": 60
+      },
+      "GB": {
+        "min": 10,
+        "max": 14
+      }
+    }
+  },
+  {
+    "slug": "goi-cuon",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1200
+      },
+      "KR": {
+        "min": 8000,
+        "max": 13000
+      },
+      "CN": {
+        "min": 28,
+        "max": 48
+      },
+      "GB": {
+        "min": 6,
+        "max": 9
+      }
+    }
+  },
+  {
+    "slug": "cha-gio",
+    "prices": {
+      "JP": {
+        "min": 800,
+        "max": 1300
+      },
+      "KR": {
+        "min": 9000,
+        "max": 14000
+      },
+      "CN": {
+        "min": 30,
+        "max": 55
+      },
+      "GB": {
+        "min": 6.5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "slug": "banh-mi-thit",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1200
+      },
+      "KR": {
+        "min": 7000,
+        "max": 10000
+      },
+      "CN": {
+        "min": 20,
+        "max": 38
+      },
+      "GB": {
+        "min": 7,
+        "max": 10
+      }
+    }
+  },
+  {
+    "slug": "banh-trang-tron",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 1000
+      },
+      "KR": {
+        "min": 6000,
+        "max": 10000
+      },
+      "CN": {
+        "min": 20,
+        "max": 35
+      },
+      "GB": {
+        "min": 6,
+        "max": 9
+      }
+    }
+  },
+  {
+    "slug": "banh-khot",
+    "prices": {
+      "JP": {
+        "min": 900,
+        "max": 1500
+      },
+      "KR": {
+        "min": 10000,
+        "max": 15000
+      },
+      "CN": {
+        "min": 35,
+        "max": 60
+      },
+      "GB": {
+        "min": 8,
+        "max": 12
+      }
+    }
+  },
+  {
+    "slug": "banh-bo-nuong",
+    "prices": {
+      "JP": {
+        "min": 300,
+        "max": 600
+      },
+      "KR": {
+        "min": 3000,
+        "max": 6000
+      },
+      "CN": {
+        "min": 10,
+        "max": 25
+      },
+      "GB": {
+        "min": 3,
+        "max": 5
+      }
+    }
+  },
+  {
+    "slug": "che-khuc-bach",
+    "prices": {
+      "JP": {
+        "min": 600,
+        "max": 900
+      },
+      "KR": {
+        "min": 6000,
+        "max": 9000
+      },
+      "CN": {
+        "min": 20,
+        "max": 35
+      },
+      "GB": {
+        "min": 5,
+        "max": 7.5
+      }
+    }
+  },
+  {
+    "slug": "ca-phe-trung",
+    "prices": {
+      "JP": {
+        "min": 700,
+        "max": 1000
+      },
+      "KR": {
+        "min": 6500,
+        "max": 9000
+      },
+      "CN": {
+        "min": 28,
+        "max": 42
+      },
+      "GB": {
+        "min": 4.5,
+        "max": 6.5
+      }
+    }
+  },
+  {
+    "slug": "ca-phe-muoi",
+    "prices": {
+      "JP": {
+        "min": 650,
+        "max": 900
+      },
+      "KR": {
+        "min": 6000,
+        "max": 8500
+      },
+      "CN": {
+        "min": 25,
+        "max": 38
+      },
+      "GB": {
+        "min": 4,
+        "max": 6
+      }
+    }
+  }
+]
