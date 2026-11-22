@@ -13,9 +13,44 @@ use crate::util::fold_vi;
 
 /// Giá trị thẻ `cuisine` của OpenStreetMap ứng với từng nền ẩm thực của FoodRandom.
 const OSM_CUISINE_TAGS: [(&str, &[&str]); 5] = [
-    ("vietnam", &["vietnamese", "pho", "banh_mi", "bun_cha", "bun", "com_tam", "hu_tieu"]),
-    ("japan", &["japanese", "sushi", "ramen", "udon", "soba", "tempura", "okonomiyaki", "yakitori", "donburi"]),
-    ("china", &["chinese", "dim_sum", "cantonese", "sichuan", "hotpot", "dumpling", "hong_kong"]),
+    (
+        "vietnam",
+        &[
+            "vietnamese",
+            "pho",
+            "banh_mi",
+            "bun_cha",
+            "bun",
+            "com_tam",
+            "hu_tieu",
+        ],
+    ),
+    (
+        "japan",
+        &[
+            "japanese",
+            "sushi",
+            "ramen",
+            "udon",
+            "soba",
+            "tempura",
+            "okonomiyaki",
+            "yakitori",
+            "donburi",
+        ],
+    ),
+    (
+        "china",
+        &[
+            "chinese",
+            "dim_sum",
+            "cantonese",
+            "sichuan",
+            "hotpot",
+            "dumpling",
+            "hong_kong",
+        ],
+    ),
     ("korea", &["korean", "korean_bbq", "bibimbap"]),
     ("uk", &["british", "english", "fish_and_chips", "scottish"]),
 ];
@@ -52,11 +87,20 @@ impl OsmProvider {
         let mut last_error = anyhow::anyhow!("chưa gọi Overpass");
         for url in &self.overpass_urls {
             let attempt = async {
-                let response = self.http.post(url).form(&[("data", query)]).send().await.context("không gọi được Overpass API")?;
+                let response = self
+                    .http
+                    .post(url)
+                    .form(&[("data", query)])
+                    .send()
+                    .await
+                    .context("không gọi được Overpass API")?;
                 if !response.status().is_success() {
                     bail!("Overpass API {url} trả mã {}", response.status());
                 }
-                response.json::<OverpassResponse>().await.context("phản hồi Overpass không đọc được")
+                response
+                    .json::<OverpassResponse>()
+                    .await
+                    .context("phản hồi Overpass không đọc được")
             };
             match attempt.await {
                 Ok(body) => return Ok(body),
@@ -106,7 +150,10 @@ fn sanitize_keyword(keyword: &str) -> String {
 }
 
 fn cuisines_from_tag(tag: &str) -> Vec<String> {
-    let tokens: Vec<String> = tag.split(';').map(|t| t.trim().to_ascii_lowercase()).collect();
+    let tokens: Vec<String> = tag
+        .split(';')
+        .map(|t| t.trim().to_ascii_lowercase())
+        .collect();
     OSM_CUISINE_TAGS
         .iter()
         .filter(|(_, values)| tokens.iter().any(|t| values.contains(&t.as_str())))
@@ -125,9 +172,13 @@ fn address_from_tags(tags: &std::collections::HashMap<String, String>) -> Option
     };
     let parts: Vec<String> = [
         street,
-        tags.get("addr:subdistrict").cloned().or_else(|| tags.get("addr:suburb").cloned()),
+        tags.get("addr:subdistrict")
+            .cloned()
+            .or_else(|| tags.get("addr:suburb").cloned()),
         tags.get("addr:district").cloned(),
-        tags.get("addr:city").cloned().or_else(|| tags.get("addr:province").cloned()),
+        tags.get("addr:city")
+            .cloned()
+            .or_else(|| tags.get("addr:province").cloned()),
     ]
     .into_iter()
     .flatten()
@@ -168,12 +219,21 @@ impl PlaceProvider for OsmProvider {
             return Ok(vec![]);
         }
 
-        let around = format!("(around:{},{:.6},{:.6})", search.radius_m, search.lat, search.lng);
+        let around = format!(
+            "(around:{},{:.6},{:.6})",
+            search.radius_m, search.lat, search.lng
+        );
         let amenity = r#"["amenity"~"^(restaurant|fast_food|cafe|food_court|pub)$"]"#;
-        let mut statements =
-            format!("nwr{around}{amenity}[\"cuisine\"~\"(^|;) ?({})( ?;|$)\",i];", tag_values.join("|"));
+        let mut statements = format!(
+            "nwr{around}{amenity}[\"cuisine\"~\"(^|;) ?({})( ?;|$)\",i];",
+            tag_values.join("|")
+        );
 
-        let keyword = search.keyword.as_deref().map(sanitize_keyword).filter(|k| k.chars().count() >= 2);
+        let keyword = search
+            .keyword
+            .as_deref()
+            .map(sanitize_keyword)
+            .filter(|k| k.chars().count() >= 2);
         if let Some(keyword) = &keyword {
             statements.push_str(&format!("nwr{around}{amenity}[\"name\"~\"{keyword}\",i];"));
         }
@@ -183,7 +243,12 @@ impl PlaceProvider for OsmProvider {
         let folded_keyword = keyword.as_deref().map(fold_vi);
         let mut places = Vec::with_capacity(body.elements.len());
         for element in body.elements {
-            let Some(name) = element.tags.get("name:vi").or_else(|| element.tags.get("name")).cloned() else {
+            let Some(name) = element
+                .tags
+                .get("name:vi")
+                .or_else(|| element.tags.get("name"))
+                .cloned()
+            else {
                 continue;
             };
             let (lat, lng) = match (element.lat, element.lon, &element.center) {
@@ -191,11 +256,17 @@ impl PlaceProvider for OsmProvider {
                 (_, _, Some(center)) => (center.lat, center.lon),
                 _ => continue,
             };
-            let mut cuisines = element.tags.get("cuisine").map(|t| cuisines_from_tag(t)).unwrap_or_default();
+            let mut cuisines = element
+                .tags
+                .get("cuisine")
+                .map(|t| cuisines_from_tag(t))
+                .unwrap_or_default();
             cuisines.retain(|c| wanted.contains(&c.as_str()));
             // Quán khớp theo tên món (ví dụ "Phở Hoà") được gán nền ẩm thực đang tìm.
             if cuisines.is_empty() {
-                let name_matches = folded_keyword.as_deref().is_some_and(|k| fold_vi(&name).contains(k));
+                let name_matches = folded_keyword
+                    .as_deref()
+                    .is_some_and(|k| fold_vi(&name).contains(k));
                 if name_matches && wanted.len() == 1 {
                     cuisines.push(wanted[0].to_string());
                 } else {
@@ -236,7 +307,10 @@ impl PlaceProvider for OsmProvider {
         if !response.status().is_success() {
             bail!("Nominatim trả mã {}", response.status());
         }
-        let items: Vec<Value> = response.json().await.context("phản hồi Nominatim không đọc được")?;
+        let items: Vec<Value> = response
+            .json()
+            .await
+            .context("phản hồi Nominatim không đọc được")?;
         Ok(items
             .iter()
             .filter_map(|item| {
@@ -266,11 +340,18 @@ impl PlaceProvider for OsmProvider {
         if !response.status().is_success() {
             bail!("Nominatim trả mã {}", response.status());
         }
-        let body: Value = response.json().await.context("phản hồi Nominatim không đọc được")?;
+        let body: Value = response
+            .json()
+            .await
+            .context("phản hồi Nominatim không đọc được")?;
         let Some(address) = body.get("address") else {
             return Ok(None);
         };
-        let pick = |keys: &[&str]| keys.iter().find_map(|k| address.get(*k).and_then(Value::as_str)).map(str::to_string);
+        let pick = |keys: &[&str]| {
+            keys.iter()
+                .find_map(|k| address.get(*k).and_then(Value::as_str))
+                .map(str::to_string)
+        };
         // Nhãn ngắn kiểu "Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh".
         let parts: Vec<String> = [
             pick(&["quarter", "suburb", "neighbourhood", "village", "town"]),
@@ -281,7 +362,10 @@ impl PlaceProvider for OsmProvider {
         .flatten()
         .collect();
         if parts.is_empty() {
-            Ok(body.get("display_name").and_then(Value::as_str).map(str::to_string))
+            Ok(body
+                .get("display_name")
+                .and_then(Value::as_str)
+                .map(str::to_string))
         } else {
             Ok(Some(parts.join(", ")))
         }
@@ -295,7 +379,10 @@ mod tests {
     #[test]
     fn maps_osm_cuisine_tags() {
         assert_eq!(cuisines_from_tag("vietnamese;pho"), vec!["vietnam"]);
-        assert_eq!(cuisines_from_tag("Japanese; korean"), vec!["japan", "korea"]);
+        assert_eq!(
+            cuisines_from_tag("Japanese; korean"),
+            vec!["japan", "korea"]
+        );
         assert!(cuisines_from_tag("pizza").is_empty());
     }
 

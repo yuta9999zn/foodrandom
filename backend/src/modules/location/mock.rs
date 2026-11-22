@@ -50,7 +50,12 @@ impl PlaceProvider for MockProvider {
         let mut places = Vec::new();
         for (ci, cuisine) in cuisines.iter().enumerate() {
             for (i, (distance, bearing)) in OFFSETS.iter().enumerate() {
-                let (lat, lng) = offset(search.lat, search.lng, distance + ci as f64 * 0.15, bearing + ci as f64 * 23.0);
+                let (lat, lng) = offset(
+                    search.lat,
+                    search.lng,
+                    distance + ci as f64 * 0.15,
+                    bearing + ci as f64 * 23.0,
+                );
                 places.push(RawPlace {
                     place_ref: format!("mock-{cuisine}-{}", i + 1),
                     name: format!("[GIẢ LẬP] Quán {} mẫu {}", cuisine_label_vi(cuisine), i + 1),

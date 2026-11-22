@@ -44,8 +44,8 @@ const STYLE_ICONS: Record<Style, LucideIcon> = { traditional: Leaf, modern: Flas
 function Group({ icon: Icon, label, aside, children, className }: { icon: LucideIcon; label: string; aside?: ReactNode; children: ReactNode; className?: string }) {
   return (
     <div role="group" aria-label={label} className={cn('min-w-0', className)}>
-      <div className="mb-3 flex min-h-7 items-center justify-between gap-3">
-        <h3 className="flex items-center gap-2.5 text-[17px] font-semibold text-white">
+      <div className="mb-3 flex min-h-7 flex-wrap items-center justify-between gap-x-3 gap-y-2">
+        <h3 className="flex items-center gap-2.5 whitespace-nowrap text-[17px] font-semibold text-white">
           <Icon className="size-[22px]" strokeWidth={2} /> {label}
         </h3>
         {aside}
@@ -272,14 +272,19 @@ export function FilterPanel({ onRandom, randomDisabled, randomLoading }: { onRan
 
   return (
     <section aria-label={t('filter.aria')} className="glass-dark rounded-3xl px-5 py-6 sm:px-7 lg:px-10 lg:py-7">
-      <div className="grid gap-x-7 gap-y-6 sm:grid-cols-2 lg:grid-cols-[1.42fr_0.82fr_1.34fr_1fr]">
+      <div className="grid grid-cols-1 gap-x-7 gap-y-6 sm:grid-cols-2 lg:grid-cols-[1.42fr_0.82fr_1.34fr_1fr]">
         <Group icon={Soup} label={t('filter.meals')}>
           <Segmented>
             {MEALS.map((value) => {
               const Icon = MEAL_ICONS[value];
               return (
-                <SegmentButton key={value} active={filter.meals.includes(value)} onClick={() => filter.toggleMeal(value)}>
-                  <Icon className="size-[18px] shrink-0" /> <span className="truncate">{t(`options.meals.${value}`)}</span>
+                <SegmentButton
+                  key={value}
+                  active={filter.meals.includes(value)}
+                  onClick={() => filter.toggleMeal(value)}
+                  className="flex-col gap-0.5 px-0.5 text-[12px] leading-none tracking-tight 2xl:flex-row 2xl:gap-1.5 2xl:px-2 2xl:text-[15px] 2xl:tracking-normal"
+                >
+                  <Icon className="size-4 shrink-0 2xl:size-[18px]" /> <span className="max-w-full truncate">{t(`options.meals.${value}`)}</span>
                 </SegmentButton>
               );
             })}
@@ -303,7 +308,7 @@ export function FilterPanel({ onRandom, randomDisabled, randomLoading }: { onRan
         </Group>
 
         <Group icon={Globe} label={t('filter.style')} className={divider}>
-          <div className="grid h-11 grid-cols-2 gap-2">
+          <div className="grid h-11 grid-cols-2 gap-1.5 2xl:gap-2">
             {STYLES.map((value) => {
               const Icon = STYLE_ICONS[value];
               const active = filter.style === value;
@@ -314,11 +319,11 @@ export function FilterPanel({ onRandom, randomDisabled, randomLoading }: { onRan
                   aria-pressed={active}
                   onClick={() => filter.toggleStyle(value)}
                   className={cn(
-                    'flex items-center justify-center gap-2 rounded-xl px-2 text-[15px] font-medium transition focus-visible:ring-offset-0',
+                    'flex min-w-0 items-center justify-center gap-1.5 rounded-xl px-1.5 text-[14px] font-medium transition focus-visible:ring-offset-0 sm:text-[15px] lg:text-[14px] 2xl:gap-2 2xl:px-2 2xl:text-[15px]',
                     active ? 'chip-active font-semibold' : 'glass-field text-white/90 hover:bg-white/15 hover:text-white',
                   )}
                 >
-                  <Icon className="size-[18px] shrink-0" /> <span className="truncate">{t(`options.styles.${value}`)}</span>
+                  <Icon className="size-[18px] shrink-0 lg:hidden 2xl:block" /> <span className="truncate">{t(`options.styles.${value}`)}</span>
                 </button>
               );
             })}
@@ -344,7 +349,7 @@ export function FilterPanel({ onRandom, randomDisabled, randomLoading }: { onRan
 
       <div className="my-6 h-px bg-white/15" />
 
-      <div className="grid items-end gap-x-7 gap-y-6 lg:grid-cols-[1.42fr_2.16fr_1.3fr]">
+      <div className="grid grid-cols-1 items-end gap-x-7 gap-y-6 lg:grid-cols-[1.42fr_2.16fr_1.3fr]">
         <Group
           icon={MapPin}
           label={t('filter.location')}
@@ -371,13 +376,13 @@ export function FilterPanel({ onRandom, randomDisabled, randomLoading }: { onRan
         </Group>
 
         <Group icon={Coins} label={t('filter.budget')} className={divider}>
-          <Segmented className="overflow-x-auto scrollbar-none">
+          <Segmented className="h-auto flex-wrap sm:h-11 sm:flex-nowrap sm:overflow-x-auto sm:scrollbar-none">
             {BUDGET_CODES.map((value) => (
               <SegmentButton
                 key={value}
                 active={filter.budgets.includes(value)}
                 onClick={() => filter.toggleBudget(value)}
-                className="min-w-fit px-2.5 text-[14px]"
+                className="h-[38px] min-w-[30%] px-2.5 text-[14px] sm:h-auto sm:min-w-fit"
               >
                 <span>{budgetLabels[value]}</span>
               </SegmentButton>

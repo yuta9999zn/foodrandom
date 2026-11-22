@@ -98,7 +98,12 @@ impl SeedFood {
         if self.price_min < 0 || self.price_max < self.price_min {
             bail!("món '{}': khoảng giá không hợp lệ", self.slug);
         }
-        if self.slug.is_empty() || !self.slug.bytes().all(|b| b.is_ascii_lowercase() || b.is_ascii_digit() || b == b'-') {
+        if self.slug.is_empty()
+            || !self
+                .slug
+                .bytes()
+                .all(|b| b.is_ascii_lowercase() || b.is_ascii_digit() || b == b'-')
+        {
             bail!("slug '{}' không hợp lệ", self.slug);
         }
         Ok(())
@@ -123,12 +128,16 @@ pub async fn seed_foods(pool: &PgPool, dir: &str) -> Result<usize> {
 
     let mut count = 0;
     for file in files {
-        let raw = std::fs::read_to_string(&file).with_context(|| format!("không đọc được {}", file.display()))?;
-        let foods: Vec<SeedFood> =
-            serde_json::from_str(raw.trim_start_matches('\u{feff}')).with_context(|| format!("JSON không hợp lệ: {}", file.display()))?;
+        let raw = std::fs::read_to_string(&file)
+            .with_context(|| format!("không đọc được {}", file.display()))?;
+        let foods: Vec<SeedFood> = serde_json::from_str(raw.trim_start_matches('\u{feff}'))
+            .with_context(|| format!("JSON không hợp lệ: {}", file.display()))?;
         for food in foods {
-            food.validate().with_context(|| format!("tệp {}", file.display()))?;
-            upsert(pool, &food).await.with_context(|| format!("không ghi được món '{}'", food.slug))?;
+            food.validate()
+                .with_context(|| format!("tệp {}", file.display()))?;
+            upsert(pool, &food)
+                .await
+                .with_context(|| format!("không ghi được món '{}'", food.slug))?;
             count += 1;
         }
     }
@@ -138,7 +147,11 @@ pub async fn seed_foods(pool: &PgPool, dir: &str) -> Result<usize> {
     let prices = seed_prices(pool, &root.join("prices")).await?;
     let translations = seed_translations(pool, &root.join("i18n")).await?;
     refresh_search_text(pool).await?;
-    tracing::info!(prices, translations, "đã nạp giá theo thị trường và bản dịch");
+    tracing::info!(
+        prices,
+        translations,
+        "đã nạp giá theo thị trường và bản dịch"
+    );
     Ok(count)
 }
 
@@ -155,8 +168,10 @@ fn json_files(dir: &Path) -> Result<Vec<std::path::PathBuf>> {
 }
 
 fn read_json<T: serde::de::DeserializeOwned>(file: &Path) -> Result<T> {
-    let raw = std::fs::read_to_string(file).with_context(|| format!("không đọc được {}", file.display()))?;
-    serde_json::from_str(raw.trim_start_matches('\u{feff}')).with_context(|| format!("JSON không hợp lệ: {}", file.display()))
+    let raw = std::fs::read_to_string(file)
+        .with_context(|| format!("không đọc được {}", file.display()))?;
+    serde_json::from_str(raw.trim_start_matches('\u{feff}'))
+        .with_context(|| format!("JSON không hợp lệ: {}", file.display()))
 }
 
 #[derive(Debug, Deserialize)]
@@ -185,7 +200,9 @@ async fn seed_prices(pool: &PgPool, dir: &Path) -> Result<usize> {
     for file in json_files(dir)? {
         for entry in read_json::<Vec<SeedPrices>>(&file)? {
             for (code, range) in entry.prices {
-                let market = crate::i18n::market(&code).with_context(|| format!("{}: thị trường '{code}' không hỗ trợ", file.display()))?;
+                let market = crate::i18n::market(&code).with_context(|| {
+                    format!("{}: thị trường '{code}' không hỗ trợ", file.display())
+                })?;
                 match range {
                     Some(r) if r.min >= 0.0 && r.max >= r.min => {
                         sqlx::query(
@@ -203,7 +220,11 @@ async fn seed_prices(pool: &PgPool, dir: &Path) -> Result<usize> {
                         .await?;
                         count += 1;
                     }
-                    Some(_) => bail!("{}: giá của '{}' tại {code} không hợp lệ", file.display(), entry.slug),
+                    Some(_) => bail!(
+                        "{}: giá của '{}' tại {code} không hợp lệ",
+                        file.display(),
+                        entry.slug
+                    ),
                     None => {
                         sqlx::query("DELETE FROM food_prices p USING foods f WHERE p.food_id = f.id AND f.slug = $1 AND p.market = $2")
                             .bind(&entry.slug)
@@ -241,10 +262,17 @@ struct SeedTranslation {
 /// Bản dịch nội dung món từ `seed/i18n/<locale>/*.json`.
 async fn seed_translations(pool: &PgPool, dir: &Path) -> Result<usize> {
     let mut count = 0;
-    for locale in crate::i18n::LOCALES.iter().filter(|l| **l != crate::i18n::DEFAULT_LOCALE) {
+    for locale in crate::i18n::LOCALES
+        .iter()
+        .filter(|l| **l != crate::i18n::DEFAULT_LOCALE)
+    {
         for file in json_files(&dir.join(locale))? {
             for t in read_json::<Vec<SeedTranslation>>(&file)? {
-                let ingredients = json!(t.ingredients.iter().map(|i| json!({ "name": i.name, "amount": i.amount })).collect::<Vec<_>>());
+                let ingredients = json!(t
+                    .ingredients
+                    .iter()
+                    .map(|i| json!({ "name": i.name, "amount": i.amount }))
+                    .collect::<Vec<_>>());
                 let affected = sqlx::query(
                     "INSERT INTO food_translations (food_id, locale, name, description, origin, cooking_style, serving_note, ingredients, steps, tags) \
                      SELECT id, $2, $3, $4, $5, $6, $7, $8, $9, $10 FROM foods WHERE slug = $1 \
@@ -276,7 +304,14 @@ async fn seed_translations(pool: &PgPool, dir: &Path) -> Result<usize> {
 }
 
 /// (id, tên, tên gốc, thẻ, nền ẩm thực, tên và thẻ ở các ngôn ngữ khác)
-type SearchRow = (uuid::Uuid, String, Option<String>, Vec<String>, String, Option<String>);
+type SearchRow = (
+    uuid::Uuid,
+    String,
+    Option<String>,
+    Vec<String>,
+    String,
+    Option<String>,
+);
 
 /// Gộp tên món ở mọi ngôn ngữ vào cột tìm kiếm, để gõ "ramen", "ラーメン" hay "라멘" đều ra.
 async fn refresh_search_text(pool: &PgPool) -> Result<()> {
@@ -294,7 +329,11 @@ async fn refresh_search_text(pool: &PgPool) -> Result<()> {
             cuisine_label_vi(&cuisine),
             translated.unwrap_or_default()
         ));
-        sqlx::query("UPDATE foods SET search_text = $1 WHERE id = $2").bind(text).bind(id).execute(pool).await?;
+        sqlx::query("UPDATE foods SET search_text = $1 WHERE id = $2")
+            .bind(text)
+            .bind(id)
+            .execute(pool)
+            .await?;
     }
     Ok(())
 }
@@ -307,7 +346,11 @@ async fn upsert(pool: &PgPool, food: &SeedFood) -> Result<()> {
         food.tags.join(" "),
         cuisine_label_vi(&food.cuisine)
     ));
-    let ingredients = json!(food.ingredients.iter().map(|i| json!({ "name": i.name, "amount": i.amount })).collect::<Vec<_>>());
+    let ingredients = json!(food
+        .ingredients
+        .iter()
+        .map(|i| json!({ "name": i.name, "amount": i.amount }))
+        .collect::<Vec<_>>());
 
     sqlx::query(
         "INSERT INTO foods (slug, name, original_name, cuisine, style, dish_type, meals, soup_type, price_min, price_max, \

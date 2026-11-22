@@ -1,22 +1,7 @@
 import type { Locale, MarketCode } from '@/i18n/config';
 
 import { api, ApiError } from './client';
-import type {
-  FavoritePlace,
-  FilterMeta,
-  FoodDetail,
-  FoodFilter,
-  FoodListResponse,
-  FoodSummary,
-  GeoPoint,
-  NearbyResponse,
-  Place,
-  ProviderInfo,
-  RandomResponse,
-  RatingResponse,
-  SortKey,
-  UserProfile,
-} from '../types';
+import type { FilterMeta, FoodDetail, FoodFilter, FoodListResponse, GeoPoint, ProviderInfo, RandomResponse, SortKey } from '../types';
 
 export * from './client';
 
@@ -60,72 +45,14 @@ export const foodsApi = {
     body: { filter: Partial<FoodFilter>; sort?: SortKey | null; page?: number; scope?: 'page' | 'all'; exclude?: string[] },
     prefs: Prefs,
   ) => api<RandomResponse>('/random', { method: 'POST', json: { ...body, filter: { ...body.filter, ...prefs } } }),
-  rating: (slug: string) => api<RatingResponse>(`/foods/${encodeURIComponent(slug)}/rating`),
-  rate: (slug: string, score: number) =>
-    api<RatingResponse>(`/foods/${encodeURIComponent(slug)}/rating`, { method: 'PUT', json: { score } }),
   meta: () => api<FilterMeta>('/meta/filters'),
 };
 
 export const locationApi = {
   provider: () => api<ProviderInfo>('/location/provider'),
-  nearby: (
-    params: { lat: number; lng: number; radius_km?: number | null; food?: string; cuisine?: string; limit?: number; sort?: 'rating' | 'distance' },
-    prefs: Prefs,
-  ) =>
-    api<NearbyResponse>('/location/nearby', { query: { ...params, ...prefs }, timeoutMs: 35_000 }),
   geocode: (q: string, prefs: Prefs) => api<ProviderInfo & { results: GeoPoint[] }>('/location/geocode', { query: { q, ...prefs }, timeoutMs: 35_000 }),
   reverse: (lat: number, lng: number, lang: Locale) =>
     api<ProviderInfo & { label: string | null }>('/location/reverse', { query: { lat, lng, lang } }),
-};
-
-export interface OtpSent {
-  message: string;
-  expires_in: number;
-  resend_after: number;
-}
-
-export interface AuthResult {
-  user: UserProfile;
-  message: string;
-}
-
-export const authApi = {
-  me: () => api<UserProfile>('/auth/me'),
-  requestRegisterOtp: (body: { email: string; phone: string }) =>
-    api<OtpSent>('/auth/register/request-otp', { method: 'POST', json: body }),
-  verifyRegister: (body: { email: string; otp: string }) => api<AuthResult>('/auth/register/verify', { method: 'POST', json: body }),
-  login: (body: { identifier: string; password: string }) => api<AuthResult>('/auth/login', { method: 'POST', json: body }),
-  logout: () => api<{ message: string }>('/auth/logout', { method: 'POST' }),
-  forgotPassword: (body: { email: string }) => api<OtpSent>('/auth/password/forgot', { method: 'POST', json: body }),
-  resetPassword: (body: { email: string; otp: string }) => api<{ message: string }>('/auth/password/reset', { method: 'POST', json: body }),
-  changePassword: (body: { current_password: string; new_password: string }) =>
-    api<{ message: string }>('/auth/password/change', { method: 'POST', json: body }),
-  updateProfile: (body: { display_name: string }) => api<UserProfile>('/auth/me', { method: 'PATCH', json: body }),
-};
-
-export const favoritesApi = {
-  foods: (prefs: Prefs) => api<{ items: FoodSummary[] }>('/favorites/foods', { query: { ...prefs } }),
-  foodSlugs: () => api<{ slugs: string[] }>('/favorites/foods/slugs'),
-  addFood: (slug: string) => api<{ slug: string; favorited: boolean }>(`/favorites/foods/${encodeURIComponent(slug)}`, { method: 'PUT' }),
-  removeFood: (slug: string) =>
-    api<{ slug: string; favorited: boolean }>(`/favorites/foods/${encodeURIComponent(slug)}`, { method: 'DELETE' }),
-  places: () => api<{ items: FavoritePlace[] }>('/favorites/places'),
-  savePlace: (place: Place, extra: { cuisine?: string | null; food_slug?: string | null }) =>
-    api<FavoritePlace>('/favorites/places', {
-      method: 'POST',
-      json: {
-        provider: place.provider,
-        place_ref: place.place_ref,
-        name: place.name,
-        address: place.address,
-        lat: place.lat,
-        lng: place.lng,
-        maps_url: place.maps_url,
-        cuisine: extra.cuisine ?? place.cuisines[0] ?? null,
-        food_slug: extra.food_slug ?? null,
-      },
-    }),
-  removePlace: (id: string) => api<void>(`/favorites/places/${id}`, { method: 'DELETE' }),
 };
 
 type T = (key: string, vars?: Record<string, string | number>) => string;

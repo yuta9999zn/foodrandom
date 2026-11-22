@@ -10,7 +10,7 @@ export function SiteFooter() {
   const { t } = useI18n();
   return (
     <footer className="mt-20 bg-dark text-white/75">
-      <div className="container grid gap-8 py-12 md:grid-cols-[1.4fr_1fr_1fr]">
+      <div className="container grid grid-cols-1 gap-8 py-12 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-2.5 text-white">
             <LogoMark className="h-9" />

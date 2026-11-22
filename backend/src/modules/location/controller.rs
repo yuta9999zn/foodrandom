@@ -4,7 +4,10 @@ use axum::{
     Json, Router,
 };
 
-use super::dto::{GeocodeQuery, GeocodeResponse, NearbyQuery, NearbyResponse, ProviderInfo, ReverseQuery, ReverseResponse};
+use super::dto::{
+    GeocodeQuery, GeocodeResponse, NearbyQuery, NearbyResponse, ProviderInfo, ReverseQuery,
+    ReverseResponse,
+};
 use crate::{
     error::{AppError, AppResult, ErrorBody},
     extract::ClientIp,
@@ -25,7 +28,12 @@ pub fn router() -> Router<AppState> {
 async fn limit(state: &AppState, ip: &str) -> AppResult<()> {
     state
         .cache
-        .rate_limit(&format!("rl:location:{ip}"), 40, 60, "Bạn tìm địa điểm quá nhanh, vui lòng thử lại sau ít phút")
+        .rate_limit(
+            &format!("rl:location:{ip}"),
+            40,
+            60,
+            "Bạn tìm địa điểm quá nhanh, vui lòng thử lại sau ít phút",
+        )
         .await
 }
 
@@ -34,8 +42,19 @@ fn keyword_from_food_name(name: &str) -> Option<String> {
     let base = name.split('(').next().unwrap_or(name);
     let words: Vec<&str> = base.split_whitespace().collect();
     let first = words.first()?.to_lowercase();
-    let take = if matches!(first.as_str(), "phở" | "lẩu" | "xôi" | "chè" | "cháo") { 1 } else { 2 };
-    Some(words.iter().take(take).copied().collect::<Vec<_>>().join(" "))
+    let take = if matches!(first.as_str(), "phở" | "lẩu" | "xôi" | "chè" | "cháo") {
+        1
+    } else {
+        2
+    };
+    Some(
+        words
+            .iter()
+            .take(take)
+            .copied()
+            .collect::<Vec<_>>()
+            .join(" "),
+    )
 }
 
 /// Nhà cung cấp địa điểm đang dùng
@@ -66,15 +85,28 @@ pub async fn nearby(
     limit(&state, &ip).await?;
 
     let mut cuisines: Vec<String> = Vec::new();
-    for code in query.cuisine.as_deref().unwrap_or("").split(',').map(str::trim).filter(|c| !c.is_empty()) {
+    for code in query
+        .cuisine
+        .as_deref()
+        .unwrap_or("")
+        .split(',')
+        .map(str::trim)
+        .filter(|c| !c.is_empty())
+    {
         if !CUISINES.contains(&code) {
-            return Err(AppError::validation("cuisine", format!("Nền ẩm thực '{code}' không hợp lệ")));
+            return Err(AppError::validation(
+                "cuisine",
+                format!("Nền ẩm thực '{code}' không hợp lệ"),
+            ));
         }
         cuisines.push(code.to_string());
     }
     if let Some(radius) = query.radius_km {
         if !(radius.is_finite() && radius > 0.0 && radius <= 50.0) {
-            return Err(AppError::validation("radius_km", "Bán kính phải lớn hơn 0 và không quá 50 km"));
+            return Err(AppError::validation(
+                "radius_km",
+                "Bán kính phải lớn hơn 0 và không quá 50 km",
+            ));
         }
     }
 
@@ -84,8 +116,16 @@ pub async fn nearby(
     let mut keyword = None;
     if let Some(slug) = query.food.as_deref().filter(|s| !s.is_empty()) {
         // Tên món bằng ngôn ngữ của thị trường: người ở Nhật tìm "Phở" sẽ tra "フォー" quanh vị trí ở Nhật.
-        let food = state.foods.detail(slug, market.language, market).await?.food;
-        keyword = match (state.location.provider_name(), food.cuisine.as_str(), market.code) {
+        let food = state
+            .foods
+            .detail(slug, market.language, market)
+            .await?
+            .food;
+        keyword = match (
+            state.location.provider_name(),
+            food.cuisine.as_str(),
+            market.code,
+        ) {
             ("google", _, _) => Some(food.name.clone()),
             // OpenStreetMap: ở Việt Nam tên quán thường chứa tên món ("Phở Hoà"); nơi khác lọc theo thẻ ẩm thực.
             (_, "vietnam", "VN") => keyword_from_food_name(&food.name),
@@ -98,7 +138,12 @@ pub async fn nearby(
     let by_rating = match query.sort.as_deref().unwrap_or("distance") {
         "distance" => false,
         "rating" => true,
-        other => return Err(AppError::validation("sort", format!("Giá trị '{other}' không hợp lệ. Cho phép: distance, rating"))),
+        other => {
+            return Err(AppError::validation(
+                "sort",
+                format!("Giá trị '{other}' không hợp lệ. Cho phép: distance, rating"),
+            ))
+        }
     };
     let places = state
         .location
@@ -115,8 +160,17 @@ pub async fn nearby(
         })
         .await?;
     let has_ratings = state.location.has_ratings();
-    let sort = if by_rating && has_ratings { "rating" } else { "distance" };
-    Ok(Json(NearbyResponse { source: state.location.info(), sort: sort.into(), has_ratings, places }))
+    let sort = if by_rating && has_ratings {
+        "rating"
+    } else {
+        "distance"
+    };
+    Ok(Json(NearbyResponse {
+        source: state.location.info(),
+        sort: sort.into(),
+        has_ratings,
+        places,
+    }))
 }
 
 /// Đổi địa chỉ nhập tay thành toạ độ
@@ -134,7 +188,10 @@ pub async fn geocode(
     let market = i18n::parse_market(query.market.as_deref())?;
     let lang = i18n::parse_locale(query.lang.as_deref())?;
     let results = state.location.geocode(&query.q, market, lang).await?;
-    Ok(Json(GeocodeResponse { source: state.location.info(), results }))
+    Ok(Json(GeocodeResponse {
+        source: state.location.info(),
+        results,
+    }))
 }
 
 /// Đổi toạ độ thành tên khu vực
@@ -151,7 +208,10 @@ pub async fn reverse(
     limit(&state, &ip).await?;
     let lang = i18n::parse_locale(query.lang.as_deref())?;
     let label = state.location.reverse(query.lat, query.lng, lang).await?;
-    Ok(Json(ReverseResponse { source: state.location.info(), label }))
+    Ok(Json(ReverseResponse {
+        source: state.location.info(),
+        label,
+    }))
 }
 
 #[cfg(test)]
@@ -160,8 +220,17 @@ mod tests {
 
     #[test]
     fn derives_place_keyword_from_dish_name() {
-        assert_eq!(keyword_from_food_name("Phở bò Nam Định").as_deref(), Some("Phở"));
-        assert_eq!(keyword_from_food_name("Bún bò Huế").as_deref(), Some("Bún bò"));
-        assert_eq!(keyword_from_food_name("Cơm tấm sườn bì chả").as_deref(), Some("Cơm tấm"));
+        assert_eq!(
+            keyword_from_food_name("Phở bò Nam Định").as_deref(),
+            Some("Phở")
+        );
+        assert_eq!(
+            keyword_from_food_name("Bún bò Huế").as_deref(),
+            Some("Bún bò")
+        );
+        assert_eq!(
+            keyword_from_food_name("Cơm tấm sườn bì chả").as_deref(),
+            Some("Cơm tấm")
+        );
     }
 }

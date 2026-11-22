@@ -1,4 +1,4 @@
-# Hạ tầng cho môi trường phát triển: chỉ PostgreSQL, Redis và Mailpit.
+# Hạ tầng cho môi trường phát triển: chỉ PostgreSQL và Redis.
 # Backend chạy bằng `cargo run`, frontend chạy bằng `npm run dev`.
 #
 #   docker compose -f docker-compose.dev.yml up -d
@@ -33,13 +33,6 @@ services:
       interval: 5s
       timeout: 3s
       retries: 20
-
-  # Hộp thư giả cho development: mọi email (OTP, mật khẩu) hiện ở http://localhost:8125
-  mailpit:
-    image: axllent/mailpit:latest
-    ports:
-      - "1125:1025"
-      - "8125:8025"
 
 volumes:
   pgdata:

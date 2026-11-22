@@ -28,10 +28,18 @@ impl GoogleProvider {
             .connect_timeout(Duration::from_secs(5))
             .build()
             .context("không tạo được HTTP client cho Google Maps")?;
-        Ok(Self { http, api_key: api_key.to_string() })
+        Ok(Self {
+            http,
+            api_key: api_key.to_string(),
+        })
     }
 
-    async fn text_search(&self, text: String, cuisine: Option<&str>, search: &NearbySearch) -> Result<Vec<RawPlace>> {
+    async fn text_search(
+        &self,
+        text: String,
+        cuisine: Option<&str>,
+        search: &NearbySearch,
+    ) -> Result<Vec<RawPlace>> {
         let body = json!({
             "textQuery": text,
             "languageCode": search.language,
@@ -57,30 +65,56 @@ impl GoogleProvider {
         if !response.status().is_success() {
             let status = response.status();
             let detail = response.text().await.unwrap_or_default();
-            bail!("Google Places API trả mã {status}: {}", detail.chars().take(300).collect::<String>());
+            bail!(
+                "Google Places API trả mã {status}: {}",
+                detail.chars().take(300).collect::<String>()
+            );
         }
-        let payload: Value = response.json().await.context("phản hồi Google Places không đọc được")?;
-        let places = payload.get("places").and_then(Value::as_array).cloned().unwrap_or_default();
+        let payload: Value = response
+            .json()
+            .await
+            .context("phản hồi Google Places không đọc được")?;
+        let places = payload
+            .get("places")
+            .and_then(Value::as_array)
+            .cloned()
+            .unwrap_or_default();
         Ok(places
             .iter()
             .filter_map(|p| {
                 Some(RawPlace {
                     place_ref: p.get("id")?.as_str()?.to_string(),
                     name: p.get("displayName")?.get("text")?.as_str()?.to_string(),
-                    address: p.get("formattedAddress").and_then(Value::as_str).map(str::to_string),
+                    address: p
+                        .get("formattedAddress")
+                        .and_then(Value::as_str)
+                        .map(str::to_string),
                     lat: p.get("location")?.get("latitude")?.as_f64()?,
                     lng: p.get("location")?.get("longitude")?.as_f64()?,
                     cuisines: cuisine.map(|c| vec![c.to_string()]).unwrap_or_default(),
                     rating: p.get("rating").and_then(Value::as_f64).map(|r| r as f32),
-                    rating_count: p.get("userRatingCount").and_then(Value::as_u64).map(|c| c as u32),
-                    open_now: p.get("currentOpeningHours").and_then(|h| h.get("openNow")).and_then(Value::as_bool),
-                    maps_url: p.get("googleMapsUri").and_then(Value::as_str).map(str::to_string),
+                    rating_count: p
+                        .get("userRatingCount")
+                        .and_then(Value::as_u64)
+                        .map(|c| c as u32),
+                    open_now: p
+                        .get("currentOpeningHours")
+                        .and_then(|h| h.get("openNow"))
+                        .and_then(Value::as_bool),
+                    maps_url: p
+                        .get("googleMapsUri")
+                        .and_then(Value::as_str)
+                        .map(str::to_string),
                 })
             })
             .collect())
     }
 
-    async fn geocode_request(&self, params: &[(&str, String)], language: &str) -> Result<Vec<Value>> {
+    async fn geocode_request(
+        &self,
+        params: &[(&str, String)],
+        language: &str,
+    ) -> Result<Vec<Value>> {
         let response = self
             .http
             .get(GEOCODE_URL)
@@ -89,9 +123,16 @@ impl GoogleProvider {
             .send()
             .await
             .context("không gọi được Google Geocoding API")?;
-        let payload: Value = response.json().await.context("phản hồi Google Geocoding không đọc được")?;
+        let payload: Value = response
+            .json()
+            .await
+            .context("phản hồi Google Geocoding không đọc được")?;
         match payload.get("status").and_then(Value::as_str) {
-            Some("OK") => Ok(payload.get("results").and_then(Value::as_array).cloned().unwrap_or_default()),
+            Some("OK") => Ok(payload
+                .get("results")
+                .and_then(Value::as_array)
+                .cloned()
+                .unwrap_or_default()),
             Some("ZERO_RESULTS") => Ok(vec![]),
             other => bail!("Google Geocoding API trả trạng thái {other:?}"),
         }
@@ -121,14 +162,20 @@ impl PlaceProvider for GoogleProvider {
 
         // Có từ khoá món ăn và đúng một nền ẩm thực: tìm thẳng theo tên món (bằng ngôn ngữ của thị trường).
         if let (Some(keyword), [cuisine]) = (&search.keyword, cuisines.as_slice()) {
-            return self.text_search(keyword.clone(), Some(cuisine), search).await;
+            return self
+                .text_search(keyword.clone(), Some(cuisine), search)
+                .await;
         }
 
         let mut all = Vec::new();
         let mut last_error = None;
-        let requests = cuisines
-            .iter()
-            .map(|c| self.text_search(cuisine_restaurant_query(c, &search.language), Some(c), search));
+        let requests = cuisines.iter().map(|c| {
+            self.text_search(
+                cuisine_restaurant_query(c, &search.language),
+                Some(c),
+                search,
+            )
+        });
         for result in futures::future::join_all(requests).await {
             match result {
                 Ok(places) => all.extend(places),
@@ -145,7 +192,13 @@ impl PlaceProvider for GoogleProvider {
 
     async fn geocode(&self, query: &str, country: &str, language: &str) -> Result<Vec<GeoPoint>> {
         let results = self
-            .geocode_request(&[("address", query.to_string()), ("components", format!("country:{country}"))], language)
+            .geocode_request(
+                &[
+                    ("address", query.to_string()),
+                    ("components", format!("country:{country}")),
+                ],
+                language,
+            )
             .await?;
         Ok(results
             .iter()
@@ -166,11 +219,18 @@ impl PlaceProvider for GoogleProvider {
             .geocode_request(
                 &[
                     ("latlng", format!("{lat:.6},{lng:.6}")),
-                    ("result_type", "sublocality|administrative_area_level_2|locality".to_string()),
+                    (
+                        "result_type",
+                        "sublocality|administrative_area_level_2|locality".to_string(),
+                    ),
                 ],
                 language,
             )
             .await?;
-        Ok(results.first().and_then(|r| r.get("formatted_address")).and_then(Value::as_str).map(str::to_string))
+        Ok(results
+            .first()
+            .and_then(|r| r.get("formatted_address"))
+            .and_then(Value::as_str)
+            .map(str::to_string))
     }
 }

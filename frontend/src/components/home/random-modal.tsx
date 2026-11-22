@@ -1,18 +1,18 @@
 'use client';
 
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
-import { ArrowRight, Flame, Footprints, MapPin, Navigation, Shuffle, Sparkles } from 'lucide-react';
+import { ArrowRight, Flame, Footprints, MapPin, Shuffle, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 import { PriceText, RatingLine, StyleChip, TypeChip } from '@/components/food/food-card';
+import { MapsSearchButton } from '@/components/food/maps-search-button';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
 import { useI18n } from '@/i18n/provider';
 import type { FoodListItem, RandomResponse } from '@/lib/types';
 import { formatDistance } from '@/lib/utils';
-import { useNearbyDialog } from '@/stores/nearby-dialog-store';
 
 export type RandomPhase = 'idle' | 'spinning' | 'result' | 'error';
 
@@ -62,7 +62,6 @@ function Spinner({ candidates }: { candidates: FoodListItem[] }) {
 
 function Result({ result, onAgain, onClose }: { result: RandomResponse; onAgain: () => void; onClose: () => void }) {
   const { t } = useI18n();
-  const openNearby = useNearbyDialog((s) => s.open);
   const food = result.food;
   const place = food.nearest_place;
 
@@ -73,7 +72,7 @@ function Result({ result, onAgain, onClose }: { result: RandomResponse; onAgain:
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ type: 'spring', stiffness: 260, damping: 22 }}
     >
-      <div className="relative aspect-[16/10] w-full overflow-hidden bg-primary-50">
+      <div className="relative aspect-[2/1] w-full overflow-hidden bg-primary-50 sm:aspect-[16/10]">
         <Image src={food.image_url} alt={food.name} fill sizes="(min-width: 640px) 560px, 100vw" className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
         <motion.span
@@ -91,8 +90,8 @@ function Result({ result, onAgain, onClose }: { result: RandomResponse; onAgain:
         )}
       </div>
 
-      <div className="p-6">
-        <DialogTitle className="pr-0 text-2xl">{food.name}</DialogTitle>
+      <div className="p-5 sm:p-6">
+        <DialogTitle className="pr-0 text-xl sm:text-2xl">{food.name}</DialogTitle>
         {food.original_name && food.original_name !== food.name && <p className="mt-0.5 text-[15px] text-ink-muted">{food.original_name}</p>}
 
         <div className="mt-3 flex flex-wrap gap-1.5">
@@ -111,7 +110,7 @@ function Result({ result, onAgain, onClose }: { result: RandomResponse; onAgain:
           <RatingLine food={food} />
         </div>
 
-        <DialogDescription className="mt-3 line-clamp-3">{food.description}</DialogDescription>
+        <DialogDescription className="mt-3 line-clamp-2 sm:line-clamp-3">{food.description}</DialogDescription>
 
         {place ? (
           <div className="mt-4 flex items-start gap-3 rounded-2xl bg-background p-3.5">
@@ -124,18 +123,16 @@ function Result({ result, onAgain, onClose }: { result: RandomResponse; onAgain:
             </div>
           </div>
         ) : (
-          <p className="mt-4 rounded-2xl bg-background px-4 py-3 text-sm text-ink-muted">{t('random.noLocationHint')}</p>
+          <p className="mt-4 hidden rounded-2xl bg-background px-4 py-3 text-sm text-ink-muted sm:block">{t('random.noLocationHint')}</p>
         )}
 
-        <div className="mt-5 grid gap-2.5 sm:grid-cols-3">
+        <div className="mt-4 grid grid-cols-1 gap-2 sm:mt-5 sm:grid-cols-3 sm:gap-2.5">
           <Button asChild variant="outline" className="sm:order-1">
             <Link href={`/foods/${food.slug}`} onClick={onClose}>
               {t('random.details')} <ArrowRight />
             </Link>
           </Button>
-          <Button variant="soft" className="sm:order-2" onClick={() => openNearby({ slug: food.slug, name: food.name, cuisine: food.cuisine })}>
-            <Navigation /> {t('random.directions')}
-          </Button>
+          <MapsSearchButton variant="soft" className="sm:order-2" name={food.name} />
           <Button className="sm:order-3" onClick={onAgain}>
             <Shuffle /> {t('random.again')}
           </Button>

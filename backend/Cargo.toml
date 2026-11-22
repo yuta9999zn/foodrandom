@@ -1,13 +1,12 @@
 [package]
 name = "foodrandom-api"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "FoodRandom REST API — Axum + SQLx + PostgreSQL + Redis"
 publish = false
 
 [dependencies]
 axum = { version = "0.8", features = ["macros"] }
-axum-extra = { version = "0.10", features = ["cookie"] }
 tokio = { version = "1", features = ["full"] }
 tower = { version = "0.5", features = ["util", "timeout", "limit", "load-shed"] }
 tower-http = { version = "0.6", features = ["trace", "cors", "compression-gzip", "limit", "request-id", "catch-panic"] }
@@ -19,21 +18,15 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
 utoipa = { version = "5", features = ["axum_extras", "uuid", "chrono"] }
 redis = { version = "0.27", features = ["tokio-comp", "connection-manager"] }
-argon2 = "0.5"
-jsonwebtoken = "9"
-lettre = { version = "0.11", default-features = false, features = ["builder", "smtp-transport", "tokio1-rustls-tls", "hostname"] }
 reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "gzip"] }
 rand = "0.9"
 uuid = { version = "1", features = ["v4", "serde"] }
 chrono = { version = "0.4", features = ["serde"] }
 thiserror = "2"
-time = "0.3"
 anyhow = "1"
 async-trait = "0.1"
 futures = "0.3"
 dotenvy = "0.15"
-sha2 = "0.10"
-hex = "0.4"
 
 [profile.release]
 lto = "thin"

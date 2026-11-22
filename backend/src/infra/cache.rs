@@ -4,10 +4,10 @@ use serde::{de::DeserializeOwned, Serialize};
 
 use crate::error::{AppError, AppResult};
 
-/// Lớp bọc Redis dùng cho ba việc: cache phản hồi, OTP có hạn và bộ đếm giới hạn tần suất.
+/// Lớp bọc Redis dùng cho: cache phản hồi, khoá phân tán giữa các bản sao và bộ đếm giới hạn tần suất.
 ///
 /// Các thao tác cache (`get_json`, `set_json`) không bao giờ làm hỏng request: Redis lỗi thì
-/// ghi log và coi như cache trượt. Các thao tác OTP và đếm tần suất trả lỗi để tầng trên xử lý.
+/// ghi log và coi như cache trượt. Thao tác đếm tần suất trả lỗi để tầng trên xử lý.
 #[derive(Clone)]
 pub struct Cache {
     conn: ConnectionManager,
@@ -16,13 +16,18 @@ pub struct Cache {
 impl Cache {
     pub async fn connect(url: &str) -> Result<Self> {
         let client = redis::Client::open(url).context("REDIS_URL không hợp lệ")?;
-        let conn = ConnectionManager::new(client).await.context("không kết nối được Redis")?;
+        let conn = ConnectionManager::new(client)
+            .await
+            .context("không kết nối được Redis")?;
         Ok(Self { conn })
     }
 
     pub async fn ping(&self) -> bool {
         let mut conn = self.conn.clone();
-        redis::cmd("PING").query_async::<String>(&mut conn).await.is_ok()
+        redis::cmd("PING")
+            .query_async::<String>(&mut conn)
+            .await
+            .is_ok()
     }
 
     pub async fn get_json<T: DeserializeOwned>(&self, key: &str) -> Option<T> {
@@ -38,39 +43,27 @@ impl Cache {
     }
 
     pub async fn set_json<T: Serialize>(&self, key: &str, value: &T, ttl_secs: u64) {
-        let Ok(raw) = serde_json::to_string(value) else { return };
+        let Ok(raw) = serde_json::to_string(value) else {
+            return;
+        };
         let mut conn = self.conn.clone();
         if let Err(err) = conn.set_ex::<_, _, ()>(key, raw, ttl_secs.max(1)).await {
             tracing::warn!(%key, error = %err, "ghi cache thất bại");
         }
     }
 
-    pub async fn get_string(&self, key: &str) -> AppResult<Option<String>> {
-        let mut conn = self.conn.clone();
-        Ok(conn.get::<_, Option<String>>(key).await?)
-    }
-
-    pub async fn set_string(&self, key: &str, value: &str, ttl_secs: u64) -> AppResult<()> {
-        let mut conn = self.conn.clone();
-        conn.set_ex::<_, _, ()>(key, value, ttl_secs.max(1)).await?;
-        Ok(())
-    }
-
     /// Đặt khoá nếu chưa tồn tại (dùng làm khoá phân tán giữa các bản sao backend). `true` = lấy được khoá.
     pub async fn try_lock(&self, key: &str, ttl_secs: u64) -> bool {
         let mut conn = self.conn.clone();
-        let result: redis::RedisResult<Option<String>> =
-            redis::cmd("SET").arg(key).arg("1").arg("NX").arg("EX").arg(ttl_secs.max(1)).query_async(&mut conn).await;
+        let result: redis::RedisResult<Option<String>> = redis::cmd("SET")
+            .arg(key)
+            .arg("1")
+            .arg("NX")
+            .arg("EX")
+            .arg(ttl_secs.max(1))
+            .query_async(&mut conn)
+            .await;
         matches!(result, Ok(Some(_)))
-    }
-
-    pub async fn delete(&self, keys: &[&str]) -> AppResult<()> {
-        if keys.is_empty() {
-            return Ok(());
-        }
-        let mut conn = self.conn.clone();
-        conn.del::<_, ()>(keys).await?;
-        Ok(())
     }
 
     /// Số giây còn lại của khoá; `None` nếu khoá không tồn tại hoặc không có hạn.
@@ -91,7 +84,13 @@ impl Cache {
     }
 
     /// Giới hạn tần suất: quá `limit` lần trong `window_secs` giây thì trả 429.
-    pub async fn rate_limit(&self, key: &str, limit: i64, window_secs: u64, message: &str) -> AppResult<()> {
+    pub async fn rate_limit(
+        &self,
+        key: &str,
+        limit: i64,
+        window_secs: u64,
+        message: &str,
+    ) -> AppResult<()> {
         let count = self.hit(key, window_secs).await?;
         if count > limit {
             let retry = self.ttl(key).await.ok().flatten().unwrap_or(window_secs);

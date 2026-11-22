@@ -6,7 +6,6 @@ import { AiAssistantFab } from '@/components/layout/ai-assistant-fab';
 import { MarketPicker } from '@/components/layout/market-picker';
 import { SiteFooter } from '@/components/layout/site-footer';
 import { SiteHeader } from '@/components/layout/site-header';
-import { NearbyDialog } from '@/components/location/nearby-dialog';
 import { loadMessages } from '@/i18n';
 import { I18nProvider } from '@/i18n/provider';
 import { getRequestPrefs } from '@/i18n/server';
@@ -65,7 +64,6 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
             <SiteHeader />
             <main id="noi-dung">{children}</main>
             <SiteFooter />
-            <NearbyDialog />
             <MarketPicker />
             <AiAssistantFab />
           </Providers>

@@ -4,9 +4,8 @@ Website giúp chọn món ăn: lọc theo bữa, loại món, phong cách, món 
 
 - **5 ngôn ngữ:** Tiếng Việt, English, 日本語, 한국어, 中文. Bản dịch gồm cả giao diện lẫn nội dung món.
 - **Chọn quốc gia trước:** VN, JP, KR, CN, GB. Giá và mức ngân sách theo tiền tệ nơi bạn ở (VND, JPY, KRW, CNY, GBP).
-- **Tìm quán ở bất kỳ nước nào.** Ví dụ ở Tokyo muốn ăn phở thì tìm quán Việt quanh Tokyo, rồi mở Google Maps chỉ đường.
-- **Đăng ký bằng email + số điện thoại.** Mã OTP gửi về email, hệ thống cấp mật khẩu qua email. Đăng nhập rồi thì lưu được món và quán yêu thích, và chấm điểm món.
-- **Gợi ý vài quán gần bạn, xếp theo số sao Google.** Người dùng tự chọn bán kính tìm (1–50 km), rồi bấm chỉ đường để mở Google Maps.
+- **Không cần đăng nhập.** Mọi tính năng dùng được ngay. Món yêu thích lưu trên trình duyệt (localStorage).
+- **Tìm quán bằng Google Maps.** Chọn một món rồi bấm *Tìm trên Google Maps*: Google Maps mở ra (tab mới, hoặc ứng dụng trên điện thoại) với tên món trong ô tìm kiếm, người dùng tự tìm và chọn quán gần mình nhất. Không cần API key.
 
 **Mục lục:** [Chạy nhanh](#chạy-trên-máy-lập-trình) · [Lấy API key Google Maps](#lấy-api-key-google-maps) · [API](#api-chính) · [Triển khai production](#triển-khai-production-và-chịu-tải) · [Nguồn dữ liệu](#nguồn-dữ-liệu)
 
@@ -21,7 +20,7 @@ Website giúp chọn món ăn: lọc theo bữa, loại món, phong cách, món 
 ## Chạy trên máy lập trình
 
 Cần cài sẵn:
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (để chạy PostgreSQL, Redis, Mailpit);
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (để chạy PostgreSQL, Redis);
 - [Rust](https://rustup.rs/) bản stable;
 - [Node.js 22](https://nodejs.org/).
 
@@ -29,7 +28,7 @@ Cần cài sẵn:
 git clone https://github.com/yuta9999zn/foodrandom.git
 cd foodrandom
 
-# 1. Hạ tầng: PostgreSQL (54331), Redis (63791), Mailpit (SMTP 1125, hộp thư http://localhost:8125)
+# 1. Hạ tầng: PostgreSQL (54331), Redis (63791)
 docker compose -f docker-compose.dev.yml up -d
 
 # 2. Backend — http://127.0.0.1:8180, tài liệu API http://127.0.0.1:8180/docs
@@ -49,10 +48,9 @@ npm run dev
 > Nếu `localhost` phân giải sang IPv6 và kết nối Docker bị treo, hãy dùng `127.0.0.1` trong `.env` (mặc định đã vậy).
 
 Mở http://localhost:3100.
-- Lần đầu vào, trang hỏi bạn đang ở quốc gia nào để hiển thị giá đúng tiền tệ.
-- Khi đăng ký, email chứa mã OTP và mật khẩu **không gửi ra ngoài** mà hiện trong Mailpit tại http://localhost:8125.
+Lần đầu vào, trang hỏi bạn đang ở quốc gia nào để hiển thị giá đúng tiền tệ.
 
-Ứng dụng chạy được ngay **không cần API key Google**. Khi đó tìm quán dùng OpenStreetMap: tối đa 10 km, không có điểm sao. Muốn có danh sách quán thật kèm số sao Google và tìm đủ 50 km, hãy làm theo phần [Lấy API key Google Maps](#lấy-api-key-google-maps).
+Ứng dụng chạy được ngay **không cần API key Google**. Nút *Tìm trên Google Maps* chỉ là một liên kết nên không cần key. Key chỉ dùng cho bộ lọc "Địa điểm gần bạn" ở trang chủ (gắn khoảng cách tới quán gần nhất cho từng món): không có key thì dùng OpenStreetMap, tối đa 10 km. Muốn dùng Google, xem [Lấy API key Google Maps](#lấy-api-key-google-maps).
 
 ### Lấy API key Google Maps
 
@@ -63,7 +61,7 @@ FoodRandom dùng 2 API của [Google Maps Platform](https://mapsplatform.google.
 | **Places API (New)** | Tìm quán quanh vị trí người dùng, kèm số sao, số lượt đánh giá và trạng thái mở cửa |
 | **Geocoding API** | Đổi địa chỉ người dùng nhập tay thành toạ độ, và ngược lại |
 
-Nút "Chỉ đường" mở thẳng Google Maps nên **không** cần key.
+Nút "Tìm trên Google Maps" mở thẳng Google Maps nên **không** cần key.
 
 1. **Tạo project.**
    - Vào https://console.cloud.google.com/ và đăng nhập bằng tài khoản Google.
@@ -91,7 +89,7 @@ Nút "Chỉ đường" mở thẳng Google Maps nên **không** cần key.
    Sau đó khởi động lại backend (`Ctrl+C` rồi `cargo run`).
 8. **Kiểm tra.**
    - Mở http://127.0.0.1:8180/api/v1/location/provider. Nếu thấy `"provider":"google"` là đã chạy bằng Google.
-   - Vào một món → *Tìm quán & chỉ đường* → chọn bán kính. Danh sách quán thật sẽ hiện, xếp theo số sao.
+   - Ở trang chủ, nhập địa chỉ ở ô *Địa điểm gần bạn*. Các thẻ món sẽ hiện tên và khoảng cách tới quán gần nhất.
 
 > ⚠️ **Không commit API key lên GitHub.** Các file `backend/.env`, `.env.production` và `frontend/.env.local` đã nằm trong `.gitignore`. Nếu lỡ để lộ key, vào *Credentials* xoá key cũ và tạo key mới.
 
@@ -112,12 +110,9 @@ Nút "Chỉ đường" mở thẳng Google Maps nên **không** cần key.
 | `osm` | OpenStreetMap: Overpass tìm quán, Nominatim đổi địa chỉ. Dữ liệu thật, không cần key, không có đánh giá. |
 | `mock` | **Dữ liệu giả lập**, chỉ để phát triển giao diện khi không có mạng. Quán có tên "[GIẢ LẬP]" và giao diện hiện cảnh báo. Không được bật ở production. |
 
-- **Gợi ý quán theo số sao.** Với mỗi món, hệ thống lấy khoảng 20 quán gần nhất trong bán kính đã chọn, rồi xếp theo điểm sao Google có tính số lượt đánh giá (kiểu IMDb). Nhờ vậy quán 5★ với 2 đánh giá không vượt quán 4.7★ với 2.000 đánh giá. Mặc định hiện 5 quán, kèm trạng thái đang mở cửa. Người dùng chuyển được sang "Gần nhất".
-- Xếp theo sao cần `GOOGLE_MAPS_API_KEY`, vì OpenStreetMap không có điểm đánh giá. Khi không có key, giao diện nói rõ và xếp theo khoảng cách.
-- Khoảng cách luôn tính từ toạ độ thật của người dùng (Browser Geolocation hoặc địa chỉ nhập tay).
-- Ứng dụng không bịa toạ độ, địa chỉ hay điểm đánh giá.
-- Nút "Chỉ đường" mở Google Maps theo định dạng Maps URLs chính thức, không cần key.
-- Khi nhà cung cấp địa điểm không phản hồi, giao diện vẫn có nút mở Google Maps tìm món quanh vị trí người dùng.
+- **Tìm quán:** nút *Tìm trên Google Maps* (thẻ món, kết quả random, trang chi tiết) mở `https://www.google.com/maps/search/?api=1&query=<tên món>` theo định dạng [Maps URLs](https://developers.google.com/maps/documentation/urls/get-started) chính thức. Google Maps tự dùng vị trí của người dùng; người dùng chọn quán gần nhất ngay trong Google Maps.
+- Khoảng cách ở bộ lọc trang chủ luôn tính từ toạ độ thật của người dùng (Browser Geolocation hoặc địa chỉ nhập tay). Ứng dụng không bịa toạ độ, địa chỉ hay điểm đánh giá.
+- `GET /api/v1/location/nearby` vẫn còn trong API (xếp quán theo số sao Google khi có key) nhưng giao diện không dùng nữa.
 
 ## API chính
 
@@ -130,14 +125,13 @@ Tài liệu OpenAPI/Swagger: `GET /docs`, đặc tả JSON: `GET /api-docs/opena
 | GET | `/api/v1/foods/{slug}?lang=&market=` | Chi tiết: mô tả, nguồn gốc, công thức, dinh dưỡng, món tương tự |
 | GET | `/api/v1/location/nearby?lat=&lng=&food=pho-bo&market=JP&sort=rating` | Vài quán gần nhất phục vụ món đó; `sort=rating` xếp theo số sao Google, `sort=distance` theo khoảng cách |
 | GET | `/api/v1/location/geocode?q=&market=` | Địa chỉ nhập tay → toạ độ, giới hạn trong quốc gia đã chọn |
-| POST | `/api/v1/auth/register/request-otp` → `/register/verify` | Đăng ký bằng OTP email; tài khoản được cấp mật khẩu qua email |
-| POST | `/api/v1/auth/login` | Đăng nhập bằng email hoặc số điện thoại + mật khẩu (cookie httpOnly) |
-| PUT/DELETE | `/api/v1/favorites/foods/{slug}`, `POST /api/v1/favorites/places` | Món / quán yêu thích |
+
+API công khai, không có đăng nhập.
 
 ## Triển khai production và chịu tải
 
 ```bash
-cp .env.production.example .env.production   # điền JWT_SECRET, mật khẩu DB, SMTP, (tuỳ chọn) GOOGLE_MAPS_API_KEY
+cp .env.production.example .env.production   # điền PUBLIC_URL, mật khẩu DB, (tuỳ chọn) GOOGLE_MAPS_API_KEY
 docker compose --env-file .env.production up -d --build
 # Tải tăng: thêm bản sao, Nginx tự cân bằng tới mọi bản sao
 docker compose --env-file .env.production up -d --scale backend=6 --scale frontend=4
@@ -146,7 +140,7 @@ docker compose --env-file .env.production up -d --scale backend=6 --scale fronte
 Các lớp giúp hệ thống không sập khi nhiều người truy cập:
 
 1. **Backend không trạng thái.**
-   - Phiên đăng nhập là JWT. OTP, giới hạn tần suất và cache nằm ở Redis.
+   - Không có phiên đăng nhập. Giới hạn tần suất và cache nằm ở Redis.
    - Vì vậy có thể chạy nhiều bản sao sau Nginx (`least_conn`, tự bỏ qua bản sao lỗi).
 2. **Bảo vệ quá tải trong từng bản sao** (Tower):
    - Giới hạn số request đồng thời. Quá ngưỡng thì *load-shed* trả 503 ngay thay vì xếp hàng vô hạn.
@@ -160,8 +154,8 @@ Các lớp giúp hệ thống không sập khi nhiều người truy cập:
    - Danh sách món trả ngay. Khoảng cách được tra ở nền, mỗi ô toạ độ chỉ một bản sao làm nhờ khoá Redis, rồi client hỏi lại.
    - Dịch vụ bản đồ chậm không làm chậm trang chủ.
 5. **Giới hạn tần suất:**
-   - Nginx: 30 request/giây mỗi IP cho API, 10 request/phút cho đăng nhập/OTP.
-   - Backend thêm giới hạn riêng cho OTP (theo email và IP), đăng nhập sai và tra địa điểm.
+   - Nginx: 30 request/giây mỗi IP cho API. Khi Nginx đứng sau một reverse proxy khác (mạng nội bộ), IP thật lấy từ `X-Forwarded-For`.
+   - Backend thêm giới hạn riêng cho tra địa điểm.
 6. **Frontend Next.js chạy dạng standalone**, có nhiều bản sao. Ảnh được tối ưu sang AVIF/WebP theo kích thước màn hình.
 
 Khi vượt quá một máy, các image này chạy được trên Kubernetes/ECS. Lúc đó dùng PostgreSQL và Redis managed, thêm read replica cho PostgreSQL và CDN trước Nginx.
@@ -169,7 +163,7 @@ Khi vượt quá một máy, các image này chạy được trên Kubernetes/EC
 ## Kiểm thử
 
 ```bash
-cd backend && cargo test        # unit test: lọc ngân sách, phân trang 12 món, random có trọng số, OTP/mật khẩu, i18n…
+cd backend && cargo test        # unit test: lọc ngân sách, phân trang 12 món, random có trọng số, i18n…
 cd frontend && npm run typecheck && npm run lint
 ```
 

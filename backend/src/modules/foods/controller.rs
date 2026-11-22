@@ -5,12 +5,12 @@ use axum::{
 };
 
 use super::dto::{
-    FilterMeta, FoodDetail, FoodListQuery, FoodListResponse, LocaleQuery, RandomRequest, RandomResponse, RatingRequest,
-    RatingResponse,
+    FilterMeta, FoodDetail, FoodListQuery, FoodListResponse, LocaleQuery, RandomRequest,
+    RandomResponse,
 };
 use crate::{
     error::{AppResult, ErrorBody},
-    extract::{AuthUser, MaybeAuthUser, ValidatedJson},
+    extract::ValidatedJson,
     state::AppState,
 };
 
@@ -18,7 +18,6 @@ pub fn router() -> Router<AppState> {
     Router::new()
         .route("/foods", get(list_foods))
         .route("/foods/{slug}", get(get_food))
-        .route("/foods/{slug}/rating", get(get_rating).put(put_rating))
         .route("/random", post(random_food))
         .route("/meta/filters", get(filter_meta))
 }
@@ -35,7 +34,10 @@ pub fn router() -> Router<AppState> {
         (status = 422, body = ErrorBody, description = "Bộ lọc không hợp lệ"),
     )
 )]
-pub async fn list_foods(State(state): State<AppState>, Query(query): Query<FoodListQuery>) -> AppResult<Json<FoodListResponse>> {
+pub async fn list_foods(
+    State(state): State<AppState>,
+    Query(query): Query<FoodListQuery>,
+) -> AppResult<Json<FoodListResponse>> {
     let (filter, paging) = query.into_parts()?;
     Ok(Json(state.foods.list(filter, paging).await?))
 }
@@ -75,37 +77,6 @@ pub async fn random_food(
     ValidatedJson(request): ValidatedJson<RandomRequest>,
 ) -> AppResult<Json<RandomResponse>> {
     Ok(Json(state.foods.random(request).await?))
-}
-
-/// Điểm đánh giá của món
-#[utoipa::path(
-    get, path = "/api/v1/foods/{slug}/rating", tag = "Foods",
-    params(("slug" = String, Path, description = "Slug của món ăn")),
-    responses((status = 200, body = RatingResponse), (status = 404, body = ErrorBody))
-)]
-pub async fn get_rating(
-    State(state): State<AppState>,
-    MaybeAuthUser(user): MaybeAuthUser,
-    Path(slug): Path<String>,
-) -> AppResult<Json<RatingResponse>> {
-    Ok(Json(state.foods.rating(user, &slug).await?))
-}
-
-/// Đánh giá món (cần đăng nhập)
-#[utoipa::path(
-    put, path = "/api/v1/foods/{slug}/rating", tag = "Foods",
-    params(("slug" = String, Path, description = "Slug của món ăn")),
-    request_body = RatingRequest,
-    responses((status = 200, body = RatingResponse), (status = 401, body = ErrorBody), (status = 404, body = ErrorBody)),
-    security(("session_cookie" = []))
-)]
-pub async fn put_rating(
-    State(state): State<AppState>,
-    AuthUser(user_id): AuthUser,
-    Path(slug): Path<String>,
-    ValidatedJson(body): ValidatedJson<RatingRequest>,
-) -> AppResult<Json<RatingResponse>> {
-    Ok(Json(state.foods.rate(user_id, &slug, body.score).await?))
 }
 
 /// Danh mục bộ lọc

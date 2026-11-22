@@ -1,8 +1,8 @@
 'use client';
 
-import { Bell, Check, Heart, Languages, LogOut, Menu, Search, UserRound } from 'lucide-react';
+import { Bell, Check, Heart, Languages, Menu, Search } from 'lucide-react';
 import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { toast } from 'sonner';
 
@@ -16,7 +16,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { useLogout, useMe } from '@/hooks/use-auth';
 import { LOCALE_NAMES, LOCALES, MARKET_INFO, MARKETS } from '@/i18n/config';
 import { useI18n } from '@/i18n/provider';
 import { cn } from '@/lib/utils';
@@ -81,23 +80,12 @@ function PrefsMenu() {
 export function SiteHeader() {
   const { t } = useI18n();
   const pathname = usePathname();
-  const router = useRouter();
-  const { data: me, isLoading } = useMe();
-  const logout = useLogout();
   const [searchOpen, setSearchOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Trang chủ: header trong suốt nằm đè lên banner. Trang khác: thanh tối cố định.
   const overlay = pathname === '/';
   const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.startsWith(href));
-
-  const handleLogout = () =>
-    logout.mutate(undefined, {
-      onSuccess: () => {
-        toast.success(t('nav.loggedOut'));
-        router.refresh();
-      },
-    });
 
   return (
     <header
@@ -106,12 +94,12 @@ export function SiteHeader() {
         overlay ? 'absolute bg-gradient-to-b from-black/55 via-black/25 to-transparent' : 'sticky bg-dark shadow-lg shadow-dark/20',
       )}
     >
-      <div className="container flex h-[68px] items-center gap-3 lg:h-[72px]">
+      <div className="container flex h-[60px] items-center gap-1.5 sm:h-[68px] sm:gap-3 lg:h-[72px]">
         <button type="button" className={cn(iconButton, 'lg:hidden')} aria-label={t('nav.openMenu')} onClick={() => setMenuOpen(true)}>
           <Menu />
         </button>
 
-        <Logo className="mr-auto lg:mr-10" />
+        <Logo className="mr-auto lg:mr-6 xl:mr-10" />
 
         <nav className="mr-auto hidden items-center gap-1 lg:flex" aria-label="Main">
           {NAV.map((item) => (
@@ -120,7 +108,7 @@ export function SiteHeader() {
               href={item.href}
               aria-current={isActive(item.href) ? 'page' : undefined}
               className={cn(
-                'whitespace-nowrap rounded-full px-5 py-2.5 text-[17px] font-medium text-white/85 transition hover:text-white',
+                'whitespace-nowrap rounded-full px-3 py-2.5 text-[16px] font-medium text-white/85 transition hover:text-white xl:px-5 xl:text-[17px]',
                 isActive(item.href) &&
                   'bg-white/15 font-semibold text-white shadow-[inset_0_-2px_0_#E85D78,inset_0_1px_0_rgba(255,255,255,0.18)] backdrop-blur',
               )}
@@ -130,7 +118,7 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-0.5 sm:gap-2">
+        <div className="flex shrink-0 items-center gap-0.5 sm:gap-2">
           <button type="button" className={iconButton} aria-label={t('nav.search')} onClick={() => setSearchOpen(true)}>
             <Search />
           </button>
@@ -138,7 +126,7 @@ export function SiteHeader() {
           <PrefsMenu />
 
           <DropdownMenu>
-            <DropdownMenuTrigger className={cn(iconButton, 'hidden sm:grid')} aria-label={t('nav.notifications')}>
+            <DropdownMenuTrigger className={cn(iconButton, 'hidden xl:grid')} aria-label={t('nav.notifications')}>
               <Bell />
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-72">
@@ -148,52 +136,9 @@ export function SiteHeader() {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          {me ? (
-            <DropdownMenu>
-              <DropdownMenuTrigger
-                className="ml-1 grid size-11 place-items-center rounded-full bg-gradient-to-br from-primary-300 to-primary-600 text-lg font-bold text-white ring-2 ring-white/70 transition hover:ring-white"
-                aria-label={`${t('nav.account')} ${me.display_name}`}
-              >
-                {me.display_name.trim().charAt(0).toUpperCase() || 'F'}
-              </DropdownMenuTrigger>
-              <DropdownMenuContent>
-                <DropdownMenuLabel>
-                  <span className="block font-semibold text-ink">{me.display_name}</span>
-                  <span className="block truncate">{me.email}</span>
-                </DropdownMenuLabel>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem asChild>
-                  <Link href="/tai-khoan">
-                    <UserRound /> {t('nav.account')}
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/bo-suu-tap">
-                    <Heart /> {t('nav.myCollection')}
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem onSelect={handleLogout}>
-                  <LogOut /> {t('nav.logout')}
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          ) : (
-            <div className={cn('ml-1 flex items-center gap-2', isLoading && 'invisible')}>
-              <Link
-                href="/dang-nhap"
-                className="whitespace-nowrap rounded-full border border-white/40 px-4 py-2 text-[15px] font-semibold text-white transition hover:bg-white/15"
-              >
-                {t('nav.login')}
-              </Link>
-              <Link
-                href="/dang-ky"
-                className="btn-cta hidden whitespace-nowrap rounded-full px-4 py-2 text-[15px] font-semibold text-white transition hover:brightness-105 md:block"
-              >
-                {t('nav.register')}
-              </Link>
-            </div>
-          )}
+          <Link href="/bo-suu-tap" className={cn(iconButton, 'hidden sm:grid')} aria-label={t('nav.myCollection')} title={t('nav.myCollection')}>
+            <Heart />
+          </Link>
         </div>
       </div>
 
@@ -216,11 +161,6 @@ export function SiteHeader() {
               </Link>
             ))}
           </nav>
-          {!me && (
-            <Link href="/dang-ky" onClick={() => setMenuOpen(false)} className="btn-cta mt-6 block rounded-full px-4 py-3 text-center font-semibold text-white">
-              {t('nav.registerAccount')}
-            </Link>
-          )}
         </DialogContent>
       </Dialog>
     </header>

@@ -1,4 +1,4 @@
-// API client dùng chung. Trình duyệt gọi /api cùng origin (cookie phiên httpOnly tự gửi kèm);
+// API client dùng chung. Trình duyệt gọi /api cùng origin;
 // phía máy chủ Next (SSR) gọi thẳng backend qua API_INTERNAL_URL.
 
 export class ApiError extends Error {
@@ -52,7 +52,6 @@ export async function api<T>(path: string, options: RequestOptions = {}): Promis
     response = await fetch(url, {
       ...init,
       signal: controller.signal,
-      credentials: 'include',
       headers: {
         Accept: 'application/json',
         ...(json !== undefined ? { 'Content-Type': 'application/json' } : {}),

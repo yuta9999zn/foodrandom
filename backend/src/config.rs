@@ -3,13 +3,6 @@ use std::env;
 use anyhow::{bail, Context, Result};
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
-pub enum SmtpTls {
-    None,
-    StartTls,
-    Tls,
-}
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum LocationProviderKind {
     Auto,
     Google,
@@ -34,17 +27,7 @@ pub struct Config {
 
     pub redis_url: String,
 
-    pub jwt_secret: String,
-    pub session_ttl_hours: i64,
-    pub cookie_secure: bool,
     pub cors_origins: Vec<String>,
-
-    pub smtp_host: String,
-    pub smtp_port: u16,
-    pub smtp_username: Option<String>,
-    pub smtp_password: Option<String>,
-    pub smtp_tls: SmtpTls,
-    pub mail_from: String,
 
     pub location_provider: LocationProviderKind,
     pub google_maps_api_key: Option<String>,
@@ -58,7 +41,10 @@ pub struct Config {
 }
 
 fn var(name: &str) -> Option<String> {
-    env::var(name).ok().map(|v| v.trim().to_string()).filter(|v| !v.is_empty())
+    env::var(name)
+        .ok()
+        .map(|v| v.trim().to_string())
+        .filter(|v| !v.is_empty())
 }
 
 fn var_or(name: &str, default: &str) -> String {
@@ -87,19 +73,11 @@ fn parse_bool(name: &str, default: bool) -> bool {
 impl Config {
     pub fn from_env() -> Result<Self> {
         let app_env = var_or("APP_ENV", "development");
-        let jwt_secret = var("JWT_SECRET").context("Thiếu biến môi trường JWT_SECRET")?;
-        if app_env == "production" && (jwt_secret.len() < 32 || jwt_secret.starts_with("dev-only")) {
-            bail!("JWT_SECRET ở production phải dài tối thiểu 32 ký tự và không dùng giá trị mẫu");
-        }
 
-        let smtp_tls = match var_or("SMTP_TLS", "none").to_ascii_lowercase().as_str() {
-            "none" => SmtpTls::None,
-            "starttls" => SmtpTls::StartTls,
-            "tls" => SmtpTls::Tls,
-            other => bail!("SMTP_TLS={other} không hợp lệ (none | starttls | tls)"),
-        };
-
-        let location_provider = match var_or("LOCATION_PROVIDER", "auto").to_ascii_lowercase().as_str() {
+        let location_provider = match var_or("LOCATION_PROVIDER", "auto")
+            .to_ascii_lowercase()
+            .as_str()
+        {
             "auto" => LocationProviderKind::Auto,
             "google" => LocationProviderKind::Google,
             "osm" => LocationProviderKind::Osm,
@@ -121,21 +99,11 @@ impl Config {
 
             redis_url: var("REDIS_URL").context("Thiếu biến môi trường REDIS_URL")?,
 
-            jwt_secret,
-            session_ttl_hours: parse("SESSION_TTL_HOURS", 168i64)?,
-            cookie_secure: parse_bool("COOKIE_SECURE", app_env == "production"),
             cors_origins: var_or("CORS_ORIGINS", "http://localhost:3100")
                 .split(',')
                 .map(|s| s.trim().to_string())
                 .filter(|s| !s.is_empty())
                 .collect(),
-
-            smtp_host: var_or("SMTP_HOST", "127.0.0.1"),
-            smtp_port: parse("SMTP_PORT", 1125u16)?,
-            smtp_username: var("SMTP_USERNAME"),
-            smtp_password: var("SMTP_PASSWORD"),
-            smtp_tls,
-            mail_from: var_or("MAIL_FROM", "FoodRandom <no-reply@foodrandom.local>"),
 
             location_provider,
             google_maps_api_key: var("GOOGLE_MAPS_API_KEY"),

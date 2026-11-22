@@ -46,14 +46,14 @@ export function MarketPicker() {
         setOpen(next);
       }}
     >
-      <DialogContent className="max-w-lg">
-        <div className="mx-auto grid size-14 place-items-center rounded-full bg-primary-50 text-primary">
-          <Globe2 className="size-7" />
+      <DialogContent className="max-w-lg p-5 sm:p-6">
+        <div className="mx-auto grid size-12 place-items-center rounded-full bg-primary-50 text-primary sm:size-14">
+          <Globe2 className="size-6 sm:size-7" />
         </div>
-        <DialogTitle className="mt-3 pr-0 text-center text-2xl">{t('market.title')}</DialogTitle>
+        <DialogTitle className="mt-3 pr-0 text-center text-xl sm:text-2xl">{t('market.title')}</DialogTitle>
         <DialogDescription className="mt-2 text-center">{t('market.description')}</DialogDescription>
 
-        <div role="radiogroup" aria-label={t('nav.country')} className="mt-5 grid gap-2.5">
+        <div role="radiogroup" aria-label={t('nav.country')} className="mt-4 grid grid-cols-1 gap-2 sm:mt-5 sm:gap-2.5">
           {MARKETS.map((code) => {
             const active = selected === code;
             return (
@@ -64,7 +64,7 @@ export function MarketPicker() {
                 aria-checked={active}
                 onClick={() => setSelected(code)}
                 className={cn(
-                  'flex items-center gap-3 rounded-2xl border px-4 py-3 text-left transition',
+                  'flex items-center gap-3 rounded-2xl border px-4 py-2.5 text-left transition sm:py-3',
                   active ? 'border-primary bg-primary-50 ring-2 ring-primary/30' : 'border-border hover:border-primary-300 hover:bg-primary-50/50',
                 )}
               >
@@ -82,7 +82,7 @@ export function MarketPicker() {
           })}
         </div>
 
-        <Button size="lg" className="mt-5 w-full" onClick={confirm}>
+        <Button size="lg" className="mt-4 w-full sm:mt-5" onClick={confirm}>
           {t('market.confirm')}
         </Button>
       </DialogContent>

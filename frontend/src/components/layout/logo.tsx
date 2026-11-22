@@ -24,9 +24,9 @@ export function LogoMark({ className }: { className?: string }) {
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <Link href="/" className={cn('flex items-center gap-2.5 text-white', className)} aria-label="FoodRandom — trang chủ">
-      <LogoMark />
-      <span className="text-[26px] font-bold leading-none tracking-tight">FoodRandom</span>
+    <Link href="/" className={cn('flex min-w-0 shrink-0 items-center gap-1.5 text-white sm:gap-2.5', className)} aria-label="FoodRandom — trang chủ">
+      <LogoMark className="h-8 shrink-0 sm:h-10" />
+      <span className="truncate text-[20px] font-bold leading-none tracking-tight sm:text-[26px]">FoodRandom</span>
     </Link>
   );
 }

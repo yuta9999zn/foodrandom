@@ -1,12 +1,12 @@
 use sqlx::{PgPool, Postgres, QueryBuilder};
-use uuid::Uuid;
 
 use super::dto::{FoodFilter, FoodRow, FoodSummary};
 use crate::{i18n, util::fold_vi};
 
 /// Cột của bản tóm tắt món. Bảng `foods` là `f`, giá theo thị trường là `p`, bản dịch là `t`
 /// (bản dịch thiếu thì rơi về tiếng Việt gốc).
-const SUMMARY_COLUMNS: &str = "f.id, f.slug, COALESCE(t.name, f.name) AS name, f.original_name, f.cuisine, f.style, \
+const SUMMARY_COLUMNS: &str =
+    "f.id, f.slug, COALESCE(t.name, f.name) AS name, f.original_name, f.cuisine, f.style, \
      f.dish_type, f.meals, f.soup_type, p.price_min, p.price_max, p.currency, f.calories_kcal, \
      COALESCE(t.description, f.description) AS description, f.image_url, f.featured, f.weight, \
      CASE WHEN f.rating_count > 0 THEN f.rating_sum::FLOAT8 / f.rating_count END AS rating_avg, \
@@ -26,11 +26,7 @@ pub fn push_from(qb: &mut QueryBuilder<'_, Postgres>, market: &str, lang: &str) 
         .push_bind(lang.to_string());
 }
 
-pub fn summary_columns() -> &'static str {
-    SUMMARY_COLUMNS
-}
-
-/// Truy cập dữ liệu bảng `foods`, `food_prices`, `food_translations` và `food_ratings`.
+/// Truy cập dữ liệu bảng `foods`, `food_prices` và `food_translations`.
 #[derive(Clone)]
 pub struct FoodRepository {
     pool: PgPool,
@@ -61,12 +57,17 @@ impl FoodRepository {
             qb.push(" AND f.soup_type = ").push_bind(soup_type.clone());
         }
         if !filter.cuisines.is_empty() {
-            qb.push(" AND f.cuisine = ANY(").push_bind(filter.cuisines.clone()).push(")");
+            qb.push(" AND f.cuisine = ANY(")
+                .push_bind(filter.cuisines.clone())
+                .push(")");
         }
 
         let market = i18n::market(&filter.market);
-        let bands: Vec<i18n::BudgetBand> =
-            filter.budgets.iter().filter_map(|code| market.and_then(|m| m.band(code))).collect();
+        let bands: Vec<i18n::BudgetBand> = filter
+            .budgets
+            .iter()
+            .filter_map(|code| market.and_then(|m| m.band(code)))
+            .collect();
         if !bands.is_empty() {
             // Món thuộc một mức ngân sách khi khoảng giá của món giao với mức đó (không tính chạm biên).
             // Món không có giá ở thị trường này (p.* là NULL) tự bị loại.
@@ -75,7 +76,8 @@ impl FoodRepository {
                 if i > 0 {
                     qb.push(" OR ");
                 }
-                qb.push("(GREATEST(p.price_max, p.price_min + 0.01) > ").push_bind(band.min);
+                qb.push("(GREATEST(p.price_max, p.price_min + 0.01) > ")
+                    .push_bind(band.min);
                 if let Some(max) = band.max {
                     qb.push(" AND p.price_min < ").push_bind(max);
                 }
@@ -90,27 +92,45 @@ impl FoodRepository {
             qb.push(" AND p.price_min <= ").push_bind(price_max);
         }
         if let Some(q) = &filter.q {
-            let pattern = format!("%{}%", fold_vi(q).replace('\\', "\\\\").replace('%', "\\%").replace('_', "\\_"));
+            let pattern = format!(
+                "%{}%",
+                fold_vi(q)
+                    .replace('\\', "\\\\")
+                    .replace('%', "\\%")
+                    .replace('_', "\\_")
+            );
             qb.push(" AND f.search_text LIKE ").push_bind(pattern);
         }
 
         qb.push(" ORDER BY f.featured DESC, (p.price_min IS NULL), name ASC");
-        qb.build_query_as::<FoodSummary>().fetch_all(&self.pool).await
+        qb.build_query_as::<FoodSummary>()
+            .fetch_all(&self.pool)
+            .await
     }
 
-    pub async fn find_by_slug(&self, slug: &str, market: &str, lang: &str) -> sqlx::Result<Option<FoodRow>> {
-        let mut qb: QueryBuilder<Postgres> = QueryBuilder::new(format!("SELECT {SUMMARY_COLUMNS}, {DETAIL_COLUMNS}"));
+    pub async fn find_by_slug(
+        &self,
+        slug: &str,
+        market: &str,
+        lang: &str,
+    ) -> sqlx::Result<Option<FoodRow>> {
+        let mut qb: QueryBuilder<Postgres> =
+            QueryBuilder::new(format!("SELECT {SUMMARY_COLUMNS}, {DETAIL_COLUMNS}"));
         push_from(&mut qb, market, lang);
         qb.push(" WHERE f.slug = ").push_bind(slug.to_string());
-        qb.build_query_as::<FoodRow>().fetch_optional(&self.pool).await
-    }
-
-    pub async fn id_by_slug(&self, slug: &str) -> sqlx::Result<Option<Uuid>> {
-        sqlx::query_scalar::<_, Uuid>("SELECT id FROM foods WHERE slug = $1").bind(slug).fetch_optional(&self.pool).await
+        qb.build_query_as::<FoodRow>()
+            .fetch_optional(&self.pool)
+            .await
     }
 
     /// Món tương tự: cùng nền ẩm thực, ưu tiên cùng loại món và cùng nhóm món nước.
-    pub async fn similar(&self, food: &FoodSummary, market: &str, lang: &str, limit: i64) -> sqlx::Result<Vec<FoodSummary>> {
+    pub async fn similar(
+        &self,
+        food: &FoodSummary,
+        market: &str,
+        lang: &str,
+        limit: i64,
+    ) -> sqlx::Result<Vec<FoodSummary>> {
         let mut qb: QueryBuilder<Postgres> = QueryBuilder::new(format!("SELECT {SUMMARY_COLUMNS}"));
         push_from(&mut qb, market, lang);
         qb.push(" WHERE f.id <> ")
@@ -127,58 +147,14 @@ impl FoodRepository {
             .push_bind(food.soup_type.clone())
             .push(")::INT DESC, f.featured DESC, name ASC LIMIT ")
             .push_bind(limit);
-        qb.build_query_as::<FoodSummary>().fetch_all(&self.pool).await
+        qb.build_query_as::<FoodSummary>()
+            .fetch_all(&self.pool)
+            .await
     }
 
     pub async fn count_by_cuisine(&self) -> sqlx::Result<Vec<(String, i64)>> {
-        sqlx::query_as::<_, (String, i64)>("SELECT cuisine, COUNT(*) FROM foods GROUP BY cuisine").fetch_all(&self.pool).await
-    }
-
-    /// Ghi điểm đánh giá của người dùng và cập nhật tổng điểm trên món trong cùng một giao dịch.
-    pub async fn upsert_rating(&self, user_id: Uuid, food_id: Uuid, score: i16) -> sqlx::Result<()> {
-        let mut tx = self.pool.begin().await?;
-        let previous: Option<i16> =
-            sqlx::query_scalar("SELECT score FROM food_ratings WHERE user_id = $1 AND food_id = $2 FOR UPDATE")
-                .bind(user_id)
-                .bind(food_id)
-                .fetch_optional(&mut *tx)
-                .await?;
-        sqlx::query(
-            "INSERT INTO food_ratings (user_id, food_id, score) VALUES ($1, $2, $3) \
-             ON CONFLICT (user_id, food_id) DO UPDATE SET score = EXCLUDED.score, updated_at = now()",
-        )
-        .bind(user_id)
-        .bind(food_id)
-        .bind(score)
-        .execute(&mut *tx)
-        .await?;
-        let (delta_sum, delta_count) = match previous {
-            Some(old) => (i32::from(score) - i32::from(old), 0),
-            None => (i32::from(score), 1),
-        };
-        sqlx::query("UPDATE foods SET rating_sum = rating_sum + $1, rating_count = rating_count + $2 WHERE id = $3")
-            .bind(delta_sum)
-            .bind(delta_count)
-            .bind(food_id)
-            .execute(&mut *tx)
-            .await?;
-        tx.commit().await
-    }
-
-    pub async fn rating_summary(&self, food_id: Uuid) -> sqlx::Result<(Option<f64>, i32)> {
-        sqlx::query_as::<_, (Option<f64>, i32)>(
-            "SELECT CASE WHEN rating_count > 0 THEN rating_sum::FLOAT8 / rating_count END, rating_count FROM foods WHERE id = $1",
-        )
-        .bind(food_id)
-        .fetch_one(&self.pool)
-        .await
-    }
-
-    pub async fn user_rating(&self, user_id: Uuid, food_id: Uuid) -> sqlx::Result<Option<i16>> {
-        sqlx::query_scalar("SELECT score FROM food_ratings WHERE user_id = $1 AND food_id = $2")
-            .bind(user_id)
-            .bind(food_id)
-            .fetch_optional(&self.pool)
+        sqlx::query_as::<_, (String, i64)>("SELECT cuisine, COUNT(*) FROM foods GROUP BY cuisine")
+            .fetch_all(&self.pool)
             .await
     }
 }

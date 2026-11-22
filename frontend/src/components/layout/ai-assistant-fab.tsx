@@ -14,7 +14,7 @@ export function AiAssistantFab() {
   return (
     <Dialog>
       <DialogTrigger
-        className="fixed bottom-5 right-5 z-30 flex items-center gap-2 rounded-full bg-dark py-3 pl-3.5 pr-4 text-sm font-semibold text-white shadow-glass ring-1 ring-white/15 transition hover:-translate-y-0.5 hover:bg-dark/90"
+        className="fixed bottom-5 right-5 z-30 hidden items-center sm:flex gap-2 rounded-full bg-dark py-3 pl-3.5 pr-4 text-sm font-semibold text-white shadow-glass ring-1 ring-white/15 transition hover:-translate-y-0.5 hover:bg-dark/90"
         aria-label={t('ai.aria')}
       >
         <span className="grid size-8 place-items-center rounded-full bg-primary">

@@ -20,7 +20,15 @@ pub fn parse_locale(value: Option<&str>) -> AppResult<&'static str> {
                 .iter()
                 .find(|l| **l == base)
                 .copied()
-                .ok_or_else(|| AppError::validation("lang", format!("Ngôn ngữ '{v}' không hỗ trợ. Cho phép: {}", LOCALES.join(", "))))
+                .ok_or_else(|| {
+                    AppError::validation(
+                        "lang",
+                        format!(
+                            "Ngôn ngữ '{v}' không hỗ trợ. Cho phép: {}",
+                            LOCALES.join(", ")
+                        ),
+                    )
+                })
         }
     }
 }
@@ -131,11 +139,21 @@ pub fn market(code: &str) -> Option<&'static Market> {
 }
 
 pub fn parse_market(value: Option<&str>) -> AppResult<&'static Market> {
-    let code = value.map(|v| v.trim().to_ascii_uppercase()).filter(|v| !v.is_empty()).unwrap_or_else(|| DEFAULT_MARKET.into());
+    let code = value
+        .map(|v| v.trim().to_ascii_uppercase())
+        .filter(|v| !v.is_empty())
+        .unwrap_or_else(|| DEFAULT_MARKET.into());
     market(&code).ok_or_else(|| {
         AppError::validation(
             "market",
-            format!("Thị trường '{code}' không hỗ trợ. Cho phép: {}", MARKETS.iter().map(|m| m.code).collect::<Vec<_>>().join(", ")),
+            format!(
+                "Thị trường '{code}' không hỗ trợ. Cho phép: {}",
+                MARKETS
+                    .iter()
+                    .map(|m| m.code)
+                    .collect::<Vec<_>>()
+                    .join(", ")
+            ),
         )
     })
 }
@@ -151,11 +169,41 @@ impl Market {
 /// Cụm từ "nhà hàng món <nền ẩm thực>" theo ngôn ngữ, dùng làm truy vấn Google Places khi không có tên món.
 pub fn cuisine_restaurant_query(cuisine: &str, language: &str) -> String {
     let (vi, en, ja, ko, zh) = match cuisine {
-        "vietnam" => ("nhà hàng món Việt", "Vietnamese restaurant", "ベトナム料理", "베트남 음식점", "越南餐厅"),
-        "japan" => ("nhà hàng Nhật", "Japanese restaurant", "和食 レストラン", "일식당", "日本料理"),
-        "china" => ("nhà hàng Trung Hoa", "Chinese restaurant", "中華料理", "중식당", "中餐厅"),
-        "korea" => ("nhà hàng Hàn Quốc", "Korean restaurant", "韓国料理", "한식당", "韩国料理"),
-        _ => ("nhà hàng Anh", "British restaurant", "イギリス料理", "영국 음식점", "英式餐厅"),
+        "vietnam" => (
+            "nhà hàng món Việt",
+            "Vietnamese restaurant",
+            "ベトナム料理",
+            "베트남 음식점",
+            "越南餐厅",
+        ),
+        "japan" => (
+            "nhà hàng Nhật",
+            "Japanese restaurant",
+            "和食 レストラン",
+            "일식당",
+            "日本料理",
+        ),
+        "china" => (
+            "nhà hàng Trung Hoa",
+            "Chinese restaurant",
+            "中華料理",
+            "중식당",
+            "中餐厅",
+        ),
+        "korea" => (
+            "nhà hàng Hàn Quốc",
+            "Korean restaurant",
+            "韓国料理",
+            "한식당",
+            "韩国料理",
+        ),
+        _ => (
+            "nhà hàng Anh",
+            "British restaurant",
+            "イギリス料理",
+            "영국 음식점",
+            "英式餐厅",
+        ),
     };
     match language {
         "en" => en,

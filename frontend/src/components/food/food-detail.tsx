@@ -1,25 +1,21 @@
 'use client';
 
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { ChefHat, Clock, Flame, Globe2, Info, Loader2, MapPinned, Navigation, Share2, Shuffle, Star, UsersRound } from 'lucide-react';
+import { ChefHat, Clock, Flame, Globe2, Info, Loader2, MapPinned, Share2, Shuffle, UsersRound } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { toast } from 'sonner';
 
-import { LocationPicker } from '@/components/location/location-picker';
-import { NearbyPlaces } from '@/components/location/nearby-places';
 import { Button } from '@/components/ui/button';
-import { useMe } from '@/hooks/use-auth';
-import { usePrefs, useRequireLogin } from '@/hooks/use-favorites';
+import { usePrefs } from '@/hooks/use-favorites';
 import { useI18n } from '@/i18n/provider';
 import { foodsApi, localizedError } from '@/lib/api';
 import type { FoodDetail } from '@/lib/types';
-import { cn, formatCount, formatMinutes } from '@/lib/utils';
-import { useLocationStore } from '@/stores/location-store';
+import { cn, formatMinutes } from '@/lib/utils';
 
 import { FavoriteButton, FoodCard, FoodGrid, StyleChip, TypeChip } from './food-card';
+import { MapsSearchButton } from './maps-search-button';
 
 function Stat({ icon: Icon, label, value }: { icon: typeof Clock; label: string; value: string }) {
   return (
@@ -86,97 +82,16 @@ function NutritionCard({ food }: { food: FoodDetail }) {
   );
 }
 
-function RatingCard({ food }: { food: FoodDetail }) {
-  const { t, locale, formatNumber } = useI18n();
-  const { data: me } = useMe();
-  const requireLogin = useRequireLogin();
-  const queryClient = useQueryClient();
-  const [hover, setHover] = useState(0);
-  const key = ['rating', food.slug, me?.id ?? 'guest'];
-
-  const rating = useQuery({
-    queryKey: key,
-    queryFn: () => foodsApi.rating(food.slug),
-    initialData: me ? undefined : { rating_avg: food.rating_avg, rating_count: food.rating_count, mine: null },
-  });
-  const rate = useMutation({
-    mutationFn: (score: number) => foodsApi.rate(food.slug, score),
-    onSuccess: (data) => {
-      queryClient.setQueryData(key, data);
-      toast.success(t('detail.thanks'));
-    },
-    onError: (error) => toast.error(localizedError(error, t, locale)),
-  });
-
-  const mine = rating.data?.mine ?? 0;
-  const shown = hover || mine;
-
-  return (
-    <section aria-labelledby="rating-title" className="rounded-3xl bg-surface p-6 shadow-card ring-1 ring-border">
-      <h2 id="rating-title" className="flex items-center gap-2 text-xl font-bold">
-        <Star className="size-6 fill-secondary text-secondary" /> {t('detail.rating')}
-      </h2>
-      {rating.data?.rating_avg != null && rating.data.rating_count > 0 ? (
-        <p className="mt-3">
-          <span className="text-3xl font-bold">{rating.data.rating_avg.toFixed(1)}</span>
-          <span className="text-ink-muted"> {t('detail.ratingSummary', { n: formatCount(rating.data.rating_count, formatNumber) })}</span>
-        </p>
-      ) : (
-        <p className="mt-3 text-[15px] text-ink-muted">{t('detail.noRating')}</p>
-      )}
-      <div className="mt-4 flex items-center gap-1" role="radiogroup" aria-label={t('detail.rateAria')} onMouseLeave={() => setHover(0)}>
-        {[1, 2, 3, 4, 5].map((score) => (
-          <button
-            key={score}
-            type="button"
-            role="radio"
-            aria-checked={mine === score}
-            aria-label={t('detail.stars', { n: score })}
-            disabled={rate.isPending}
-            onMouseEnter={() => setHover(score)}
-            onClick={() => requireLogin('actionRate') && rate.mutate(score)}
-            className="rounded-full p-1 transition hover:scale-110"
-          >
-            <Star className={cn('size-8', score <= shown ? 'fill-secondary text-secondary' : 'text-border')} />
-          </button>
-        ))}
-        {rate.isPending && <Loader2 className="ml-2 size-5 animate-spin text-primary" />}
-      </div>
-      <p className="mt-1 text-sm text-ink-muted">{mine ? t('detail.youRated', { n: mine }) : t('detail.tapToRate')}</p>
-    </section>
-  );
-}
-
+/** Tìm quán: mở Google Maps với tên món trong ô tìm kiếm, người dùng tự chọn quán gần mình nhất. */
 function PlacesSection({ food }: { food: FoodDetail }) {
   const { t } = useI18n();
-  const location = useLocationStore((s) => s.location);
-  const [asking, setAsking] = useState(false);
-  const target = { slug: food.slug, name: food.name, cuisine: food.cuisine };
-
   return (
     <section id="dia-diem" aria-labelledby="places-title" className="scroll-mt-24 rounded-3xl bg-surface p-6 shadow-card ring-1 ring-border">
       <h2 id="places-title" className="flex items-center gap-2 text-xl font-bold">
-        <MapPinned className="size-6 text-primary" /> {t('detail.placesTitle')}
+        <MapPinned className="size-6 text-primary" /> {t('maps.title')}
       </h2>
-      {location ? (
-        <>
-          <p className="mb-4 mt-1 text-sm text-ink-muted">
-            {t('detail.around')} <span className="font-semibold text-ink">{location.label}</span>
-          </p>
-          <NearbyPlaces target={target} limit={8} />
-        </>
-      ) : asking ? (
-        <div className="mt-4">
-          <LocationPicker onPicked={() => setAsking(false)} />
-        </div>
-      ) : (
-        <div className="mt-3">
-          <p className="text-[15px] text-ink-muted">{t('detail.placesAsk', { name: food.name })}</p>
-          <Button className="mt-4" onClick={() => setAsking(true)}>
-            <Navigation /> {t('detail.findNearMe')}
-          </Button>
-        </div>
-      )}
+      <p className="mt-2 text-[15px] text-ink-muted">{t('maps.hint', { name: food.name })}</p>
+      <MapsSearchButton size="lg" className="mt-4 w-full" name={food.name} label={t('maps.openFor', { name: food.name })} />
     </section>
   );
 }
@@ -228,7 +143,7 @@ export function FoodDetailView({ food }: { food: FoodDetail }) {
       <header className="relative isolate overflow-hidden bg-dark text-white">
         <Image src={food.image_url} alt="" fill priority sizes="100vw" className="-z-10 object-cover opacity-35 blur-sm" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-dark via-dark/70 to-dark/40" />
-        <div className="container grid gap-8 py-10 lg:grid-cols-[1.05fr_1fr] lg:items-center lg:py-14">
+        <div className="container grid grid-cols-1 gap-6 py-6 sm:gap-8 sm:py-10 lg:grid-cols-[1.05fr_1fr] lg:items-center lg:py-14">
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-glass ring-1 ring-white/15">
             <Image src={food.image_url} alt={food.name} fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
             <FavoriteButton slug={food.slug} name={food.name} className="absolute right-3 top-3 size-12 bg-black/25 backdrop-blur" />
@@ -244,7 +159,7 @@ export function FoodDetailView({ food }: { food: FoodDetail }) {
                 {t('detail.breadcrumbCuisine', { cuisine: t(`options.cuisines.${food.cuisine}`) })}
               </Link>
             </nav>
-            <h1 className="mt-3 text-4xl font-bold leading-tight tracking-tight sm:text-5xl">{food.name}</h1>
+            <h1 className="mt-3 text-[34px] font-bold leading-tight tracking-tight sm:text-5xl">{food.name}</h1>
             {food.original_name && food.original_name !== food.name && <p className="mt-2 text-xl text-white/80">{food.original_name}</p>}
 
             <div className="mt-4 flex flex-wrap gap-2">
@@ -279,11 +194,7 @@ export function FoodDetailView({ food }: { food: FoodDetail }) {
             </div>
 
             <div className="mt-6 flex flex-wrap gap-2.5">
-              <Button size="lg" asChild>
-                <a href="#dia-diem">
-                  <Navigation /> {t('detail.findPlaces')}
-                </a>
-              </Button>
+              <MapsSearchButton size="lg" name={food.name} />
               <Button
                 size="lg"
                 variant="outline"
@@ -301,9 +212,9 @@ export function FoodDetailView({ food }: { food: FoodDetail }) {
         </div>
       </header>
 
-      <div className="container mt-10 grid gap-8 lg:grid-cols-[1.6fr_1fr]">
+      <div className="container mt-8 grid grid-cols-1 gap-8 sm:mt-10 lg:grid-cols-[1.6fr_1fr]">
         <div className="space-y-8">
-          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-4">
             <Stat icon={Globe2} label={t('detail.cuisine')} value={t(`options.cuisines.${food.cuisine}`)} />
             <Stat icon={ChefHat} label={t('detail.cooking')} value={food.cooking_style || '—'} />
             <Stat icon={Clock} label={t('detail.time')} value={totalMinutes ? formatMinutes(totalMinutes, t) : '—'} />
@@ -327,7 +238,7 @@ export function FoodDetailView({ food }: { food: FoodDetail }) {
               {t('detail.forPeople', { n: food.servings })} · {t('detail.prep', { t: formatMinutes(food.prep_minutes, t) })}
               {food.cook_minutes > 0 && ` · ${t('detail.cook', { t: formatMinutes(food.cook_minutes, t) })}`}
             </p>
-            <ul className="mt-4 grid gap-x-8 sm:grid-cols-2">
+            <ul className="mt-4 grid grid-cols-1 gap-x-8 sm:grid-cols-2">
               {food.ingredients.map((item, index) => (
                 <li key={`${item.name}-${index}`} className="flex items-baseline justify-between gap-4 border-b border-dashed border-border py-2.5 text-[15px]">
                   <span className="min-w-[40%] flex-1">{item.name}</span>
@@ -365,7 +276,6 @@ export function FoodDetailView({ food }: { food: FoodDetail }) {
         <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
           <NutritionCard food={food} />
           <PlacesSection food={food} />
-          <RatingCard food={food} />
           {(food.image_credit.author || food.image_credit.license) && (
             <p className="px-2 text-xs leading-relaxed text-ink-soft">
               {t('detail.photo')}: {food.image_credit.author ?? t('detail.unknownAuthor')}

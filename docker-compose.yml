@@ -5,7 +5,7 @@
 #   docker compose --env-file .env.production up -d --scale backend=4 --scale frontend=3   # tăng bản sao khi tải cao
 #
 # Thiết kế chịu tải:
-#   - Backend Rust không giữ trạng thái người dùng trong RAM (phiên = JWT, OTP/giới hạn tần suất/cache = Redis),
+#   - Backend Rust không giữ trạng thái trong RAM (giới hạn tần suất/cache = Redis), không có đăng nhập,
 #     nên chạy được nhiều bản sao sau Nginx (least_conn) và tăng/giảm tự do.
 #   - Mỗi bản sao có load-shed + timeout: quá tải thì trả 503 nhanh thay vì treo cả hệ thống.
 #   - Nginx cache 30 giây cho API danh sách/chi tiết món của khách, cache dài hạn cho ảnh và tài sản tĩnh.
@@ -22,16 +22,7 @@ x-backend-env: &backend-env
   RUN_MIGRATIONS: "true"
   SEED_ON_START: "true"
   REDIS_URL: redis://redis:6379
-  JWT_SECRET: ${JWT_SECRET:?Đặt JWT_SECRET trong .env.production}
-  SESSION_TTL_HOURS: "168"
-  COOKIE_SECURE: ${COOKIE_SECURE:-true}
   CORS_ORIGINS: ${PUBLIC_URL}
-  SMTP_HOST: ${SMTP_HOST:?Đặt SMTP_HOST}
-  SMTP_PORT: ${SMTP_PORT:-587}
-  SMTP_USERNAME: ${SMTP_USERNAME}
-  SMTP_PASSWORD: ${SMTP_PASSWORD}
-  SMTP_TLS: ${SMTP_TLS:-starttls}
-  MAIL_FROM: ${MAIL_FROM}
   LOCATION_PROVIDER: ${LOCATION_PROVIDER:-auto}
   GOOGLE_MAPS_API_KEY: ${GOOGLE_MAPS_API_KEY}
   MAX_CONCURRENT_REQUESTS: "2048"

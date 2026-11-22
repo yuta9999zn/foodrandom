@@ -1,6 +1,6 @@
 'use client';
 
-import { FlaskConical, Flame, Footprints, Heart, Leaf, MapPin, Soup, Sparkles, Star, Utensils } from 'lucide-react';
+import { FlaskConical, Flame, Footprints, Heart, Leaf, Soup, Sparkles, Star, Utensils } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -9,7 +9,8 @@ import { useI18n } from '@/i18n/provider';
 import { isSoup } from '@/lib/constants';
 import type { FoodListItem, FoodSummary } from '@/lib/types';
 import { cn, formatCount, formatDistance } from '@/lib/utils';
-import { useNearbyDialog } from '@/stores/nearby-dialog-store';
+
+import { MapsSearchIcon } from './maps-search-button';
 
 export function StyleChip({ style }: { style: FoodSummary['style'] }) {
   const { t } = useI18n();
@@ -40,15 +41,15 @@ export function TypeChip({ food }: { food: Pick<FoodSummary, 'soup_type' | 'dish
 
 export function FavoriteButton({ slug, name, className }: { slug: string; name: string; className?: string }) {
   const { t } = useI18n();
-  const { data: slugs } = useFavoriteSlugs();
+  const slugs = useFavoriteSlugs();
   const toggle = useToggleFavoriteFood();
-  const favorited = slugs?.includes(slug) ?? false;
+  const favorited = slugs.includes(slug);
   return (
     <button
       type="button"
       onClick={(event) => {
         event.preventDefault();
-        toggle(slug, favorited);
+        toggle(slug);
       }}
       aria-pressed={favorited}
       aria-label={favorited ? t('card.favRemove', { name }) : t('card.favAdd', { name })}
@@ -91,7 +92,6 @@ export function PriceText({ food, className }: { food: Pick<FoodSummary, 'price_
 /** Thẻ món ăn trong lưới kết quả. Cả thẻ dẫn tới trang chi tiết; các nút phụ nằm phía trên lớp liên kết. */
 export function FoodCard({ food, priority }: { food: FoodListItem | FoodSummary; priority?: boolean }) {
   const { t } = useI18n();
-  const openNearby = useNearbyDialog((s) => s.open);
   const place = 'nearest_place' in food ? food.nearest_place : null;
   const relaxed = 'match_level' in food && food.match_level === 'relaxed';
 
@@ -153,15 +153,7 @@ export function FoodCard({ food, priority }: { food: FoodListItem | FoodSummary;
               </span>
             </p>
           </div>
-          <button
-            type="button"
-            onClick={() => openNearby({ slug: food.slug, name: food.name, cuisine: food.cuisine })}
-            aria-label={t('card.nearestAria', { name: food.name })}
-            title={t('card.nearestTitle')}
-            className="relative z-10 grid size-11 shrink-0 place-items-center rounded-full bg-primary-50 text-primary transition hover:bg-primary hover:text-white"
-          >
-            <MapPin className="size-[22px] fill-current [&>circle]:fill-white" />
-          </button>
+          <MapsSearchIcon name={food.name} />
         </div>
 
         {place && (
@@ -194,5 +186,5 @@ export function FoodCardSkeleton() {
 }
 
 export function FoodGrid({ children, className }: { children: React.ReactNode; className?: string }) {
-  return <div className={cn('grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4', className)}>{children}</div>;
+  return <div className={cn('grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4', className)}>{children}</div>;
 }

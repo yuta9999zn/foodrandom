@@ -18,16 +18,13 @@ pub enum AppError {
     BadRequest(String),
     #[error("Dữ liệu gửi lên không hợp lệ")]
     Validation(BTreeMap<String, Vec<String>>),
-    #[error("Bạn cần đăng nhập để thực hiện thao tác này")]
-    Unauthorized,
-    #[error("{0}")]
-    InvalidCredentials(String),
     #[error("{0}")]
     NotFound(String),
-    #[error("{0}")]
-    Conflict(String),
     #[error("{message}")]
-    TooManyRequests { message: String, retry_after_secs: u64 },
+    TooManyRequests {
+        message: String,
+        retry_after_secs: u64,
+    },
     #[error("{0}")]
     ServiceUnavailable(String),
     #[error(transparent)]
@@ -61,19 +58,23 @@ impl AppError {
     }
 
     pub fn too_many(message: impl Into<String>, retry_after_secs: u64) -> Self {
-        AppError::TooManyRequests { message: message.into(), retry_after_secs }
+        AppError::TooManyRequests {
+            message: message.into(),
+            retry_after_secs,
+        }
     }
 
     fn parts(&self) -> (StatusCode, &'static str) {
         match self {
             AppError::BadRequest(_) => (StatusCode::BAD_REQUEST, "BAD_REQUEST"),
             AppError::Validation(_) => (StatusCode::UNPROCESSABLE_ENTITY, "VALIDATION_ERROR"),
-            AppError::Unauthorized => (StatusCode::UNAUTHORIZED, "UNAUTHORIZED"),
-            AppError::InvalidCredentials(_) => (StatusCode::UNAUTHORIZED, "INVALID_CREDENTIALS"),
             AppError::NotFound(_) => (StatusCode::NOT_FOUND, "NOT_FOUND"),
-            AppError::Conflict(_) => (StatusCode::CONFLICT, "CONFLICT"),
-            AppError::TooManyRequests { .. } => (StatusCode::TOO_MANY_REQUESTS, "TOO_MANY_REQUESTS"),
-            AppError::ServiceUnavailable(_) => (StatusCode::SERVICE_UNAVAILABLE, "SERVICE_UNAVAILABLE"),
+            AppError::TooManyRequests { .. } => {
+                (StatusCode::TOO_MANY_REQUESTS, "TOO_MANY_REQUESTS")
+            }
+            AppError::ServiceUnavailable(_) => {
+                (StatusCode::SERVICE_UNAVAILABLE, "SERVICE_UNAVAILABLE")
+            }
             AppError::Internal(_) => (StatusCode::INTERNAL_SERVER_ERROR, "INTERNAL_ERROR"),
         }
     }
@@ -87,16 +88,30 @@ impl IntoResponse for AppError {
             AppError::Internal(err) => {
                 // Không lộ chi tiết nội bộ cho client; ghi đầy đủ vào log.
                 tracing::error!(error = ?err, "lỗi nội bộ");
-                ("Hệ thống đang gặp sự cố, vui lòng thử lại sau".to_string(), None)
+                (
+                    "Hệ thống đang gặp sự cố, vui lòng thử lại sau".to_string(),
+                    None,
+                )
             }
             other => (other.to_string(), None),
         };
 
-        let body = ErrorBody { error: ErrorPayload { code: code.to_string(), message, details } };
+        let body = ErrorBody {
+            error: ErrorPayload {
+                code: code.to_string(),
+                message,
+                details,
+            },
+        };
         let mut response = (status, Json(body)).into_response();
-        if let AppError::TooManyRequests { retry_after_secs, .. } = self {
+        if let AppError::TooManyRequests {
+            retry_after_secs, ..
+        } = self
+        {
             if let Ok(value) = retry_after_secs.to_string().parse() {
-                response.headers_mut().insert(axum::http::header::RETRY_AFTER, value);
+                response
+                    .headers_mut()
+                    .insert(axum::http::header::RETRY_AFTER, value);
             }
         }
         response
@@ -124,7 +139,12 @@ impl From<ValidationErrors> for AppError {
         for (field, list) in errors.field_errors() {
             let messages = list
                 .iter()
-                .map(|e| e.message.as_ref().map(|m| m.to_string()).unwrap_or_else(|| format!("Giá trị không hợp lệ ({})", e.code)))
+                .map(|e| {
+                    e.message
+                        .as_ref()
+                        .map(|m| m.to_string())
+                        .unwrap_or_else(|| format!("Giá trị không hợp lệ ({})", e.code))
+                })
                 .collect();
             map.insert(field.to_string(), messages);
         }

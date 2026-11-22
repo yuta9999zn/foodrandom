@@ -49,7 +49,8 @@ fn weighted_rating(place: &Place, mean: f64) -> f64 {
     match (place.rating, place.rating_count) {
         (Some(r), Some(v)) if v > 0 => {
             let v = f64::from(v);
-            (v / (v + RATING_PRIOR_VOTES)) * f64::from(r) + (RATING_PRIOR_VOTES / (v + RATING_PRIOR_VOTES)) * mean
+            (v / (v + RATING_PRIOR_VOTES)) * f64::from(r)
+                + (RATING_PRIOR_VOTES / (v + RATING_PRIOR_VOTES)) * mean
         }
         (Some(r), _) => f64::from(r).min(mean),
         _ => f64::NEG_INFINITY,
@@ -59,13 +60,18 @@ fn weighted_rating(place: &Place, mean: f64) -> f64 {
 /// Lấy `RATING_CANDIDATES` quán gần nhất rồi xếp theo điểm Bayes giảm dần (hoà thì quán gần hơn trước).
 pub fn rank_by_rating(mut places: Vec<Place>) -> Vec<Place> {
     places.truncate(RATING_CANDIDATES);
-    let rated: Vec<f64> = places.iter().filter_map(|p| p.rating.map(f64::from)).collect();
+    let rated: Vec<f64> = places
+        .iter()
+        .filter_map(|p| p.rating.map(f64::from))
+        .collect();
     if rated.is_empty() {
         return places;
     }
     let mean = rated.iter().sum::<f64>() / rated.len() as f64;
     places.sort_by(|a, b| {
-        weighted_rating(b, mean).total_cmp(&weighted_rating(a, mean)).then(a.distance_km.total_cmp(&b.distance_km))
+        weighted_rating(b, mean)
+            .total_cmp(&weighted_rating(a, mean))
+            .then(a.distance_km.total_cmp(&b.distance_km))
     });
     places
 }
@@ -82,22 +88,24 @@ pub struct LocationService {
 impl LocationService {
     pub fn from_config(cfg: &Config, cache: Cache) -> Result<Self> {
         let osm = || OsmProvider::new(&cfg.overpass_urls, &cfg.nominatim_url, &cfg.osm_user_agent);
-        let provider: Arc<dyn PlaceProvider> = match (cfg.location_provider, &cfg.google_maps_api_key) {
-            (LocationProviderKind::Mock, _) => {
-                if cfg.is_production() {
-                    anyhow::bail!("LOCATION_PROVIDER=mock không được dùng ở production");
+        let provider: Arc<dyn PlaceProvider> =
+            match (cfg.location_provider, &cfg.google_maps_api_key) {
+                (LocationProviderKind::Mock, _) => {
+                    if cfg.is_production() {
+                        anyhow::bail!("LOCATION_PROVIDER=mock không được dùng ở production");
+                    }
+                    tracing::warn!("LOCATION_PROVIDER=mock: dữ liệu địa điểm là GIẢ LẬP");
+                    Arc::new(MockProvider)
                 }
-                tracing::warn!("LOCATION_PROVIDER=mock: dữ liệu địa điểm là GIẢ LẬP");
-                Arc::new(MockProvider)
-            }
-            (LocationProviderKind::Google, Some(key)) | (LocationProviderKind::Auto, Some(key)) => {
-                Arc::new(GoogleProvider::new(key)?)
-            }
-            (LocationProviderKind::Google, None) => {
-                anyhow::bail!("LOCATION_PROVIDER=google nhưng thiếu GOOGLE_MAPS_API_KEY")
-            }
-            (LocationProviderKind::Osm, _) | (LocationProviderKind::Auto, None) => Arc::new(osm()?),
-        };
+                (LocationProviderKind::Google, Some(key))
+                | (LocationProviderKind::Auto, Some(key)) => Arc::new(GoogleProvider::new(key)?),
+                (LocationProviderKind::Google, None) => {
+                    anyhow::bail!("LOCATION_PROVIDER=google nhưng thiếu GOOGLE_MAPS_API_KEY")
+                }
+                (LocationProviderKind::Osm, _) | (LocationProviderKind::Auto, None) => {
+                    Arc::new(osm()?)
+                }
+            };
         tracing::info!(provider = provider.name(), "nhà cung cấp địa điểm");
         Ok(Self { provider, cache })
     }
@@ -124,14 +132,21 @@ impl LocationService {
 
     fn radius_m(&self, radius_km: Option<f64>) -> u32 {
         let max_radius = self.provider.max_radius_m();
-        radius_km.map(|km| (km * 1000.0).round() as u32).unwrap_or(max_radius).clamp(100, max_radius)
+        radius_km
+            .map(|km| (km * 1000.0).round() as u32)
+            .unwrap_or(max_radius)
+            .clamp(100, max_radius)
     }
 
     fn search_for(&self, p: &NearbyParams<'_>) -> (NearbySearch, String) {
         let mut cuisines: Vec<String> = p.cuisines.to_vec();
         cuisines.sort();
         cuisines.dedup();
-        let keyword = p.keyword.map(str::trim).filter(|k| !k.is_empty()).map(str::to_string);
+        let keyword = p
+            .keyword
+            .map(str::trim)
+            .filter(|k| !k.is_empty())
+            .map(str::to_string);
         let radius_m = self.radius_m(p.radius_km);
         let key = format!(
             "loc:nearby:{}:{:.3}:{:.3}:{}:{}:{}:{}",
@@ -163,11 +178,20 @@ impl LocationService {
                 tracing::warn!(error = ?err, provider = self.provider.name(), "tìm địa điểm thất bại");
                 unavailable("nhà cung cấp không phản hồi")
             })?;
-        self.cache.set_json(key, &fetched, NEARBY_CACHE_TTL_SECS).await;
+        self.cache
+            .set_json(key, &fetched, NEARBY_CACHE_TTL_SECS)
+            .await;
         Ok(fetched)
     }
 
-    fn to_places(&self, raw: Vec<RawPlace>, lat: f64, lng: f64, radius_km: Option<f64>, limit: usize) -> Vec<Place> {
+    fn to_places(
+        &self,
+        raw: Vec<RawPlace>,
+        lat: f64,
+        lng: f64,
+        radius_km: Option<f64>,
+        limit: usize,
+    ) -> Vec<Place> {
         let provider = self.provider.name();
         let is_mock = self.provider.is_mock();
         let limit_km = radius_km.unwrap_or(f64::INFINITY);
@@ -175,9 +199,12 @@ impl LocationService {
             .into_iter()
             .map(|p| {
                 let distance_km = haversine_km(lat, lng, p.lat, p.lng);
-                let maps_url = p
-                    .maps_url
-                    .unwrap_or_else(|| format!("https://www.google.com/maps/search/?api=1&query={:.6}%2C{:.6}", p.lat, p.lng));
+                let maps_url = p.maps_url.unwrap_or_else(|| {
+                    format!(
+                        "https://www.google.com/maps/search/?api=1&query={:.6}%2C{:.6}",
+                        p.lat, p.lng
+                    )
+                });
                 Place {
                     provider: provider.to_string(),
                     place_ref: p.place_ref,
@@ -210,7 +237,8 @@ impl LocationService {
             None => self.fetch_and_cache(&search, &key).await?,
         };
         if p.by_rating && self.has_ratings() {
-            let mut places = rank_by_rating(self.to_places(raw, p.lat, p.lng, p.radius_km, usize::MAX));
+            let mut places =
+                rank_by_rating(self.to_places(raw, p.lat, p.lng, p.radius_km, usize::MAX));
             places.truncate(p.limit);
             Ok(places)
         } else {
@@ -258,7 +286,11 @@ impl LocationService {
             return Ok(Some(nearest));
         }
 
-        if self.cache.try_lock(&format!("{key}:lock"), REFRESH_LOCK_SECS).await {
+        if self
+            .cache
+            .try_lock(&format!("{key}:lock"), REFRESH_LOCK_SECS)
+            .await
+        {
             let this = self.clone();
             tokio::spawn(async move {
                 if let Err(err) = this.fetch_and_cache(&search, &key).await {
@@ -269,7 +301,12 @@ impl LocationService {
         Ok(None)
     }
 
-    pub async fn geocode(&self, query: &str, market: &Market, language: &str) -> AppResult<Vec<GeoPoint>> {
+    pub async fn geocode(
+        &self,
+        query: &str,
+        market: &Market,
+        language: &str,
+    ) -> AppResult<Vec<GeoPoint>> {
         let query = query.trim();
         if query.chars().count() < 2 {
             return Err(AppError::validation("q", "Nhập tối thiểu 2 ký tự địa chỉ"));
@@ -277,41 +314,63 @@ impl LocationService {
         if query.chars().count() > 200 {
             return Err(AppError::validation("q", "Địa chỉ quá dài"));
         }
-        let cache_key = format!("loc:geocode:{}:{}:{}:{}", self.provider.name(), market.code, language, fold_vi(query));
+        let cache_key = format!(
+            "loc:geocode:{}:{}:{}:{}",
+            self.provider.name(),
+            market.code,
+            language,
+            fold_vi(query)
+        );
         if let Some(hit) = self.cache.get_json::<Vec<GeoPoint>>(&cache_key).await {
             return Ok(hit);
         }
-        let results = tokio::time::timeout(PROVIDER_TIMEOUT, self.provider.geocode(query, market.code, language))
-            .await
-            .map_err(|_| unavailable("hết thời gian chờ"))?
-            .map_err(|err| {
-                tracing::warn!(error = ?err, "geocode thất bại");
-                unavailable("nhà cung cấp không phản hồi")
-            })?;
-        self.cache.set_json(&cache_key, &results, GEOCODE_CACHE_TTL_SECS).await;
+        let results = tokio::time::timeout(
+            PROVIDER_TIMEOUT,
+            self.provider.geocode(query, market.code, language),
+        )
+        .await
+        .map_err(|_| unavailable("hết thời gian chờ"))?
+        .map_err(|err| {
+            tracing::warn!(error = ?err, "geocode thất bại");
+            unavailable("nhà cung cấp không phản hồi")
+        })?;
+        self.cache
+            .set_json(&cache_key, &results, GEOCODE_CACHE_TTL_SECS)
+            .await;
         Ok(results)
     }
 
     pub async fn reverse(&self, lat: f64, lng: f64, language: &str) -> AppResult<Option<String>> {
         Self::check_coords(lat, lng)?;
-        let cache_key = format!("loc:reverse:{}:{}:{:.3}:{:.3}", self.provider.name(), language, lat, lng);
+        let cache_key = format!(
+            "loc:reverse:{}:{}:{:.3}:{:.3}",
+            self.provider.name(),
+            language,
+            lat,
+            lng
+        );
         if let Some(hit) = self.cache.get_json::<Option<String>>(&cache_key).await {
             return Ok(hit);
         }
-        let label = tokio::time::timeout(PROVIDER_TIMEOUT, self.provider.reverse(lat, lng, language))
-            .await
-            .map_err(|_| unavailable("hết thời gian chờ"))?
-            .map_err(|err| {
-                tracing::warn!(error = ?err, "reverse geocode thất bại");
-                unavailable("nhà cung cấp không phản hồi")
-            })?;
-        self.cache.set_json(&cache_key, &label, GEOCODE_CACHE_TTL_SECS).await;
+        let label =
+            tokio::time::timeout(PROVIDER_TIMEOUT, self.provider.reverse(lat, lng, language))
+                .await
+                .map_err(|_| unavailable("hết thời gian chờ"))?
+                .map_err(|err| {
+                    tracing::warn!(error = ?err, "reverse geocode thất bại");
+                    unavailable("nhà cung cấp không phản hồi")
+                })?;
+        self.cache
+            .set_json(&cache_key, &label, GEOCODE_CACHE_TTL_SECS)
+            .await;
         Ok(label)
     }
 }
 
 fn unavailable(reason: &str) -> AppError {
-    AppError::ServiceUnavailable(format!("Dịch vụ địa điểm tạm thời không dùng được ({reason}). Vui lòng thử lại sau."))
+    AppError::ServiceUnavailable(format!(
+        "Dịch vụ địa điểm tạm thời không dùng được ({reason}). Vui lòng thử lại sau."
+    ))
 }
 
 #[cfg(test)]
@@ -351,7 +410,9 @@ mod tests {
 
     #[test]
     fn only_nearby_candidates_are_ranked() {
-        let mut places: Vec<Place> = (0..25).map(|i| place(&format!("p{i}"), f64::from(i), Some(4.0), Some(100))).collect();
+        let mut places: Vec<Place> = (0..25)
+            .map(|i| place(&format!("p{i}"), f64::from(i), Some(4.0), Some(100)))
+            .collect();
         places.push(place("xa-nhung-5-sao", 50.0, Some(5.0), Some(5000)));
         let ranked = rank_by_rating(places);
         assert_eq!(ranked.len(), 20);

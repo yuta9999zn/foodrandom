@@ -19,8 +19,24 @@ pub const CUISINES: [&str; 5] = ["vietnam", "japan", "china", "korea", "uk"];
 pub const STYLES: [&str; 2] = ["traditional", "modern"];
 pub const DISH_TYPES: [&str; 6] = ["main", "side", "fast_food", "snack", "dessert", "drink"];
 pub const MEALS: [&str; 4] = ["breakfast", "lunch", "dinner", "snack"];
-pub const SOUP_TYPES: [&str; 8] = ["pho", "bun", "mi", "hu_tieu", "banh_canh", "lau", "kho", "khac"];
-pub const SORTS: [&str; 6] = ["featured", "nearest", "price_asc", "price_desc", "rating", "popular"];
+pub const SOUP_TYPES: [&str; 8] = [
+    "pho",
+    "bun",
+    "mi",
+    "hu_tieu",
+    "banh_canh",
+    "lau",
+    "kho",
+    "khac",
+];
+pub const SORTS: [&str; 6] = [
+    "featured",
+    "nearest",
+    "price_asc",
+    "price_desc",
+    "rating",
+    "popular",
+];
 
 /// Món ăn ở dạng tóm tắt, dùng cho thẻ món trong danh sách.
 #[derive(Debug, Clone, Serialize, Deserialize, FromRow, ToSchema)]
@@ -196,7 +212,13 @@ fn check_enum(field: &str, value: &str, allowed: &[&str]) -> AppResult<()> {
     if allowed.contains(&value) {
         Ok(())
     } else {
-        Err(AppError::validation(field, format!("Giá trị '{value}' không hợp lệ. Cho phép: {}", allowed.join(", "))))
+        Err(AppError::validation(
+            field,
+            format!(
+                "Giá trị '{value}' không hợp lệ. Cho phép: {}",
+                allowed.join(", ")
+            ),
+        ))
     }
 }
 
@@ -217,7 +239,10 @@ fn clean_list(field: &str, values: Vec<String>, allowed: &[&str]) -> AppResult<V
 }
 
 fn clean_option(field: &str, value: Option<String>, allowed: &[&str]) -> AppResult<Option<String>> {
-    match value.map(|v| v.trim().to_ascii_lowercase()).filter(|v| !v.is_empty() && v != "all") {
+    match value
+        .map(|v| v.trim().to_ascii_lowercase())
+        .filter(|v| !v.is_empty() && v != "all")
+    {
         None => Ok(None),
         Some(v) => {
             check_enum(field, &v, allowed)?;
@@ -240,7 +265,10 @@ impl FoodFilter {
             budgets: clean_list("budgets", self.budgets, &BUDGET_CODES)?,
             price_min: self.price_min,
             price_max: self.price_max,
-            q: self.q.map(|q| q.trim().to_string()).filter(|q| !q.is_empty()),
+            q: self
+                .q
+                .map(|q| q.trim().to_string())
+                .filter(|q| !q.is_empty()),
             lat: self.lat,
             lng: self.lng,
             radius_km: self.radius_km,
@@ -248,25 +276,46 @@ impl FoodFilter {
 
         if let Some(q) = &filter.q {
             if q.chars().count() > 80 {
-                return Err(AppError::validation("q", "Từ khoá tìm kiếm tối đa 80 ký tự"));
+                return Err(AppError::validation(
+                    "q",
+                    "Từ khoá tìm kiếm tối đa 80 ký tự",
+                ));
             }
         }
-        if [filter.price_min, filter.price_max].into_iter().flatten().any(|v| !v.is_finite() || v < 0.0) {
-            return Err(AppError::validation("price_min", "Khoảng giá không được âm"));
+        if [filter.price_min, filter.price_max]
+            .into_iter()
+            .flatten()
+            .any(|v| !v.is_finite() || v < 0.0)
+        {
+            return Err(AppError::validation(
+                "price_min",
+                "Khoảng giá không được âm",
+            ));
         }
         if let (Some(lo), Some(hi)) = (filter.price_min, filter.price_max) {
             if lo > hi {
-                return Err(AppError::validation("price_min", "Giá thấp nhất phải nhỏ hơn hoặc bằng giá cao nhất"));
+                return Err(AppError::validation(
+                    "price_min",
+                    "Giá thấp nhất phải nhỏ hơn hoặc bằng giá cao nhất",
+                ));
             }
         }
         match (filter.lat, filter.lng) {
             (Some(lat), Some(lng)) if valid_coords(lat, lng) => {}
             (None, None) => {}
-            _ => return Err(AppError::validation("lat", "Vị trí không hợp lệ: cần cả lat và lng trong phạm vi toạ độ")),
+            _ => {
+                return Err(AppError::validation(
+                    "lat",
+                    "Vị trí không hợp lệ: cần cả lat và lng trong phạm vi toạ độ",
+                ))
+            }
         }
         if let Some(radius) = filter.radius_km {
             if !(radius.is_finite() && radius > 0.0 && radius <= 50.0) {
-                return Err(AppError::validation("radius_km", "Bán kính phải lớn hơn 0 và không quá 50 km"));
+                return Err(AppError::validation(
+                    "radius_km",
+                    "Bán kính phải lớn hơn 0 và không quá 50 km",
+                ));
             }
         }
         Ok(filter)
@@ -290,7 +339,10 @@ impl FoodFilter {
             self.budgets.join(","),
             self.price_min.map(|v| v.to_string()).unwrap_or_default(),
             self.price_max.map(|v| v.to_string()).unwrap_or_default(),
-            self.q.as_deref().map(crate::util::fold_vi).unwrap_or_default(),
+            self.q
+                .as_deref()
+                .map(crate::util::fold_vi)
+                .unwrap_or_default(),
         )
     }
 
@@ -339,7 +391,9 @@ pub struct FoodListQuery {
 }
 
 fn split_csv(value: Option<String>) -> Vec<String> {
-    value.map(|v| v.split(',').map(str::to_string).collect()).unwrap_or_default()
+    value
+        .map(|v| v.split(',').map(str::to_string).collect())
+        .unwrap_or_default()
 }
 
 impl FoodListQuery {
@@ -375,7 +429,11 @@ pub struct Paging {
 }
 
 impl Paging {
-    pub fn new(sort: Option<String>, page: Option<usize>, page_size: Option<usize>) -> AppResult<Self> {
+    pub fn new(
+        sort: Option<String>,
+        page: Option<usize>,
+        page_size: Option<usize>,
+    ) -> AppResult<Self> {
         let sort = clean_option("sort", sort, &SORTS)?;
         let page = page.unwrap_or(1);
         if page == 0 || page > 10_000 {
@@ -383,9 +441,16 @@ impl Paging {
         }
         let page_size = page_size.unwrap_or(PAGE_SIZE);
         if page_size == 0 || page_size > MAX_PAGE_SIZE {
-            return Err(AppError::validation("page_size", format!("Số món mỗi trang phải từ 1 đến {MAX_PAGE_SIZE}")));
+            return Err(AppError::validation(
+                "page_size",
+                format!("Số món mỗi trang phải từ 1 đến {MAX_PAGE_SIZE}"),
+            ));
         }
-        Ok(Self { sort, page, page_size })
+        Ok(Self {
+            sort,
+            page,
+            page_size,
+        })
     }
 }
 
@@ -418,20 +483,6 @@ pub struct RandomResponse {
     pub page: usize,
 }
 
-#[derive(Debug, Deserialize, Validate, ToSchema)]
-pub struct RatingRequest {
-    #[validate(range(min = 1, max = 5, message = "Điểm đánh giá từ 1 đến 5"))]
-    pub score: i16,
-}
-
-#[derive(Debug, Serialize, ToSchema)]
-pub struct RatingResponse {
-    pub rating_avg: Option<f64>,
-    pub rating_count: i32,
-    /// Điểm của người dùng hiện tại; `null` nếu chưa đánh giá hoặc chưa đăng nhập.
-    pub mine: Option<i16>,
-}
-
 #[derive(Debug, Serialize, ToSchema)]
 pub struct OptionCount {
     pub code: String,
@@ -461,6 +512,9 @@ pub struct LocaleQuery {
 
 impl LocaleQuery {
     pub fn parse(&self) -> AppResult<(&'static str, &'static i18n::Market)> {
-        Ok((i18n::parse_locale(self.lang.as_deref())?, i18n::parse_market(self.market.as_deref())?))
+        Ok((
+            i18n::parse_locale(self.lang.as_deref())?,
+            i18n::parse_market(self.market.as_deref())?,
+        ))
     }
 }

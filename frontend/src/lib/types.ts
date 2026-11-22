@@ -123,50 +123,14 @@ export interface RandomResponse {
   page: number;
 }
 
-export interface RatingResponse {
-  rating_avg: number | null;
-  rating_count: number;
-  mine: number | null;
-}
-
 export interface FilterMeta {
   total_foods: number;
   cuisines: { code: Cuisine; label: string; count: number }[];
   page_size: number;
 }
 
-export interface NearbyResponse extends ProviderInfo {
-  sort: 'rating' | 'distance';
-  has_ratings: boolean;
-  places: Place[];
-}
-
 export interface GeoPoint {
   label: string;
   lat: number;
   lng: number;
-}
-
-export interface UserProfile {
-  id: string;
-  email: string;
-  phone: string;
-  display_name: string;
-  created_at: string;
-}
-
-export interface FavoritePlace {
-  id: string;
-  provider: string;
-  place_ref: string;
-  name: string;
-  address: string | null;
-  lat: number;
-  lng: number;
-  cuisine: Cuisine | null;
-  food_slug: string | null;
-  food_name: string | null;
-  maps_url: string | null;
-  note: string | null;
-  created_at: string;
 }
